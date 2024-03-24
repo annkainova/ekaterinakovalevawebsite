@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Carlito:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+@mixin font($weight, $size, $color) {
+  font-weight: $weight;
+  font-size: $size;
+  font-family: $family;
+  color: $color;
+}
+
+$normal: 400;
+$bold: 600;
+
+$font-48: 48px;
+$font-20: 20px;
+$font-16: 16px;
+
+$family: 'Carlito', sans-serif;
+
+$black: rgb(51, 55, 62);
+$grey: rgb(207, 212, 218);
+$light-grey: rgb(241, 245, 250);
+$white: #fff;
