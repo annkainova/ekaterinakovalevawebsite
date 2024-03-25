@@ -165,7 +165,7 @@ main {
 .collage {
   position: relative;
   width: 100%;
-  height: 110vh;
+  height: 1440px;
 
   margin-top: 80px;
 
@@ -360,4 +360,39 @@ main {
 .greyscale {
   filter: grayscale(1);
   opacity: 0.2;
+}
+
+//footer
+
+.additional {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-top: 80px;
+
+  &__img {
+    margin-top: 44px;
+    width: 122px;
+    height: 120px;
+    background-image: url(../public/00_main-page/00_IMG_14.png);
+  }
+}
+
+.text {
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+
+  margin-top: 44px;
+
+  background: $dark-grey;
+  width: 100%;
+
+  &__text {
+    color: $white;
+    font-size: $font-20;
+  }
 }
