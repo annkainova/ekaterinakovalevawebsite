@@ -10,9 +10,11 @@ class Collage {
   collageAnimation() {
     this.allImg.forEach(img => {
       img.addEventListener('mouseenter', () => {
+        img.classList.add('position');
         this.greyScaleAll(img);
       });
       img.addEventListener('mouseleave', () => {
+        img.classList.remove('position');
         this.resetGreyScale();
       });
     });

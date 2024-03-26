@@ -52,6 +52,10 @@
     &:hover {
       background: $dark;
     }
+
+    &:hover .navigation__link {
+      color: $white;
+    }
   }
 
   &__main {
@@ -85,9 +89,7 @@
   background-color: transparent;
   transition:
     background-color 0.3s,
-    color 0.3s,
-    border-color 0.3s;
-  /* Плавное изменение */
+    color 0.3s;
 
   &__option {
     text-decoration: none;
