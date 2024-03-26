@@ -1,0 +1,25 @@
+//About
+
+.about {
+  margin-top: 80px;
+
+  &__text {
+    margin-top: 20px;
+    text-align: justify;
+  }
+}
+
+.citate {
+  display: flex;
+  flex-direction: column;
+
+  &__text {
+    font-style: italic;
+    letter-spacing: 1.008px;
+  }
+
+  &__author {
+    align-self: flex-end;
+    letter-spacing: 1.04px;
+  }
+}

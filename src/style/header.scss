@@ -1,0 +1,185 @@
+//Header
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+
+  background: $white;
+
+  &__menu {
+    display: flex;
+    justify-content: space-between;
+    margin: 35px 0 0px;
+    width: 100%;
+  }
+}
+
+.logo {
+  margin-left: -6px;
+  width: 146px;
+  height: 27px;
+  background-image: url(/KATKART.svg);
+
+  &:hover {
+    background-image: url(/KATKART-dark.svg);
+  }
+}
+
+.navigation {
+  margin-top: 5px;
+
+  &__container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    list-style-type: none;
+    gap: 31px;
+    margin: 0;
+    padding: 0;
+
+    margin-right: -6px;
+  }
+
+  &__element {
+    padding: 1px 6px;
+    @include font($normal, $font-16, $dark);
+
+    &:hover {
+      background: $dark;
+    }
+  }
+
+  &__main {
+    text-transform: uppercase;
+    margin-right: 38px;
+  }
+
+  &__link {
+    letter-spacing: 0.8px;
+    text-decoration: none;
+    color: $dark;
+
+    &--main {
+      letter-spacing: calc(0.5em);
+      padding-right: calc(0.5em - 0.5em);
+      margin-right: calc(-0.5em);
+    }
+
+    &:hover {
+      color: #fff;
+
+      .accent-dot {
+        color: $aсcent;
+      }
+    }
+  }
+}
+
+.language-switcher {
+  @include font($normal, $font-16, $dark);
+  background-color: transparent;
+  transition:
+    background-color 0.3s,
+    color 0.3s,
+    border-color 0.3s;
+  /* Плавное изменение */
+
+  &__option {
+    text-decoration: none;
+    color: $dark;
+    padding: 1px 6px;
+
+    &--ru {
+      color: $dark;
+      position: relative;
+      padding: 1px 0 1px 6px;
+
+      &:hover {
+        color: #fff;
+
+        &::after {
+          content: '';
+          position: absolute;
+          top: 50%;
+          left: 0;
+          width: 40px;
+          height: 22px;
+          background-color: $dark;
+          transform: translateY(-50%);
+          z-index: -1;
+          transition: background-color 0.3s;
+        }
+      }
+    }
+
+    &--en {
+      color: $dark;
+      position: relative;
+      padding: 1px 6px 1px 0;
+
+      &:hover {
+        color: #fff;
+
+        &::after {
+          content: '';
+          position: absolute;
+          top: 50%;
+          right: 0;
+          width: 40px;
+          height: 22px;
+          background-color: $dark;
+          transform: translateY(-50%);
+          z-index: -1;
+          transition: background-color 0.3s;
+        }
+      }
+    }
+  }
+
+  &__dot {
+    color: $aсcent;
+    padding: 0 2px;
+    line-height: 0;
+    z-index: 1;
+  }
+}
+
+@keyframes bearWalk {
+  0% {
+    transform: translateX(0%);
+  }
+
+  100% {
+    transform: translateX(-200vh);
+  }
+}
+
+.splitter {
+  position: relative;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: flex-end;
+
+  &__element {
+    width: 42px;
+    height: 60px;
+    background-image: url(/bear.gif);
+
+    animation: bearWalk 25s linear infinite;
+  }
+
+  &__line {
+    margin-top: -4px;
+    width: 100%;
+    height: 12px;
+    background-image: url(/splitter.svg);
+    background-repeat: repeat-x;
+    background-origin: padding-box;
+  }
+}

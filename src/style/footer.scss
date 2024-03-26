@@ -1,0 +1,39 @@
+//footer
+
+.additional {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-top: 85px;
+
+  &__img {
+    margin-top: 44px;
+    width: 122px;
+    height: 120px;
+    background-image: url(/00_main-page/00_IMG_14.png);
+  }
+}
+
+.text {
+  text-align: justify;
+  letter-spacing: 0.8px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 44px;
+
+  background: $dark-grey;
+  width: 100%;
+  height: 80px;
+
+  &__text {
+    color: $white;
+    font-size: $font-14;
+    letter-spacing: 0.7px;
+  }
+}
