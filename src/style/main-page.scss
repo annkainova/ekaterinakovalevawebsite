@@ -171,6 +171,7 @@ main {
 
   &__text {
     font-style: italic;
+    letter-spacing: calc(0.063 * 16px);
   }
 
   &__author {
