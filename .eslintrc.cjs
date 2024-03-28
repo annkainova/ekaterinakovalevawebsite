@@ -21,6 +21,10 @@ module.exports = {
     '@typescript-eslint/no-unused-vars': ['error'],
     'lines-between-class-members': 'off',
     'import/extensions': 'off',
+    'import/no-extraneous-dependencies': [
+      'error',
+      { devDependencies: ['vite.config.js', '**/*.config.js'] },
+    ],
   },
   settings: {
     'import/resolver': {

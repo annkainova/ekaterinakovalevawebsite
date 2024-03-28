@@ -10,13 +10,14 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "prepare": "cd .. && husky install"
+    "prepare": "cd .. && npx husky install"
   },
   "lint-staged": {
     "*.{js,ts,tsx}": "eslint . --fix --max-warnings=0",
     "*.{js,ts,tsx,scss,md,html,json}": "prettier . --write"
   },
   "devDependencies": {
+    "@types/jquery": "^3.5.29",
     "@typescript-eslint/eslint-plugin": "^7.3.1",
     "@typescript-eslint/parser": "^7.3.1",
     "eslint": "^8.57.0",
@@ -38,6 +39,7 @@
     "vite": "^5.2.0"
   },
   "dependencies": {
+    "jquery": "^3.7.1",
     "normalize-scss": "^8.0.0",
     "normalize.css": "^8.0.1"
   }
