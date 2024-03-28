@@ -1,6 +1,4 @@
-import './style/main.scss';
-
-class Collage {
+export default class Collage {
   allImg: NodeListOf<Element>;
 
   constructor() {
@@ -34,6 +32,3 @@ class Collage {
     });
   }
 }
-
-const collage = new Collage();
-collage.collageAnimation();

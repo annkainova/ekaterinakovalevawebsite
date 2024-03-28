@@ -1,0 +1,40 @@
+{
+  "maps": [
+    {
+      "name": "",
+      "description": "Советские карты, смешанная техника\n112 х 72 см\n1992 год",
+      "paintDescription": "",
+      "imagePaths": [
+        "/05_maps-rose-words/05_IMG_01.jpg",
+        "/05_maps-rose-words/05_IMG_02.jpg",
+        "/05_maps-rose-words/05_IMG_03.jpg",
+        "/05_maps-rose-words/05_IMG_04.jpg"
+      ]
+    },
+    {
+      "name": "Серия “Розы мира”",
+      "description": "Советские карты, коллаж, смешанная техника",
+      "paintDescription": "№1. 112 х 72 см, 1996 год \n№2. 106 х 68 см, 1996 год \n№3. 57 х 60 см, 1996 год \n№4. 90 х 112 см, 1998 год \n№5. 78 х 80 см, 1998 год",
+      "imagePaths": [
+        "/05_maps-rose-words/05_IMG_05.jpg",
+        "/05_maps-rose-words/05_IMG_06.jpg",
+        "/05_maps-rose-words/05_IMG_07.jpg",
+        "/05_maps-rose-words/05_IMG_08.jpg",
+        "/05_maps-rose-words/05_IMG_09.jpg"
+      ]
+    },
+    {
+      "name": "",
+      "description": "Карты, коллаж, смешанная техника \n1998 год",
+      "paintDescription": "№1. 44 х 56 см \n№2. 44 х 56 см \n№3. 44 х 56 см \n№4. 40 х 54 см \n№5. 44 х 56 см \n№6. 68 х 106 см",
+      "imagePaths": [
+        "/public/05_maps-rose-words/05_IMG_10.jpg",
+        "/public/05_maps-rose-words/05_IMG_11.jpg",
+        "/public/05_maps-rose-words/05_IMG_12.jpg",
+        "/public/05_maps-rose-words/05_IMG_13.jpg",
+        "/public/05_maps-rose-words/05_IMG_14.jpg",
+        "/public/05_maps-rose-words/05_IMG_15.jpg"
+      ]
+    }
+  ]
+}
