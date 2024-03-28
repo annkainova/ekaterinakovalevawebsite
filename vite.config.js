@@ -13,7 +13,7 @@ export default defineConfig({
       // Точки входа для разных страниц вашего MPA
       input: {
         main: path.resolve('index.html'),
-        maps: path.resolve('src/html/maps.html'),
+        maps: path.resolve('maps.html'),
         // Добавьте другие страницы здесь
       },
     },
