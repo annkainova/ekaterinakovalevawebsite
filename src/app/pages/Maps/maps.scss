@@ -111,6 +111,10 @@
 
     &:hover {
       background: $dark;
+
+      .accent-dot {
+        color: red;
+      }
     }
 
     &:hover .navigation__link {
