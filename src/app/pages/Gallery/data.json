@@ -2,8 +2,11 @@
   "maps": [
     {
       "name": "",
-      "description": "Советские карты, смешанная техника \n1992 год",
-      "paintDescription": ["№1. 112 х 72 см", "№2 – №3. 112 х 72 см"],
+      "name_en": "",
+      "description": "Советские карты, смешанная техника\n112 x 72 см\n1992 год",
+      "description_en": "Soviet maps, mixed technique\n112 x 72 cm\n1992",
+      "paintDescription": ["№1. 112 x 72 cm", "№2 - №3. 112 x 72 cm"],
+      "paintDescription_en": ["№1. 112 x 72 cm", "№2 - №3. 112 x 72 cm"],
       "imagePaths": [
         "/05_maps-rose-words/05_IMG_01.jpg",
         "/05_maps-rose-words/05_IMG_02.jpg",
@@ -83,6 +86,93 @@
         "/13_Mosaics/13_IMG_13.jpg",
         "/13_Mosaics/13_IMG_14.jpg",
         "/13_Mosaics/13_IMG_15.jpg"
+      ]
+    }
+  ],
+  "waiting_zone": [
+    {
+      "name": "",
+      "description": "Зона ожидания — область пространства, в \nкоторой парашютист должен находиться под \nкуполом до осуществления захода на \nпосадку. \n \nКатерина Ковалева предлагает эту метафору \nдля размышления над хрупкостью и \nнепредсказуемостью человеческой жизни, \nнад зависимостью судьбы от потоков \nвремени и исторических событий. \n \nПодобно парашютисту, человек часто \nнаходится в драматичной и волнительной \nзоне ожидания и неопределенности, прежде \nчем выберет свою точную область \nприземления.",
+      "paintDescription": ["Фото: Алексей Народицкий"],
+      "imagePaths": [
+        "/04_Waiting_zone/04_IMG_01.jpg",
+        "/04_Waiting_zone/04_IMG_02.jpg",
+        "/04_Waiting_zone/04_IMG_03.jpg",
+        "/04_Waiting_zone/04_IMG_04.jpg",
+        "/04_Waiting_zone/04_IMG_05.jpg",
+        "/04_Waiting_zone/04_IMG_06.jpg",
+        "/04_Waiting_zone/04_IMG_07.jpg",
+        "/04_Waiting_zone/04_IMG_08.jpg",
+        "/04_Waiting_zone/04_IMG_09.jpg",
+        "/04_Waiting_zone/04_IMG_10.jpg",
+        "/04_Waiting_zone/04_IMG_11.jpg",
+        "/04_Waiting_zone/04_IMG_12.jpg",
+        "/04_Waiting_zone/04_IMG_13.jpg",
+        "/04_Waiting_zone/04_IMG_14.jpg",
+        "/04_Waiting_zone/04_IMG_15.jpg",
+        "/04_Waiting_zone/04_IMG_16.jpg",
+        "/04_Waiting_zone/04_IMG_17.jpg",
+        "/04_Waiting_zone/04_IMG_18.jpg",
+        "/04_Waiting_zone/04_IMG_19.jpg"
+      ]
+    },
+    {
+      "name": "",
+      "description": "“В рисунках на парашютах я использовала \nаллегорические сцены из фресок Тьеполо и \nРиччи, фантастические небеса, населенные \nбожествами. Идея заключалась в \nпреобразовании купола парашюта в  купол \nпереносного неба.\n \nСвод парашюта, как переносное небо, как \nобнадёживающий потолок, как расписное  \n«небо» старой русской  церкви или плафон \nвенецианского палаццо, как благословенная \nсень, хупа, в странствиях по юдоли, по пути \nк Месту, становится  моделью космоса, \nзаключённого  в рамки реального \nпространства, которое стремится создать \nэффект присутствия “небес на земле.”",
+      "paintDescription": ["— Катерина Ковалёва"],
+      "imagePaths": [
+        "/04_Waiting_zone/04_IMG_20.jpg",
+        "/04_Waiting_zone/04_IMG_21.jpg",
+        "/04_Waiting_zone/04_IMG_22.jpg",
+        "/04_Waiting_zone/04_IMG_23.jpg",
+        "/04_Waiting_zone/04_IMG_24.jpg",
+        "/04_Waiting_zone/04_IMG_25.jpg",
+        "/04_Waiting_zone/04_IMG_26.jpg",
+        "/04_Waiting_zone/04_IMG_27.jpg",
+        "/04_Waiting_zone/04_IMG_28.jpg",
+        "/04_Waiting_zone/04_IMG_29.jpg"
+      ]
+    },
+    {
+      "name": "",
+      "description": "Описание — композиционная форма, \nкоторую используют в литературоведении и \nлингвистике для подробной характеристики \nпредметов или явлений.",
+      "paintDescription": [""],
+      "imagePaths": [
+        "/04_Waiting_zone/04_IMG_30.jpg",
+        "/04_Waiting_zone/04_IMG_31.jpg",
+        "/04_Waiting_zone/04_IMG_32.jpg",
+        "/04_Waiting_zone/04_IMG_33.jpg",
+        "/04_Waiting_zone/04_IMG_34.jpg",
+        "/04_Waiting_zone/04_IMG_35.jpg",
+        "/04_Waiting_zone/04_IMG_36.jpg",
+        "/04_Waiting_zone/04_IMG_37.jpg",
+        "/04_Waiting_zone/04_IMG_38.jpg",
+        "/04_Waiting_zone/04_IMG_39.jpg",
+        "/04_Waiting_zone/04_IMG_40.jpg",
+        "/04_Waiting_zone/04_IMG_41.jpg",
+        "/04_Waiting_zone/04_IMG_42.jpg",
+        "/04_Waiting_zone/04_IMG_43.jpg"
+      ]
+    },
+    {
+      "name": "",
+      "description": "Обобщенно, объекты описания представляют \nсобой перцептивные паттерны - качества \n(формы, направления, цвет, звук, вес, \nтемпературу и т.д.), количественные аспекты \n(меры и множества) и их отношения, более \nконкретно - это предметы, процессы, жизнь, \nхарактер людей и мн. др. объекты живой, \nнеживой природы и сами субъективные \nпереживания.",
+      "paintDescription": [""],
+      "imagePaths": [
+        "/04_Waiting_zone/04_IMG_30.jpg",
+        "/04_Waiting_zone/04_IMG_31.jpg",
+        "/04_Waiting_zone/04_IMG_32.jpg",
+        "/04_Waiting_zone/04_IMG_33.jpg",
+        "/04_Waiting_zone/04_IMG_34.jpg",
+        "/04_Waiting_zone/04_IMG_35.jpg",
+        "/04_Waiting_zone/04_IMG_36.jpg",
+        "/04_Waiting_zone/04_IMG_37.jpg",
+        "/04_Waiting_zone/04_IMG_38.jpg",
+        "/04_Waiting_zone/04_IMG_39.jpg",
+        "/04_Waiting_zone/04_IMG_40.jpg",
+        "/04_Waiting_zone/04_IMG_41.jpg",
+        "/04_Waiting_zone/04_IMG_42.jpg",
+        "/04_Waiting_zone/04_IMG_43.jpg"
       ]
     }
   ]

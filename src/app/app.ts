@@ -1,21 +1,20 @@
 import '../style/main.scss';
+import data from './pages/Gallery/data.json';
+
 import Main from './pages/Main';
-import MapsPage from './pages/Maps/Maps';
-import MosaicsPage from './pages/Mosaics/Mosaics';
+import Page from './pages/Gallery/Page.ts';
 
 export default class App {
   mainPage: Main;
-  mapsPage: MapsPage;
-  mosaicsPage: MosaicsPage;
+  page: Page;
 
   constructor() {
+    this.page = new Page();
     this.mainPage = new Main();
-    this.mapsPage = new MapsPage();
-    this.mosaicsPage = new MosaicsPage();
   }
 
   render() {
-    const mapsPage = this.mapsPage.render();
-    const mosaicsPage = this.mosaicsPage.render();
+    this.page.render('maps', data);
+    this.page.render('mosaics', data);
   }
 }
