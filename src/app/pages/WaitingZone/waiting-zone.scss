@@ -1,13 +1,11 @@
 .waiting-zone {
   line-height: 0;
 
-
   .element {
     &:nth-child(1) {
       .element__owerview {
         text-align: justify;
         margin-bottom: 655px;
-
       }
 
       .element__paint {
@@ -52,11 +50,8 @@
         &__6 {
           margin-left: 71px;
         }
-
-
       }
     }
-
 
     &:nth-child(3) {
       position: relative;
@@ -83,8 +78,6 @@
       }
 
       .element__paint {
-
-
         &:not(:nth-child(2)) {
           margin-top: 20px;
           height: 100px;

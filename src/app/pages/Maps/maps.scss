@@ -1,7 +1,6 @@
 .maps {
   line-height: 0;
 
-
   .element {
     &:nth-child(1) {
       .element__owerview {
@@ -9,7 +8,8 @@
       }
 
       .element__paint {
-        &:nth-child(2) {}
+        &:nth-child(2) {
+        }
 
         &:not(:nth-child(2)) {
           margin-top: 40px;
@@ -23,7 +23,8 @@
       }
 
       .element__paint {
-        &:nth-child(2) {}
+        &:nth-child(2) {
+        }
 
         &:nth-child(3) {
           margin-top: 40px;
@@ -31,15 +32,12 @@
       }
     }
 
-
     &:nth-child(3) {
       .element__owerview {
         margin-bottom: 330px;
       }
 
       .element__paint {
-
-
         &:not(:nth-child(2)) {
           margin-top: 20px;
           height: 100px;
@@ -48,7 +46,6 @@
         &:nth-child(3) {
           margin-top: 40px;
         }
-
       }
     }
   }
