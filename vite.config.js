@@ -15,6 +15,7 @@ export default defineConfig({
         main: path.resolve('index.html'),
         maps: path.resolve('maps.html'),
         mosaics: path.resolve('mosaics.html'),
+        waitingZone: path.resolve('waiting-zone.html'),
         // Добавьте другие страницы здесь
       },
     },
@@ -23,6 +24,7 @@ export default defineConfig({
     rewrites: [
       { from: /\/maps/, to: '/maps.html' },
       { from: /\/mosaics/, to: '/mosaics.html' },
+      { from: /\/waiting-zone/, to: '/waiting-zone.html' },
       // Добавьте другие правила перенаправления здесь
     ],
   },

@@ -7,7 +7,7 @@ export default class Page {
     this.galleryViews = [];
   }
 
-  render(namePage: string, dataPaint: object[]) {
+  render(namePage: string, dataPaint) {
     this.galleryViews = dataPaint[namePage].map(
       (item: object) =>
         new Gallery(item.name, item.description, item.paintDescription, item.imagePaths || [])

@@ -16,5 +16,6 @@ export default class App {
   render() {
     this.page.render('maps', data);
     this.page.render('mosaics', data);
+    this.page.render('waiting-zone', data);
   }
 }

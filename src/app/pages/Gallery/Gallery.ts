@@ -55,6 +55,7 @@ export default class Gallery {
     this.imagePaths.forEach((path, index) => {
       const imageContainer = document.createElement('div');
       imageContainer.classList.add('image-box');
+      imageContainer.classList.add(`image-box__${index}`);
 
       const image = document.createElement('img');
       image.classList.add('image');
@@ -65,13 +66,11 @@ export default class Gallery {
 
       if (index === 0) {
         imageContainer.classList.add('first-img');
-        galleryImg.appendChild(imageContainer); // Для первого изображения добавляем контейнер непосредственно в galleryImg
+        galleryImg.appendChild(imageContainer);
       } else {
-        imageWrapper.appendChild(imageContainer); // Для остальных изображений добавляем контейнер в wrapper
+        imageWrapper.appendChild(imageContainer);
       }
     });
-
-    
 
     galleryBlock.appendChild(galleryInfo);
     galleryBlock.appendChild(galleryImg);
