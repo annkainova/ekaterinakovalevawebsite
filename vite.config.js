@@ -14,6 +14,7 @@ export default defineConfig({
       input: {
         main: path.resolve('index.html'),
         maps: path.resolve('maps.html'),
+        mosaics: path.resolve('mosaics.html'),
         // Добавьте другие страницы здесь
       },
     },
@@ -21,6 +22,7 @@ export default defineConfig({
   historyApiFallback: {
     rewrites: [
       { from: /\/maps/, to: '/maps.html' },
+      { from: /\/mosaics/, to: '/mosaics.html' },
       // Добавьте другие правила перенаправления здесь
     ],
   },

@@ -1,0 +1,168 @@
+.container-gallery {
+  max-width: 970px;
+}
+
+
+.maps,
+.mosaics {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  width: 100%;
+  margin-top: 210px;
+}
+
+.element {
+  display: flex;
+  gap: 80px;
+
+  &__info {
+    display: grid;
+    grid-template-rows: repeat(auto-fit, minmax(0px, min-content));
+    grid-template-columns: 1;
+
+    width: 350px;
+  }
+
+  &__name {
+    @include font($extra-bold, $font-16, $dark);
+    text-align: justify;
+    line-height: 20px;
+    letter-spacing: 0.8px;
+  }
+
+  &__description {
+    display: block;
+    width: 100%;
+    text-align: justify;
+    letter-spacing: 0.8px;
+  }
+
+  &__paint {
+    font-style: normal;
+    line-height: 20px;
+    letter-spacing: 0.8px;
+  }
+
+  &:not(:first-child) {
+    order: 1;
+  }
+
+  &__img {
+    display: flex;
+    flex-wrap: wrap;
+
+    row-gap: 40px;
+    column-gap: 20px;
+
+    max-width: 540px;
+  }
+}
+
+.first-img {
+  display: block;
+}
+
+.sections-nav {
+  margin-top: 128px;
+  margin-bottom: -10px;
+
+  &__box {
+    width: 724px;
+  }
+
+  &__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    list-style-type: none;
+
+    margin: 0;
+    padding: 0;
+
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+
+  &__element {
+    @include font($normal, $font-14, $grey);
+    text-align: center;
+    line-height: 24px;
+    letter-spacing: 0.7px;
+  }
+
+  &__link {
+    text-decoration: none;
+    color: $grey;
+    letter-spacing: 0.7px;
+  }
+
+  &__text {
+    display: inline-block;
+    @include font($normal, $font-14, $grey);
+    text-align: center;
+    line-height: 24px;
+    letter-spacing: 0.7px;
+
+    padding: 1px 4px;
+    margin-top: -5px;
+
+    &:hover {
+      background: $dark;
+
+      .accent-dot {
+        color: red;
+      }
+    }
+
+    &:hover .navigation__link {
+      color: $white;
+    }
+  }
+}
+
+.nav__dot {
+  display: inline-block;
+  margin-left: 4px;
+  padding: 0;
+}
+
+.active-link {
+  color: $dark;
+
+  .accent-dot {
+    color: $aсcent;
+  }
+}
+
+
+.image-box {
+  position: relative;
+}
+
+.image-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.image-box::before {
+  content: '';
+  position: absolute;
+  top: -6px;
+  left: -6px;
+  right: -6px;
+  bottom: -6px;
+  border: 1px solid $dark;
+  transition: opacity 0.3s ease;
+  opacity: 0;
+  z-index: 1;
+}
+
+.image-box:hover::before {
+  opacity: 1;
+}

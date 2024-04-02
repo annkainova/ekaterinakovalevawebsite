@@ -1,11 +1,11 @@
-.maps {
+.mosaics {
   line-height: 0;
 
 
   .element {
     &:nth-child(1) {
       .element__owerview {
-        margin-bottom: 300px;
+        margin-bottom: 28px;
       }
 
       .element__paint {
@@ -20,7 +20,7 @@
 
     &:nth-child(2) {
       .element__owerview {
-        margin-bottom: 280px;
+        margin-bottom: 260px;
       }
 
       .element__paint {
@@ -35,7 +35,7 @@
 
     &:nth-child(3) {
       .element__owerview {
-        margin-bottom: 330px;
+        margin-bottom: 260px;
       }
 
       .element__paint {
@@ -49,7 +49,6 @@
         &:nth-child(3) {
           margin-top: 40px;
         }
-
       }
     }
   }

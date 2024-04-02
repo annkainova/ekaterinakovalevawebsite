@@ -2,8 +2,8 @@
   "maps": [
     {
       "name": "",
-      "description": "Советские карты, смешанная техника\n112 х 72 см\n1992 год",
-      "paintDescription": "",
+      "description": "Советские карты, смешанная техника \n1992 год",
+      "paintDescription": ["№1. 112 х 72 см", "№2 – №3. 112 х 72 см"],
       "imagePaths": [
         "/05_maps-rose-words/05_IMG_01.jpg",
         "/05_maps-rose-words/05_IMG_02.jpg",
@@ -14,7 +14,10 @@
     {
       "name": "Серия “Розы мира”",
       "description": "Советские карты, коллаж, смешанная техника",
-      "paintDescription": "№1. 112 х 72 см, 1996 год \n№2. 106 х 68 см, 1996 год \n№3. 57 х 60 см, 1996 год \n№4. 90 х 112 см, 1998 год \n№5. 78 х 80 см, 1998 год",
+      "paintDescription": [
+        "№1. 112 х 72 см, 1996 год",
+        "№2. 106 х 68 см, 1996 год \n№3. 57 х 60 см, 1996 год \n№4. 90 х 112 см, 1998 год \n№5. 78 х 80 см, 1998 год"
+      ],
       "imagePaths": [
         "/05_maps-rose-words/05_IMG_05.jpg",
         "/05_maps-rose-words/05_IMG_06.jpg",
@@ -26,7 +29,10 @@
     {
       "name": "",
       "description": "Карты, коллаж, смешанная техника \n1998 год",
-      "paintDescription": "№1. 44 х 56 см \n№2. 44 х 56 см \n№3. 44 х 56 см \n№4. 40 х 54 см \n№5. 44 х 56 см \n№6. 68 х 106 см",
+      "paintDescription": [
+        "№1. 44 х 56 см",
+        "№2. 44 х 56 см \n№3. 44 х 56 см \n№4. 40 х 54 см \n№5. 44 х 56 см \n№6. 68 х 106 см"
+      ],
       "imagePaths": [
         "/05_maps-rose-words/05_IMG_10.jpg",
         "/05_maps-rose-words/05_IMG_11.jpg",
@@ -34,6 +40,49 @@
         "/05_maps-rose-words/05_IMG_13.jpg",
         "/05_maps-rose-words/05_IMG_14.jpg",
         "/05_maps-rose-words/05_IMG_15.jpg"
+      ]
+    }
+  ],
+  "mosaics": [
+    {
+      "name": "Мозаики на фасаде здания",
+      "description": "Гронинген, Нидерланды\nНатуральный камень, смальта\n1992 год",
+      "paintDescription": ["№1. 120 х 30 см", "№2. 75 х 95 см \n№3. 75 х 95 см"],
+      "imagePaths": [
+        "/13_Mosaics/13_IMG_01.jpg",
+        "/13_Mosaics/13_IMG_02.jpg",
+        "/13_Mosaics/13_IMG_03.jpg"
+      ]
+    },
+    {
+      "name": "Мозаики на фасаде частного дома",
+      "description": "Московская область, Россия\nНатуральный камень, смальта\n1997 год",
+      "paintDescription": ["№1. 60 х 60 см", "№2 – №4. 60 х 60 см"],
+      "imagePaths": [
+        "/13_Mosaics/13_IMG_04.jpg",
+        "/13_Mosaics/13_IMG_05.jpg",
+        "/13_Mosaics/13_IMG_06.jpg",
+        "/13_Mosaics/13_IMG_07.jpg"
+      ]
+    },
+    {
+      "name": "Мозаики на фасаде здания",
+      "description": "Нью-Йорк, США\nНатуральный камень, смальта\n2007 год",
+      "paintDescription": [
+        "№1. Общий вид на фасад здания",
+        "№2. 140 х 140 см \n№3. 160 х 200 см \n№4. Фрагмент",
+        "№5. 160 х 100 см \n№6. 160 х 100 см",
+        "№7. 160 х 50 см \n№8. Катерина Ковалёва за работой"
+      ],
+      "imagePaths": [
+        "/13_Mosaics/13_IMG_08.jpg",
+        "/13_Mosaics/13_IMG_09.jpg",
+        "/13_Mosaics/13_IMG_10.jpg",
+        "/13_Mosaics/13_IMG_11.jpg",
+        "/13_Mosaics/13_IMG_12.jpg",
+        "/13_Mosaics/13_IMG_13.jpg",
+        "/13_Mosaics/13_IMG_14.jpg",
+        "/13_Mosaics/13_IMG_15.jpg"
       ]
     }
   ]
