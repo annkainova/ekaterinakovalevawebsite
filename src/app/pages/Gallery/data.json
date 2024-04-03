@@ -167,5 +167,60 @@
         "/04_waiting-zone/block-4/04_IMG_49.jpg"
       ]
     }
+  ],
+  "horizon-colonization": [
+    {
+      "name": "Серия “Колонизация горизонта”",
+      "description": "Коллаж, смешанная техника",
+      "paintDescription": [
+        "№1. 110 х 70 см, 1989 год",
+        "№2. 110 х 70 см, 1989 год\n№3. 86 х 60 см, 1990 год\n№4. 80 х 60 см, 1990 год",
+        "№5. 86 х 60 см, 1990 год\n№6. 86 х 60 см, 1990 год"
+      ],
+      "imagePaths": [
+        "/06_horizon-colonization/06_IMG_01.jpg",
+        "/06_horizon-colonization/06_IMG_02.jpg",
+        "/06_horizon-colonization/06_IMG_03.jpg",
+        "/06_horizon-colonization/06_IMG_04.jpg",
+        "/06_horizon-colonization/06_IMG_05.jpg",
+        "/06_horizon-colonization/06_IMG_06.jpg"
+      ]
+    },
+    {
+      "name": "",
+      "description": "",
+      "paintDescription": [
+        "№7. 90 х 60 см, 1991 год",
+        "№8. 72 х 55 см, 1991 год\n№9. 90 х 60 см, 1991 год\n№10. 90 х 60 см, 1991 год",
+        "№11. 90 х 60 см, 1991 год\n№12. 93 х 67 см, 1991 год\n№13. 200 х 160 см, 1991 год",
+        "№14. 150 х 100 см, 1991 год\n№15. 150 х 100 см, 1991 год\n№16. 60 х 90 см, 1991 год"
+      ],
+      "imagePaths": [
+        "/06_horizon-colonization/06_IMG_07.jpg",
+        "/06_horizon-colonization/06_IMG_08.jpg",
+        "/06_horizon-colonization/06_IMG_09.jpg",
+        "/06_horizon-colonization/06_IMG_10.jpg",
+        "/06_horizon-colonization/06_IMG_11.jpg",
+        "/06_horizon-colonization/06_IMG_12.jpg",
+        "/06_horizon-colonization/06_IMG_13.jpg",
+        "/06_horizon-colonization/06_IMG_14.jpg",
+        "/06_horizon-colonization/06_IMG_15.jpg",
+        "/06_horizon-colonization/06_IMG_16.jpg"
+      ]
+    },
+    {
+      "name": "",
+      "description": "",
+      "paintDescription": [
+        "№17. 65 х 51 см, 1992 год",
+        "№18. 65 х 51 см, 1992 год\n№19. 86 х 60 см, 1993 год\n№20. 86 х 60 см, 1993 год"
+      ],
+      "imagePaths": [
+        "/06_horizon-colonization/06_IMG_17.jpg",
+        "/06_horizon-colonization/06_IMG_18.jpg",
+        "/06_horizon-colonization/06_IMG_19.jpg",
+        "/06_horizon-colonization/06_IMG_20.jpg"
+      ]
+    }
   ]
 }

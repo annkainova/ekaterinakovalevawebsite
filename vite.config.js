@@ -16,6 +16,7 @@ export default defineConfig({
         maps: path.resolve('maps.html'),
         mosaics: path.resolve('mosaics.html'),
         waitingZone: path.resolve('waiting-zone.html'),
+        horizonColonization: path.resolve('horizon-colonization.html'),
         // Добавьте другие страницы здесь
       },
     },
@@ -25,6 +26,7 @@ export default defineConfig({
       { from: /\/maps/, to: '/maps.html' },
       { from: /\/mosaics/, to: '/mosaics.html' },
       { from: /\/waiting-zone/, to: '/waiting-zone.html' },
+      { from: /\/horizon-colonization/, to: '/horizon-colonization.html' },
       // Добавьте другие правила перенаправления здесь
     ],
   },

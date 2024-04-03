@@ -4,7 +4,8 @@
 
 .maps,
 .mosaics,
-.waiting-zone {
+.waiting-zone,
+.horizon-colonization {
   display: flex;
   flex-direction: column;
   gap: 80px;
@@ -113,6 +114,8 @@
 
     &:hover {
       background: $dark;
+
+      color: $white;
 
       .accent-dot {
         color: red;

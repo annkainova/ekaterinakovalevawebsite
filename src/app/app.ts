@@ -17,5 +17,6 @@ export default class App {
     this.page.render('maps', data);
     this.page.render('mosaics', data);
     this.page.render('waiting-zone', data);
+    this.page.render('horizon-colonization', data);
   }
 }
