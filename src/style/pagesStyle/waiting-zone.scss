@@ -2,10 +2,13 @@
   line-height: 0;
 
   .element {
+    .element__info {
+      grid-template-rows: auto min-content;
+    }
+
     &:nth-child(1) {
       .element__owerview {
         text-align: justify;
-        margin-bottom: 640px;
       }
 
       .element__paint {
