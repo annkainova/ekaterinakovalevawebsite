@@ -1,0 +1,59 @@
+.artworks {
+  line-height: 0;
+
+  .element {
+    &:nth-child(1) {
+      .element__owerview {
+        text-align: justify;
+        margin-bottom: 296px;
+      }
+
+      .element__paint {
+        &:nth-child(2) {
+        }
+
+        &:nth-child(3) {
+        }
+
+        &:nth-child(4) {
+        }
+
+        &:not(:nth-child(2)) {
+        }
+      }
+
+      .image-box {
+        &__4 {
+          margin-left: 81px;
+        }
+
+        &__10 {
+          margin-top: 20px;
+        }
+
+        &__11 {
+          margin-top: 20px;
+        }
+      }
+    }
+
+    &:nth-child(2) {
+      .element__owerview {
+      }
+
+      .element__paint {
+        &:nth-child(2) {
+        }
+
+        &:not(:nth-child(2)) {
+        }
+      }
+
+      .image-box {
+        &__4 {
+          margin-left: 115px;
+        }
+      }
+    }
+  }
+}

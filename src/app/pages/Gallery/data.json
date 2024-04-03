@@ -2,11 +2,11 @@
   "maps": [
     {
       "name": "",
-      "name_en": "",
-      "description": "Советские карты, смешанная техника\n1992 год",
-      "description_en": "Soviet maps, mixed technique\n1992",
-      "paintDescription": ["№1. 112 x 72 cm", "№2 - №3. 112 x 72 cm"],
-      "paintDescription_en": ["№1. 112 x 72 cm", "№2 - №3. 112 x 72 cm"],
+      "name-en": "",
+      "description": "Советские карты, смешанная техника\n1992.",
+      "description-en": "Soviet maps, mixed technique\n1992.",
+      "paintDescription": ["№1. 112 x 72 см", "№2 - №3. 112 x 72 см"],
+      "paintDescription-en": ["№1. 112 x 72 cm", "№2 - №3. 112 x 72 cm"],
       "imagePaths": [
         "/05_maps-rose-words/05_IMG_01.jpg",
         "/05_maps-rose-words/05_IMG_02.jpg",
@@ -16,10 +16,16 @@
     },
     {
       "name": "Серия “Розы мира”",
+      "name-en": "The “Roses of the World” series",
       "description": "Советские карты, коллаж, смешанная техника",
+      "description-en": "Soviet maps, collage, mixed technique",
       "paintDescription": [
-        "№1. 112 х 72 см, 1996 год",
-        "№2. 106 х 68 см, 1996 год \n№3. 57 х 60 см, 1996 год \n№4. 90 х 112 см, 1998 год \n№5. 78 х 80 см, 1998 год"
+        "№1. 112 х 72 см, 1996.",
+        "№2. 106 х 68 см, 1996.\n№3. 57 х 60 см, 1996.\n№4. 90 х 112 см, 1998.\n№5. 78 х 80 см, 1998."
+      ],
+      "paintDescription-en": [
+        "№1. 112 х 72 cm, 1996.",
+        "№2. 106 х 68 cm, 1996.\n№3. 57 х 60 cm, 1996.\n№4. 90 х 112 cm, 1998.\n№5. 78 х 80 cm, 1998."
       ],
       "imagePaths": [
         "/05_maps-rose-words/05_IMG_05.jpg",
@@ -31,10 +37,16 @@
     },
     {
       "name": "",
-      "description": "Карты, коллаж, смешанная техника \n1998 год",
+      "name-en": "",
+      "description": "Карты, коллаж, смешанная техника \n1998.",
+      "description-en": "Maps, collage, mixed technique \n1998.",
       "paintDescription": [
         "№1. 44 х 56 см",
         "№2. 44 х 56 см \n№3. 44 х 56 см \n№4. 40 х 54 см \n№5. 44 х 56 см \n№6. 68 х 106 см"
+      ],
+      "paintDescription-en": [
+        "№1. 44 х 56 cm",
+        "№2. 44 х 56 cm \n№3. 44 х 56 cm \n№4. 40 х 54 cm \n№5. 44 х 56 cm \n№6. 68 х 106 cm"
       ],
       "imagePaths": [
         "/05_maps-rose-words/05_IMG_10.jpg",
@@ -49,8 +61,11 @@
   "mosaics": [
     {
       "name": "Мозаики на фасаде здания",
-      "description": "Гронинген, Нидерланды\nНатуральный камень, смальта\n1992 год",
+      "name-en": "Mosaics on the facade of a building",
+      "description": "Гронинген, Нидерланды\nНатуральный камень, смальта\n1992.",
+      "description-en": "Groningen, Netherlands\nNatural stone, smalta\n1992.",
       "paintDescription": ["№1. 120 х 30 см", "№2. 75 х 95 см \n№3. 75 х 95 см"],
+      "paintDescription-en": ["№1. 120 х 30 cm", "№2. 75 х 95 cm \n№3. 75 х 95 cm"],
       "imagePaths": [
         "/13_Mosaics/13_IMG_01.jpg",
         "/13_Mosaics/13_IMG_02.jpg",
@@ -59,8 +74,11 @@
     },
     {
       "name": "Мозаики на фасаде частного дома",
-      "description": "Московская область, Россия\nНатуральный камень, смальта\n1997 год",
+      "name-en": "Mosaics on the facade of a private house",
+      "description": "Московская область, Россия\nНатуральный камень, смальта\n1997.",
+      "description-en": "Moscow region, Russia\nNatural stone, smalta\n1997.",
       "paintDescription": ["№1. 60 х 60 см", "№2 – №4. 60 х 60 см"],
+      "paintDescription-en": ["№1. 60 х 60 cm", "№2 – №4. 60 х 60 cm"],
       "imagePaths": [
         "/13_Mosaics/13_IMG_04.jpg",
         "/13_Mosaics/13_IMG_05.jpg",
@@ -70,12 +88,20 @@
     },
     {
       "name": "Мозаики на фасаде здания",
-      "description": "Нью-Йорк, США\nНатуральный камень, смальта\n2007 год",
+      "name-en": "Mosaics on the facade of a building",
+      "description": "Нью-Йорк, США\nНатуральный камень, смальта\n2007.",
+      "description-en": "New York, USA\nNatural stone, smalta\n2007.",
       "paintDescription": [
         "№1. Общий вид на фасад здания",
         "№2. 140 х 140 см \n№3. 160 х 200 см \n№4. Фрагмент",
         "№5. 160 х 100 см \n№6. 160 х 100 см",
         "№7. 160 х 50 см \n№8. Катерина Ковалёва за работой"
+      ],
+      "paintDescription-en": [
+        "№1. General view of the building facade",
+        "№2. 140 х 140 cm \n№3. 160 х 200 cm \n№4. Fragment",
+        "№5. 160 х 100 cm \n№6. 160 х 100 cm",
+        "№7. 160 х 50 cm \n№8. Katerina Kovaleva at work"
       ],
       "imagePaths": [
         "/13_Mosaics/13_IMG_08.jpg",
@@ -92,8 +118,11 @@
   "waiting-zone": [
     {
       "name": "",
+      "name-en": "",
       "description": "Зона ожидания — область пространства, в которой парашютист должен находиться под куполом до осуществления захода на посадку. \n\nКатерина Ковалева предлагает эту метафору для размышления над хрупкостью и непредсказуемостью человеческой жизни, над зависимостью судьбы от потоков времени и исторических событий. \n\nПодобно парашютисту, человек часто находится в драматичной и волнительной зоне ожидания и неопределенности, прежде чем выберет свою точную область приземления.",
+      "description-en": "Waiting area - an area of space in which a skydiver must stay under the canopy before landing approach. \n\nKaterina Kovaleva offers this metaphor to reflect on the fragility and unpredictability of human life, on the dependence of fate on the flows of time and historical events. \n\nLike a skydiver, a human being is often in a dramatic and exciting zone of expectation and uncertainty before he chooses his exact landing area",
       "paintDescription": ["Фото: Алексей Народицкий"],
+      "paintDescription-en": ["Photo: Alexei Naroditsky"],
       "imagePaths": [
         "/04_waiting-zone/block-1/04_IMG_01.jpg",
         "/04_waiting-zone/block-1/04_IMG_02.jpg",
@@ -118,8 +147,11 @@
     },
     {
       "name": "",
+      "name-en": "",
       "description": "“В рисунках на парашютах я использовала аллегорические сцены из фресок Тьеполо и Риччи, фантастические небеса, населенные божествами. Идея заключалась в преобразовании купола парашюта в  купол переносного неба.\n \nСвод парашюта, как переносное небо, как обнадёживающий потолок, как расписное  «небо» старой русской  церкви или плафон венецианского палаццо, как благословенная сень, хупа, в странствиях по юдоли, по пути к Месту, становится  моделью космоса, заключённого  в рамки реального пространства, которое стремится создать эффект присутствия “небес на земле.”",
+      "description-en": "“I used allegorical scenes from Tiepolo's and Ricci's frescoes, fantasy skies inhabited by deities, in my parachute drawings. The idea was to transform the canopy of the parachute into the dome of a portable sky.\n \nThe canopy of the parachute, as a portable sky, as a reassuring ceiling, as a painted «heaven» of an old Russian church or a plafond of a Venetian palazzo, as a blessed shade, a hupa, on the wanderings of the world, on the way to the Place, becomes a model of the cosmos enclosed in the framework of real space, which seeks to create the effect of the presence of “heaven on earth.”",
       "paintDescription": ["— Катерина Ковалёва"],
+      "paintDescription-en": ["— Katerina Kovaleva"],
       "imagePaths": [
         "/04_waiting-zone/block-2/04_IMG_20.jpg",
         "/04_waiting-zone/block-2/04_IMG_21.jpg",
@@ -135,8 +167,11 @@
     },
     {
       "name": "",
+      "name-en": "",
       "description": "Описание — композиционная форма, которую используют в литературоведении и лингвистике для подробной характеристики предметов или явлений.",
+      "description-en": "Description is a compositional form used in literary studies and linguistics to characterize objects or phenomena in detail.",
       "paintDescription": [""],
+      "paintDescription-en": [""],
       "imagePaths": [
         "/04_waiting-zone/block-3/04_IMG_30.jpg",
         "/04_waiting-zone/block-3/04_IMG_31.jpg",
@@ -156,8 +191,11 @@
     },
     {
       "name": "",
-      "description": "Обобщенно, объекты описания представляют собой перцептивные паттерны - качества (формы, направления, цвет, звук, вес, температуру и т.д.), количественные аспекты (меры и множества) и их отношения, более конкретно - это предметы, процессы, жизнь, \nхарактер людей и мн. др. объекты живой, неживой природы и сами субъективные переживания.",
+      "name-en": "",
+      "description": "Обобщенно, объекты описания представляют собой перцептивные паттерны - качества (формы, направления, цвет, звук, вес, температуру и т.д.), количественные аспекты (меры и множества) и их отношения, более конкретно - это предметы, процессы, жизнь, характер людей и мн. др. объекты живой, неживой природы и сами субъективные переживания.",
+      "description-en": "Generalized, objects of description are perceptual patterns - qualities (shapes, directions, color, sound, weight, temperature, etc.), quantitative aspects (measures and sets) and their relations; more specifically, they are objects, processes, life, character of people and many other objects of animate and inanimate nature and subjective experiences themselves.",
       "paintDescription": [""],
+      "paintDescription-en": [""],
       "imagePaths": [
         "/04_waiting-zone/block-4/04_IMG_44.jpg",
         "/04_waiting-zone/block-4/04_IMG_45.jpg",
@@ -171,11 +209,18 @@
   "horizon-colonization": [
     {
       "name": "Серия “Колонизация горизонта”",
+      "name-en": "“Horizon Colonization” series",
       "description": "Коллаж, смешанная техника",
+      "description-en": "Collage, mixed technique",
       "paintDescription": [
-        "№1. 110 х 70 см, 1989 год",
-        "№2. 110 х 70 см, 1989 год\n№3. 86 х 60 см, 1990 год\n№4. 80 х 60 см, 1990 год",
-        "№5. 86 х 60 см, 1990 год\n№6. 86 х 60 см, 1990 год"
+        "№1. 110 х 70 см, 1989",
+        "№2. 110 х 70 см, 1989\n№3. 86 х 60 см, 1990\n№4. 80 х 60 см, 1990",
+        "№5. 86 х 60 см, 1990\n№6. 86 х 60 см, 1990"
+      ],
+      "paintDescription-en": [
+        "№1. 110 х 70 cm, 1989",
+        "№2. 110 х 70 cm, 1989\n№3. 86 х 60 cm, 1990\n№4. 80 х 60 cm, 1990",
+        "№5. 86 х 60 cm, 1990\n№6. 86 х 60 cm, 1990"
       ],
       "imagePaths": [
         "/06_horizon-colonization/06_IMG_01.jpg",
@@ -188,12 +233,20 @@
     },
     {
       "name": "",
+      "name-en": "",
       "description": "",
+      "description-en": "",
       "paintDescription": [
         "№7. 90 х 60 см, 1991 год",
         "№8. 72 х 55 см, 1991 год\n№9. 90 х 60 см, 1991 год\n№10. 90 х 60 см, 1991 год",
         "№11. 90 х 60 см, 1991 год\n№12. 93 х 67 см, 1991 год\n№13. 200 х 160 см, 1991 год",
         "№14. 150 х 100 см, 1991 год\n№15. 150 х 100 см, 1991 год\n№16. 60 х 90 см, 1991 год"
+      ],
+      "paintDescription-en": [
+        "№7. 90 х 60 cm, 1991",
+        "№8. 72 х 55 cm, 1991\n№9. 90 х 60 cm, 1991\n№10. 90 х 60 cm, 1991",
+        "№11. 90 х 60 cm, 1991\n№12. 93 х 67 cm, 1991\n№13. 200 х 160 cm, 1991",
+        "№14. 150 х 100 cm, 1991\n№15. 150 х 100 cm, 1991\n№16. 60 х 90 cm, 1991"
       ],
       "imagePaths": [
         "/06_horizon-colonization/06_IMG_07.jpg",
@@ -210,16 +263,64 @@
     },
     {
       "name": "",
+      "name-en": "",
       "description": "",
+      "description-en": "",
       "paintDescription": [
-        "№17. 65 х 51 см, 1992 год",
-        "№18. 65 х 51 см, 1992 год\n№19. 86 х 60 см, 1993 год\n№20. 86 х 60 см, 1993 год"
+        "№17. 65 х 51 см, 1992",
+        "№18. 65 х 51 см, 1992\n№19. 86 х 60 см, 1993\n№20. 86 х 60 см, 1993"
+      ],
+      "paintDescription-en": [
+        "№17. 65 х 51 cm, 1992",
+        "№18. 65 х 51 cm, 1992\n№19. 86 х 60 cm, 1993\n№20. 86 х 60 cm, 1993"
       ],
       "imagePaths": [
         "/06_horizon-colonization/06_IMG_17.jpg",
         "/06_horizon-colonization/06_IMG_18.jpg",
         "/06_horizon-colonization/06_IMG_19.jpg",
         "/06_horizon-colonization/06_IMG_20.jpg"
+      ]
+    }
+  ],
+
+  "artworks": [
+    {
+      "name": "Серия “Базис”",
+      "name-en": "",
+      "description": "Бумага, карандаш\n84 х 119 см\n1990–1991",
+      "description-en": "",
+      "paintDescription": [],
+      "paintDescription-en": [],
+      "imagePaths": [
+        "/14_artworks/14_IMG_01.jpg",
+        "/14_artworks/14_IMG_02.jpg",
+        "/14_artworks/14_IMG_03.jpg",
+        "/14_artworks/14_IMG_04.jpg",
+        "/14_artworks/14_IMG_05.jpg",
+        "/14_artworks/14_IMG_06.jpg",
+        "/14_artworks/14_IMG_07.jpg",
+        "/14_artworks/14_IMG_08.jpg",
+        "/14_artworks/14_IMG_09.jpg",
+        "/14_artworks/14_IMG_10.jpg",
+        "/14_artworks/14_IMG_11.jpg",
+        "/14_artworks/14_IMG_12.jpg"
+      ]
+    },
+    {
+      "name": "Серия “Пылесосы в пейзаже”",
+      "name-en": "",
+      "description": "Бумага, карандаш, акварель\n30 х 21 см\n1992",
+      "description-en": "",
+      "paintDescription": [],
+      "paintDescription-en": [],
+      "imagePaths": [
+        "/14_artworks/14_IMG_13.jpg",
+        "/14_artworks/14_IMG_14.jpg",
+        "/14_artworks/14_IMG_15.jpg",
+        "/14_artworks/14_IMG_16.jpg",
+        "/14_artworks/14_IMG_17.jpg",
+        "/14_artworks/14_IMG_18.jpg",
+        "/14_artworks/14_IMG_19.jpg"
       ]
     }
   ]

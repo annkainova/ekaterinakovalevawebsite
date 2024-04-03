@@ -1,0 +1,19 @@
+.artworks {
+  line-height: 0;
+}
+.artworks .element:nth-child(1) .element__owerview {
+  text-align: justify;
+  margin-bottom: 296px;
+}
+.artworks .element:nth-child(1) .image-box__4 {
+  margin-left: 81px;
+}
+.artworks .element:nth-child(1) .image-box__10 {
+  margin-top: 20px;
+}
+.artworks .element:nth-child(1) .image-box__11 {
+  margin-top: 20px;
+}
+.artworks .element:nth-child(2) .image-box__4 {
+  margin-left: 115px;
+}
