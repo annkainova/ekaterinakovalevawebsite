@@ -282,7 +282,6 @@
       ]
     }
   ],
-
   "artworks": [
     {
       "name": "Серия “Базис”",
@@ -321,6 +320,149 @@
         "/14_artworks/14_IMG_17.jpg",
         "/14_artworks/14_IMG_18.jpg",
         "/14_artworks/14_IMG_19.jpg"
+      ]
+    }
+  ],
+
+  "soup-of-the-day": [
+    {
+      "name": "Серия «Суп дня. Дом писателей»",
+      "name-en": "",
+      "description": "Винтажная бумага, акрил, акварель\n2020–2023",
+      "description-en": "",
+      "paintDescription": [
+        "Портреты русских писателей будто взяты из школьного кабинета по литературе. \n\nОбразы эти слишком известны, иногда кажется, что они имеют мало общего с реальными людьми, теми самыми писателями, они будто живут отдельно, в недосягаемом эфире, являясь частью ежедневного пейзажа, частью речи, как проплывающие и исчезающие облака.\n\nСтоящие наблюдатели могут с участием или безучастно наблюдать за этими небесными явлениями. Одно точно, что кто-то носит то же имя, Иван Андреевич, Николай Васильевич..."
+      ],
+      "paintDescription-en": [],
+      "imagePaths": [
+        "/07_soup-of-the-day/07_IMG_01.jpg",
+        "/07_soup-of-the-day/07_IMG_02.jpg",
+        "/07_soup-of-the-day/07_IMG_03.jpg",
+        "/07_soup-of-the-day/07_IMG_04.jpg",
+        "/07_soup-of-the-day/07_IMG_05.jpg",
+        "/07_soup-of-the-day/07_IMG_06.jpg",
+        "/07_soup-of-the-day/07_IMG_07.jpg"
+      ]
+    },
+    {
+      "name": "",
+      "name-en": "",
+      "description": "",
+      "description-en": "",
+      "paintDescription": [
+        "Однообразие бумаги невольно подчеркивает скуку Основы дня, незамысловатый рецепт «супа дня».\n\nВ изображении практически всегда есть основательный передний план, <span class='bold'>люди</span>, находящиеся на берегу, и <span class='bold'>эфемерность</span> небесных явлений на втором плане."
+      ],
+      "paintDescription-en": [],
+      "imagePaths": [
+        "/07_soup-of-the-day/07_IMG_08.jpg",
+        "/07_soup-of-the-day/07_IMG_09.jpg",
+        "/07_soup-of-the-day/07_IMG_10.jpg",
+        "/07_soup-of-the-day/07_IMG_11.jpg",
+        "/07_soup-of-the-day/07_IMG_12.jpg",
+        "/07_soup-of-the-day/07_IMG_13.jpg"
+      ]
+    },
+    {
+      "name": "",
+      "name-en": "",
+      "description": "",
+      "description-en": "",
+      "paintDescription": [
+        "Облака, дым, связаны с тем, кто на земле, можно даже сказать, что эта <span class='bold'>миражная недолговечность</span> и является настоящей основой любого дня. \n\nОчевидная камерность дневниковой записи превращается в презентативную декларацию <span class='bold'>значительности и эпохальности</span> каждого дня, каждого «супа дня»."
+      ],
+      "paintDescription-en": [],
+      "imagePaths": [
+        "/07_soup-of-the-day/07_IMG_14.jpg",
+        "/07_soup-of-the-day/07_IMG_15.jpg",
+        "/07_soup-of-the-day/07_IMG_16.jpg",
+        "/07_soup-of-the-day/07_IMG_17.jpg",
+        "/07_soup-of-the-day/07_IMG_18.jpg",
+        "/07_soup-of-the-day/07_IMG_19.jpg"
+      ]
+    }
+  ],
+  "notebooks": [
+    {
+      "name": "Серия “Обои”",
+      "name-en": "",
+      "description": "Старые обои, коллаж, смешанная техника\n90 х 60 см\n1992",
+      "description-en": "",
+      "paintDescription": [],
+      "paintDescription-en": [],
+      "imagePaths": [
+        "/12_notebooks/12_IMG_01.jpg",
+        "/12_notebooks/12_IMG_02.jpg",
+        "/12_notebooks/12_IMG_03.jpg"
+      ]
+    },
+    {
+      "name": "Серия “Коврики”",
+      "name-en": "",
+      "description": "Электрические схемы, миллиметровка, смешанная техника\n1993",
+      "description-en": "",
+      "paintDescription": ["Коллаж, смешанная техника\n45 х 60 см\n1993"],
+      "paintDescription-en": [],
+      "imagePaths": [
+        "/12_notebooks/12_IMG_04.jpg",
+        "/12_notebooks/12_IMG_05.jpg",
+        "/12_notebooks/12_IMG_06.jpg",
+        "/12_notebooks/12_IMG_07.jpg",
+        "/12_notebooks/12_IMG_08.jpg",
+        "/12_notebooks/12_IMG_09.jpg"
+      ]
+    },
+    {
+      "name": "Серия “Отчётный доклад Хрущёва”",
+      "name-en": "",
+      "description": "Акварель\n30 х 20 см\n1996",
+      "description-en": "",
+      "paintDescription": [],
+      "paintDescription-en": [],
+      "imagePaths": [
+        "/12_notebooks/12_IMG_10.jpg",
+        "/12_notebooks/12_IMG_11.jpg",
+        "/12_notebooks/12_IMG_12.jpg",
+        "/12_notebooks/12_IMG_13.jpg",
+        "/12_notebooks/12_IMG_14.jpg",
+        "/12_notebooks/12_IMG_15.jpg",
+        "/12_notebooks/12_IMG_16.jpg",
+        "/12_notebooks/12_IMG_17.jpg",
+        "/12_notebooks/12_IMG_18.jpg"
+      ]
+    },
+    {
+      "name": "",
+      "name-en": "",
+      "description": "Коллаж, смешанная техника\n21 х 30 см\n2000",
+      "description-en": "",
+      "paintDescription": [],
+      "paintDescription-en": [],
+      "imagePaths": [
+        "/12_notebooks/12_IMG_19.jpg",
+        "/12_notebooks/12_IMG_20.jpg",
+        "/12_notebooks/12_IMG_21.jpg",
+        "/12_notebooks/12_IMG_22.jpg",
+        "/12_notebooks/12_IMG_23.jpg",
+        "/12_notebooks/12_IMG_24.jpg",
+        "/12_notebooks/12_IMG_25.jpg",
+        "/12_notebooks/12_IMG_26.jpg",
+        "/12_notebooks/12_IMG_27.jpg"
+      ]
+    },
+    {
+      "name": "Серия “Передачи заключенному”",
+      "name-en": "",
+      "description": "Коллаж, смешанная техника\n21 х 30 см\n2000 год",
+      "description-en": "",
+      "paintDescription": [],
+      "paintDescription-en": [],
+      "imagePaths": [
+        "/12_notebooks/12_IMG_28.jpg",
+        "/12_notebooks/12_IMG_29.jpg",
+        "/12_notebooks/12_IMG_30.jpg",
+        "/12_notebooks/12_IMG_31.jpg",
+        "/12_notebooks/12_IMG_32.jpg",
+        "/12_notebooks/12_IMG_33.jpg"
       ]
     }
   ]

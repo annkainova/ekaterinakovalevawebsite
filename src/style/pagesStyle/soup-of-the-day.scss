@@ -1,0 +1,75 @@
+.soup-of-the-day {
+  line-height: 0;
+
+  .element {
+    &:nth-child(1) {
+      .element__owerview {
+        text-align: justify;
+        margin-bottom: 25px;
+      }
+
+      .element__paint {
+        &:nth-child(2) {
+        }
+
+        &:not(:nth-child(2)) {
+        }
+      }
+
+      .element__img {
+        flex-wrap: nowrap;
+      }
+
+      .image-box {
+        &__0 {
+          margin-bottom: 20px;
+        }
+
+        &__1 {
+          margin-left: 20px;
+          margin-bottom: 20px;
+        }
+
+        &__2 {
+          margin-left: 58px;
+        }
+      }
+    }
+
+    &:nth-child(2) {
+      .element__owerview {
+      }
+
+      .element__paint {
+        &:nth-child(2) {
+        }
+      }
+
+      .image-wrapper {
+        gap: 45px;
+      }
+    }
+
+    &:nth-child(3) {
+      .element__owerview {
+      }
+
+      .element__paint {
+        &:not(:nth-child(2)) {
+          margin-top: 20px;
+          height: 100px;
+        }
+
+        &:nth-child(3) {
+          margin-top: 380px;
+        }
+      }
+
+      .image-box {
+        &__1 {
+          margin-left: 58px;
+        }
+      }
+    }
+  }
+}

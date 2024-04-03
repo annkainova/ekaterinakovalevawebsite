@@ -1,0 +1,26 @@
+.mosaics {
+  line-height: 0;
+}
+.mosaics .element:nth-child(1) .element__owerview {
+  margin-bottom: 28px;
+}
+.mosaics .element:nth-child(1) .element__paint:not(:nth-child(2)) {
+  margin-top: 40px;
+  height: 100px;
+}
+.mosaics .element:nth-child(2) .element__owerview {
+  margin-bottom: 260px;
+}
+.mosaics .element:nth-child(2) .element__paint:nth-child(3) {
+  margin-top: 40px;
+}
+.mosaics .element:nth-child(3) .element__owerview {
+  margin-bottom: 260px;
+}
+.mosaics .element:nth-child(3) .element__paint:not(:nth-child(2)) {
+  margin-top: 20px;
+  height: 100px;
+}
+.mosaics .element:nth-child(3) .element__paint:nth-child(3) {
+  margin-top: 40px;
+}

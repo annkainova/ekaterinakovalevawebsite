@@ -19,5 +19,7 @@ export default class App {
     this.page.render('waiting-zone', data);
     this.page.render('horizon-colonization', data);
     this.page.render('artworks', data);
+    this.page.renderMethodWithoutBigFirstPhoto('soup-of-the-day', data);
+    this.page.renderMethodWithoutBigFirstPhoto('notebooks', data);
   }
 }

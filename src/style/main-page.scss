@@ -14,4 +14,9 @@ main {
 p {
   margin: 0;
   line-height: normal;
+  text-align: justify;
+
+  .bold {
+    font-weight: 700;
+  }
 }

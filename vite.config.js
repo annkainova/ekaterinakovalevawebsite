@@ -18,6 +18,8 @@ export default defineConfig({
         waitingZone: path.resolve('waiting-zone.html'),
         horizonColonization: path.resolve('horizon-colonization.html'),
         artworks: path.resolve('artworks.html'),
+        soupOfTheDay: path.resolve('soup-of-the-day.html'),
+        notebooks: path.resolve('notebooks.html'),
         // Добавьте другие страницы здесь
       },
     },
@@ -29,6 +31,9 @@ export default defineConfig({
       { from: /\/waiting-zone/, to: '/waiting-zone.html' },
       { from: /\/horizon-colonization/, to: '/horizon-colonization.html' },
       { from: /\/artworks/, to: '/artworks.html' },
+      { from: /\/soup-of-the-day/, to: '/soup-of-the-day.html' },
+      { from: /\/notebooks/, to: '/notebooks.html' },
+
       // Добавьте другие правила перенаправления здесь
     ],
   },
