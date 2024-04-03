@@ -7,6 +7,9 @@
 .notebooks .element:nth-child(1) .element__img {
   flex-wrap: nowrap;
 }
+.notebooks .element:nth-child(2) {
+  margin-top: -60px;
+}
 .notebooks .element:nth-child(2) .element__paint:nth-child(2) {
   margin-top: 40px;
 }
