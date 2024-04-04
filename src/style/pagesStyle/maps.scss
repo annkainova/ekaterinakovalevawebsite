@@ -4,22 +4,12 @@
   .element {
     &:nth-child(1) {
       .element__owerview {
-        margin-bottom: 300px;
-      }
-
-      .element__paint {
-        &:nth-child(2) {
-        }
-
-        &:not(:nth-child(2)) {
-          margin-top: 40px;
-        }
+        margin-bottom: 23px;
       }
     }
 
     &:nth-child(2) {
       .element__owerview {
-        margin-bottom: 280px;
       }
 
       .element__paint {
@@ -27,24 +17,19 @@
         }
 
         &:nth-child(3) {
-          margin-top: 40px;
         }
       }
     }
 
     &:nth-child(3) {
       .element__owerview {
-        margin-bottom: 330px;
       }
 
       .element__paint {
         &:not(:nth-child(2)) {
-          margin-top: 20px;
-          height: 100px;
         }
 
         &:nth-child(3) {
-          margin-top: 40px;
         }
       }
     }

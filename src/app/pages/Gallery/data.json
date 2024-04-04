@@ -1,12 +1,16 @@
 {
   "maps": [
     {
-      "name": "",
-      "name-en": "",
-      "description": "Советские карты, смешанная техника\n1992.",
-      "description-en": "Soviet maps, mixed technique\n1992.",
-      "paintDescription": ["№1. 112 x 72 см", "№2 - №3. 112 x 72 см"],
-      "paintDescription-en": ["№1. 112 x 72 cm", "№2 - №3. 112 x 72 cm"],
+      "name": "Серия “Карта Мира”",
+      "name-en": "The “Map of the World” series",
+      "description": "Советские карты, смешанная техника\n1992-1998",
+      "description-en": "Soviet maps, mixed technique\n1992-1998",
+      "paintDescription": [
+        "Графические работы, выполненные на старых географических картах, в том числе учебных, школьных."
+      ],
+      "paintDescription-en": [
+        "Graphic works made on old geographical maps, including educational, school maps."
+      ],
       "imagePaths": [
         "/05_maps-rose-words/05_IMG_01.jpg",
         "/05_maps-rose-words/05_IMG_02.jpg",
@@ -15,17 +19,15 @@
       ]
     },
     {
-      "name": "Серия “Розы мира”",
-      "name-en": "The “Roses of the World” series",
-      "description": "Советские карты, коллаж, смешанная техника",
-      "description-en": "Soviet maps, collage, mixed technique",
+      "name": "",
+      "name-en": "",
+      "description": "",
+      "description-en": "",
       "paintDescription": [
-        "№1. 112 х 72 см, 1996.",
-        "№2. 106 х 68 см, 1996.\n№3. 57 х 60 см, 1996.\n№4. 90 х 112 см, 1998.\n№5. 78 х 80 см, 1998."
+        "Географические бумажные карты относятся к предметам уходящей эпохи и заслуживают особого <span class='bold'>“памятного”</span> отношения. \n\nСквозь карты  <span class='bold'>“процветают”</span> розы."
       ],
       "paintDescription-en": [
-        "№1. 112 х 72 cm, 1996.",
-        "№2. 106 х 68 cm, 1996.\n№3. 57 х 60 cm, 1996.\n№4. 90 х 112 cm, 1998.\n№5. 78 х 80 cm, 1998."
+        "Geographical paper maps are among the items of a bygone era and deserve special <span class='bold'>“commemorative”</span> treatment. Through maps, roses <span class='bold'>“thrive”</span>."
       ],
       "imagePaths": [
         "/05_maps-rose-words/05_IMG_05.jpg",
@@ -38,16 +40,10 @@
     {
       "name": "",
       "name-en": "",
-      "description": "Карты, коллаж, смешанная техника \n1998.",
-      "description-en": "Maps, collage, mixed technique \n1998.",
-      "paintDescription": [
-        "№1. 44 х 56 см",
-        "№2. 44 х 56 см \n№3. 44 х 56 см \n№4. 40 х 54 см \n№5. 44 х 56 см \n№6. 68 х 106 см"
-      ],
-      "paintDescription-en": [
-        "№1. 44 х 56 cm",
-        "№2. 44 х 56 cm \n№3. 44 х 56 cm \n№4. 40 х 54 cm \n№5. 44 х 56 cm \n№6. 68 х 106 cm"
-      ],
+      "description": " Для меня память это не только связь с прошлым, это про настоящее и, может, даже больше про будущее.\n\nМоя траектория визуального движения может быть обозначена как простая схема: \n\n<span class='bold'>Память, Памятка, Памятник.</span> \n\nОт активирования памяти через памятки или формуляры я движусь к памятникам, окаменелостям припоминания, надгробиям событий.",
+      "description-en": "",
+      "paintDescription": [""],
+      "paintDescription-en": [""],
       "imagePaths": [
         "/05_maps-rose-words/05_IMG_10.jpg",
         "/05_maps-rose-words/05_IMG_11.jpg",
@@ -210,17 +206,13 @@
     {
       "name": "Серия “Колонизация горизонта”",
       "name-en": "“Horizon Colonization” series",
-      "description": "Коллаж, смешанная техника",
-      "description-en": "Collage, mixed technique",
+      "description": "Коллаж, смешанная техника \n1989–1993",
+      "description-en": "Collage, mixed technique \n1989–1993",
       "paintDescription": [
-        "№1. 110 х 70 см, 1989",
-        "№2. 110 х 70 см, 1989\n№3. 86 х 60 см, 1990\n№4. 80 х 60 см, 1990",
-        "№5. 86 х 60 см, 1990\n№6. 86 х 60 см, 1990"
+        "“Отпечатки пальцев” уходящей эпохи — письма, бланки, записки, формирующие пространство неизменного пейзажа стремление приблизиться к постоянно удаляющейся точке схода, точке, где соединяются горизонтальное и вертикальное направления бытия. \n \n Морской горизонт или горизонт поля — “абсолютный” пейзаж."
       ],
       "paintDescription-en": [
-        "№1. 110 х 70 cm, 1989",
-        "№2. 110 х 70 cm, 1989\n№3. 86 х 60 cm, 1990\n№4. 80 х 60 cm, 1990",
-        "№5. 86 х 60 cm, 1990\n№6. 86 х 60 cm, 1990"
+        "The “fingerprints” of a bygone era - letters, forms, notes that form the space of an unchanging landscape, the desire to approach the ever-distant vanishing point, the point where the horizontal and vertical directions of being come together. \n \n The horizon of the sea or the horizon of the field is the “absolute” landscape."
       ],
       "imagePaths": [
         "/06_horizon-colonization/06_IMG_01.jpg",
@@ -236,18 +228,8 @@
       "name-en": "",
       "description": "",
       "description-en": "",
-      "paintDescription": [
-        "№7. 90 х 60 см, 1991 год",
-        "№8. 72 х 55 см, 1991 год\n№9. 90 х 60 см, 1991 год\n№10. 90 х 60 см, 1991 год",
-        "№11. 90 х 60 см, 1991 год\n№12. 93 х 67 см, 1991 год\n№13. 200 х 160 см, 1991 год",
-        "№14. 150 х 100 см, 1991 год\n№15. 150 х 100 см, 1991 год\n№16. 60 х 90 см, 1991 год"
-      ],
-      "paintDescription-en": [
-        "№7. 90 х 60 cm, 1991",
-        "№8. 72 х 55 cm, 1991\n№9. 90 х 60 cm, 1991\n№10. 90 х 60 cm, 1991",
-        "№11. 90 х 60 cm, 1991\n№12. 93 х 67 cm, 1991\n№13. 200 х 160 cm, 1991",
-        "№14. 150 х 100 cm, 1991\n№15. 150 х 100 cm, 1991\n№16. 60 х 90 cm, 1991"
-      ],
+      "paintDescription": ["Линия горизонта, как метафора постижения Абсолюта."],
+      "paintDescription-en": ["The horizon line as a metaphor of comprehension of the Absolute."],
       "imagePaths": [
         "/06_horizon-colonization/06_IMG_07.jpg",
         "/06_horizon-colonization/06_IMG_08.jpg",
@@ -267,12 +249,10 @@
       "description": "",
       "description-en": "",
       "paintDescription": [
-        "№17. 65 х 51 см, 1992",
-        "№18. 65 х 51 см, 1992\n№19. 86 х 60 см, 1993\n№20. 86 х 60 см, 1993"
+        "Этот вечный пейзаж формируется оставленными чьей-то рукой знаками-росчерками, которые становятся своего рода сакральными реликвиями. Это памятки-памятники."
       ],
       "paintDescription-en": [
-        "№17. 65 х 51 cm, 1992",
-        "№18. 65 х 51 cm, 1992\n№19. 86 х 60 cm, 1993\n№20. 86 х 60 cm, 1993"
+        "This eternal landscape is shaped by the marks left by someone's hand, which become a kind of sacred relics. These are memo-monuments"
       ],
       "imagePaths": [
         "/06_horizon-colonization/06_IMG_17.jpg",
@@ -323,25 +303,26 @@
       ]
     }
   ],
-
   "soup-of-the-day": [
     {
       "name": "Серия «Суп дня. Дом писателей»",
-      "name-en": "",
-      "description": "Винтажная бумага, акрил, акварель\n2020–2023",
-      "description-en": "",
+      "name-en": "The series «Soup of the Day. Writers House»",
+      "description": "Винтажная бумага, акрил, акварель \n2020–2023",
+      "description-en": "Vintage paper, acrylic, watercolor \n2020–2023",
       "paintDescription": [
-        "Портреты русских писателей будто взяты из школьного кабинета по литературе. \n\nОбразы эти слишком известны, иногда кажется, что они имеют мало общего с реальными людьми, теми самыми писателями, они будто живут отдельно, в недосягаемом эфире, являясь частью ежедневного пейзажа, частью речи, как проплывающие и исчезающие облака.\n\nСтоящие наблюдатели могут с участием или безучастно наблюдать за этими небесными явлениями. Одно точно, что кто-то носит то же имя, Иван Андреевич, Николай Васильевич..."
+        "Портреты русских писателей будто взяты из школьного кабинета по литературе. \n \nОбразы эти слишком известны, иногда кажется, что они имеют мало общего с реальными людьми, теми самыми писателями, они будто живут отдельно, в недосягаемом эфире, являясь частью ежедневного пейзажа, частью речи, как проплывающие и исчезающие облака. \n \nСтоящие наблюдатели могут с участием или безучастно наблюдать за этими небесными явлениями. Одно точно, что кто-то носит то же имя, Иван Андреевич, Николай Васильевич..."
       ],
-      "paintDescription-en": [],
+      "paintDescription-en": [
+        "Portraits of Russian writers seem to have been taken from a school literature class. \n \n These images are all too familiar, sometimes seeming to have little to do with real people, those very writers, they seem to live separately, in an inaccessible ether, part of the everyday landscape, part of speech, like passing and disappearing clouds. \n \n Standing observers can watch these celestial phenomena with participation or indifference. One thing is certain, someone bearing the same name, Ivan Andreyevich, Nikolai Vasilyevich..."
+      ],
       "imagePaths": [
-        "/07_soup-of-the-day/07_IMG_01.jpg",
-        "/07_soup-of-the-day/07_IMG_02.jpg",
-        "/07_soup-of-the-day/07_IMG_03.jpg",
-        "/07_soup-of-the-day/07_IMG_04.jpg",
-        "/07_soup-of-the-day/07_IMG_05.jpg",
-        "/07_soup-of-the-day/07_IMG_06.jpg",
-        "/07_soup-of-the-day/07_IMG_07.jpg"
+        "/07_soup-of-the-day/block-1/07_IMG_01.jpg",
+        "/07_soup-of-the-day/block-1/07_IMG_02.jpg",
+        "/07_soup-of-the-day/block-1/07_IMG_03.jpg",
+        "/07_soup-of-the-day/block-1/07_IMG_04.jpg",
+        "/07_soup-of-the-day/block-1/07_IMG_05.jpg",
+        "/07_soup-of-the-day/block-1/07_IMG_06.jpg",
+        "/07_soup-of-the-day/block-1/07_IMG_07.jpg"
       ]
     },
     {
@@ -350,16 +331,18 @@
       "description": "",
       "description-en": "",
       "paintDescription": [
-        "Однообразие бумаги невольно подчеркивает скуку Основы дня, незамысловатый рецепт «супа дня».\n\nВ изображении практически всегда есть основательный передний план, <span class='bold'>люди</span>, находящиеся на берегу, и <span class='bold'>эфемерность</span> небесных явлений на втором плане."
+        "Однообразие бумаги невольно подчеркивает скуку Основы дня, незамысловатый рецепт «супа дня». \n \nВ изображении практически всегда есть основательный передний план, люди, находящиеся на берегу, и эфемерность небесных явлений на втором плане. "
       ],
-      "paintDescription-en": [],
+      "paintDescription-en": [
+        "The monotony of the paper inadvertently emphasizes the boredom of The Basics of the Day, an uncomplicated recipe for the «soup of the day». \n \n The image almost always has a grounded foreground, the people on the shore, and the ephemerality of celestial phenomena in the background."
+      ],
       "imagePaths": [
-        "/07_soup-of-the-day/07_IMG_08.jpg",
-        "/07_soup-of-the-day/07_IMG_09.jpg",
-        "/07_soup-of-the-day/07_IMG_10.jpg",
-        "/07_soup-of-the-day/07_IMG_11.jpg",
-        "/07_soup-of-the-day/07_IMG_12.jpg",
-        "/07_soup-of-the-day/07_IMG_13.jpg"
+        "/07_soup-of-the-day/block-2/07_IMG_08.jpg",
+        "/07_soup-of-the-day/block-2/07_IMG_09.jpg",
+        "/07_soup-of-the-day/block-2/07_IMG_10.jpg",
+        "/07_soup-of-the-day/block-2/07_IMG_11.jpg",
+        "/07_soup-of-the-day/block-2/07_IMG_12.jpg",
+        "/07_soup-of-the-day/block-2/07_IMG_13.jpg"
       ]
     },
     {
@@ -368,16 +351,18 @@
       "description": "",
       "description-en": "",
       "paintDescription": [
-        "Облака, дым, связаны с тем, кто на земле, можно даже сказать, что эта <span class='bold'>миражная недолговечность</span> и является настоящей основой любого дня. \n\nОчевидная камерность дневниковой записи превращается в презентативную декларацию <span class='bold'>значительности и эпохальности</span> каждого дня, каждого «супа дня»."
+        "Облака, дым, связаны с тем, кто на земле, можно даже сказать, что эта миражная недолговечность и является настоящей основой любого дня. \n \nОчевидная камерность дневниковой записи превращается в презентативную декларацию значительности и эпохальности каждого дня, каждого «супа дня»."
       ],
-      "paintDescription-en": [],
+      "paintDescription-en": [
+        "The clouds, the smoke, are connected to who is on the ground, one might even say that this mirage of non-duality is the real foundation of any day. \n \n The apparent chamberliness of the diary entry turns into a presentational declaration of the significance and epochality of each day, each «soup of the day»."
+      ],
       "imagePaths": [
-        "/07_soup-of-the-day/07_IMG_14.jpg",
-        "/07_soup-of-the-day/07_IMG_15.jpg",
-        "/07_soup-of-the-day/07_IMG_16.jpg",
-        "/07_soup-of-the-day/07_IMG_17.jpg",
-        "/07_soup-of-the-day/07_IMG_18.jpg",
-        "/07_soup-of-the-day/07_IMG_19.jpg"
+        "/07_soup-of-the-day/block-3/07_IMG_14.jpg",
+        "/07_soup-of-the-day/block-3/07_IMG_15.jpg",
+        "/07_soup-of-the-day/block-3/07_IMG_16.jpg",
+        "/07_soup-of-the-day/block-3/07_IMG_17.jpg",
+        "/07_soup-of-the-day/block-3/07_IMG_18.jpg",
+        "/07_soup-of-the-day/block-3/07_IMG_19.jpg"
       ]
     }
   ],
@@ -463,6 +448,82 @@
         "/12_notebooks/12_IMG_31.jpg",
         "/12_notebooks/12_IMG_32.jpg",
         "/12_notebooks/12_IMG_33.jpg"
+      ]
+    }
+  ],
+  "early-works": [
+    {
+      "name": "Серия “Физкультура женщины” \n ",
+      "name-en": "“Women's Physical Education” series",
+      "description": "Бумага, карандаш \n 60 х 80 см \n1987",
+      "description-en": "Paper, pencil \n 60 х 80 cm \n1987",
+      "paintDescription": ["60 х 80 см", "60 х 80 см", "60 х 80 см", "60 х 80 см"],
+      "paintDescription-en": ["60 х 80 cm", "60 х 80 cm", "60 х 80 cm", "60 х 80 cm"],
+      "imagePaths": [
+        "/08_early-works/block-1/08_IMG_01.jpg",
+        "/08_early-works/block-1/08_IMG_02.jpg",
+        "/08_early-works/block-1/08_IMG_03.jpg",
+        "/08_early-works/block-1/08_IMG_04.jpg"
+      ]
+    },
+    {
+      "name": "Бумага, карандаш, акварель, коллаж \n160 х 120 см \n1988",
+      "name-en": "Paper, pencil, watercolor, collage \n160 х 120 cm \n1988",
+      "description": "“Волна №2”, 160 х 120 cm, 1988 \n \n“Смерть шмеля”, 160 х 130 cm, 1989",
+      "description-en": "“Wave  №2”, 160 х 120 cm, 1988 \n \n“Death of a Bumblebee”, 160 х 130 cm, 1989",
+      "paintDescription": ["“Волна №2”, 160 х 120 cm, 1988", "“Смерть шмеля”, 160 х 130 cm, 1989"],
+      "paintDescription-en": [
+        "“Wave №2”, 160 х 120 cm, 1988",
+        "“Death of a Bumblebee”, 160 х 130 cm, 1989"
+      ],
+      "imagePaths": [
+        "/08_early-works/block-2/08_IMG_05.jpg",
+        "/08_early-works/block-2/08_IMG_06.jpg",
+        "/08_early-works/block-2/08_IMG_07.jpg"
+      ]
+    },
+    {
+      "name": "Серия “Братья и сёстры”",
+      "name-en": "The  “Brothers and Sisters” series",
+      "description": "Бумага, карандаш, акварель, коллаж \n160 х 120 см\n1988",
+      "description-en": "Paper, pencil, watercolor, collage \n160 х 120 cm\n1988",
+      "paintDescription": ["160 х 120 см"],
+      "paintDescription-en": [""],
+      "imagePaths": [
+        "/08_early-works/block-3/08_IMG_08.jpg",
+        "/08_early-works/block-3/08_IMG_09.jpg",
+        "/08_early-works/block-3/08_IMG_10.jpg",
+        "/08_early-works/block-3/08_IMG_11.jpg",
+        "/08_early-works/block-3/08_IMG_12.jpg"
+      ]
+    },
+    {
+      "name": "“Ритуалы”",
+      "name-en": "“Rituals”",
+      "description": "Советско-французская видео-акция \n \nЛетом 1989 года французским TV каналом “Antenne 2” был снят фильм о взаимодействии музыкантов и художников, в контексте путешествия по Северной Двине, от Архангельска до Котласа. \n \nДве французские художницы и танцовщица, джазовое трио “Три О”, а также Катерина Ковалева, находясь в труднодоступных и малонаселенных областях Русского Севера, осуществляли первые попытки освоения жанра Лэнд-арт.\n \nКатерина Ковалева экспериментировала на тему границы, проводя линию горизонта в разных ландшафтных условиях. На берегу реки, на скалах, на песке, в лесу и в городе.",
+      "description-en": "Soviet-French video action \n \nIn the summer of 1989, the French TV channel “Antenne 2” made a film about the interaction between musicians and artists, in the context of a trip along the Northern Dvina River, from Arkhangelsk to Kotlas. \n \nTwo French artists and dancers, jazz trio 'Three O's' and Katerina Kovaleva, in the remote and sparsely populated areas of the Russian North, made the first attempts to master the genre of Land Art.\n \nKaterina Kovaleva experimented with the theme of the border, drawing the horizon line in different landscape conditions. On the river bank, on rocks, on sand, in the forest and in the city.",
+      "paintDescription": ["160 х 120 см"],
+      "paintDescription-en": [""],
+      "imagePaths": [
+        "/08_early-works/block-3/08_IMG_13.jpg",
+        "/08_early-works/block-3/08_IMG_14.jpg",
+        "/08_early-works/block-3/08_IMG_15.jpg",
+        "/08_early-works/block-3/08_IMG_16.jpg"
+      ]
+    },
+    {
+      "name": "Объекты",
+      "name-en": "Objects",
+      "description": "1980-е",
+      "description-en": "1980's",
+      "paintDescription": [""],
+      "paintDescription-en": [""],
+      "imagePaths": [
+        "/08_early-works/block-4/08_IMG_17.jpg",
+        "/08_early-works/block-4/08_IMG_18.jpg",
+        "/08_early-works/block-4/08_IMG_19.jpg",
+        "/08_early-works/block-4/08_IMG_20.jpg",
+        "/08_early-works/block-4/08_IMG_21.jpg"
       ]
     }
   ]
