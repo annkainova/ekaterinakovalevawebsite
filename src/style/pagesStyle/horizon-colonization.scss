@@ -5,7 +5,7 @@
     &:nth-child(1) {
       .element__owerview {
         text-align: justify;
-        margin-bottom: 296px;
+        margin-bottom: 23px;
       }
 
       .element__paint {
@@ -13,24 +13,17 @@
         }
 
         &:nth-child(3) {
-          margin-top: 40px;
-          height: 100px;
         }
 
         &:nth-child(4) {
-          margin-top: 20px;
-          height: 100px;
         }
 
         &:not(:nth-child(2)) {
-          // margin-top: 40px;
-          // height: 90px;
         }
       }
 
       .image-box {
         &__1 {
-          margin-left: 74px;
         }
       }
     }
@@ -44,18 +37,14 @@
         }
 
         &:not(:nth-child(2)) {
-          margin-top: 20px;
-          height: 100px;
         }
 
         &:nth-child(3) {
-          margin-top: 384px;
         }
       }
 
       .image-box {
         &__4 {
-          margin-left: 99px;
         }
       }
     }
@@ -66,12 +55,9 @@
 
       .element__paint {
         &:not(:nth-child(2)) {
-          margin-top: 20px;
-          height: 100px;
         }
 
         &:nth-child(3) {
-          margin-top: 380px;
         }
       }
     }

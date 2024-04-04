@@ -249,10 +249,10 @@
       "description": "",
       "description-en": "",
       "paintDescription": [
-        "Этот вечный пейзаж формируется оставленными чьей-то рукой знаками-росчерками, которые становятся своего рода сакральными реликвиями. Это памятки-памятники."
+        "Этот вечный пейзаж формируется оставленными чьей-то рукой знаками-росчерками, которые становятся своего рода сакральными реликвиями. Это <span class='bold'>памятки-памятники.</span>"
       ],
       "paintDescription-en": [
-        "This eternal landscape is shaped by the marks left by someone's hand, which become a kind of sacred relics. These are memo-monuments"
+        "This eternal landscape is shaped by the marks left by someone's hand, which become a kind of sacred relics. These are <span class='bold'>memo-monuments</span>"
       ],
       "imagePaths": [
         "/06_horizon-colonization/06_IMG_17.jpg",
