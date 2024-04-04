@@ -21,6 +21,8 @@ export default defineConfig({
         soupOfTheDay: path.resolve('soup-of-the-day.html'),
         notebooks: path.resolve('notebooks.html'),
         earlyWorks: path.resolve('early-works.html'),
+        antarcticDiary: path.resolve('antarctic-diary.html'),
+
         // Добавьте другие страницы здесь
       },
     },
@@ -35,7 +37,7 @@ export default defineConfig({
       { from: /\/soup-of-the-day/, to: '/soup-of-the-day.html' },
       { from: /\/notebooks/, to: '/notebooks.html' },
       { from: /\/early-works/, to: '/early-works.html' },
-
+      { from: /\/antarctic-diary/, to: '/antarctic-diary.html' },
       // Добавьте другие правила перенаправления здесь
     ],
   },
