@@ -316,13 +316,13 @@
         "Portraits of Russian writers seem to have been taken from a school literature class. \n \n These images are all too familiar, sometimes seeming to have little to do with real people, those very writers, they seem to live separately, in an inaccessible ether, part of the everyday landscape, part of speech, like passing and disappearing clouds. \n \n Standing observers can watch these celestial phenomena with participation or indifference. One thing is certain, someone bearing the same name, Ivan Andreyevich, Nikolai Vasilyevich..."
       ],
       "imagePaths": [
-        "/07_soup-of-the-day/block-1/07_IMG_01.jpg",
-        "/07_soup-of-the-day/block-1/07_IMG_02.jpg",
-        "/07_soup-of-the-day/block-1/07_IMG_03.jpg",
-        "/07_soup-of-the-day/block-1/07_IMG_04.jpg",
-        "/07_soup-of-the-day/block-1/07_IMG_05.jpg",
-        "/07_soup-of-the-day/block-1/07_IMG_06.jpg",
-        "/07_soup-of-the-day/block-1/07_IMG_07.jpg"
+        "/07_soup-of-the-day/07_IMG_01.jpg",
+        "/07_soup-of-the-day/07_IMG_02.jpg",
+        "/07_soup-of-the-day/07_IMG_03.jpg",
+        "/07_soup-of-the-day/07_IMG_04.jpg",
+        "/07_soup-of-the-day/07_IMG_05.jpg",
+        "/07_soup-of-the-day/07_IMG_06.jpg",
+        "/07_soup-of-the-day/07_IMG_07.jpg"
       ]
     },
     {
@@ -331,18 +331,18 @@
       "description": "",
       "description-en": "",
       "paintDescription": [
-        "Однообразие бумаги невольно подчеркивает скуку Основы дня, незамысловатый рецепт «супа дня». \n \nВ изображении практически всегда есть основательный передний план, люди, находящиеся на берегу, и эфемерность небесных явлений на втором плане. "
+        "Однообразие бумаги невольно подчеркивает скуку Основы дня, незамысловатый рецепт «супа дня». \n \nВ изображении практически всегда есть основательный передний план, <span class='bold'>люди</span>, находящиеся на берегу, и <span class='bold'>эфемерность</span> небесных явлений на втором плане. "
       ],
       "paintDescription-en": [
-        "The monotony of the paper inadvertently emphasizes the boredom of The Basics of the Day, an uncomplicated recipe for the «soup of the day». \n \n The image almost always has a grounded foreground, the people on the shore, and the ephemerality of celestial phenomena in the background."
+        "The monotony of the paper inadvertently emphasizes the boredom of The Basics of the Day, an uncomplicated recipe for the «soup of the day». \n\n The image almost always has a grounded foreground, the people on the shore, and the ephemerality of celestial phenomena in the background."
       ],
       "imagePaths": [
-        "/07_soup-of-the-day/block-2/07_IMG_08.jpg",
-        "/07_soup-of-the-day/block-2/07_IMG_09.jpg",
-        "/07_soup-of-the-day/block-2/07_IMG_10.jpg",
-        "/07_soup-of-the-day/block-2/07_IMG_11.jpg",
-        "/07_soup-of-the-day/block-2/07_IMG_12.jpg",
-        "/07_soup-of-the-day/block-2/07_IMG_13.jpg"
+        "/07_soup-of-the-day/07_IMG_08.jpg",
+        "/07_soup-of-the-day/07_IMG_09.jpg",
+        "/07_soup-of-the-day/07_IMG_10.jpg",
+        "/07_soup-of-the-day/07_IMG_11.jpg",
+        "/07_soup-of-the-day/07_IMG_12.jpg",
+        "/07_soup-of-the-day/07_IMG_13.jpg"
       ]
     },
     {
@@ -351,18 +351,18 @@
       "description": "",
       "description-en": "",
       "paintDescription": [
-        "Облака, дым, связаны с тем, кто на земле, можно даже сказать, что эта миражная недолговечность и является настоящей основой любого дня. \n \nОчевидная камерность дневниковой записи превращается в презентативную декларацию значительности и эпохальности каждого дня, каждого «супа дня»."
+        "Облака, дым, связаны с тем, кто на земле, можно даже сказать, что эта <span class='bold'>миражная недолговечность</span> и является настоящей основой любого дня. \n\nОчевидная камерность дневниковой записи превращается в презентативную декларацию <span class='bold'>значительности и эпохальности</span> каждого дня, каждого «супа дня»."
       ],
       "paintDescription-en": [
         "The clouds, the smoke, are connected to who is on the ground, one might even say that this mirage of non-duality is the real foundation of any day. \n \n The apparent chamberliness of the diary entry turns into a presentational declaration of the significance and epochality of each day, each «soup of the day»."
       ],
       "imagePaths": [
-        "/07_soup-of-the-day/block-3/07_IMG_14.jpg",
-        "/07_soup-of-the-day/block-3/07_IMG_15.jpg",
-        "/07_soup-of-the-day/block-3/07_IMG_16.jpg",
-        "/07_soup-of-the-day/block-3/07_IMG_17.jpg",
-        "/07_soup-of-the-day/block-3/07_IMG_18.jpg",
-        "/07_soup-of-the-day/block-3/07_IMG_19.jpg"
+        "/07_soup-of-the-day/07_IMG_14.jpg",
+        "/07_soup-of-the-day/07_IMG_15.jpg",
+        "/07_soup-of-the-day/07_IMG_16.jpg",
+        "/07_soup-of-the-day/07_IMG_17.jpg",
+        "/07_soup-of-the-day/07_IMG_18.jpg",
+        "/07_soup-of-the-day/07_IMG_19.jpg"
       ]
     }
   ],
