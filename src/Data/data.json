@@ -161,8 +161,8 @@
       "name-en": "",
       "description": "В рисунках на парашютах я использовала аллегорические сцены из фресок Тьеполо и Риччи, фантастические небеса, населенные божествами. Идея заключалась в преобразовании купола парашюта в купол переносного неба.\n\nСвод парашюта, как <span class='bold'>переносное небо</span>, как обнадёживающий потолок, как расписное «небо» старой русской церкви или плафон венецианского палаццо, как благословенная сень, хупа, в странствиях по юдоли, по пути к Месту, становится моделью космоса, заключённого в рамки реального пространства, которое стремится создать эффект присутствия “небес на земле”.",
       "description-en": "“I used allegorical scenes from Tiepolo's and Ricci's frescoes, fantasy skies inhabited by deities, in my parachute drawings. The idea was to transform the canopy of the parachute into the dome of a portable sky.\n \nThe canopy of the parachute, as a portable sky, as a reassuring ceiling, as a painted «heaven» of an old Russian church or a plafond of a Venetian palazzo, as a blessed shade, a hupa, on the wanderings of the world, on the way to the Place, becomes a model of the cosmos enclosed in the framework of real space, which seeks to create the effect of the presence of “heaven on earth.”",
-      "paintDescription": ["— Катерина Ковалёва"],
-      "paintDescription-en": ["— Katerina Kovaleva"],
+      "paintDescription": [],
+      "paintDescription-en": [],
       "imagePaths": [
         "/04_waiting-zone/block-2/04_IMG_20.jpg",
         "/04_waiting-zone/block-2/04_IMG_21.jpg",
@@ -179,8 +179,8 @@
     {
       "name": "",
       "name-en": "",
-      "description": "Описание — композиционная форма, которую используют в литературоведении и лингвистике для подробной характеристики предметов или явлений.",
-      "description-en": "Description is a compositional form used in literary studies and linguistics to characterize objects or phenomena in detail.",
+      "description": "В этом проекте мне хотелось приблизиться к узнаванию главных свойств человеческой души,\n\n <span class='bold'>— память, созерцание, ожидание,</span>\n\n с помощью которых, по определению Блаженного Августина, познаются различные модусы времени, приблизиться к узнаванию Настоящего, которое определяется, как настоящее прошлое, настоящее настоящее, настоящее будущее.\n\n  Есть ли в вечности Ожидание?",
+      "description-en": "",
       "paintDescription": [""],
       "paintDescription-en": [""],
       "imagePaths": [
@@ -203,9 +203,11 @@
     {
       "name": "",
       "name-en": "",
-      "description": "Обобщенно, объекты описания представляют собой перцептивные паттерны - качества (формы, направления, цвет, звук, вес, температуру и т.д.), количественные аспекты (меры и множества) и их отношения, более конкретно - это предметы, процессы, жизнь, характер людей и мн. др. объекты живой, неживой природы и сами субъективные переживания.",
-      "description-en": "Generalized, objects of description are perceptual patterns - qualities (shapes, directions, color, sound, weight, temperature, etc.), quantitative aspects (measures and sets) and their relations; more specifically, they are objects, processes, life, character of people and many other objects of animate and inanimate nature and subjective experiences themselves.",
-      "paintDescription": [""],
+      "description": "<span class='bold'>Объект-памятник</span> «Неотправленные и неполученные письма» — это стопки писем из мрамора, размещённые на табуретках или старых торговых весах.",
+      "description-en": "",
+      "paintDescription": [
+        "Ожидание письма, весточки, обратной связи одна из самых интенсивных эмоций ожидания."
+      ],
       "paintDescription-en": [""],
       "imagePaths": [
         "/04_waiting-zone/block-4/04_IMG_44.jpg",
