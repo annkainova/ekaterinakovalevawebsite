@@ -20,6 +20,7 @@ export default defineConfig({
         artworks: path.resolve('artworks.html'),
         soupOfTheDay: path.resolve('soup-of-the-day.html'),
         notebooks: path.resolve('notebooks.html'),
+        earlyWorks: path.resolve('early-works.html'),
         // Добавьте другие страницы здесь
       },
     },
@@ -33,6 +34,7 @@ export default defineConfig({
       { from: /\/artworks/, to: '/artworks.html' },
       { from: /\/soup-of-the-day/, to: '/soup-of-the-day.html' },
       { from: /\/notebooks/, to: '/notebooks.html' },
+      { from: /\/early-works/, to: '/early-works.html' },
 
       // Добавьте другие правила перенаправления здесь
     ],

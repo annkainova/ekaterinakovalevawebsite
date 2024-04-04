@@ -389,29 +389,31 @@
       "name-en": "“Women's Physical Education” series",
       "description": "Бумага, карандаш \n 60 х 80 см \n1987",
       "description-en": "Paper, pencil \n 60 х 80 cm \n1987",
-      "paintDescription": ["60 х 80 см", "60 х 80 см", "60 х 80 см", "60 х 80 см"],
+      "paintDescription": [],
       "paintDescription-en": ["60 х 80 cm", "60 х 80 cm", "60 х 80 cm", "60 х 80 cm"],
       "imagePaths": [
-        "/08_early-works/block-1/08_IMG_01.jpg",
-        "/08_early-works/block-1/08_IMG_02.jpg",
-        "/08_early-works/block-1/08_IMG_03.jpg",
-        "/08_early-works/block-1/08_IMG_04.jpg"
+        "/08_early-works/08_IMG_01.jpg",
+        "/08_early-works/08_IMG_02.jpg",
+        "/08_early-works/08_IMG_03.jpg",
+        "/08_early-works/08_IMG_04.jpg"
       ]
     },
     {
-      "name": "Бумага, карандаш, акварель, коллаж \n160 х 120 см \n1988",
-      "name-en": "Paper, pencil, watercolor, collage \n160 х 120 cm \n1988",
-      "description": "“Волна №2”, 160 х 120 cm, 1988 \n \n“Смерть шмеля”, 160 х 130 cm, 1989",
-      "description-en": "“Wave  №2”, 160 х 120 cm, 1988 \n \n“Death of a Bumblebee”, 160 х 130 cm, 1989",
-      "paintDescription": ["“Волна №2”, 160 х 120 cm, 1988", "“Смерть шмеля”, 160 х 130 cm, 1989"],
+      "name": "",
+      "name-en": "",
+      "description": "Бумага, карандаш, акварель, коллаж\n160 х 120 см\n1988",
+      "description-en": "Paper, pencil, watercolor, collage \n160 х 120 cm \n1988",
+      "paintDescription": [
+        "<span class='bold'>“Волна №2”</span>, 160 х 120 cm, 1988 \n\n<span class='bold'>“Смерть шмеля”</span>, 160 х 130 cm, 1989"
+      ],
       "paintDescription-en": [
         "“Wave №2”, 160 х 120 cm, 1988",
         "“Death of a Bumblebee”, 160 х 130 cm, 1989"
       ],
       "imagePaths": [
-        "/08_early-works/block-2/08_IMG_05.jpg",
-        "/08_early-works/block-2/08_IMG_06.jpg",
-        "/08_early-works/block-2/08_IMG_07.jpg"
+        "/08_early-works/08_IMG_05.jpg",
+        "/08_early-works/08_IMG_06.jpg",
+        "/08_early-works/08_IMG_07.jpg"
       ]
     },
     {
@@ -419,28 +421,28 @@
       "name-en": "The  “Brothers and Sisters” series",
       "description": "Бумага, карандаш, акварель, коллаж \n160 х 120 см\n1988",
       "description-en": "Paper, pencil, watercolor, collage \n160 х 120 cm\n1988",
-      "paintDescription": ["160 х 120 см"],
+      "paintDescription": [""],
       "paintDescription-en": [""],
       "imagePaths": [
-        "/08_early-works/block-3/08_IMG_08.jpg",
-        "/08_early-works/block-3/08_IMG_09.jpg",
-        "/08_early-works/block-3/08_IMG_10.jpg",
-        "/08_early-works/block-3/08_IMG_11.jpg",
-        "/08_early-works/block-3/08_IMG_12.jpg"
+        "/08_early-works/08_IMG_08.jpg",
+        "/08_early-works/08_IMG_09.jpg",
+        "/08_early-works/08_IMG_10.jpg",
+        "/08_early-works/08_IMG_11.jpg",
+        "/08_early-works/08_IMG_12.jpg"
       ]
     },
     {
       "name": "“Ритуалы”",
       "name-en": "“Rituals”",
-      "description": "Советско-французская видео-акция \n \nЛетом 1989 года французским TV каналом “Antenne 2” был снят фильм о взаимодействии музыкантов и художников, в контексте путешествия по Северной Двине, от Архангельска до Котласа. \n \nДве французские художницы и танцовщица, джазовое трио “Три О”, а также Катерина Ковалева, находясь в труднодоступных и малонаселенных областях Русского Севера, осуществляли первые попытки освоения жанра Лэнд-арт.\n \nКатерина Ковалева экспериментировала на тему границы, проводя линию горизонта в разных ландшафтных условиях. На берегу реки, на скалах, на песке, в лесу и в городе.",
+      "description": "Советско-французская видео-акция \n \nЛетом 1989 года французским TV каналом “Antenne 2” был снят фильм о взаимодействии музыкантов и художников, в контексте путешествия по Северной Двине, от Архангельска до Котласа. \n \nДве французские художницы и танцовщица, джазовое трио “Три О”, а также Катерина Ковалева, находясь в труднодоступных и малонаселенных областях Русского Севера, осуществляли первые попытки освоения жанра Лэнд-арт.\n \nКатерина Ковалева экспериментировала на тему границы, проводя <span class='bold'>линию горизонта</span> в разных ландшафтных условиях. На берегу реки, на скалах, на песке, в лесу и в городе.",
       "description-en": "Soviet-French video action \n \nIn the summer of 1989, the French TV channel “Antenne 2” made a film about the interaction between musicians and artists, in the context of a trip along the Northern Dvina River, from Arkhangelsk to Kotlas. \n \nTwo French artists and dancers, jazz trio 'Three O's' and Katerina Kovaleva, in the remote and sparsely populated areas of the Russian North, made the first attempts to master the genre of Land Art.\n \nKaterina Kovaleva experimented with the theme of the border, drawing the horizon line in different landscape conditions. On the river bank, on rocks, on sand, in the forest and in the city.",
-      "paintDescription": ["160 х 120 см"],
+      "paintDescription": [""],
       "paintDescription-en": [""],
       "imagePaths": [
-        "/08_early-works/block-3/08_IMG_13.jpg",
-        "/08_early-works/block-3/08_IMG_14.jpg",
-        "/08_early-works/block-3/08_IMG_15.jpg",
-        "/08_early-works/block-3/08_IMG_16.jpg"
+        "/08_early-works/08_IMG_13.jpg",
+        "/08_early-works/08_IMG_14.jpg",
+        "/08_early-works/08_IMG_15.jpg",
+        "/08_early-works/08_IMG_16.jpg"
       ]
     },
     {
@@ -451,11 +453,11 @@
       "paintDescription": [""],
       "paintDescription-en": [""],
       "imagePaths": [
-        "/08_early-works/block-4/08_IMG_17.jpg",
-        "/08_early-works/block-4/08_IMG_18.jpg",
-        "/08_early-works/block-4/08_IMG_19.jpg",
-        "/08_early-works/block-4/08_IMG_20.jpg",
-        "/08_early-works/block-4/08_IMG_21.jpg"
+        "/08_early-works/08_IMG_17.jpg",
+        "/08_early-works/08_IMG_18.jpg",
+        "/08_early-works/08_IMG_19.jpg",
+        "/08_early-works/08_IMG_20.jpg",
+        "/08_early-works/08_IMG_21.jpg"
       ]
     }
   ],
@@ -485,9 +487,9 @@
         "“Death of a Bumblebee”, 160 х 130 cm, 1989"
       ],
       "imagePaths": [
-        "/08_early-works/block-2/08_IMG_05.jpg",
-        "/08_early-works/block-2/08_IMG_06.jpg",
-        "/08_early-works/block-2/08_IMG_07.jpg"
+        "/02_early-works/_IMG_05.jpg",
+        "/02_early-works/_IMG_06.jpg",
+        "/02_early-works/_IMG_07.jpg"
       ]
     },
     {

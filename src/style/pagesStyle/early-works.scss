@@ -1,0 +1,146 @@
+.early-works {
+  line-height: 0;
+
+  .element {
+    &:nth-child(1) {
+      .element__owerview {
+      }
+
+      .element__paint {
+        &:nth-child(2) {
+        }
+
+        &:nth-child(3) {
+        }
+
+        &:nth-child(4) {
+        }
+
+        &:not(:nth-child(2)) {
+        }
+      }
+
+      .image-wrapper {
+        display: grid;
+        grid-template-columns: 1fr min-content;
+        grid-auto-rows: auto;
+        gap: 40px;
+      }
+
+      .image-box:nth-child(1) {
+        grid-column: span 1;
+        grid-row: span 3;
+      }
+
+      .image-box:nth-child(n + 2) {
+        grid-column: span 1;
+      }
+    }
+
+    &:nth-child(2) {
+      .element__info {
+        grid-template-rows: auto 100px;
+      }
+
+      .element__owerview {
+      }
+
+      .element__paint {
+        &:nth-child(2) {
+        }
+
+        &:not(:nth-child(2)) {
+        }
+      }
+
+      .image-wrapper {
+        row-gap: 40px;
+      }
+
+      .image-box {
+        &__4 {
+          margin-left: 115px;
+        }
+      }
+    }
+
+    &:nth-child(3) {
+      .element__info {
+        grid-template-rows: auto 100px;
+      }
+
+      .element__owerview {
+      }
+
+      .element__paint {
+        &:nth-child(2) {
+        }
+
+        &:not(:nth-child(2)) {
+        }
+      }
+
+      .element__img {
+        flex-wrap: nowrap;
+        flex-direction: row-reverse;
+
+        .first-img {
+          height: 175px;
+        }
+      }
+
+      .image-wrapper {
+        display: flex;
+        row-gap: 40px;
+      }
+
+      .image-box {
+        &__1 {
+          margin-left: 20px;
+        }
+      }
+    }
+
+    &:nth-child(4) {
+      .image-wrapper {
+        row-gap: 40px;
+      }
+    }
+
+    &:nth-child(5) {
+      .element__info {
+        grid-template-rows: auto 100px;
+      }
+
+      .element__owerview {
+      }
+
+      .element__paint {
+        &:nth-child(2) {
+        }
+
+        &:not(:nth-child(2)) {
+        }
+      }
+
+      .element__img {
+        flex-wrap: nowrap;
+        flex-direction: row-reverse;
+
+        .first-img {
+          height: 165px;
+        }
+      }
+
+      .image-wrapper {
+        row-gap: 40px;
+      }
+
+      .image-box {
+        &__1 {
+          margin-left: 20px;
+        }
+      }
+    }
+  }
+}

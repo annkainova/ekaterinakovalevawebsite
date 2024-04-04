@@ -21,5 +21,6 @@ export default class App {
     this.page.render('artworks', data);
     this.page.renderMethodWithoutBigFirstPhoto('soup-of-the-day', data);
     this.page.renderMethodWithoutBigFirstPhoto('notebooks', data);
+    this.page.renderMethodWithoutBigFirstPhoto('early-works', data);
   }
 }
