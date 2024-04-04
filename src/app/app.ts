@@ -1,5 +1,5 @@
 import '../style/main.scss';
-import data from './pages/Gallery/data.json';
+import data from '../Data/data.json';
 
 import Main from './pages/Main';
 import Page from './pages/Gallery/Page.ts';

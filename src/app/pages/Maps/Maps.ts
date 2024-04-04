@@ -1,5 +1,5 @@
 import Gallery from '../Gallery/Gallery';
-import data from '../Gallery/data.json';
+import data from '../../../Data/data.json';
 
 export default class MapsPage {
   galleryViews: Gallery[];
