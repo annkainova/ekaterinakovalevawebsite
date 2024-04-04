@@ -60,7 +60,7 @@
       "name-en": "Mosaics on the facade of a building",
       "description": "Гронинген, Нидерланды\nНатуральный камень, смальта\n1992.",
       "description-en": "Groningen, Netherlands\nNatural stone, smalta\n1992.",
-      "paintDescription": ["№1. 120 х 30 см", "№2. 75 х 95 см \n№3. 75 х 95 см"],
+      "paintDescription": ["№1. 120 х 30 см", "№2. - №3. 75 х 95 см"],
       "paintDescription-en": ["№1. 120 х 30 cm", "№2. 75 х 95 cm \n№3. 75 х 95 cm"],
       "imagePaths": [
         "/13_Mosaics/13_IMG_01.jpg",
@@ -71,10 +71,10 @@
     {
       "name": "Мозаики на фасаде частного дома",
       "name-en": "Mosaics on the facade of a private house",
-      "description": "Московская область, Россия\nНатуральный камень, смальта\n1997.",
+      "description": "Московская область, Россия\nНатуральный камень, смальта \n60 х 60 см\n1997 год",
       "description-en": "Moscow region, Russia\nNatural stone, smalta\n1997.",
-      "paintDescription": ["№1. 60 х 60 см", "№2 – №4. 60 х 60 см"],
-      "paintDescription-en": ["№1. 60 х 60 cm", "№2 – №4. 60 х 60 cm"],
+      "paintDescription": [],
+      "paintDescription-en": [],
       "imagePaths": [
         "/13_Mosaics/13_IMG_04.jpg",
         "/13_Mosaics/13_IMG_05.jpg",
@@ -91,13 +91,13 @@
         "№1. Общий вид на фасад здания",
         "№2. 140 х 140 см \n№3. 160 х 200 см \n№4. Фрагмент",
         "№5. 160 х 100 см \n№6. 160 х 100 см",
-        "№7. 160 х 50 см \n№8. Катерина Ковалёва за работой"
+        "№7. 160 х 50 см"
       ],
       "paintDescription-en": [
         "№1. General view of the building facade",
         "№2. 140 х 140 cm \n№3. 160 х 200 cm \n№4. Fragment",
         "№5. 160 х 100 cm \n№6. 160 х 100 cm",
-        "№7. 160 х 50 cm \n№8. Katerina Kovaleva at work"
+        "№7. 160 х 50 cm "
       ],
       "imagePaths": [
         "/13_Mosaics/13_IMG_08.jpg",
