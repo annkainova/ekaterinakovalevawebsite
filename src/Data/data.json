@@ -1,7 +1,7 @@
 {
   "empty": [
     {
-      "name": "",
+      "name": "<span class='bold'> “памятного”</span>",
       "name-en": "“",
       "description": "",
       "description-en": "",
@@ -51,8 +51,8 @@
     {
       "name": "",
       "name-en": "",
-      "description": " Для меня память это не только связь с прошлым, это про настоящее и, может, даже больше про будущее.\n\nМоя траектория визуального движения может быть обозначена как простая схема: \n\n<span class='bold'>Память, Памятка, Памятник.</span> \n\nОт активирования памяти через памятки или формуляры я движусь к памятникам, окаменелостям припоминания, надгробиям событий.",
-      "description-en": "",
+      "description": "Для меня память это не только связь с прошлым, это про настоящее и, может, даже больше про будущее.\n\nМоя траектория визуального движения может быть обозначена как простая схема: \n\n<span class='bold'>Память, Памятка, Памятник.</span> \n\nОт активирования памяти через памятки или формуляры я движусь к памятникам, окаменелостям припоминания, надгробиям событий.",
+      "description-en": "For me, memory is not only about the past, it is about the present and maybe even more about the future. \n\n My trajectory of visual movement can be labeled as a simple scheme: \n\n<span class='bold'>Memory, Memo, Monument.</span> \n\nFrom the activation of memory through memos or forms, I move towards monuments, fossils of remembrance, tombstones of events.",
       "paintDescription": [""],
       "paintDescription-en": [""],
       "imagePaths": [
@@ -128,7 +128,6 @@
       "name-en": "",
       "description": "Соляной амбар XVIII в., Таруса \nМузей истории ГУЛАГа, Москва\n2023",
       "description-en": "Waiting area - an area of space in which a skydiver must stay under the canopy before landing approach. \n\nKaterina Kovaleva offers this metaphor to reflect on the fragility and unpredictability of human life, on the dependence of fate on the flows of time and historical events. \n\nLike a skydiver, a human being is often in a dramatic and exciting zone of expectation and uncertainty before he chooses his exact landing area",
-      "description-en": "",
       "paintDescription": [
         "Зона ожидания — область пространства, в которой парашютист под куполом должен находиться до осуществления захода на посадку.\n\n Используя эту метафору в размышлении над хрупкостью и непредсказуемостью человеческой жизни, над зависимостью судьбы от потоков времени и исторических событий, хочется <span class='bold'> сравнить человека с парашютистом</span>, который находится в драматичной и волнительной зоне ожидания, неопределенности, прежде чем выберет свою точную область приземления.\n\n Как меняется конфигурация и скорость времени в процессе ожидания? Как это влияет на восприятие человеком его пути, как душа человека зависит от ожидания?\n\n Инсталляция <span class='bold'>«Если пойдёт дождь»</span> о привычке подставлять ведра под текущую крышу, собирание воды или слез, капающих с неба…\n\n«Дворцовая люстра» из лагерной колючей проволоки (Томская зона №4) и хрусталя отражается в старых жестяных ведрах, корытах, которые покрыты зеркалами и создают иллюзию наполненности водой. В перевёрнутом виде люстра напоминает парашют.\n\nРасположенные в боковых нефах Павильона в Саду Памяти Музея истории ГУЛАГа лёгкие синтепоновые кулисы с изображением зависших парашютистов, могут создать впечатление торжественного небесного театра. Зритель будто пробирается сквозь облачную плотность, блуждая в лабиринте смыслов и метафор.",
         "Фото: Алексей Народицкий"
@@ -282,9 +281,9 @@
   "artworks": [
     {
       "name": "Серия “Базис”",
-      "name-en": "",
+      "name-en": "“Basis” series",
       "description": "Бумага, карандаш\n84 х 119 см\n1990–1991",
-      "description-en": "",
+      "description-en": "Paper, pencil\n84 x 119 cm\n1990-1991",
       "paintDescription": [],
       "paintDescription-en": [],
       "imagePaths": [
@@ -304,9 +303,9 @@
     },
     {
       "name": "Серия “Пылесосы в пейзаже”",
-      "name-en": "",
+      "name-en": "“The Vacuum Cleaners in the Landscape” series",
       "description": "Бумага, карандаш, акварель\n30 х 21 см\n1992",
-      "description-en": "",
+      "description-en": "Paper, pencil, watercolor\n30 x 21 cm\n1992",
       "paintDescription": [],
       "paintDescription-en": [],
       "imagePaths": [
@@ -465,11 +464,9 @@
     {
       "name": "“Антарктический дневник”",
       "name-en": "“Antarctic Diary”",
-      "description": "",
-      "description-en": "In March 2017, I was lucky enough to visit Antarctica as a member of the Antarctic Biennale, which was inspired and organized by Alexander Ponomaryov, a remarkable Russian marine artist.\n \nOn board the research vessel “Sergey Vavilov”, artists from different countries gathered together and prepared their projects specially for this art expedition.\n \nI was probably the most old-fashioned naturalist among them, representatives of contemporary art.\n \nMy job was to keep an “Antarctic diary” - to sketch everything that happened around me on a daily basis.",
-      "paintDescription": [
-        "В марте 2017 года мне посчастливилось побывать в Антарктиде в составе участников <span class='bold'>Антарктической Биеннале</span>, вдохновителем и организатором которой <span class='bold'>был Александр Пономарёв</span>, замечательный российский художник-мореплаватель.\n\n На борту научного судна “Сергей Вавилов” собрались художники из разных стран, подготовившие специально для этой арт-экспедиции свои проекты.\n\n Наверное, я была среди них, представителей современного искусства, самым старомодным художником-натуралистом. \n\nМоя задача состояла в том, чтобы вести “антарктический дневник” — <span class='bold'>зарисовывать ежедневно</span> всё, что происходило вокруг."
-      ],
+      "description": "В марте 2017 года мне посчастливилось побывать в Антарктиде в составе участников <span class='bold'> Антарктической Биеннале</span>, вдохновителем и организатором которой был <span class='bold'>Александр Пономарёв</span>, замечательный российский художник-мореплаватель. \n \nНа борту научного судна “Сергей Вавилов” собрались художники из разных стран, подготовившие специально для этой арт-экспедиции свои проекты. \n \nНаверное, я была среди них, представителей современного искусства, самым старомодным художником-натуралистом. \n \nМоя задача состояла в том, чтобы вести “антарктический дневник” — <span class='bold'>зарисовывать ежедневно</span> всё, что происходило вокруг.",
+      "description-en": "In March 2017, I was lucky enough to visit Antarctica as a member of the <span class='bold'>Antarctic Biennale</span>, which was inspired and organized by <span class='bold'>Alexander Ponomaryov</span>, a remarkable Russian marine artist.\n \nOn board the research vessel “Sergey Vavilov”, artists from different countries gathered together and prepared their projects specially for this art expedition.\n \nI was probably the most old-fashioned naturalist among them, representatives of contemporary art.\n \nMy job was to keep an “Antarctic diary” - to sketch everything that happened around me <span class='bold'>on a daily basis.</span>",
+      "paintDescription": [""],
       "paintDescription-en": [""],
       "imagePaths": [
         "09_antarctic-diary/09_IMG_01.jpg",
@@ -481,12 +478,12 @@
     {
       "name": "",
       "name-en": "",
-      "description": "Мой день начинался с натурного рисования — фиксирования первых лучей рассвета в иллюминаторе, первых минут нового дня. \n\nНе всегда это было что-то захватывающее: иногда я зарисовывала туман или однообразную линию горизонта, ничего эффектного.\n\nНо в ежедневном повторении, в этом “утреннем правиле”, в рутинном художественном жесте мне виделась необходимость <span class='bold'>фиксации значительности</span> и неповторимости<span class='bold'>каждого дня.</span> ",
-      "description-en": "",
-      "paintDescription": [],
-      "paintDescription-en": [],
+      "description": "Мой день начинался с натурного рисования — фиксирования первых лучей рассвета в иллюминаторе, первых минут нового дня. \n \nНе всегда это было что-то захватывающее: иногда я зарисовывала туман или однообразную линию горизонта, ничего эффектного. \n \nНо в ежедневном повторении, в этом “утреннем правиле”, в рутинном художественном жесте мне виделась необходимость <span class='bold'>фиксации значительности</span> и неповторимости <span class='bold'>каждого дня</span>.",
+      "description-en": "My day began with a nature drawing - capturing the first rays of dawn in the porthole, the first minutes of a new day.\n \n It wasn't always exciting: sometimes I sketched fog or a monotonous horizon line, nothing spectacular. \n \nBut in the daily repetition, in this “morning rule”, in this routine artistic gesture, I saw the need <span class='bold'>to capture the significance</span> and uniqueness of <span class='bold'>each day</span>.",
+      "paintDescription": [""],
+      "paintDescription-en": [""],
       "imagePaths": [
-        "09_antarctic-diary/09_IMG_05.jpg",
+         "09_antarctic-diary/09_IMG_05.jpg",
         "09_antarctic-diary/09_IMG_06.jpg",
         "09_antarctic-diary/09_IMG_07.jpg",
         "09_antarctic-diary/09_IMG_08.jpg"
@@ -495,12 +492,13 @@
     {
       "name": "",
       "name-en": "",
-      "description": "Я работаю акварелью. Движения кисти минимальны, как и присутствие цвета. Нужно <span class='bold'>быть сдержанным</span>, по-другому здесь невозможно. \n\nАнтарктическая вода, смешиваясь с акварелью, остается на бумаге, запечатлевая какие-то, пока неизвестные мне, смыслы.",
-      "description-en": "",
-      "paintDescription": [],
-      "paintDescription-en": [],
+
+      "description": "Я работаю акварелью. Движения кисти минимальны, как и присутствие цвета. Нужно <span class='bold'>быть сдержанным</span>, по-другому здесь невозможно. \n \nАнтарктическая вода, смешиваясь с акварелью, остается на бумаге, запечатлевая какие-то, пока неизвестные мне, смыслы.",
+      "description-en": "I work in watercolor. Brush movements are minimal, as is the presence of color. <span class='bold'>You have to be restrained</span>, there is no other way. \n \nAntarctic water, mixed with watercolor, remains on the paper, imprinting some meanings that are still unknown to me.",
+      "paintDescription": [""],
+      "paintDescription-en": [""],
       "imagePaths": [
-        "09_antarctic-diary/09_IMG_09.jpg",
+       "09_antarctic-diary/09_IMG_09.jpg",
         "09_antarctic-diary/09_IMG_10.jpg",
         "09_antarctic-diary/09_IMG_11.jpg",
         "09_antarctic-diary/09_IMG_12.jpg",
@@ -510,9 +508,9 @@
     {
       "name": "",
       "name-en": "",
-      "description": "Здесь нет напряжения; <span class='bold'>покой</span>, пронизывающий все пространство, подчиняет себе и принуждает прислушиваться к тишине и интуиции. Здесь своё течение времени – а может, его вообще не существует. Толща антарктического льда хранит нетронутым <span class='bold'>Время от начала времен.</span> Как известно, исследование ледяных кернов открывает множество тайн и помогает ученым разобраться в генезисе земли. Я пытаюсь добыть свой керн антарктического пространства: вглядываюсь в этот вечный пейзаж, в его ритмические основы, прислушиваюсь к звукам отколовшегося и рухнувшего льда, вздохам и плюханью китов, кряканью пингвинов, лаю тюленей.",
-      "description-en": "Soviet-French video action \n \nIn the summer of 1989, the French TV channel “Antenne 2” made a film about the interaction between musicians and artists, in the context of a trip along the Northern Dvina River, from Arkhangelsk to Kotlas. \n \nTwo French artists and dancers, jazz trio 'Three O's' and Katerina Kovaleva, in the remote and sparsely populated areas of the Russian North, made the first attempts to master the genre of Land Art.\n \nKaterina Kovaleva experimented with the theme of the border, drawing the horizon line in different landscape conditions. On the river bank, on rocks, on sand, in the forest and in the city.",
-      "paintDescription": [],
+      "description": "Здесь нет напряжения; <span class='bold'>покой</span>, пронизывающий все пространство, подчиняет себе и принуждает прислушиваться к тишине и интуиции. Здесь своё течение времени – а может, его вообще не существует.\n \nТолща антарктического льда хранит нетронутым <span class='bold'>Время от начала времен</span>. Как известно, исследование ледяных кернов открывает множество тайн и помогает ученым разобраться в генезисе земли. \n \nЯ пытаюсь добыть свой керн антарктического пространства: вглядываюсь в этот вечный пейзаж, в его ритмические основы, прислушиваюсь к звукам отколовшегося и рухнувшего льда, вздохам и плюханью китов, кряканью пингвинов, лаю тюленей.",
+      "description-en": "There is no tension here; <span class='bold'>the peace</span> that permeates the entire space subdues it and forces you to listen to silence and intuition. Time has its own flow here - or maybe it doesn't exist at all.\n \nThe thickness of Antarctic ice keeps <span class='bold'>Time untouched from the beginning of time/span>. It is well known that the study of ice cores reveals many mysteries and helps scientists to understand the genesis of the earth. \n \nI am trying to get my Antarctic ice core: I look into this eternal landscape, into its rhythmic foundations, listen to the sounds of ice breaking off and collapsing, the sighs and splashing of whales, the quacking of penguins, the barking of seals.",
+      "paintDescription": [""],
       "paintDescription-en": [""],
       "imagePaths": [
         "09_antarctic-diary/09_IMG_14.jpg",
@@ -524,25 +522,24 @@
     {
       "name": "",
       "name-en": "",
-      "description": "В проливе Дрейка на борту корабля состоялась выставка рисунков, сделанных мною во время нашей экспедиции. \n\nМы использовали экспозиционные модули, которые спроектировали архитекторы<span class='bold'> Алексей Козырь и Илья Бабак</span>: за основу были взяты геодезические приборы на треногах, какие раньше были в ходу у исследователей Антарктики. ",
-      "description-en": "",
+      "description": "В проливе Дрейка на борту корабля состоялась выставка рисунков, сделанных мною во время нашей экспедиции. \n \nМы использовали экспозиционные модули, которые спроектировали архитекторы <span class='bold'>Алексей Козырь</span> и <span class='bold'>Илья Бабак</span>: за основу были взяты геодезические приборы на треногах, какие раньше были в ходу у исследователей Антарктики. ",
+      "description-en": "In the Drake Passage, an exhibition of drawings I made during our expedition was held on board the ship. \n \nWe used exposition modules designed by architects <span class='bold'>Alexey Kozyr</span> and <span class='bold'>Ilya Babak</span>: they were based on geodetic instruments on tripods, which used to be used by Antarctic explorers.",
       "paintDescription": [""],
       "paintDescription-en": [""],
       "imagePaths": [
-        "09_antarctic-diary/09_IMG_18.jpg",
+          "09_antarctic-diary/09_IMG_18.jpg",
         "09_antarctic-diary/09_IMG_19.jpg",
         "09_antarctic-diary/09_IMG_20.jpg",
         "09_antarctic-diary/09_IMG_21.jpg"
       ]
     }
   ],
-
   "notebooks": [
     {
       "name": "Серия “Обои”",
-      "name-en": "",
+      "name-en": "Series “Wallpaper”",
       "description": "Старые обои, коллаж, смешанная техника\n90 х 60 см\n1992",
-      "description-en": "",
+      "description-en": "Old wallpaper, collage, mixed technique\n90 х 60 cm\n1992",
       "paintDescription": [],
       "paintDescription-en": [],
       "imagePaths": [
@@ -553,11 +550,11 @@
     },
     {
       "name": "Серия “Коврики”",
-      "name-en": "",
+      "name-en": "Series “Mats”",
       "description": "Электрические схемы, миллиметровка, смешанная техника\n1993",
-      "description-en": "",
+      "description-en": "Electrical circuits, plotting paper, mixed technique\n1993",
       "paintDescription": ["Коллаж, смешанная техника\n45 х 60 см\n1993"],
-      "paintDescription-en": [],
+      "paintDescription-en": ["Collage, mixed technique\n45 х 60 cm\n1993"],
       "imagePaths": [
         "/12_notebooks/12_IMG_04.jpg",
         "/12_notebooks/12_IMG_05.jpg",
@@ -569,9 +566,9 @@
     },
     {
       "name": "Серия “Отчётный доклад Хрущёва”",
-      "name-en": "",
+      "name-en": "“The Khrushchev Report” series",
       "description": "Акварель\n30 х 20 см\n1996",
-      "description-en": "",
+      "description-en": "Watercolorn\n30 х 20 cm\n1996",
       "paintDescription": [],
       "paintDescription-en": [],
       "imagePaths": [
@@ -590,7 +587,7 @@
       "name": "",
       "name-en": "",
       "description": "Коллаж, смешанная техника\n21 х 30 см\n2000",
-      "description-en": "",
+      "description-en": "Collage, mixed technique\n21 х 30 cm\n2000",
       "paintDescription": [],
       "paintDescription-en": [],
       "imagePaths": [
@@ -607,9 +604,9 @@
     },
     {
       "name": "Серия “Передачи заключенному”",
-      "name-en": "",
+      "name-en": "The  “Transfers to Prisoner” series",
       "description": "Коллаж, смешанная техника\n21 х 30 см\n2000 год",
-      "description-en": "",
+      "description-en": "Collage, mixed technique\n21 х 30 cm\n2000 год",
       "paintDescription": [],
       "paintDescription-en": [],
       "imagePaths": [
@@ -619,6 +616,65 @@
         "/12_notebooks/12_IMG_31.jpg",
         "/12_notebooks/12_IMG_32.jpg",
         "/12_notebooks/12_IMG_33.jpg"
+      ]
+    }
+  ],
+  "memorial-objects": [
+    {
+      "name": "“Что касается объектов или скульптур, выполненных в камне, это памятники-<span class='bold'>надгробия</span> событий или понятий.\n \nПервые такие объекты были сделаны для моей персональной выставки, посвященной снегу.",
+      "name-en": "“As for the objects or sculptures made in stone, they are monuments-<span class='bold'>tombstones</span> of events or concepts.\n \nThe first such objects were made for my solo exhibition dedicated to snow“",
+      "description": "Мне хотелось <span class='bold'>увековечить</span> самое <span class='bold'>эфемерное</span>: снег, снежок. Так появились памятник снеговику или надгробие “Здесь лежат останки снеговика”, памятник “Загадочная русская душа” и другие. \n \n \n \nНа камне всегда есть надпись на латыни, отсылающая зрителя к древнеримским надгробиям, подчеркивающая универсальность <span class='bold'>“идеи вечной памяти”</span>.\n \n \n \n— Катерина Ковалёва",
+      "description-en": "I wanted to <span class='bold'>immortalize</span> the most <span class='bold'>ephemeral</span>: snow, snowball. This is how the monument to the snowman or the tombstone “Here lie the remains of a snowman”, the monument “The mysterious Russian soul” and others came into being. \n \n \n \nThe stone always has an inscription in Latin, referring the viewer to the ancient Roman tombstones, emphasizing the universality of the <span class='bold'>“idea of eternal memory”</span>. \n \n \n \n— Katerina Kovaleva",
+      "paintDescription": [""],
+      "paintDescription-en": [""],
+      "imagePaths": [
+        "/10_memorial objects/block-1/10_IMG_01.gif",
+        "/10_memorial objects/block-1/10_IMG_02.jpg",
+        "/10_memorial objects/block-1/10_IMG_03.jpg",
+        "/10_memorial objects/block-1/10_IMG_04.jpg",
+        "/10_memorial objects/block-1/10_IMG_05.jpg"
+      ]
+    },
+    {
+      "name": "",
+      "name-en": "",
+      "description": "Лишь несколько простых слов отважусь я сказать перед гробницей нашего Незабвенного. На ней начертаны простые и ясные слова: «Snegovici ossa hic jacent» – <span class='bold'>«Здесь лежат останки Снеговика»</span>. \n \nНо спросим себя, где же пресловутые останки нашего Незабвенного? Под этой ли величественной гробницей? Отнюдь. Они разбросаны, вернее, они растеклись по всему миру. \n \nУйдя в землю, <span class='bold'>они стали новой субстанцией</span>, они обратились в ту великую стихию, которая животворит и напояет всё живое. Воистину, наш Незабвенный буквально «утёк смерти».\n \nНо любил ли он жизнь? Здесь мы вступаем под покров тайны, которая и есть часть великой тайны мироздания. \n \nВесь свой короткий век Незабвенный провел в аскетическом молчании, указуя в вечность как перстом своей морковкой. \n \nНо мы с вами свидетели того, что сама жизнь любила его. Именно она, сама жизнь, и создала его из мертвенной снежной стихии под радостные крики и визг детишек и дурацкие восклицания их взрослых эпигонов.\n \nЗатвердев под детскими ладонями, из которых так щедро сочится жизнь, наш Незабвенный стал монументом той великой метаморфозы, которая изводит жизнь из смерти и дает нам <span class='bold'>смерть во спасение жизни</span> от банального ее пустоцветения...",
+      "description-en": "Only a few simple words will I venture to say before the tomb of our Unforgettable. On it are inscribed simple and clear words: “Snegovici ossa hic jacent” - <span class='bold'>“Here lie the remains of the Snowman”</span>\n \nBut let us ask ourselves, where are the notorious remains of our Unforgettable? Are they under this majestic tomb? Not at all. They are scattered, or rather, they have spread all over the world. \n \nWhen they went into the earth, they became a new substance, they turned into that great element which animates and nourishes all living things. Indeed, our Unforgettable One literally “flow away from death”.\n \nBut did he love life? Here we enter under the shroud of mystery, which is part of the great mystery of the universe. \n \nUnforgettable spent his entire short century in ascetic silence, pointing to eternity as a finger with his carrot. \n \nBut you and I are witnesses to the fact that life itself loved him. It was she, life itself, who created him out of the dead snow element under the joyful shouts and squeals of children and the foolish exclamations of their adult epigones.\n \nHaving hardened under the children's palms, from which life so generously oozes, our Unforgettable became a monument to that great metamorphosis that brings life out of death and gives us <span class='bold'>death to save life</span> from its banal hollowing...",
+      "paintDescription": [""],
+      "paintDescription-en": [""],
+      "imagePaths": [
+        "/10_memorial objects/block-2/10_IMG_06.jpg",
+        "/10_memorial objects/block-2/10_IMG_07.jpg",
+        "/10_memorial objects/block-2/10_IMG_08.jpg",
+        "/10_memorial objects/block-2/10_IMG_09.jpg",
+        "/10_memorial objects/block-2/10_IMG_10.jpg",
+        "/10_memorial objects/block-2/10_IMG_11.jpg",
+        "/10_memorial objects/block-2/10_IMG_12.jpg",
+        "/10_memorial objects/block-2/10_IMG_13.jpg",
+        "/10_memorial objects/block-2/10_IMG_14.jpg"
+    ]
+    },
+    {
+      "name": "",
+      "name-en": "",
+      "description": "...Кому уподоблю нашего Незабвенного? Будет ли дерзновением сравнить его с великим Осирисом, растерзанным, умершим и воскресшим, владычествующим над вечностью и несущим жизнь через эту великую метаморфозу. Нимало. Он и есть наш северный Осирис.\n \nПосему и его, нашего Незабвенного, мы призываем подобно древним египтянам, искушенным в тайнах жизни и смерти:\n \n«Хотя ты уходил, да придёшь ты!\n \nХотя ты спал, да проснешься ты!\n \nХотя ты умер, да оживёшь ты!\n \nВстань!..»\n \nВосстань с приходом целительного снега, восстань через забвение и умерщвление, <span class='bold'>восстань под чистый лепет жизни!</span>”",
+      "description-en": "...To whom shall I liken our Unforgettable One? Would it be audacity to compare him to the great Osiris, torn, dead and risen, ruling over eternity and bringing life through this great metamorphosis. Not in the least. He is our northern Osiris. \n \nTherefore, we also call upon him, our Unforgettable One, like the ancient Egyptians who were adept in the mysteries of life and death:\n \n«Though you went away, may you come!\n \nThough you slept, may you awake!\n \nThough thou art dead, thou shalt be revived!\n \nArise!...»\n \nArise with the coming of the healing snow, arise through oblivion and mortification, arise to the pure babble of life!”",
+      "paintDescription": [""],
+      "paintDescription-en": [""],
+      "imagePaths": [
+        "/10_memorial objects/block-3/10_IMG_15.jpg",
+        "/10_memorial objects/block-3/10_IMG_16.jpg",
+        "/10_memorial objects/block-3/10_IMG_17.jpg",
+        "/10_memorial objects/block-3/10_IMG_18.jpg",
+        "/10_memorial objects/block-3/10_IMG_19.jpg",
+        "/10_memorial objects/block-3/10_IMG_20.jpg",
+        "/10_memorial objects/block-3/10_IMG_21.jpg",
+        "/10_memorial objects/block-3/10_IMG_22.jpg",
+        "/10_memorial objects/block-3/10_IMG_23.jpg",
+        "/10_memorial objects/block-3/10_IMG_24.jpg",
+        "/10_memorial objects/block-3/10_IMG_25.jpg",
+        "/10_memorial objects/block-3/10_IMG_26.jpg",
+        "/10_memorial objects/block-3/10_IMG_27.jpg"
       ]
     }
   ]
