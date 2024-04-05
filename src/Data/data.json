@@ -51,8 +51,8 @@
     {
       "name": "",
       "name-en": "",
-      "description": " Для меня память это не только связь с прошлым, это про настоящее и, может, даже больше про будущее.\n\nМоя траектория визуального движения может быть обозначена как простая схема: \n\n<span class='bold'>Память, Памятка, Памятник.</span> \n\nОт активирования памяти через памятки или формуляры я движусь к памятникам, окаменелостям припоминания, надгробиям событий.",
-      "description-en": "",
+      "description": "Для меня память это не только связь с прошлым, это про настоящее и, может, даже больше про будущее.\n\nМоя траектория визуального движения может быть обозначена как простая схема: \n\n<span class='bold'>Память, Памятка, Памятник.</span> \n\nОт активирования памяти через памятки или формуляры я движусь к памятникам, окаменелостям припоминания, надгробиям событий.",
+      "description-en": "For me, memory is not only about the past, it is about the present and maybe even more about the future. \n\n My trajectory of visual movement can be labeled as a simple scheme: \n\n<span class='bold'>Memory, Memo, Monument.</span> \n\nFrom the activation of memory through memos or forms, I move towards monuments, fossils of remembrance, tombstones of events.",
       "paintDescription": [""],
       "paintDescription-en": [""],
       "imagePaths": [
@@ -279,9 +279,9 @@
   "artworks": [
     {
       "name": "Серия “Базис”",
-      "name-en": "",
+      "name-en": "“Basis” series",
       "description": "Бумага, карандаш\n84 х 119 см\n1990–1991",
-      "description-en": "",
+      "description-en": "Paper, pencil\n84 x 119 cm\n1990-1991",
       "paintDescription": [],
       "paintDescription-en": [],
       "imagePaths": [
@@ -301,9 +301,9 @@
     },
     {
       "name": "Серия “Пылесосы в пейзаже”",
-      "name-en": "",
+      "name-en": "“The Vacuum Cleaners in the Landscape” series",
       "description": "Бумага, карандаш, акварель\n30 х 21 см\n1992",
-      "description-en": "",
+      "description-en": "Paper, pencil, watercolor\n30 x 21 cm\n1992",
       "paintDescription": [],
       "paintDescription-en": [],
       "imagePaths": [
@@ -532,9 +532,9 @@
   "notebooks": [
     {
       "name": "Серия “Обои”",
-      "name-en": "",
+      "name-en": "Series “Wallpaper”",
       "description": "Старые обои, коллаж, смешанная техника\n90 х 60 см\n1992",
-      "description-en": "",
+      "description-en": "Old wallpaper, collage, mixed technique\n90 х 60 cm\n1992",
       "paintDescription": [],
       "paintDescription-en": [],
       "imagePaths": [
@@ -545,11 +545,11 @@
     },
     {
       "name": "Серия “Коврики”",
-      "name-en": "",
+      "name-en": "Series “Mats”",
       "description": "Электрические схемы, миллиметровка, смешанная техника\n1993",
-      "description-en": "",
+      "description-en": "Electrical circuits, plotting paper, mixed technique\n1993",
       "paintDescription": ["Коллаж, смешанная техника\n45 х 60 см\n1993"],
-      "paintDescription-en": [],
+      "paintDescription-en": ["Collage, mixed technique\n45 х 60 cm\n1993"],
       "imagePaths": [
         "/12_notebooks/12_IMG_04.jpg",
         "/12_notebooks/12_IMG_05.jpg",
@@ -561,9 +561,9 @@
     },
     {
       "name": "Серия “Отчётный доклад Хрущёва”",
-      "name-en": "",
+      "name-en": "“The Khrushchev Report” series",
       "description": "Акварель\n30 х 20 см\n1996",
-      "description-en": "",
+      "description-en": "Watercolorn\n30 х 20 cm\n1996",
       "paintDescription": [],
       "paintDescription-en": [],
       "imagePaths": [
@@ -582,7 +582,7 @@
       "name": "",
       "name-en": "",
       "description": "Коллаж, смешанная техника\n21 х 30 см\n2000",
-      "description-en": "",
+      "description-en": "Collage, mixed technique\n21 х 30 cm\n2000",
       "paintDescription": [],
       "paintDescription-en": [],
       "imagePaths": [
@@ -599,9 +599,9 @@
     },
     {
       "name": "Серия “Передачи заключенному”",
-      "name-en": "",
+      "name-en": "The  “Transfers to Prisoner” series",
       "description": "Коллаж, смешанная техника\n21 х 30 см\n2000 год",
-      "description-en": "",
+      "description-en": "Collage, mixed technique\n21 х 30 cm\n2000 год",
       "paintDescription": [],
       "paintDescription-en": [],
       "imagePaths": [
