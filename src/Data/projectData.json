@@ -1,0 +1,59 @@
+{
+  "workProjects": [
+    {
+      "nameSection": "Выставочный проект “Зона ожидания”",
+      "linkSection": "waiting-zone.html",
+      "imgSection": "/02_work-projects/02_IMG_01.jpg"
+    },
+    {
+      "nameSection": "Выставочный проект “История болезни. Право на отдых”",
+      "linkSection": "",
+      "imgSection": "/02_work-projects/02_IMG_02.jpg"
+    },
+    {
+      "nameSection": "“Антарктический дневник”",
+      "linkSection": "antarctic-diary.html",
+      "imgSection": "/02_work-projects/02_IMG_03.jpg"
+    },
+    {
+      "nameSection": "“Суп дня”",
+      "linkSection": "soup-of-the-day.html",
+      "imgSection": "/02_work-projects/02_IMG_04.jpg"
+    },
+    {
+      "nameSection": "Объекты-памятники",
+      "linkSection": "",
+      "imgSection": "/02_work-projects/02_IMG_05.jpg"
+    },
+    {
+      "nameSection": "“Колонизация горизонта”",
+      "linkSection": "horizon-colonization.html",
+      "imgSection": "/02_work-projects/02_IMG_06.jpg"
+    },
+    {
+      "nameSection": "Ранние работы",
+      "linkSection": "early-works.html",
+      "imgSection": "/02_work-projects/02_IMG_07.jpg"
+    },
+    {
+      "nameSection": "Карты • “Розы мира”",
+      "linkSection": "maps.html",
+      "imgSection": "/02_work-projects/02_IMG_08.jpg"
+    },
+    {
+      "nameSection": "Рисунки",
+      "linkSection": "artworks.html",
+      "imgSection": "/02_work-projects/02_IMG_09.jpg"
+    },
+    {
+      "nameSection": "Записные книжки",
+      "linkSection": "notebooks.html",
+      "imgSection": "/02_work-projects/02_IMG_10.jpg"
+    },
+    {
+      "nameSection": "Мозаики",
+      "linkSection": "mosaics.html",
+      "imgSection": "/02_work-projects/02_IMG_11.jpg"
+    }
+  ]
+}
