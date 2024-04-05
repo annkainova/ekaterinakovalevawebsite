@@ -4,21 +4,19 @@
   .element {
     &:nth-child(1) {
       .element__info {
-        grid-template-rows: auto min-content;
+        grid-template-rows: min-content min-content auto;
       }
 
       .element__owerview {
         text-align: justify;
+        margin-bottom: 23px;
       }
 
       .element__paint {
-        &:nth-child(2) {
+        &:nth-child(3) {
           text-align: right;
-        }
-
-        &:not(:nth-child(2)) {
-          margin-top: 40px;
-          height: 100px;
+          align-self: end;
+          font-style: italic;
         }
       }
 
@@ -35,7 +33,6 @@
 
     &:nth-child(2) {
       .element__owerview {
-        font-style: italic;
         margin-bottom: 70px;
       }
 
@@ -93,6 +90,28 @@
 
       .image-box::before {
         border: 1px solid $white;
+      }
+
+      .image-box {
+        &__5 {
+          margin-right: 105px;
+        }
+
+        &__10 {
+          margin-right: 105px;
+        }
+      }
+    }
+
+    &:nth-child(4) {
+      .element__owerview {
+        margin-bottom: 350px;
+      }
+
+      .element__paint {
+      }
+
+      .image-box {
       }
     }
   }

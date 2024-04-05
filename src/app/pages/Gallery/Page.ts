@@ -1,4 +1,5 @@
 import Gallery from './Gallery';
+import WorkProjects from '../WorkProjects/WorkProjects';
 
 interface PaintDataItem {
   name: string;
@@ -7,14 +8,22 @@ interface PaintDataItem {
   imagePaths: string[];
 }
 
+interface ProjectDataItem {
+  nameSection: string;
+  linkSection: string;
+  imgSection: string;
+}
+
 export default class Page {
   galleryViews: Gallery[];
+  workProjectViews: WorkProjects[];
 
   constructor() {
     this.galleryViews = [];
+    this.workProjectViews = [];
   }
 
-  render(namePage: string, dataPaint: Record<string, PaintDataItem[]>) {
+  renderGallery(namePage: string, dataPaint: Record<string, PaintDataItem[]>) {
     this.galleryViews = dataPaint[namePage].map(
       (item: PaintDataItem) =>
         new Gallery(item.name, item.description, item.paintDescription, item.imagePaths)
@@ -26,7 +35,7 @@ export default class Page {
     });
   }
 
-  renderMethodWithoutBigFirstPhoto(namePage: string, dataPaint: Record<string, PaintDataItem[]>) {
+  renderGalleryWithoutMainPhoto(namePage: string, dataPaint: Record<string, PaintDataItem[]>) {
     this.galleryViews = dataPaint[namePage].map(
       (item: PaintDataItem) =>
         new Gallery(item.name, item.description, item.paintDescription, item.imagePaths)
@@ -35,6 +44,19 @@ export default class Page {
     this.galleryViews.forEach(galleryView => {
       const galleryEl = galleryView.renderMethodWithoutBigFirstPhoto();
       mapsContainer?.appendChild(galleryEl);
+    });
+  }
+
+  renderProject(dataProject: Record<string, ProjectDataItem[]>) {
+    this.workProjectViews = dataProject.workProjects.map(
+      (item: ProjectDataItem) =>
+        new WorkProjects(item.nameSection, item.imgSection, item.linkSection)
+    );
+
+    const mapsContainer = document.querySelector('.work-projects');
+    this.workProjectViews.forEach(workProjectView => {
+      const workProjectElement = workProjectView.render();
+      mapsContainer?.appendChild(workProjectElement);
     });
   }
 }

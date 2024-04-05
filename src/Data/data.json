@@ -160,8 +160,8 @@
       "name-en": "",
       "description": "В рисунках на парашютах я использовала аллегорические сцены из фресок Тьеполо и Риччи, фантастические небеса, населенные божествами. Идея заключалась в преобразовании купола парашюта в купол переносного неба.\n\nСвод парашюта, как <span class='bold'>переносное небо</span>, как обнадёживающий потолок, как расписное «небо» старой русской церкви или плафон венецианского палаццо, как благословенная сень, хупа, в странствиях по юдоли, по пути к Месту, становится моделью космоса, заключённого в рамки реального пространства, которое стремится создать эффект присутствия “небес на земле”.",
       "description-en": "“I used allegorical scenes from Tiepolo's and Ricci's frescoes, fantasy skies inhabited by deities, in my parachute drawings. The idea was to transform the canopy of the parachute into the dome of a portable sky.\n \nThe canopy of the parachute, as a portable sky, as a reassuring ceiling, as a painted «heaven» of an old Russian church or a plafond of a Venetian palazzo, as a blessed shade, a hupa, on the wanderings of the world, on the way to the Place, becomes a model of the cosmos enclosed in the framework of real space, which seeks to create the effect of the presence of “heaven on earth.”",
-      "paintDescription": ["— Катерина Ковалёва"],
-      "paintDescription-en": ["— Katerina Kovaleva"],
+      "paintDescription": [],
+      "paintDescription-en": [],
       "imagePaths": [
         "/04_waiting-zone/block-2/04_IMG_20.jpg",
         "/04_waiting-zone/block-2/04_IMG_21.jpg",
@@ -178,8 +178,8 @@
     {
       "name": "",
       "name-en": "",
-      "description": "Описание — композиционная форма, которую используют в литературоведении и лингвистике для подробной характеристики предметов или явлений.",
-      "description-en": "Description is a compositional form used in literary studies and linguistics to characterize objects or phenomena in detail.",
+      "description": "В этом проекте мне хотелось приблизиться к узнаванию главных свойств человеческой души,\n\n <span class='bold'>— память, созерцание, ожидание,</span>\n\n с помощью которых, по определению Блаженного Августина, познаются различные модусы времени, приблизиться к узнаванию Настоящего, которое определяется, как настоящее прошлое, настоящее настоящее, настоящее будущее.\n\n  Есть ли в вечности Ожидание?",
+      "description-en": "",
       "paintDescription": [""],
       "paintDescription-en": [""],
       "imagePaths": [
@@ -202,9 +202,11 @@
     {
       "name": "",
       "name-en": "",
-      "description": "Обобщенно, объекты описания представляют собой перцептивные паттерны - качества (формы, направления, цвет, звук, вес, температуру и т.д.), количественные аспекты (меры и множества) и их отношения, более конкретно - это предметы, процессы, жизнь, характер людей и мн. др. объекты живой, неживой природы и сами субъективные переживания.",
-      "description-en": "Generalized, objects of description are perceptual patterns - qualities (shapes, directions, color, sound, weight, temperature, etc.), quantitative aspects (measures and sets) and their relations; more specifically, they are objects, processes, life, character of people and many other objects of animate and inanimate nature and subjective experiences themselves.",
-      "paintDescription": [""],
+      "description": "<span class='bold'>Объект-памятник</span> «Неотправленные и неполученные письма» — это стопки писем из мрамора, размещённые на табуретках или старых торговых весах.",
+      "description-en": "",
+      "paintDescription": [
+        "Ожидание письма, весточки, обратной связи одна из самых интенсивных эмоций ожидания."
+      ],
       "paintDescription-en": [""],
       "imagePaths": [
         "/04_waiting-zone/block-4/04_IMG_44.jpg",
@@ -386,29 +388,31 @@
       "name-en": "“Women's Physical Education” series",
       "description": "Бумага, карандаш \n 60 х 80 см \n1987",
       "description-en": "Paper, pencil \n 60 х 80 cm \n1987",
-      "paintDescription": ["60 х 80 см", "60 х 80 см", "60 х 80 см", "60 х 80 см"],
+      "paintDescription": [],
       "paintDescription-en": ["60 х 80 cm", "60 х 80 cm", "60 х 80 cm", "60 х 80 cm"],
       "imagePaths": [
-        "/08_early-works/block-1/08_IMG_01.jpg",
-        "/08_early-works/block-1/08_IMG_02.jpg",
-        "/08_early-works/block-1/08_IMG_03.jpg",
-        "/08_early-works/block-1/08_IMG_04.jpg"
+        "/08_early-works/08_IMG_01.jpg",
+        "/08_early-works/08_IMG_02.jpg",
+        "/08_early-works/08_IMG_03.jpg",
+        "/08_early-works/08_IMG_04.jpg"
       ]
     },
     {
-      "name": "Бумага, карандаш, акварель, коллаж \n160 х 120 см \n1988",
-      "name-en": "Paper, pencil, watercolor, collage \n160 х 120 cm \n1988",
-      "description": "“Волна №2”, 160 х 120 cm, 1988 \n \n“Смерть шмеля”, 160 х 130 cm, 1989",
-      "description-en": "“Wave  №2”, 160 х 120 cm, 1988 \n \n“Death of a Bumblebee”, 160 х 130 cm, 1989",
-      "paintDescription": ["“Волна №2”, 160 х 120 cm, 1988", "“Смерть шмеля”, 160 х 130 cm, 1989"],
+      "name": "",
+      "name-en": "",
+      "description": "Бумага, карандаш, акварель, коллаж\n160 х 120 см\n1988",
+      "description-en": "Paper, pencil, watercolor, collage \n160 х 120 cm \n1988",
+      "paintDescription": [
+        "<span class='bold'>“Волна №2”</span>, 160 х 120 cm, 1988 \n\n<span class='bold'>“Смерть шмеля”</span>, 160 х 130 cm, 1989"
+      ],
       "paintDescription-en": [
         "“Wave №2”, 160 х 120 cm, 1988",
         "“Death of a Bumblebee”, 160 х 130 cm, 1989"
       ],
       "imagePaths": [
-        "/08_early-works/block-2/08_IMG_05.jpg",
-        "/08_early-works/block-2/08_IMG_06.jpg",
-        "/08_early-works/block-2/08_IMG_07.jpg"
+        "/08_early-works/08_IMG_05.jpg",
+        "/08_early-works/08_IMG_06.jpg",
+        "/08_early-works/08_IMG_07.jpg"
       ]
     },
     {
@@ -416,28 +420,28 @@
       "name-en": "The  “Brothers and Sisters” series",
       "description": "Бумага, карандаш, акварель, коллаж \n160 х 120 см\n1988",
       "description-en": "Paper, pencil, watercolor, collage \n160 х 120 cm\n1988",
-      "paintDescription": ["160 х 120 см"],
+      "paintDescription": [""],
       "paintDescription-en": [""],
       "imagePaths": [
-        "/08_early-works/block-3/08_IMG_08.jpg",
-        "/08_early-works/block-3/08_IMG_09.jpg",
-        "/08_early-works/block-3/08_IMG_10.jpg",
-        "/08_early-works/block-3/08_IMG_11.jpg",
-        "/08_early-works/block-3/08_IMG_12.jpg"
+        "/08_early-works/08_IMG_08.jpg",
+        "/08_early-works/08_IMG_09.jpg",
+        "/08_early-works/08_IMG_10.jpg",
+        "/08_early-works/08_IMG_11.jpg",
+        "/08_early-works/08_IMG_12.jpg"
       ]
     },
     {
       "name": "“Ритуалы”",
       "name-en": "“Rituals”",
-      "description": "Советско-французская видео-акция \n \nЛетом 1989 года французским TV каналом “Antenne 2” был снят фильм о взаимодействии музыкантов и художников, в контексте путешествия по Северной Двине, от Архангельска до Котласа. \n \nДве французские художницы и танцовщица, джазовое трио “Три О”, а также Катерина Ковалева, находясь в труднодоступных и малонаселенных областях Русского Севера, осуществляли первые попытки освоения жанра Лэнд-арт.\n \nКатерина Ковалева экспериментировала на тему границы, проводя линию горизонта в разных ландшафтных условиях. На берегу реки, на скалах, на песке, в лесу и в городе.",
+      "description": "Советско-французская видео-акция \n \nЛетом 1989 года французским TV каналом “Antenne 2” был снят фильм о взаимодействии музыкантов и художников, в контексте путешествия по Северной Двине, от Архангельска до Котласа. \n \nДве французские художницы и танцовщица, джазовое трио “Три О”, а также Катерина Ковалева, находясь в труднодоступных и малонаселенных областях Русского Севера, осуществляли первые попытки освоения жанра Лэнд-арт.\n \nКатерина Ковалева экспериментировала на тему границы, проводя <span class='bold'>линию горизонта</span> в разных ландшафтных условиях. На берегу реки, на скалах, на песке, в лесу и в городе.",
       "description-en": "Soviet-French video action \n \nIn the summer of 1989, the French TV channel “Antenne 2” made a film about the interaction between musicians and artists, in the context of a trip along the Northern Dvina River, from Arkhangelsk to Kotlas. \n \nTwo French artists and dancers, jazz trio 'Three O's' and Katerina Kovaleva, in the remote and sparsely populated areas of the Russian North, made the first attempts to master the genre of Land Art.\n \nKaterina Kovaleva experimented with the theme of the border, drawing the horizon line in different landscape conditions. On the river bank, on rocks, on sand, in the forest and in the city.",
-      "paintDescription": ["160 х 120 см"],
+      "paintDescription": [""],
       "paintDescription-en": [""],
       "imagePaths": [
-        "/08_early-works/block-3/08_IMG_13.jpg",
-        "/08_early-works/block-3/08_IMG_14.jpg",
-        "/08_early-works/block-3/08_IMG_15.jpg",
-        "/08_early-works/block-3/08_IMG_16.jpg"
+        "/08_early-works/08_IMG_13.jpg",
+        "/08_early-works/08_IMG_14.jpg",
+        "/08_early-works/08_IMG_15.jpg",
+        "/08_early-works/08_IMG_16.jpg"
       ]
     },
     {
@@ -448,27 +452,27 @@
       "paintDescription": [""],
       "paintDescription-en": [""],
       "imagePaths": [
-        "/08_early-works/block-4/08_IMG_17.jpg",
-        "/08_early-works/block-4/08_IMG_18.jpg",
-        "/08_early-works/block-4/08_IMG_19.jpg",
-        "/08_early-works/block-4/08_IMG_20.jpg",
-        "/08_early-works/block-4/08_IMG_21.jpg"
+        "/08_early-works/08_IMG_17.jpg",
+        "/08_early-works/08_IMG_18.jpg",
+        "/08_early-works/08_IMG_19.jpg",
+        "/08_early-works/08_IMG_20.jpg",
+        "/08_early-works/08_IMG_21.jpg"
       ]
     }
   ],
   "antarctic-diary": [
     {
-      "name": "Антарктический дневник",
+      "name": "“Антарктический дневник”",
       "name-en": "“Antarctic Diary”",
       "description": "В марте 2017 года мне посчастливилось побывать в Антарктиде в составе участников <span class='bold'> Антарктической Биеннале</span>, вдохновителем и организатором которой был <span class='bold'>Александр Пономарёв</span>, замечательный российский художник-мореплаватель. \n \nНа борту научного судна “Сергей Вавилов” собрались художники из разных стран, подготовившие специально для этой арт-экспедиции свои проекты. \n \nНаверное, я была среди них, представителей современного искусства, самым старомодным художником-натуралистом. \n \nМоя задача состояла в том, чтобы вести “антарктический дневник” — <span class='bold'>зарисовывать ежедневно</span> всё, что происходило вокруг.",
       "description-en": "In March 2017, I was lucky enough to visit Antarctica as a member of the <span class='bold'>Antarctic Biennale</span>, which was inspired and organized by <span class='bold'>Alexander Ponomaryov</span>, a remarkable Russian marine artist.\n \nOn board the research vessel “Sergey Vavilov”, artists from different countries gathered together and prepared their projects specially for this art expedition.\n \nI was probably the most old-fashioned naturalist among them, representatives of contemporary art.\n \nMy job was to keep an “Antarctic diary” - to sketch everything that happened around me <span class='bold'>on a daily basis.</span>",
       "paintDescription": [""],
       "paintDescription-en": [""],
       "imagePaths": [
-        "/09_antarctic-diary/block-1/09_IMG_01.jpg",
-        "/09_antarctic-diary/block-1/09_IMG_02.jpg",
-        "/09_antarctic-diary/block-1/09_IMG_03.jpg",
-        "/09_antarctic-diary/block-1/09_IMG_04.jpg"
+        "09_antarctic-diary/09_IMG_01.jpg",
+        "09_antarctic-diary/09_IMG_02.jpg",
+        "09_antarctic-diary/09_IMG_03.jpg",
+        "09_antarctic-diary/09_IMG_04.jpg"
       ]
     },
     {
@@ -479,25 +483,26 @@
       "paintDescription": [""],
       "paintDescription-en": [""],
       "imagePaths": [
-        "/09_antarctic-diary/block-2/09_IMG_05.jpg",
-        "/09_antarctic-diary/block-2/09_IMG_06.jpg",
-        "/09_antarctic-diary/block-2/09_IMG_07.jpg",
-        "/09_antarctic-diary/block-2/09_IMG_08.jpg"
+         "09_antarctic-diary/09_IMG_05.jpg",
+        "09_antarctic-diary/09_IMG_06.jpg",
+        "09_antarctic-diary/09_IMG_07.jpg",
+        "09_antarctic-diary/09_IMG_08.jpg"
       ]
     },
     {
       "name": "",
       "name-en": "",
+
       "description": "Я работаю акварелью. Движения кисти минимальны, как и присутствие цвета. Нужно <span class='bold'>быть сдержанным</span>, по-другому здесь невозможно. \n \nАнтарктическая вода, смешиваясь с акварелью, остается на бумаге, запечатлевая какие-то, пока неизвестные мне, смыслы.",
       "description-en": "I work in watercolor. Brush movements are minimal, as is the presence of color. <span class='bold'>You have to be restrained</span>, there is no other way. \n \nAntarctic water, mixed with watercolor, remains on the paper, imprinting some meanings that are still unknown to me.",
       "paintDescription": [""],
       "paintDescription-en": [""],
       "imagePaths": [
-        "/09_antarctic-diary/block-3/08_IMG_09.jpg",
-        "/09_antarctic-diary/block-3/08_IMG_10.jpg",
-        "/09_antarctic-diary/block-3/08_IMG_11.jpg",
-        "/09_antarctic-diary/block-3/08_IMG_12.jpg",
-        "/09_antarctic-diary/block-3/08_IMG_13.jpg"
+       "09_antarctic-diary/09_IMG_09.jpg",
+        "09_antarctic-diary/09_IMG_10.jpg",
+        "09_antarctic-diary/09_IMG_11.jpg",
+        "09_antarctic-diary/09_IMG_12.jpg",
+        "09_antarctic-diary/09_IMG_13.jpg"
       ]
     },
     {
@@ -508,10 +513,10 @@
       "paintDescription": [""],
       "paintDescription-en": [""],
       "imagePaths": [
-        "/09_antarctic-diary/block-4/08_IMG_14.jpg",
-        "/09_antarctic-diary/block-4/08_IMG_15.jpg",
-        "/09_antarctic-diary/block-4/08_IMG_16.jpg",
-        "/09_antarctic-diary/block-4/08_IMG_17.jpg"
+        "09_antarctic-diary/09_IMG_14.jpg",
+        "09_antarctic-diary/09_IMG_15.jpg",
+        "09_antarctic-diary/09_IMG_16.jpg",
+        "09_antarctic-diary/09_IMG_17.jpg"
       ]
     },
     {
@@ -522,10 +527,10 @@
       "paintDescription": [""],
       "paintDescription-en": [""],
       "imagePaths": [
-        "/09_antarctic-diary/block-5/08_IMG_18.jpg",
-        "/09_antarctic-diary/block-5/08_IMG_19.jpg",
-        "/09_antarctic-diary/block-5/08_IMG_20.jpg",
-        "/09_antarctic-diary/block-5/08_IMG_21.jpg"
+          "09_antarctic-diary/09_IMG_18.jpg",
+        "09_antarctic-diary/09_IMG_19.jpg",
+        "09_antarctic-diary/09_IMG_20.jpg",
+        "09_antarctic-diary/09_IMG_21.jpg"
       ]
     }
   ],

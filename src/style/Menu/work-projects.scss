@@ -1,0 +1,22 @@
+.work-projects {
+  display: grid;
+  grid-template-columns: repeat(3, min-content);
+  justify-content: center;
+  gap: 65px;
+
+  &__link {
+    display: block;
+    color: $dark;
+  }
+
+  &__img {
+  }
+
+  &__text {
+    margin-top: 20px;
+    @include font($normal, $font-16, $dark);
+    text-align: center;
+    letter-spacing: 0.8px;
+    line-height: 20px;
+  }
+}
