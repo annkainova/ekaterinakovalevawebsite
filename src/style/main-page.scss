@@ -20,3 +20,21 @@ p {
     font-weight: 700;
   }
 }
+
+.maps,
+.mosaics,
+.waiting-zone,
+.horizon-colonization,
+.artworks,
+.soup-of-the-day,
+.notebooks,
+.early-works,
+.antarctic-diary,
+.work-projects,
+.biography {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  width: 100%;
+  margin-top: 210px;
+}
