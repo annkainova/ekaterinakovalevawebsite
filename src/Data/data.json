@@ -493,18 +493,66 @@
       "paintDescription": [],
       "paintDescription-en": [],
       "imagePaths": [
-        "/14_artworks/14_IMG_01.jpg",
-        "/14_artworks/14_IMG_02.jpg",
-        "/14_artworks/14_IMG_03.jpg",
-        "/14_artworks/14_IMG_04.jpg",
-        "/14_artworks/14_IMG_05.jpg",
-        "/14_artworks/14_IMG_06.jpg",
-        "/14_artworks/14_IMG_07.jpg",
-        "/14_artworks/14_IMG_08.jpg",
-        "/14_artworks/14_IMG_09.jpg",
-        "/14_artworks/14_IMG_10.jpg",
-        "/14_artworks/14_IMG_11.jpg",
-        "/14_artworks/14_IMG_12.jpg"
+        {
+          "small": "/14_artworks/14_IMG_01.jpg",
+          "full": "/14_artworks/source/14_IMG_01L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/14_artworks/14_IMG_02.jpg",
+          "full": "/14_artworks/source/14_IMG_02L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/14_artworks/14_IMG_03.jpg",
+          "full": "/14_artworks/source/14_IMG_03L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/14_artworks/14_IMG_04.jpg",
+          "full": "/14_artworks/source/14_IMG_04L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/14_artworks/14_IMG_05.jpg",
+          "full": "/14_artworks/source/14_IMG_05L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/14_artworks/14_IMG_06.jpg",
+          "full": "/14_artworks/source/14_IMG_06L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/14_artworks/14_IMG_07.jpg",
+          "full": "/14_artworks/source/14_IMG_07L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/14_artworks/14_IMG_08.jpg",
+          "full": "/14_artworks/source/14_IMG_08L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/14_artworks/14_IMG_09.jpg",
+          "full": "/14_artworks/source/14_IMG_09L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/14_artworks/14_IMG_10.jpg",
+          "full": "/14_artworks/source/14_IMG_10L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/14_artworks/14_IMG_11.jpg",
+          "full": "/14_artworks/source/14_IMG_11L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/14_artworks/14_IMG_12.jpg",
+          "full": "/14_artworks/source/14_IMG_12L.jpg",
+          "descrip": ""
+        }
       ]
     },
     {
@@ -515,13 +563,41 @@
       "paintDescription": [],
       "paintDescription-en": [],
       "imagePaths": [
-        "/14_artworks/14_IMG_13.jpg",
-        "/14_artworks/14_IMG_14.jpg",
-        "/14_artworks/14_IMG_15.jpg",
-        "/14_artworks/14_IMG_16.jpg",
-        "/14_artworks/14_IMG_17.jpg",
-        "/14_artworks/14_IMG_18.jpg",
-        "/14_artworks/14_IMG_19.jpg"
+        {
+          "small": "/14_artworks/14_IMG_13.jpg",
+          "full": "/14_artworks/source/14_IMG_13L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/14_artworks/14_IMG_14.jpg",
+          "full": "/14_artworks/source/14_IMG_14L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/14_artworks/14_IMG_155.jpg",
+          "full": "/14_artworks/source/14_IMG_15L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/14_artworks/14_IMG_16.jpg",
+          "full": "/14_artworks/source/14_IMG_16L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/14_artworks/14_IMG_17.jpg",
+          "full": "/14_artworks/source/14_IMG_17L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/14_artworks/14_IMG_18.jpg",
+          "full": "/14_artworks/source/14_IMG_18L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/14_artworks/14_IMG_19.jpg",
+          "full": "/14_artworks/source/14_IMG_19L.jpg",
+          "descrip": ""
+        }
       ]
     }
   ],
