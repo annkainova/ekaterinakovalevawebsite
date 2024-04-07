@@ -614,13 +614,41 @@
         "Portraits of Russian writers seem to have been taken from a school literature class. \n \n These images are all too familiar, sometimes seeming to have little to do with real people, those very writers, they seem to live separately, in an inaccessible ether, part of the everyday landscape, part of speech, like passing and disappearing clouds. \n \n Standing observers can watch these celestial phenomena with participation or indifference. One thing is certain, someone bearing the same name, Ivan Andreyevich, Nikolai Vasilyevich..."
       ],
       "imagePaths": [
-        "/07_soup-of-the-day/07_IMG_01.jpg",
-        "/07_soup-of-the-day/07_IMG_02.jpg",
-        "/07_soup-of-the-day/07_IMG_03.jpg",
-        "/07_soup-of-the-day/07_IMG_04.jpg",
-        "/07_soup-of-the-day/07_IMG_05.jpg",
-        "/07_soup-of-the-day/07_IMG_06.jpg",
-        "/07_soup-of-the-day/07_IMG_07.jpg"
+        {
+          "small": "/07_soup-of-the-day/07_IMG_01.jpg",
+          "full": "/07_soup-of-the-day/source/07_IMG_01L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/07_soup-of-the-day/07_IMG_02.jpg",
+          "full": "/07_soup-of-the-day/source/07_IMG_02L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/07_soup-of-the-day/07_IMG_03.jpg",
+          "full": "/07_soup-of-the-day/source/07_IMG_03L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/07_soup-of-the-day/07_IMG_04.jpg",
+          "full": "/07_soup-of-the-day/source/07_IMG_04L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/07_soup-of-the-day/07_IMG_05.jpg",
+          "full": "/07_soup-of-the-day/source/07_IMG_05L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/07_soup-of-the-day/07_IMG_06.jpg",
+          "full": "/07_soup-of-the-day/source/07_IMG_06L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/07_soup-of-the-day/07_IMG_07.jpg",
+          "full": "/07_soup-of-the-day/source/07_IMG_07L.jpg",
+          "descrip": ""
+        }
       ]
     },
     {
@@ -635,12 +663,36 @@
         "The monotony of the paper inadvertently emphasizes the boredom of The Basics of the Day, an uncomplicated recipe for the «soup of the day». \n\n The image almost always has a grounded foreground, the people on the shore, and the ephemerality of celestial phenomena in the background."
       ],
       "imagePaths": [
-        "/07_soup-of-the-day/07_IMG_08.jpg",
-        "/07_soup-of-the-day/07_IMG_09.jpg",
-        "/07_soup-of-the-day/07_IMG_10.jpg",
-        "/07_soup-of-the-day/07_IMG_11.jpg",
-        "/07_soup-of-the-day/07_IMG_12.jpg",
-        "/07_soup-of-the-day/07_IMG_13.jpg"
+        {
+          "small": "/07_soup-of-the-day/07_IMG_08.jpg",
+          "full": "/07_soup-of-the-day/source/07_IMG_08L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/07_soup-of-the-day/07_IMG_09.jpg",
+          "full": "/07_soup-of-the-day/source/07_IMG_09L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/07_soup-of-the-day/07_IMG_10.jpg",
+          "full": "/07_soup-of-the-day/source/07_IMG_10L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/07_soup-of-the-day/07_IMG_11.jpg",
+          "full": "/07_soup-of-the-day/source/07_IMG_11L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/07_soup-of-the-day/07_IMG_12.jpg",
+          "full": "/07_soup-of-the-day/source/07_IMG_12L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/07_soup-of-the-day/07_IMG_13.jpg",
+          "full": "/07_soup-of-the-day/source/07_IMG_13L.jpg",
+          "descrip": ""
+        }
       ]
     },
     {
@@ -655,12 +707,36 @@
         "The clouds, the smoke, are connected to who is on the ground, one might even say that this mirage of non-duality is the real foundation of any day. \n \n The apparent chamberliness of the diary entry turns into a presentational declaration of the significance and epochality of each day, each «soup of the day»."
       ],
       "imagePaths": [
-        "/07_soup-of-the-day/07_IMG_14.jpg",
-        "/07_soup-of-the-day/07_IMG_15.jpg",
-        "/07_soup-of-the-day/07_IMG_16.jpg",
-        "/07_soup-of-the-day/07_IMG_17.jpg",
-        "/07_soup-of-the-day/07_IMG_18.jpg",
-        "/07_soup-of-the-day/07_IMG_19.jpg"
+        {
+          "small": "/07_soup-of-the-day/07_IMG_14.jpg",
+          "full": "/07_soup-of-the-day/source/07_IMG_14L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/07_soup-of-the-day/07_IMG_15.jpg",
+          "full": "/07_soup-of-the-day/source/07_IMG_15L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/07_soup-of-the-day/07_IMG_16.jpg",
+          "full": "/07_soup-of-the-day/source/07_IMG_16L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/07_soup-of-the-day/07_IMG_17.jpg",
+          "full": "/07_soup-of-the-day/source/07_IMG_17L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/07_soup-of-the-day/07_IMG_18.jpg",
+          "full": "/07_soup-of-the-day/source/07_IMG_18L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/07_soup-of-the-day/07_IMG_19.jpg",
+          "full": "/07_soup-of-the-day/source/07_IMG_19L.jpg",
+          "descrip": ""
+        }
       ]
     }
   ],
