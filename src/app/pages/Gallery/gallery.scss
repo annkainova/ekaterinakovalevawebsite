@@ -53,6 +53,16 @@
   display: block;
 }
 
+.active {
+  .nav__dot {
+    color: $aсcent;
+  }
+
+  .sections-nav__text {
+    color: $dark;
+  }
+}
+
 .sections-nav {
   margin-top: 128px;
   margin-bottom: -10px;
@@ -121,14 +131,6 @@
   display: inline-block;
   margin-left: 4px;
   padding: 0;
-}
-
-.active-link {
-  color: $dark;
-
-  .accent-dot {
-    color: $aсcent;
-  }
 }
 
 .image-box {
