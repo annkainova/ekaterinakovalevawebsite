@@ -749,10 +749,26 @@
       "paintDescription": [],
       "paintDescription-en": [],
       "imagePaths": [
-        "/08_early-works/08_IMG_01.jpg",
-        "/08_early-works/08_IMG_02.jpg",
-        "/08_early-works/08_IMG_03.jpg",
-        "/08_early-works/08_IMG_04.jpg"
+        {
+          "small": "/08_early-works/08_IMG_01.jpg",
+          "full": "/08_early-works/source/08_IMG_01L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/08_early-works/08_IMG_02.jpg",
+          "full": "/08_early-works/source/08_IMG_02L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/08_early-works/08_IMG_03.jpg",
+          "full": "/08_early-works/source/08_IMG_03L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/08_early-works/08_IMG_04.jpg",
+          "full": "/08_early-works/source/08_IMG_04L.jpg",
+          "descrip": ""
+        }
       ]
     },
     {
@@ -768,9 +784,21 @@
         "“Death of a Bumblebee”, 160 х 130 cm, 1989"
       ],
       "imagePaths": [
-        "/08_early-works/08_IMG_05.jpg",
-        "/08_early-works/08_IMG_06.jpg",
-        "/08_early-works/08_IMG_07.jpg"
+        {
+          "small": "/08_early-works/08_IMG_05.jpg",
+          "full": "/08_early-works/source/08_IMG_05L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/08_early-works/08_IMG_06.jpg",
+          "full": "/08_early-works/source/08_IMG_06L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/08_early-works/08_IMG_07.jpg",
+          "full": "/08_early-works/source/08_IMG_07L.jpg",
+          "descrip": ""
+        }
       ]
     },
     {
@@ -781,11 +809,31 @@
       "paintDescription": [""],
       "paintDescription-en": [""],
       "imagePaths": [
-        "/08_early-works/08_IMG_08.jpg",
-        "/08_early-works/08_IMG_09.jpg",
-        "/08_early-works/08_IMG_10.jpg",
-        "/08_early-works/08_IMG_11.jpg",
-        "/08_early-works/08_IMG_12.jpg"
+        {
+          "small": "/08_early-works/08_IMG_08.jpg",
+          "full": "/08_early-works/source/08_IMG_08L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/08_early-works/08_IMG_09.jpg",
+          "full": "/08_early-works/source/08_IMG_09L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/08_early-works/08_IMG_10.jpg",
+          "full": "/08_early-works/source/08_IMG_10L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/08_early-works/08_IMG_11.jpg",
+          "full": "/08_early-works/source/08_IMG_11L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/08_early-works/08_IMG_12.jpg",
+          "full": "/08_early-works/source/08_IMG_12L.jpg",
+          "descrip": ""
+        }
       ]
     },
     {
@@ -796,10 +844,26 @@
       "paintDescription": [""],
       "paintDescription-en": [""],
       "imagePaths": [
-        "/08_early-works/08_IMG_13.jpg",
-        "/08_early-works/08_IMG_14.jpg",
-        "/08_early-works/08_IMG_15.jpg",
-        "/08_early-works/08_IMG_16.jpg"
+        {
+          "small": "/08_early-works/08_IMG_13.jpg",
+          "full": "/08_early-works/source/08_IMG_13L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/08_early-works/08_IMG_14.jpg",
+          "full": "/08_early-works/source/08_IMG_14L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/08_early-works/08_IMG_15.jpg",
+          "full": "/08_early-works/source/08_IMG_15L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/08_early-works/08_IMG_16.jpg",
+          "full": "/08_early-works/source/08_IMG_16L.jpg",
+          "descrip": ""
+        }
       ]
     },
     {
@@ -810,11 +874,31 @@
       "paintDescription": [""],
       "paintDescription-en": [""],
       "imagePaths": [
-        "/08_early-works/08_IMG_17.jpg",
-        "/08_early-works/08_IMG_18.jpg",
-        "/08_early-works/08_IMG_19.jpg",
-        "/08_early-works/08_IMG_20.jpg",
-        "/08_early-works/08_IMG_21.jpg"
+        {
+          "small": "/08_early-works/08_IMG_17.jpg",
+          "full": "/08_early-works/source/08_IMG_01L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/08_early-works/08_IMG_18.jpg",
+          "full": "/08_early-works/source/08_IMG_18L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/08_early-works/08_IMG_19.jpg",
+          "full": "/08_early-works/source/08_IMG_19L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/08_early-works/08_IMG_20.jpg",
+          "full": "/08_early-works/source/08_IMG_20L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/08_early-works/08_IMG_21.jpg",
+          "full": "/08_early-works/source/08_IMG_21L.jpg",
+          "descrip": ""
+        }
       ]
     }
   ],
