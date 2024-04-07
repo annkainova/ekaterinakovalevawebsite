@@ -251,7 +251,7 @@
   "waiting-zone": [
     {
       "name": "Выставочный проект «Зона ожидания»",
-      "name-en": "",
+      "name-en": "Exhibition project “Waiting area”",
       "description": "Соляной амбар XVIII в., Таруса \nМузей истории ГУЛАГа, Москва\n2023",
       "description-en": "Waiting area - an area of space in which a skydiver must stay under the canopy before landing approach. \n\nKaterina Kovaleva offers this metaphor to reflect on the fragility and unpredictability of human life, on the dependence of fate on the flows of time and historical events. \n\nLike a skydiver, a human being is often in a dramatic and exciting zone of expectation and uncertainty before he chooses his exact landing area",
       "paintDescription": [
@@ -357,12 +357,36 @@
         "The “fingerprints” of a bygone era - letters, forms, notes that form the space of an unchanging landscape, the desire to approach the ever-distant vanishing point, the point where the horizontal and vertical directions of being come together. \n \n The horizon of the sea or the horizon of the field is the “absolute” landscape."
       ],
       "imagePaths": [
-        "/06_horizon-colonization/06_IMG_01.jpg",
-        "/06_horizon-colonization/06_IMG_02.jpg",
-        "/06_horizon-colonization/06_IMG_03.jpg",
-        "/06_horizon-colonization/06_IMG_04.jpg",
-        "/06_horizon-colonization/06_IMG_05.jpg",
-        "/06_horizon-colonization/06_IMG_06.jpg"
+        {
+          "small": "/06_horizon-colonization/06_IMG_01.jpg",
+          "full": "/06_horizon-colonization/source/06_IMG_01L.jpg",
+          "descrip": "110 х 70 см • 1989"
+        },
+        {
+          "small": "/06_horizon-colonization/06_IMG_02.jpg",
+          "full": "/06_horizon-colonization/source/06_IMG_02L.jpg",
+          "descrip": "110 х 70 см • 1989"
+        },
+        {
+          "small": "/06_horizon-colonization/06_IMG_03.jpg",
+          "full": "/06_horizon-colonization/source/06_IMG_03L.jpg",
+          "descrip": "86 х 60 см • 1990"
+        },
+        {
+          "small": "/06_horizon-colonization/06_IMG_04.jpg",
+          "full": "/06_horizon-colonization/source/06_IMG_04L.jpg",
+          "descrip": "80 х 60 см • 1990"
+        },
+        {
+          "small": "/06_horizon-colonization/06_IMG_05.jpg",
+          "full": "/06_horizon-colonization/source/06_IMG_05L.jpg",
+          "descrip": "86 х 60 см • 1990"
+        },
+        {
+          "small": "/06_horizon-colonization/06_IMG_06.jpg",
+          "full": "/06_horizon-colonization/source/06_IMG_06L.jpg",
+          "descrip": "86 х 60 см • 1990"
+        }
       ]
     },
     {
@@ -373,16 +397,56 @@
       "paintDescription": ["Линия горизонта, как метафора постижения Абсолюта."],
       "paintDescription-en": ["The horizon line as a metaphor of comprehension of the Absolute."],
       "imagePaths": [
-        "/06_horizon-colonization/06_IMG_07.jpg",
-        "/06_horizon-colonization/06_IMG_08.jpg",
-        "/06_horizon-colonization/06_IMG_09.jpg",
-        "/06_horizon-colonization/06_IMG_10.jpg",
-        "/06_horizon-colonization/06_IMG_11.jpg",
-        "/06_horizon-colonization/06_IMG_12.jpg",
-        "/06_horizon-colonization/06_IMG_13.jpg",
-        "/06_horizon-colonization/06_IMG_14.jpg",
-        "/06_horizon-colonization/06_IMG_15.jpg",
-        "/06_horizon-colonization/06_IMG_16.jpg"
+        {
+          "small": "/06_horizon-colonization/06_IMG_07.jpg",
+          "full": "/06_horizon-colonization/source/06_IMG_07L.jpg",
+          "descrip": "90 х 60 см • 1991"
+        },
+        {
+          "small": "/06_horizon-colonization/06_IMG_08.jpg",
+          "full": "/06_horizon-colonization/source/06_IMG_08L.jpg",
+          "descrip": "72 х 55 см • 1991"
+        },
+        {
+          "small": "/06_horizon-colonization/06_IMG_09.jpg",
+          "full": "/06_horizon-colonization/source/06_IMG_09L.jpg",
+          "descrip": "90 х 60 см • 1991"
+        },
+        {
+          "small": "/06_horizon-colonization/06_IMG_10.jpg",
+          "full": "/06_horizon-colonization/source/06_IMG_10L.jpg",
+          "descrip": "90 х 60 см • 1991"
+        },
+        {
+          "small": "/06_horizon-colonization/06_IMG_11.jpg",
+          "full": "/06_horizon-colonization/source/06_IMG_11L.jpg",
+          "descrip": "90 х 60 см • 1991"
+        },
+        {
+          "small": "/06_horizon-colonization/06_IMG_12.jpg",
+          "full": "/06_horizon-colonization/source/06_IMG_12L.jpg",
+          "descrip": "93 х 67 см • 1991"
+        },
+        {
+          "small": "/06_horizon-colonization/06_IMG_13.jpg",
+          "full": "/06_horizon-colonization/source/06_IMG_13L.jpg",
+          "descrip": "200 х 160 см • 1991"
+        },
+        {
+          "small": "/06_horizon-colonization/06_IMG_14.jpg",
+          "full": "/06_horizon-colonization/source/06_IMG_14L.jpg",
+          "descrip": "150 х 100 см • 1991"
+        },
+        {
+          "small": "/06_horizon-colonization/06_IMG_15.jpg",
+          "full": "/06_horizon-colonization/source/06_IMG_15L.jpg",
+          "descrip": "150 х 100 см • 1991"
+        },
+        {
+          "small": "/06_horizon-colonization/06_IMG_16.jpg",
+          "full": "/06_horizon-colonization/source/06_IMG_16L.jpg",
+          "descrip": "60 х 90 см • 1991"
+        }
       ]
     },
     {
@@ -397,10 +461,26 @@
         "This eternal landscape is shaped by the marks left by someone's hand, which become a kind of sacred relics. These are <span class='bold'>memo-monuments</span>"
       ],
       "imagePaths": [
-        "/06_horizon-colonization/06_IMG_17.jpg",
-        "/06_horizon-colonization/06_IMG_18.jpg",
-        "/06_horizon-colonization/06_IMG_19.jpg",
-        "/06_horizon-colonization/06_IMG_20.jpg"
+        {
+          "small": "/06_horizon-colonization/06_IMG_17.jpg",
+          "full": "/06_horizon-colonization/source/06_IMG_17L.jpg",
+          "descrip": "65 х 51 см • 1992"
+        },
+        {
+          "small": "/06_horizon-colonization/06_IMG_18.jpg",
+          "full": "/06_horizon-colonization/source/06_IMG_18L.jpg",
+          "descrip": "65 х 51 см • 1992"
+        },
+        {
+          "small": "/06_horizon-colonization/06_IMG_19.jpg",
+          "full": "/06_horizon-colonization/source/06_IMG_19L.jpg",
+          "descrip": "86 х 60 см • 1993"
+        },
+        {
+          "small": "/06_horizon-colonization/06_IMG_20.jpg",
+          "full": "/06_horizon-colonization/source/06_IMG_20L.jpg",
+          "descrip": "86 х 60 см • 1993"
+        }
       ]
     }
   ],
