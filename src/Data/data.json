@@ -1,8 +1,8 @@
 {
   "empty": [
     {
-      "name": "<span class='bold'> “памятного”</span>",
-      "name-en": "“",
+     "name": "<span class='bold'> «памятного”</span>",
+      "name-en": "“”«»",
       "description": "",
       "description-en": "",
       "paintDescription": [""],
@@ -12,7 +12,7 @@
   ],
   "maps": [
     {
-      "name": "Серия “Карта Мира”",
+      "name": "Серия «Карта Мира»",
       "name-en": "The “Map of the World” series",
       "description": "Советские карты, смешанная техника\n1992-1998",
       "description-en": "Soviet maps, mixed technique\n1992-1998",
@@ -47,7 +47,7 @@
       "description": "",
       "description-en": "",
       "paintDescription": [
-        "Географические бумажные карты относятся к предметам уходящей эпохи и заслуживают особого <span class='bold'>“памятного”</span> отношения. \n \nСквозь карты  <span class='bold'>“процветают”</span> розы."
+        "Географические бумажные карты относятся к предметам уходящей эпохи и заслуживают особого <span class='bold'>«памятного»</span> отношения. \n \nСквозь карты  <span class='bold'>«процветают»</span> розы."
       ],
       "paintDescription-en": [
         "Geographical paper maps are among the items of a bygone era and deserve special <span class='bold'>“commemorative”</span> treatment. Through maps, roses <span class='bold'>“thrive”</span>"
@@ -136,7 +136,7 @@
   ],
   "waiting-zone": [
     {
-      "name": "Выставочный проект “Зона ожидания”",
+      "name": "Выставочный проект «Зона ожидания»",
       "name-en": "",
       "description": "Соляной амбар XVIII в., Таруса \nМузей истории ГУЛАГа, Москва\n2023",
       "description-en": "Waiting area - an area of space in which a skydiver must stay under the canopy before landing approach. \n\nKaterina Kovaleva offers this metaphor to reflect on the fragility and unpredictability of human life, on the dependence of fate on the flows of time and historical events. \n\nLike a skydiver, a human being is often in a dramatic and exciting zone of expectation and uncertainty before he chooses his exact landing area",
@@ -170,7 +170,7 @@
     {
       "name": "",
       "name-en": "",
-      "description": "В рисунках на парашютах я использовала аллегорические сцены из фресок Тьеполо и Риччи, фантастические небеса, населенные божествами. Идея заключалась в преобразовании купола парашюта в купол переносного неба.\n\nСвод парашюта, как <span class='bold'>переносное небо</span>, как обнадёживающий потолок, как расписное «небо» старой русской церкви или плафон венецианского палаццо, как благословенная сень, хупа, в странствиях по юдоли, по пути к Месту, становится моделью космоса, заключённого в рамки реального пространства, которое стремится создать эффект присутствия “небес на земле”.",
+      "description": "В рисунках на парашютах я использовала аллегорические сцены из фресок Тьеполо и Риччи, фантастические небеса, населенные божествами. Идея заключалась в преобразовании купола парашюта в купол переносного неба.\n\nСвод парашюта, как <span class='bold'>переносное небо</span>, как обнадёживающий потолок, как расписное «небо» старой русской церкви или плафон венецианского палаццо, как благословенная сень, хупа, в странствиях по юдоли, по пути к Месту, становится моделью космоса, заключённого в рамки реального пространства, которое стремится создать эффект присутствия «небес на земле».",
       "description-en": "“I used allegorical scenes from Tiepolo's and Ricci's frescoes, fantasy skies inhabited by deities, in my parachute drawings. The idea was to transform the canopy of the parachute into the dome of a portable sky.\n \nThe canopy of the parachute, as a portable sky, as a reassuring ceiling, as a painted «heaven» of an old Russian church or a plafond of a Venetian palazzo, as a blessed shade, a hupa, on the wanderings of the world, on the way to the Place, becomes a model of the cosmos enclosed in the framework of real space, which seeks to create the effect of the presence of “heaven on earth.”",
       "paintDescription": [],
       "paintDescription-en": [],
@@ -190,8 +190,8 @@
     {
       "name": "",
       "name-en": "",
-      "description": "В этом проекте мне хотелось приблизиться к узнаванию главных свойств человеческой души,\n\n <span class='bold'>— память, созерцание, ожидание,</span>\n\n с помощью которых, по определению Блаженного Августина, познаются различные модусы времени, приблизиться к узнаванию Настоящего, которое определяется, как настоящее прошлое, настоящее настоящее, настоящее будущее.\n\n  Есть ли в вечности Ожидание?",
-      "description-en": "",
+      "description": "В этом проекте мне хотелось приблизиться к узнаванию главных свойств человеческой души,\n\n <span class='bold'>— память, созерцание, ожидание,</span>\n\n с помощью которых, по определению Блаженного Августина, познаются различные модусы времени, приблизиться к узнаванию Настоящего, которое определяется, как настоящее прошлое, настоящее настоящее, настоящее будущее.\n\nЕсть ли в вечности Ожидание?",
+      "description-en": "In this project I wanted to get closer to recognizing the main properties of the human soul\n\n <span class='bold'- memory, contemplation, expectation,</span>\n\n with the help of which, according to the definition of Blessed Augustine, the different moduses of time are cognized, to get closer to recognizing the Present, which is defined as the present past, present present, present future.\n\nIs there in eternity a Waiting?",
       "paintDescription": [""],
       "paintDescription-en": [""],
       "imagePaths": [
@@ -215,7 +215,7 @@
       "name": "",
       "name-en": "",
       "description": "<span class='bold'>Объект-памятник</span> «Неотправленные и неполученные письма» — это стопки писем из мрамора, размещённые на табуретках или старых торговых весах.",
-      "description-en": "",
+      "description-en": "<span class='bold'>Monument Object</span> “Unsent and Unreceived Letters” are stacks of marble letters placed on stools or old trade scales",
       "paintDescription": [
         "Ожидание письма, весточки, обратной связи одна из самых интенсивных эмоций ожидания."
       ],
@@ -232,12 +232,12 @@
   ],
   "horizon-colonization": [
     {
-      "name": "Серия “Колонизация горизонта”",
+      "name": "Серия «Колонизация горизонта»",
       "name-en": "“Horizon Colonization” series",
       "description": "Коллаж, смешанная техника \n1989–1993",
       "description-en": "Collage, mixed technique \n1989–1993",
       "paintDescription": [
-        "“Отпечатки пальцев” уходящей эпохи — письма, бланки, записки, формирующие пространство неизменного пейзажа стремление приблизиться к постоянно удаляющейся точке схода, точке, где соединяются горизонтальное и вертикальное направления бытия. \n \n Морской горизонт или горизонт поля — “абсолютный” пейзаж."
+        "«Отпечатки пальцев» уходящей эпохи — письма, бланки, записки, формирующие пространство неизменного пейзажа стремление приблизиться к постоянно удаляющейся точке схода, точке, где соединяются горизонтальное и вертикальное направления бытия. \n \n Морской горизонт или горизонт поля — «абсолютный» пейзаж."
       ],
       "paintDescription-en": [
         "The “fingerprints” of a bygone era - letters, forms, notes that form the space of an unchanging landscape, the desire to approach the ever-distant vanishing point, the point where the horizontal and vertical directions of being come together. \n \n The horizon of the sea or the horizon of the field is the “absolute” landscape."
@@ -292,7 +292,7 @@
   ],
   "artworks": [
     {
-      "name": "Серия “Базис”",
+      "name": "Серия «Базис»",
       "name-en": "“Basis” series",
       "description": "Бумага, карандаш\n84 х 119 см\n1990–1991",
       "description-en": "Paper, pencil\n84 x 119 cm\n1990-1991",
@@ -314,7 +314,7 @@
       ]
     },
     {
-      "name": "Серия “Пылесосы в пейзаже”",
+      "name": "Серия «Пылесосы в пейзаже»",
       "name-en": "“The Vacuum Cleaners in the Landscape” series",
       "description": "Бумага, карандаш, акварель\n30 х 21 см\n1992",
       "description-en": "Paper, pencil, watercolor\n30 x 21 cm\n1992",
@@ -396,12 +396,12 @@
   ],
   "early-works": [
     {
-      "name": "Серия “Физкультура женщины” \n ",
+      "name": "Серия «Физкультура женщины» \n ",
       "name-en": "“Women's Physical Education” series",
       "description": "Бумага, карандаш \n 60 х 80 см \n1987",
       "description-en": "Paper, pencil \n 60 х 80 cm \n1987",
       "paintDescription": [],
-      "paintDescription-en": ["60 х 80 cm", "60 х 80 cm", "60 х 80 cm", "60 х 80 cm"],
+      "paintDescription-en": [],
       "imagePaths": [
         "/08_early-works/08_IMG_01.jpg",
         "/08_early-works/08_IMG_02.jpg",
@@ -415,7 +415,7 @@
       "description": "Бумага, карандаш, акварель, коллаж\n160 х 120 см\n1988",
       "description-en": "Paper, pencil, watercolor, collage \n160 х 120 cm \n1988",
       "paintDescription": [
-        "<span class='bold'>“Волна №2”</span>, 160 х 120 cm, 1988 \n\n<span class='bold'>“Смерть шмеля”</span>, 160 х 130 cm, 1989"
+        "<span class='bold'>«Волна №2»</span>, 160 х 120 cm, 1988 \n\n<span class='bold'>«Смерть шмеля»</span>, 160 х 130 cm, 1989"
       ],
       "paintDescription-en": [
         "“Wave №2”, 160 х 120 cm, 1988",
@@ -428,7 +428,7 @@
       ]
     },
     {
-      "name": "Серия “Братья и сёстры”",
+      "name": "Серия «Братья и сёстры»",
       "name-en": "The  “Brothers and Sisters” series",
       "description": "Бумага, карандаш, акварель, коллаж \n160 х 120 см\n1988",
       "description-en": "Paper, pencil, watercolor, collage \n160 х 120 cm\n1988",
@@ -443,10 +443,10 @@
       ]
     },
     {
-      "name": "“Ритуалы”",
+      "name": "«Ритуалы»",
       "name-en": "“Rituals”",
-      "description": "Советско-французская видео-акция \n \nЛетом 1989 года французским TV каналом “Antenne 2” был снят фильм о взаимодействии музыкантов и художников, в контексте путешествия по Северной Двине, от Архангельска до Котласа. \n \nДве французские художницы и танцовщица, джазовое трио “Три О”, а также Катерина Ковалева, находясь в труднодоступных и малонаселенных областях Русского Севера, осуществляли первые попытки освоения жанра Лэнд-арт.\n \nКатерина Ковалева экспериментировала на тему границы, проводя <span class='bold'>линию горизонта</span> в разных ландшафтных условиях. На берегу реки, на скалах, на песке, в лесу и в городе.",
-      "description-en": "Soviet-French video action \n \nIn the summer of 1989, the French TV channel “Antenne 2” made a film about the interaction between musicians and artists, in the context of a trip along the Northern Dvina River, from Arkhangelsk to Kotlas. \n \nTwo French artists and dancers, jazz trio 'Three O's' and Katerina Kovaleva, in the remote and sparsely populated areas of the Russian North, made the first attempts to master the genre of Land Art.\n \nKaterina Kovaleva experimented with the theme of the border, drawing the horizon line in different landscape conditions. On the river bank, on rocks, on sand, in the forest and in the city.",
+      "description": "Советско-французская видео-акция \n \nЛетом 1989 года французским TV каналом «Antenne 2» был снят фильм о взаимодействии музыкантов и художников, в контексте путешествия по Северной Двине, от Архангельска до Котласа. \n \nДве французские художницы и танцовщица, джазовое трио «Три О», а также Катерина Ковалева, находясь в труднодоступных и малонаселенных областях Русского Севера, осуществляли первые попытки освоения жанра Лэнд-арт.\n \nКатерина Ковалева экспериментировала на тему границы, проводя <span class='bold'>линию горизонта</span> в разных ландшафтных условиях. На берегу реки, на скалах, на песке, в лесу и в городе.",
+      "description-en": "Soviet-French video action \n \nIn the summer of 1989, the French TV channel “Antenne 2” made a film about the interaction between musicians and artists, in the context of a trip along the Northern Dvina River, from Arkhangelsk to Kotlas. \n \nTwo French artists and dancers, jazz trio “Three O's” and Katerina Kovaleva, in the remote and sparsely populated areas of the Russian North, made the first attempts to master the genre of Land Art.\n \nKaterina Kovaleva experimented with the theme of the border, drawing the horizon line in different landscape conditions. On the river bank, on rocks, on sand, in the forest and in the city.",
       "paintDescription": [""],
       "paintDescription-en": [""],
       "imagePaths": [
@@ -474,9 +474,9 @@
   ],
   "antarctic-diary": [
     {
-      "name": "“Антарктический дневник”",
+      "name": "«Антарктический дневник»",
       "name-en": "“Antarctic Diary”",
-      "description": "В марте 2017 года мне посчастливилось побывать в Антарктиде в составе участников <span class='bold'> Антарктической Биеннале</span>, вдохновителем и организатором которой был <span class='bold'>Александр Пономарёв</span>, замечательный российский художник-мореплаватель. \n \nНа борту научного судна “Сергей Вавилов” собрались художники из разных стран, подготовившие специально для этой арт-экспедиции свои проекты. \n \nНаверное, я была среди них, представителей современного искусства, самым старомодным художником-натуралистом. \n \nМоя задача состояла в том, чтобы вести “антарктический дневник” — <span class='bold'>зарисовывать ежедневно</span> всё, что происходило вокруг.",
+      "description": "В марте 2017 года мне посчастливилось побывать в Антарктиде в составе участников <span class='bold'> Антарктической Биеннале</span>, вдохновителем и организатором которой был <span class='bold'>Александр Пономарёв</span>, замечательный российский художник-мореплаватель. \n \nНа борту научного судна «Сергей Вавилов» собрались художники из разных стран, подготовившие специально для этой арт-экспедиции свои проекты. \n \nНаверное, я была среди них, представителей современного искусства, самым старомодным художником-натуралистом. \n \nМоя задача состояла в том, чтобы вести «антарктический дневник» — <span class='bold'>зарисовывать ежедневно</span> всё, что происходило вокруг.",
       "description-en": "In March 2017, I was lucky enough to visit Antarctica as a member of the <span class='bold'>Antarctic Biennale</span>, which was inspired and organized by <span class='bold'>Alexander Ponomaryov</span>, a remarkable Russian marine artist.\n \nOn board the research vessel “Sergey Vavilov”, artists from different countries gathered together and prepared their projects specially for this art expedition.\n \nI was probably the most old-fashioned naturalist among them, representatives of contemporary art.\n \nMy job was to keep an “Antarctic diary” - to sketch everything that happened around me <span class='bold'>on a daily basis.</span>",
       "paintDescription": [""],
       "paintDescription-en": [""],
@@ -490,7 +490,7 @@
     {
       "name": "",
       "name-en": "",
-      "description": "Мой день начинался с натурного рисования — фиксирования первых лучей рассвета в иллюминаторе, первых минут нового дня. \n \nНе всегда это было что-то захватывающее: иногда я зарисовывала туман или однообразную линию горизонта, ничего эффектного. \n \nНо в ежедневном повторении, в этом “утреннем правиле”, в рутинном художественном жесте мне виделась необходимость <span class='bold'>фиксации значительности</span> и неповторимости <span class='bold'>каждого дня</span>.",
+      "description": "Мой день начинался с натурного рисования — фиксирования первых лучей рассвета в иллюминаторе, первых минут нового дня. \n \nНе всегда это было что-то захватывающее: иногда я зарисовывала туман или однообразную линию горизонта, ничего эффектного. \n \nНо в ежедневном повторении, в этом «утреннем правиле», в рутинном художественном жесте мне виделась необходимость <span class='bold'>фиксации значительности</span> и неповторимости <span class='bold'>каждого дня</span>.",
       "description-en": "My day began with a nature drawing - capturing the first rays of dawn in the porthole, the first minutes of a new day.\n \n It wasn't always exciting: sometimes I sketched fog or a monotonous horizon line, nothing spectacular. \n \nBut in the daily repetition, in this “morning rule”, in this routine artistic gesture, I saw the need <span class='bold'>to capture the significance</span> and uniqueness of <span class='bold'>each day</span>.",
       "paintDescription": [""],
       "paintDescription-en": [""],
@@ -504,7 +504,6 @@
     {
       "name": "",
       "name-en": "",
-
       "description": "Я работаю акварелью. Движения кисти минимальны, как и присутствие цвета. Нужно <span class='bold'>быть сдержанным</span>, по-другому здесь невозможно. \n \nАнтарктическая вода, смешиваясь с акварелью, остается на бумаге, запечатлевая какие-то, пока неизвестные мне, смыслы.",
       "description-en": "I work in watercolor. Brush movements are minimal, as is the presence of color. <span class='bold'>You have to be restrained</span>, there is no other way. \n \nAntarctic water, mixed with watercolor, remains on the paper, imprinting some meanings that are still unknown to me.",
       "paintDescription": [""],
@@ -548,7 +547,7 @@
   ],
   "notebooks": [
     {
-      "name": "Серия “Обои”",
+      "name": "Серия «Обои»",
       "name-en": "Series “Wallpaper”",
       "description": "Старые обои, коллаж, смешанная техника\n90 х 60 см\n1992",
       "description-en": "Old wallpaper, collage, mixed technique\n90 х 60 cm\n1992",
@@ -561,7 +560,7 @@
       ]
     },
     {
-      "name": "Серия “Коврики”",
+      "name": "Серия «Коврики»",
       "name-en": "Series “Mats”",
       "description": "Электрические схемы, миллиметровка, смешанная техника\n1993",
       "description-en": "Electrical circuits, plotting paper, mixed technique\n1993",
@@ -577,7 +576,7 @@
       ]
     },
     {
-      "name": "Серия “Отчётный доклад Хрущёва”",
+      "name": "Серия «Отчётный доклад Хрущёва»",
       "name-en": "“The Khrushchev Report” series",
       "description": "Акварель\n30 х 20 см\n1996",
       "description-en": "Watercolorn\n30 х 20 cm\n1996",
@@ -615,7 +614,7 @@
       ]
     },
     {
-      "name": "Серия “Передачи заключенному”",
+      "name": "Серия «Передачи заключенному»",
       "name-en": "The  “Transfers to Prisoner” series",
       "description": "Коллаж, смешанная техника\n21 х 30 см\n2000 год",
       "description-en": "Collage, mixed technique\n21 х 30 cm\n2000 год",
@@ -633,9 +632,9 @@
   ],
   "memorial-objects": [
     {
-      "name": "“Что касается объектов или скульптур, выполненных в камне, это памятники-<span class='bold'>надгробия</span> событий или понятий.\n \nПервые такие объекты были сделаны для моей персональной выставки, посвященной снегу.",
-      "name-en": "“As for the objects or sculptures made in stone, they are monuments-<span class='bold'>tombstones</span> of events or concepts.\n \nThe first such objects were made for my solo exhibition dedicated to snow“",
-      "description": "Мне хотелось <span class='bold'>увековечить</span> самое <span class='bold'>эфемерное</span>: снег, снежок. Так появились памятник снеговику или надгробие “Здесь лежат останки снеговика”, памятник “Загадочная русская душа” и другие. \n \n \n \nНа камне всегда есть надпись на латыни, отсылающая зрителя к древнеримским надгробиям, подчеркивающая универсальность <span class='bold'>“идеи вечной памяти”</span>.\n \n \n \n— Катерина Ковалёва",
+      "name": "«Что касается объектов или скульптур, выполненных в камне, это памятники-<span class='bold'>надгробия</span> событий или понятий.\n \nПервые такие объекты были сделаны для моей персональной выставки, посвященной снегу.",
+      "name-en": "“As for the objects or sculptures made in stone, they are monuments-<span class='bold'>tombstones</span> of events or concepts.\n \nThe first such objects were made for my solo exhibition dedicated to snow”",
+      "description": "Мне хотелось <span class='bold'>увековечить</span> самое <span class='bold'>эфемерное</span>: снег, снежок. Так появились памятник снеговику или надгробие «Здесь лежат останки снеговика», памятник «Загадочная русская душа» и другие. \n \n \n \nНа камне всегда есть надпись на латыни, отсылающая зрителя к древнеримским надгробиям, подчеркивающая универсальность <span class='bold'>«идеи вечной памяти»</span>.\n \n \n \n— Катерина Ковалёва",
       "description-en": "I wanted to <span class='bold'>immortalize</span> the most <span class='bold'>ephemeral</span>: snow, snowball. This is how the monument to the snowman or the tombstone “Here lie the remains of a snowman”, the monument “The mysterious Russian soul” and others came into being. \n \n \n \nThe stone always has an inscription in Latin, referring the viewer to the ancient Roman tombstones, emphasizing the universality of the <span class='bold'>“idea of eternal memory”</span>. \n \n \n \n— Katerina Kovaleva",
       "paintDescription": [""],
       "paintDescription-en": [""],
@@ -664,12 +663,12 @@
         "/10_memorial objects/block-2/10_IMG_12.jpg",
         "/10_memorial objects/block-2/10_IMG_13.jpg",
         "/10_memorial objects/block-2/10_IMG_14.jpg"
-      ]
+        ]
     },
     {
       "name": "",
       "name-en": "",
-      "description": "...Кому уподоблю нашего Незабвенного? Будет ли дерзновением сравнить его с великим Осирисом, растерзанным, умершим и воскресшим, владычествующим над вечностью и несущим жизнь через эту великую метаморфозу. Нимало. Он и есть наш северный Осирис.\n \nПосему и его, нашего Незабвенного, мы призываем подобно древним египтянам, искушенным в тайнах жизни и смерти:\n \n«Хотя ты уходил, да придёшь ты!\n \nХотя ты спал, да проснешься ты!\n \nХотя ты умер, да оживёшь ты!\n \nВстань!..»\n \nВосстань с приходом целительного снега, восстань через забвение и умерщвление, <span class='bold'>восстань под чистый лепет жизни!</span>”",
+      "description": "...Кому уподоблю нашего Незабвенного? Будет ли дерзновением сравнить его с великим Осирисом, растерзанным, умершим и воскресшим, владычествующим над вечностью и несущим жизнь через эту великую метаморфозу. Нимало. Он и есть наш северный Осирис.\n \nПосему и его, нашего Незабвенного, мы призываем подобно древним египтянам, искушенным в тайнах жизни и смерти:\n \n«Хотя ты уходил, да придёшь ты!\n \nХотя ты спал, да проснешься ты!\n \nХотя ты умер, да оживёшь ты!\n \nВстань!..»\n \nВосстань с приходом целительного снега, восстань через забвение и умерщвление, <span class='bold'>восстань под чистый лепет жизни!</span>»",
       "description-en": "...To whom shall I liken our Unforgettable One? Would it be audacity to compare him to the great Osiris, torn, dead and risen, ruling over eternity and bringing life through this great metamorphosis. Not in the least. He is our northern Osiris. \n \nTherefore, we also call upon him, our Unforgettable One, like the ancient Egyptians who were adept in the mysteries of life and death:\n \n«Though you went away, may you come!\n \nThough you slept, may you awake!\n \nThough thou art dead, thou shalt be revived!\n \nArise!...»\n \nArise with the coming of the healing snow, arise through oblivion and mortification, arise to the pure babble of life!”",
       "paintDescription": [""],
       "paintDescription-en": [""],
@@ -688,6 +687,130 @@
         "/10_memorial objects/block-3/10_IMG_26.jpg",
         "/10_memorial objects/block-3/10_IMG_27.jpg"
       ]
+    }
+  ],
+  "right-to-rest": [
+    {
+      "name": "<span class='bold'>Выставочный проект\n«История болезни. Право на отдых»</span>",
+      "name-en": "Exhibition project\n “Medical History. The Right to Rest”",
+      "description": "Государственный музейно-выставочный центр РОСФОТО, Санкт-Петербург, 2021 \n\n«Эта история началась, когда я впервые попала в заброшенный санаторий «Грузия» в Гагре. \n\n Масштабный белый дворец здравоохранения, построенный по канонам позднего сталинского ампира, расположен высоко над морем и хорошо виден с дороги.",
+      "description-en": "State Museum and Exhibition Center ROSPHOTO, St. Petersburg, 2021\n\n“This story began when I first got to the abandoned sanatorium “Gruziya” in Gagra. \n\nThe large-scale white health palace, built according to the canons of late Stalinist Empire, sits high above the sea and is clearly visible from the road.",
+      "paintDescription": [""],
+      "paintDescription-en": [""],
+      "imagePaths": [
+        "/11_right-to-rest/11_IMG_01.jpg",
+        "/11_right-to-rest/11_IMG_02.jpg",
+        "/11_right-to-rest/11_IMG_03.jpg",
+        "/11_right-to-rest/11_IMG_04.jpg",
+        "/11_right-to-rest/11_IMG_05.jpg"
+      ]
+    },
+    {
+      "name": "",
+      "name-en": "",
+      "description": "Когда-то, больше 30 лет назад, здесь бурлила санаторная жизнь, о которой свидетельствуют разбросанные в коридорах и на парадной мраморной лестнице истории болезни, из которых выпадают выцветшие <span class='bold'>розовые свитки кардиограмм</span> с чьим-то застывшим ритмом сердца.\n\n В середине 30-х, на фоне индустриализации, коллективизации, голода, террора, советские граждане получили <span class='bold'>право на отдых</span>. В Советском Союзе начали развиваться курорты.",
+      "description-en": "Once upon a time, more than 30 years ago, the sanatorium life was booming here, as evidenced by the medical records scattered in the corridors and on the grand marble staircase, from which faded <span class='bold'>pink scrolls of cardiograms</span> with someone's frozen heart rhythm fall out.\n\nIn the mid-1930s, amid industrialization, collectivization, famine, and terror, Soviet citizens gained the <span class='bold'>right to rest</span>. The Soviet Union began to develop resorts.",
+      "paintDescription": [""],
+      "paintDescription-en": [""],
+      "imagePaths": [
+        "/11_right-to-rest/11_IMG_06.jpg",
+        "/11_right-to-rest/11_IMG_07.jpg",
+        "/11_right-to-rest/11_IMG_08.jpg",
+        "/11_right-to-rest/11_IMG_09.jpg",
+        "/11_right-to-rest/11_IMG_10.jpg"
+      ]
+    },
+    {
+      "name": "",
+      "name-en": "",
+      "description": "В своем проекте я пытаюсь приблизиться к универсальным темам: болезнь/отдых, жизнь/смерть — и особенно к теме посмертия цивилизации.» \n\n\n— Катерина Ковалёва \n\nБольшую часть проекта составляют архивные курортные фотографии, снятые на черноморском побережье Кавказа в период с 1930-х по 1980-е.\n\nОни представлены как в оригинальном виде, так и в «обработанном», в виде холстов и графических листов под названием <span class='bold'>«Текущие наблюдения».</span>",
+      "description-en": "In my project, I try to approach universal themes: <span class='bold'>sickness/rest, life/death</span> - and especially the theme of civilization's postmortem.” \n\n\n— Katerina Kovaleva \n\nThe bulk of the project consists of archival resort photographs taken on the Black Sea coast of the Caucasus between the 1930s and 1980s. They are presented both in their original form and in “processed” form, in the form of canvases and graphic sheets under the title <span class='bold'>“Current Observations”</span>. ",
+      "paintDescription": [""],
+      "paintDescription-en": [""],
+      "imagePaths": [
+        "/11_right-to-rest/11_IMG_11.jpg",
+        "/11_right-to-rest/11_IMG_12.jpg",
+        "/11_right-to-rest/11_IMG_13.jpg",
+        "/11_right-to-rest/11_IMG_14.jpg",
+        "/11_right-to-rest/11_IMG_15.jpg",
+        "/11_right-to-rest/11_IMG_16.jpg",
+        "/11_right-to-rest/11_IMG_17.jpg"
+      ]
+    },
+    {
+      "name": "",
+      "name-en": "",
+      "description": "<span class='bold'>«Кардиограмма гор»</span> — серия рисунков на бланках из процедурного кабинета, поверх различных таблиц и медкарт, коллажей из найденных курортных «бумажек».\n\nПопытка через вскрытие культурных слоев обнаружить вневременной слой ритмической основы жизни.",
+      "description-en": "“Cardiogram of the Mountains”- a series of drawings on forms from the treatment room, on top of various tables and medical charts, collages from found spa “papers” \n\nAn attempt through the dissection of cultural layers to discover a timeless layer of the rhythmic basis of life.",
+      "paintDescription": [""],
+      "paintDescription-en": [""],
+      "imagePaths": [
+        "/11_right-to-rest/11_IMG_18.jpg",
+        "/11_right-to-rest/11_IMG_19.jpg",
+        "/11_right-to-rest/11_IMG_20.jpg",
+        "/11_right-to-rest/11_IMG_21.jpg",
+        "/11_right-to-rest/11_IMG_22.jpg"
+      ]
+    },
+    {
+      "name": "",
+      "name-en": "",
+      "description": "В экспозицию включены <span class='bold'>«Вещдоки»</span> — предметы курортного обихода тех лет, одежда, купальники, сувениры, гербарий и другие личные вещи.",
+      "description-en": "The exposition includes <span class='bold'>“Evidence”</span> - resort household items of those years, clothes, bathing suits, souvenirs, herbarium and other personal belongings.",
+      "paintDescription": [""],
+      "paintDescription-en": [""],
+      "imagePaths": [ 
+      "/11_right-to-rest/11_IMG_23.jpg",
+      "/11_right-to-rest/11_IMG_24.jpg",
+      "/11_right-to-rest/11_IMG_25.jpg",
+      "/11_right-to-rest/11_IMG_26.jpg",
+      "/11_right-to-rest/11_IMG_27.jpg",
+      "/11_right-to-rest/11_IMG_28.jpg"
+    ]
+    },
+    {
+      "name": "",
+      "name-en": "",
+      "description": "«Выход за пределы повседневности и истории, встреча со своим болезненным, смертным телом, густая тень кошмара государственных преступлений, депортаций и казней — этот мерцающий второй план санаторского рая объясняет то <span class='bold'>колоссальное экзистенциальное напряжение</span>, которое открывает в тепле курортных артефактов выставка Катерины Ковалевой. Ее оптика сфокусирована не на ностальгическом обаянии, но на амбивалентной метафизике мира советского санатория, места, где можно примерить <span class='bold'>жизнь за пределами жизни</span>, посмертное существование».\n\n— Андрей Курилкин",
+      "description-en": "“Going beyond the limits of everyday life and history, meeting with one's own painful, mortal body, the thick shadow of the nightmare of state crimes, deportations and executions - this shimmering second plane of sanatorium paradise explains the colossal existential tension that Katerina Kovaleva's exhibition reveals in the warmth of spa artifacts. Her optics focus not on nostalgic charm, but on the ambivalent metaphysics of the world of the Soviet sanatorium, a place where one can try on life beyond life, a posthumous existence”.\n\n— Andrei Kurilkin",
+      "paintDescription": [""],
+      "paintDescription-en": [""],
+      "imagePaths": [
+      "/11_right-to-rest/11_IMG_29.jpg",
+      "/11_right-to-rest/11_IMG_30.jpg",
+      "/11_right-to-rest/11_IMG_31.jpg",
+      "/11_right-to-rest/11_IMG_32.jpg",
+      "/11_right-to-rest/11_IMG_33.jpg",
+      "/11_right-to-rest/11_IMG_34.jpg",
+      "/11_right-to-rest/11_IMG_35.jpg",
+      "/11_right-to-rest/11_IMG_36.jpg",
+      "/11_right-to-rest/11_IMG_37.jpg"
+    ]
+    },
+    {
+      "name": "",
+      "name-en": "",
+      "description": "Большие круглые холсты, поддерживают вечную тему круга, которая появляется и в объектах «Шарики мороженого» и «Бильярдные шары». Здесь и мраморный вазон в стиле сталинского ампира, наполненный мраморными бильярдными шарами, и бронзовая «вазочка» с мраморным мороженым. \n\n\n\n\n «Уникальная в глубоко личной обнаженности, в незащищенности от взгляда события, творческая позиция Кати Ковалевой диктуется обратной перспективой. \n\nХудожница находится в предстоянии перед этой фантастической реальностью, которая обрушивается на нее, заставляя принять себя в беспощадно творческом откровении. В ее образности утверждаются особые признаки русской культуры, они окрашивают ее в самые актуальные уровни, формируя постисторию в единую структуру как феномен художественного сознания, как коэффициент «Черного квадрата» Казимира Малевича. \n\nВ этом случае русский постмодернизм обретает собственную уникальную природу, объявляя в своих образах, по словам Жана-Франсуа Лиотара, «не конец модернизма, но модернизм в состоянии зарождения, и это состояние постоянно».",
+      "description-en": "Large round canvases, support the eternal theme of the circle, which also appears in the objects “Ice Cream Balls” and “Billiard Balls”. There is a marble vase in the Stalin Empire style filled with marble billiard balls and a bronze “vase” with marble ice cream.\n\n\n\nUnique in its deeply personal nudity, in its vulnerability to the gaze of the event, Katya Kovaleva's creative position is dictated by the reverse perspective. \n\nThe artist is in facing this fantastic reality that descends upon her, forcing her to accept herself in a ruthlessly creative revelation. Her imagery asserts the special features of Russian culture, they color it in the most actual levels, forming posthistory into a single structure as a phenomenon of artistic consciousness, as a quotient of Kazimir Malevich's “Black Square”.\n\nIn this case, Russian postmodernism acquires its own unique nature, declaring in its images, in the words of Jean-François Lyotard, “not the end of modernism, but modernism in a state of emergence, and this state is constant”",
+      "paintDescription": [""],
+      "paintDescription-en": [""],
+      "imagePaths": [
+      "/11_right-to-rest/11_IMG_38.jpg",
+      "/11_right-to-rest/11_IMG_39.jpg",
+      "/11_right-to-rest/11_IMG_40.jpg",
+      "/11_right-to-rest/11_IMG_41.jpg",
+      "/11_right-to-rest/11_IMG_42.jpg",
+      "/11_right-to-rest/11_IMG_43.jpg",
+      "/11_right-to-rest/11_IMG_44.jpg",
+      "/11_right-to-rest/11_IMG_45.jpg",
+      "/11_right-to-rest/11_IMG_46.jpg",
+      "/11_right-to-rest/11_IMG_47.jpg",
+      "/11_right-to-rest/11_IMG_48.jpg",
+      "/11_right-to-rest/11_IMG_49.jpg",
+      "/11_right-to-rest/11_IMG_50.jpg",
+      "/11_right-to-rest/11_IMG_51.jpg",
+      "/11_right-to-rest/11_IMG_52.jpg"
+    ]
     }
   ]
 }
