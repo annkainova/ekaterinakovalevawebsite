@@ -39,6 +39,7 @@
     "vite": "^5.2.0"
   },
   "dependencies": {
+    "@fancyapps/ui": "^5.0.35",
     "jquery": "^3.7.1",
     "normalize-scss": "^8.0.0",
     "normalize.css": "^8.0.1"

@@ -39,3 +39,20 @@ p {
   width: 100%;
   margin-top: 210px;
 }
+
+/* Переопределение фона модального окна */
+.fancybox-bg {
+  background: $white !important;
+}
+
+/* Переопределение стилей кнопок */
+.fancybox-button--close,
+.fancybox-button--arrow_left,
+.fancybox-button--arrow_right {
+  background: white !important;
+}
+
+/* Переопределение цвета заголовка */
+.fancybox-title {
+  color: white !important;
+}

@@ -23,10 +23,22 @@
         "Graphic works made on old geographical maps, including educational, school maps."
       ],
       "imagePaths": [
-        "/05_maps-rose-words/05_IMG_01.jpg",
-        "/05_maps-rose-words/05_IMG_02.jpg",
-        "/05_maps-rose-words/05_IMG_03.jpg",
-        "/05_maps-rose-words/05_IMG_04.jpg"
+        {
+          "small": "/05_maps-rose-words/05_IMG_01.jpg",
+          "full": "/05_maps-rose-words/source/05_IMG_01L.jpg"
+        },
+        {
+          "small": "/05_maps-rose-words/05_IMG_02.jpg",
+          "full": "/05_maps-rose-words/source/05_IMG_02L.jpg"
+        },
+        {
+          "small": "/05_maps-rose-words/05_IMG_03.jpg",
+          "full": "/05_maps-rose-words/source/05_IMG_03L.jpg"
+        },
+        {
+          "small": "/05_maps-rose-words/05_IMG_04.jpg",
+          "full": "/05_maps-rose-words/source/05_IMG_04L.jpg"
+        }
       ]
     },
     {
