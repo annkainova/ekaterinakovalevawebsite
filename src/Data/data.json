@@ -1452,11 +1452,31 @@
       "paintDescription": [""],
       "paintDescription-en": [""],
       "imagePaths": [
-        "/11_right-to-rest/11_IMG_01.jpg",
-        "/11_right-to-rest/11_IMG_02.jpg",
-        "/11_right-to-rest/11_IMG_03.jpg",
-        "/11_right-to-rest/11_IMG_04.jpg",
-        "/11_right-to-rest/11_IMG_05.jpg"
+        {
+          "small": "/11_right-to-rest/11_IMG_01.jpg",
+          "full": "/11_right-to-rest/source/11_IMG_01L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/11_right-to-rest/11_IMG_02.jpg",
+          "full": "/11_right-to-rest/source/11_IMG_02L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/11_right-to-rest/11_IMG_03.jpg",
+          "full": "/11_right-to-rest/source/11_IMG_03L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/11_right-to-rest/11_IMG_04.jpg",
+          "full": "/11_right-to-rest/source/11_IMG_04L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/11_right-to-rest/11_IMG_05.jpg",
+          "full": "/11_right-to-rest/source/11_IMG_05L.jpg",
+          "descrip": ""
+        }
       ]
     },
     {
@@ -1467,11 +1487,31 @@
       "paintDescription": [""],
       "paintDescription-en": [""],
       "imagePaths": [
-        "/11_right-to-rest/11_IMG_06.jpg",
-        "/11_right-to-rest/11_IMG_07.jpg",
-        "/11_right-to-rest/11_IMG_08.jpg",
-        "/11_right-to-rest/11_IMG_09.jpg",
-        "/11_right-to-rest/11_IMG_10.jpg"
+        {
+          "small": "/11_right-to-rest/11_IMG_06.jpg",
+          "full": "/11_right-to-rest/source/11_IMG_06L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/11_right-to-rest/11_IMG_07.jpg",
+          "full": "/11_right-to-rest/source/11_IMG_07L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/11_right-to-rest/11_IMG_08.jpg",
+          "full": "/11_right-to-rest/source/11_IMG_08L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/11_right-to-rest/11_IMG_09.jpg",
+          "full": "/11_right-to-rest/source/11_IMG_09L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/11_right-to-rest/11_IMG_10.jpg",
+          "full": "/11_right-to-rest/source/11_IMG_10L.jpg",
+          "descrip": ""
+        }
       ]
     },
     {
@@ -1482,13 +1522,41 @@
       "paintDescription": [""],
       "paintDescription-en": [""],
       "imagePaths": [
-        "/11_right-to-rest/11_IMG_11.jpg",
-        "/11_right-to-rest/11_IMG_12.jpg",
-        "/11_right-to-rest/11_IMG_13.jpg",
-        "/11_right-to-rest/11_IMG_14.jpg",
-        "/11_right-to-rest/11_IMG_15.jpg",
-        "/11_right-to-rest/11_IMG_16.jpg",
-        "/11_right-to-rest/11_IMG_17.jpg"
+        {
+          "small": "/11_right-to-rest/11_IMG_11.jpg",
+          "full": "/11_right-to-rest/source/11_IMG_11L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/11_right-to-rest/11_IMG_12.jpg",
+          "full": "/11_right-to-rest/source/11_IMG_12L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/11_right-to-rest/11_IMG_13.jpg",
+          "full": "/11_right-to-rest/source/11_IMG_13L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/11_right-to-rest/11_IMG_14.jpg",
+          "full": "/11_right-to-rest/source/11_IMG_14L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/11_right-to-rest/11_IMG_15.jpg",
+          "full": "/11_right-to-rest/source/11_IMG_15L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/11_right-to-rest/11_IMG_16.jpg",
+          "full": "/11_right-to-rest/source/11_IMG_16L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/11_right-to-rest/11_IMG_17.jpg",
+          "full": "/11_right-to-rest/source/11_IMG_17L.jpg",
+          "descrip": ""
+        }
       ]
     },
     {
@@ -1499,11 +1567,31 @@
       "paintDescription": [""],
       "paintDescription-en": [""],
       "imagePaths": [
-        "/11_right-to-rest/11_IMG_18.jpg",
-        "/11_right-to-rest/11_IMG_19.jpg",
-        "/11_right-to-rest/11_IMG_20.jpg",
-        "/11_right-to-rest/11_IMG_21.jpg",
-        "/11_right-to-rest/11_IMG_22.jpg"
+        {
+          "small": "/11_right-to-rest/11_IMG_18.jpg",
+          "full": "/11_right-to-rest/source/11_IMG_18L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/11_right-to-rest/11_IMG_19.jpg",
+          "full": "/11_right-to-rest/source/11_IMG_19L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/11_right-to-rest/11_IMG_20.jpg",
+          "full": "/11_right-to-rest/source/11_IMG_20L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/11_right-to-rest/11_IMG_21.jpg",
+          "full": "/11_right-to-rest/source/11_IMG_21L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/11_right-to-rest/11_IMG_22.jpg",
+          "full": "/11_right-to-rest/source/11_IMG_22L.jpg",
+          "descrip": ""
+        }
       ]
     },
     {
@@ -1513,14 +1601,38 @@
       "description-en": "The exposition includes <span class='bold'>“Evidence”</span> - resort household items of those years, clothes, bathing suits, souvenirs, herbarium and other personal belongings.",
       "paintDescription": [""],
       "paintDescription-en": [""],
-      "imagePaths": [ 
-      "/11_right-to-rest/11_IMG_23.jpg",
-      "/11_right-to-rest/11_IMG_24.jpg",
-      "/11_right-to-rest/11_IMG_25.jpg",
-      "/11_right-to-rest/11_IMG_26.jpg",
-      "/11_right-to-rest/11_IMG_27.jpg",
-      "/11_right-to-rest/11_IMG_28.jpg"
-    ]
+      "imagePaths": [
+        {
+          "small": "/11_right-to-rest/11_IMG_23.jpg",
+          "full": "/11_right-to-rest/source/11_IMG_23L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/11_right-to-rest/11_IMG_24.jpg",
+          "full": "/11_right-to-rest/source/11_IMG_24L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/11_right-to-rest/11_IMG_25.jpg",
+          "full": "/11_right-to-rest/source/11_IMG_25L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/11_right-to-rest/11_IMG_26.jpg",
+          "full": "/11_right-to-rest/source/11_IMG_26L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/11_right-to-rest/11_IMG_27.jpg",
+          "full": "/11_right-to-rest/source/11_IMG_27L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/11_right-to-rest/11_IMG_28.jpg",
+          "full": "/11_right-to-rest/source/11_IMG_28L.jpg",
+          "descrip": ""
+        }
+      ]
     },
     {
       "name": "",
@@ -1530,15 +1642,51 @@
       "paintDescription": [""],
       "paintDescription-en": [""],
       "imagePaths": [
-      "/11_right-to-rest/11_IMG_29.jpg",
-      "/11_right-to-rest/11_IMG_30.jpg",
-      "/11_right-to-rest/11_IMG_31.jpg",
-      "/11_right-to-rest/11_IMG_32.jpg",
-      "/11_right-to-rest/11_IMG_33.jpg",
-      "/11_right-to-rest/11_IMG_34.jpg",
-      "/11_right-to-rest/11_IMG_35.jpg",
-      "/11_right-to-rest/11_IMG_36.jpg",
-      "/11_right-to-rest/11_IMG_37.jpg"
+        {
+          "small": "/11_right-to-rest/11_IMG_29.jpg",
+          "full": "/11_right-to-rest/source/11_IMG_29L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/11_right-to-rest/11_IMG_30.jpg",
+          "full": "/11_right-to-rest/source/11_IMG_30L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/11_right-to-rest/11_IMG_31.jpg",
+          "full": "/11_right-to-rest/source/11_IMG_31L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/11_right-to-rest/11_IMG_32.jpg",
+          "full": "/11_right-to-rest/source/11_IMG_32L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/11_right-to-rest/11_IMG_33.jpg",
+          "full": "/11_right-to-rest/source/11_IMG_33L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/11_right-to-rest/11_IMG_34.jpg",
+          "full": "/11_right-to-rest/source/11_IMG_34L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/11_right-to-rest/11_IMG_35.jpg",
+          "full": "/11_right-to-rest/source/11_IMG_35L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/11_right-to-rest/11_IMG_36.jpg",
+          "full": "/11_right-to-rest/source/11_IMG_36L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/11_right-to-rest/11_IMG_37.jpg",
+          "full": "/11_right-to-rest/source/11_IMG_37L.jpg",
+          "descrip": ""
+        }
     ]
     },
     {
@@ -1549,21 +1697,81 @@
       "paintDescription": [""],
       "paintDescription-en": [""],
       "imagePaths": [
-      "/11_right-to-rest/11_IMG_38.jpg",
-      "/11_right-to-rest/11_IMG_39.jpg",
-      "/11_right-to-rest/11_IMG_40.jpg",
-      "/11_right-to-rest/11_IMG_41.jpg",
-      "/11_right-to-rest/11_IMG_42.jpg",
-      "/11_right-to-rest/11_IMG_43.jpg",
-      "/11_right-to-rest/11_IMG_44.jpg",
-      "/11_right-to-rest/11_IMG_45.jpg",
-      "/11_right-to-rest/11_IMG_46.jpg",
-      "/11_right-to-rest/11_IMG_47.jpg",
-      "/11_right-to-rest/11_IMG_48.jpg",
-      "/11_right-to-rest/11_IMG_49.jpg",
-      "/11_right-to-rest/11_IMG_50.jpg",
-      "/11_right-to-rest/11_IMG_51.jpg",
-      "/11_right-to-rest/11_IMG_52.jpg"
+        {
+          "small": "/11_right-to-rest/11_IMG_38.jpg",
+          "full": "/11_right-to-rest/source/11_IMG_38L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/11_right-to-rest/11_IMG_39.jpg",
+          "full": "/11_right-to-rest/source/11_IMG_39L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/11_right-to-rest/11_IMG_40.jpg",
+          "full": "/11_right-to-rest/source/11_IMG_40L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/11_right-to-rest/11_IMG_41.jpg",
+          "full": "/11_right-to-rest/source/11_IMG_41L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/11_right-to-rest/11_IMG_42.jpg",
+          "full": "/11_right-to-rest/source/11_IMG_42L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/11_right-to-rest/11_IMG_43.jpg",
+          "full": "/11_right-to-rest/source/11_IMG_43L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/11_right-to-rest/11_IMG_44.jpg",
+          "full": "/11_right-to-rest/source/11_IMG_44L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/11_right-to-rest/11_IMG_45.jpg",
+          "full": "/11_right-to-rest/source/11_IMG_45L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/11_right-to-rest/11_IMG_46.jpg",
+          "full": "/11_right-to-rest/source/11_IMG_46L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/11_right-to-rest/11_IMG_47.jpg",
+          "full": "/11_right-to-rest/source/11_IMG_47L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/11_right-to-rest/11_IMG_48.jpg",
+          "full": "/11_right-to-rest/source/11_IMG_48L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/11_right-to-rest/11_IMG_49.jpg",
+          "full": "/11_right-to-rest/source/11_IMG_49L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/11_right-to-rest/11_IMG_50.jpg",
+          "full": "/11_right-to-rest/source/11_IMG_50L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/11_right-to-rest/11_IMG_51.jpg",
+          "full": "/11_right-to-rest/source/11_IMG_51L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/11_right-to-rest/11_IMG_52.jpg",
+          "full": "/11_right-to-rest/source/11_IMG_52L.jpg",
+          "descrip": ""
+        }
     ]
     }
   ]
