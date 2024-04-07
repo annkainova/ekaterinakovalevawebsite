@@ -1,9 +1,11 @@
 main {
+  // height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-between;
   @include font($normal, $font-16, $dark);
-
+  letter-spacing: 0.8px;
   background: $white;
 }
 

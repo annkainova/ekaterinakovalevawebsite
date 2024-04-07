@@ -15,7 +15,7 @@ export default class Biography {
 
     const bioText = document.createElement('p');
     bioText.classList.add(`biography__${this.name}-text`);
-    bioText.innerHTML = this.text;
+    bioText.innerHTML = this.text.replace(/\n/g, '<br>');
     bioBlock.appendChild(bioText);
 
     const bioImageBox = document.createElement('div');
