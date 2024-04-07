@@ -2,23 +2,6 @@
   max-width: 970px;
 }
 
-.maps,
-.mosaics,
-.waiting-zone,
-.horizon-colonization,
-.artworks,
-.soup-of-the-day,
-.notebooks,
-.early-works,
-.antarctic-diary,
-.work-projects {
-  display: flex;
-  flex-direction: column;
-  gap: 80px;
-  width: 100%;
-  margin-top: 210px;
-}
-
 .element {
   display: flex;
   gap: 80px;
@@ -68,6 +51,16 @@
 
 .first-img {
   display: block;
+}
+
+.active {
+  .nav__dot {
+    color: $aсcent;
+  }
+
+  .sections-nav__text {
+    color: $dark;
+  }
 }
 
 .sections-nav {
@@ -140,14 +133,6 @@
   padding: 0;
 }
 
-.active-link {
-  color: $dark;
-
-  .accent-dot {
-    color: $aсcent;
-  }
-}
-
 .image-box {
   position: relative;
 }
@@ -158,18 +143,18 @@
   gap: 20px;
 }
 
-.image-box::before {
-  content: '';
-  position: absolute;
-  top: -6px;
-  left: -6px;
-  right: -6px;
-  bottom: -6px;
-  border: 1px solid $dark;
-  transition: opacity 0.3s ease;
-  opacity: 0;
-  z-index: 1;
-}
+// .image-box::before {
+//   content: '';
+//   position: absolute;
+//   top: -6px;
+//   left: -6px;
+//   right: -6px;
+//   bottom: -6px;
+//   border: 1px solid $dark;
+//   transition: opacity 0.3s ease;
+//   opacity: 0;
+//   z-index: 0;
+// }
 
 .image-box:hover::before {
   opacity: 1;
