@@ -961,7 +961,6 @@
           "full": "/09_antarctic-diary/source/09_IMG_08L.jpg",
           "descrip": ""
         }
-        
       ]
     },
     {
@@ -1069,9 +1068,21 @@
       "paintDescription": [],
       "paintDescription-en": [],
       "imagePaths": [
-        "/12_notebooks/12_IMG_01.jpg",
-        "/12_notebooks/12_IMG_02.jpg",
-        "/12_notebooks/12_IMG_03.jpg"
+        {
+          "small": "/12_notebooks/12_IMG_01.jpg",
+          "full": "/12_notebooks/source/12_IMG_01L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/12_notebooks/12_IMG_02.jpg",
+          "full": "/12_notebooks/source/12_IMG_02L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/12_notebooks/12_IMG_03.jpg",
+          "full": "/12_notebooks/source/12_IMG_03L.jpg",
+          "descrip": ""
+        }
       ]
     },
     {
@@ -1082,12 +1093,36 @@
       "paintDescription": ["Коллаж, смешанная техника\n45 х 60 см\n1993"],
       "paintDescription-en": ["Collage, mixed technique\n45 х 60 cm\n1993"],
       "imagePaths": [
-        "/12_notebooks/12_IMG_04.jpg",
-        "/12_notebooks/12_IMG_05.jpg",
-        "/12_notebooks/12_IMG_06.jpg",
-        "/12_notebooks/12_IMG_07.jpg",
-        "/12_notebooks/12_IMG_08.jpg",
-        "/12_notebooks/12_IMG_09.jpg"
+        {
+          "small": "/12_notebooks/12_IMG_04.jpg",
+          "full": "/12_notebooks/source/12_IMG_04L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/12_notebooks/12_IMG_05.jpg",
+          "full": "/12_notebooks/source/12_IMG_05L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/12_notebooks/12_IMG_06.jpg",
+          "full": "/12_notebooks/source/12_IMG_06L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/12_notebooks/12_IMG_07.jpg",
+          "full": "/12_notebooks/source/12_IMG_07L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/12_notebooks/12_IMG_08.jpg",
+          "full": "/12_notebooks/source/12_IMG_08L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/12_notebooks/12_IMG_09.jpg",
+          "full": "/12_notebooks/source/12_IMG_09L.jpg",
+          "descrip": ""
+        }
       ]
     },
     {
@@ -1098,15 +1133,51 @@
       "paintDescription": [],
       "paintDescription-en": [],
       "imagePaths": [
-        "/12_notebooks/12_IMG_10.jpg",
-        "/12_notebooks/12_IMG_11.jpg",
-        "/12_notebooks/12_IMG_12.jpg",
-        "/12_notebooks/12_IMG_13.jpg",
-        "/12_notebooks/12_IMG_14.jpg",
-        "/12_notebooks/12_IMG_15.jpg",
-        "/12_notebooks/12_IMG_16.jpg",
-        "/12_notebooks/12_IMG_17.jpg",
-        "/12_notebooks/12_IMG_18.jpg"
+        {
+          "small": "/12_notebooks/12_IMG_10.jpg",
+          "full": "/12_notebooks/source/12_IMG_10L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/12_notebooks/12_IMG_11.jpg",
+          "full": "/12_notebooks/source/12_IMG_11L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/12_notebooks/12_IMG_12.jpg",
+          "full": "/12_notebooks/source/12_IMG_12L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/12_notebooks/12_IMG_13.jpg",
+          "full": "/12_notebooks/source/12_IMG_13L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/12_notebooks/12_IMG_14.jpg",
+          "full": "/12_notebooks/source/12_IMG_14L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/12_notebooks/12_IMG_15.jpg",
+          "full": "/12_notebooks/source/12_IMG_15L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/12_notebooks/12_IMG_16.jpg",
+          "full": "/12_notebooks/source/12_IMG_16L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/12_notebooks/12_IMG_17.jpg",
+          "full": "/12_notebooks/source/12_IMG_17L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/12_notebooks/12_IMG_18.jpg",
+          "full": "/12_notebooks/source/12_IMG_18L.jpg",
+          "descrip": ""
+        }
       ]
     },
     {
@@ -1117,15 +1188,51 @@
       "paintDescription": [],
       "paintDescription-en": [],
       "imagePaths": [
-        "/12_notebooks/12_IMG_19.jpg",
-        "/12_notebooks/12_IMG_20.jpg",
-        "/12_notebooks/12_IMG_21.jpg",
-        "/12_notebooks/12_IMG_22.jpg",
-        "/12_notebooks/12_IMG_23.jpg",
-        "/12_notebooks/12_IMG_24.jpg",
-        "/12_notebooks/12_IMG_25.jpg",
-        "/12_notebooks/12_IMG_26.jpg",
-        "/12_notebooks/12_IMG_27.jpg"
+        {
+          "small": "/12_notebooks/12_IMG_19.jpg",
+          "full": "/12_notebooks/source/12_IMG_19L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/12_notebooks/12_IMG_20.jpg",
+          "full": "/12_notebooks/source/12_IMG_20L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/12_notebooks/12_IMG_21.jpg",
+          "full": "/12_notebooks/source/12_IMG_21L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/12_notebooks/12_IMG_22.jpg",
+          "full": "/12_notebooks/source/12_IMG_22L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/12_notebooks/12_IMG_23.jpg",
+          "full": "/12_notebooks/source/12_IMG_23L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/12_notebooks/12_IMG_24.jpg",
+          "full": "/12_notebooks/source/12_IMG_24L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/12_notebooks/12_IMG_25.jpg",
+          "full": "/12_notebooks/source/12_IMG_25L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/12_notebooks/12_IMG_26.jpg",
+          "full": "/12_notebooks/source/12_IMG_26L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/12_notebooks/12_IMG_27.jpg",
+          "full": "/12_notebooks/source/12_IMG_27L.jpg",
+          "descrip": ""
+        }
       ]
     },
     {
@@ -1136,12 +1243,36 @@
       "paintDescription": [],
       "paintDescription-en": [],
       "imagePaths": [
-        "/12_notebooks/12_IMG_28.jpg",
-        "/12_notebooks/12_IMG_29.jpg",
-        "/12_notebooks/12_IMG_30.jpg",
-        "/12_notebooks/12_IMG_31.jpg",
-        "/12_notebooks/12_IMG_32.jpg",
-        "/12_notebooks/12_IMG_33.jpg"
+        {
+          "small": "/12_notebooks/12_IMG_28.jpg",
+          "full": "/12_notebooks/source/12_IMG_28L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/12_notebooks/12_IMG_29.jpg",
+          "full": "/12_notebooks/source/12_IMG_29L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/12_notebooks/12_IMG_30.jpg",
+          "full": "/12_notebooks/source/12_IMG_30L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/12_notebooks/12_IMG_31.jpg",
+          "full": "/12_notebooks/source/12_IMG_31L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/12_notebooks/12_IMG_32.jpg",
+          "full": "/12_notebooks/source/12_IMG_32L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/12_notebooks/12_IMG_33.jpg",
+          "full": "/12_notebooks/source/12_IMG_33L.jpg",
+          "descrip": ""
+        }
       ]
     }
   ],
