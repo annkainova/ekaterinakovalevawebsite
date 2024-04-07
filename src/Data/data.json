@@ -25,19 +25,23 @@
       "imagePaths": [
         {
           "small": "/05_maps-rose-words/05_IMG_01.jpg",
-          "full": "/05_maps-rose-words/source/05_IMG_01L.jpg"
+          "full": "/05_maps-rose-words/source/05_IMG_01L.jpg",
+          "descrip": "112 х 72 см • 1992"
         },
         {
           "small": "/05_maps-rose-words/05_IMG_02.jpg",
-          "full": "/05_maps-rose-words/source/05_IMG_02L.jpg"
+          "full": "/05_maps-rose-words/source/05_IMG_02L.jpg",
+          "descrip": "112 х 72 см • 1992"
         },
         {
           "small": "/05_maps-rose-words/05_IMG_03.jpg",
-          "full": "/05_maps-rose-words/source/05_IMG_03L.jpg"
+          "full": "/05_maps-rose-words/source/05_IMG_03L.jpg",
+          "descrip": "112 х 72 см • 1992"
         },
         {
           "small": "/05_maps-rose-words/05_IMG_04.jpg",
-          "full": "/05_maps-rose-words/source/05_IMG_04L.jpg"
+          "full": "/05_maps-rose-words/source/05_IMG_04L.jpg",
+          "descrip": "112 х 72 см • 1992"
         }
       ]
     },
@@ -53,11 +57,31 @@
         "Geographical paper maps are among the items of a bygone era and deserve special <span class='bold'>“commemorative”</span> treatment. Through maps, roses <span class='bold'>“thrive”</span>"
       ],
       "imagePaths": [
-        "/05_maps-rose-words/05_IMG_05.jpg",
-        "/05_maps-rose-words/05_IMG_06.jpg",
-        "/05_maps-rose-words/05_IMG_07.jpg",
-        "/05_maps-rose-words/05_IMG_08.jpg",
-        "/05_maps-rose-words/05_IMG_09.jpg"
+        {
+          "small": "/05_maps-rose-words/05_IMG_05.jpg",
+          "full": "/05_maps-rose-words/source/05_IMG_05L.jpg",
+          "descrip": "112 х 72 см • 1996"
+        },
+        {
+          "small": "/05_maps-rose-words/05_IMG_06.jpg",
+          "full": "/05_maps-rose-words/source/05_IMG_06L.jpg",
+          "descrip": "106 х 68 см • 1996"
+        },
+        {
+          "small": "/05_maps-rose-words/05_IMG_07.jpg",
+          "full": "/05_maps-rose-words/source/05_IMG_07L.jpg",
+          "descrip": "57 х 60 см • 1996"
+        },
+        {
+          "small": "/05_maps-rose-words/05_IMG_08.jpg",
+          "full": "/05_maps-rose-words/source/05_IMG_08L.jpg",
+          "descrip": "90 х 112 см • 1998"
+        },
+        {
+          "small": "/05_maps-rose-words/05_IMG_09.jpg",
+          "full": "/05_maps-rose-words/source/05_IMG_09L.jpg",
+          "descrip": "78 х 80 см • 1998"
+        }
       ]
     },
     {
@@ -68,12 +92,36 @@
       "paintDescription": [""],
       "paintDescription-en": [""],
       "imagePaths": [
-        "/05_maps-rose-words/05_IMG_10.jpg",
-        "/05_maps-rose-words/05_IMG_11.jpg",
-        "/05_maps-rose-words/05_IMG_12.jpg",
-        "/05_maps-rose-words/05_IMG_13.jpg",
-        "/05_maps-rose-words/05_IMG_14.jpg",
-        "/05_maps-rose-words/05_IMG_15.jpg"
+        {
+          "small": "/05_maps-rose-words/05_IMG_10.jpg",
+          "full": "/05_maps-rose-words/source/05_IMG_10L.jpg",
+          "descrip": "44 х 56 см • 1998"
+        },
+        {
+          "small": "/05_maps-rose-words/05_IMG_11.jpg",
+          "full": "/05_maps-rose-words/source/05_IMG_11L.jpg",
+          "descrip": "44 х 56 см • 1998"
+        },
+        {
+          "small": "/05_maps-rose-words/05_IMG_12.jpg",
+          "full": "/05_maps-rose-words/source/05_IMG_12L.jpg",
+          "descrip": "40 х 54 см • 1998"
+        },
+        {
+          "small": "/05_maps-rose-words/05_IMG_13.jpg",
+          "full": "/05_maps-rose-words/source/05_IMG_13L.jpg",
+          "descrip": "44 х 56 см • 1998"
+        },
+        {
+          "small": "/05_maps-rose-words/05_IMG_14.jpg",
+          "full": "/05_maps-rose-words/source/05_IMG_14L.jpg",
+          "descrip": "68 х 106 см • 1998"
+        },
+        {
+          "small": "/05_maps-rose-words/05_IMG_15.jpg",
+          "full": "/05_maps-rose-words/source/05_IMG_15L.jpg",
+          "descrip": "44 х 56 см • 1998"
+        }
       ]
     }
   ],
