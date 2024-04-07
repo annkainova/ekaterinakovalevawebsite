@@ -483,7 +483,7 @@
       "paintDescription": [""],
       "paintDescription-en": [""],
       "imagePaths": [
-         "09_antarctic-diary/09_IMG_05.jpg",
+        "09_antarctic-diary/09_IMG_05.jpg",
         "09_antarctic-diary/09_IMG_06.jpg",
         "09_antarctic-diary/09_IMG_07.jpg",
         "09_antarctic-diary/09_IMG_08.jpg"
@@ -498,7 +498,7 @@
       "paintDescription": [""],
       "paintDescription-en": [""],
       "imagePaths": [
-       "09_antarctic-diary/09_IMG_09.jpg",
+        "09_antarctic-diary/09_IMG_09.jpg",
         "09_antarctic-diary/09_IMG_10.jpg",
         "09_antarctic-diary/09_IMG_11.jpg",
         "09_antarctic-diary/09_IMG_12.jpg",
@@ -527,7 +527,7 @@
       "paintDescription": [""],
       "paintDescription-en": [""],
       "imagePaths": [
-          "09_antarctic-diary/09_IMG_18.jpg",
+        "09_antarctic-diary/09_IMG_18.jpg",
         "09_antarctic-diary/09_IMG_19.jpg",
         "09_antarctic-diary/09_IMG_20.jpg",
         "09_antarctic-diary/09_IMG_21.jpg"
@@ -652,7 +652,7 @@
         "/10_memorial objects/block-2/10_IMG_12.jpg",
         "/10_memorial objects/block-2/10_IMG_13.jpg",
         "/10_memorial objects/block-2/10_IMG_14.jpg"
-    ]
+      ]
     },
     {
       "name": "",

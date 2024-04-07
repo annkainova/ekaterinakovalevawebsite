@@ -157,3 +157,13 @@
 .image-box:hover::before {
   opacity: 1;
 }
+
+.active {
+  .nav__dot {
+    color: $aсcent;
+  }
+
+  .sections-nav__text {
+    color: $dark;
+  }
+}
