@@ -911,10 +911,26 @@
       "paintDescription": [""],
       "paintDescription-en": [""],
       "imagePaths": [
-        "09_antarctic-diary/09_IMG_01.jpg",
-        "09_antarctic-diary/09_IMG_02.jpg",
-        "09_antarctic-diary/09_IMG_03.jpg",
-        "09_antarctic-diary/09_IMG_04.jpg"
+        {
+          "small": "/09_antarctic-diary/09_IMG_01.jpg",
+          "full": "/09_antarctic-diary/source/09_IMG_01L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/09_antarctic-diary/09_IMG_02.jpg",
+          "full": "/09_antarctic-diary/source/09_IMG_02L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/09_antarctic-diary/09_IMG_03.jpg",
+          "full": "/09_antarctic-diary/source/09_IMG_03L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/09_antarctic-diary/09_IMG_04.jpg",
+          "full": "/09_antarctic-diary/source/09_IMG_04L.jpg",
+          "descrip": ""
+        }
       ]
     },
     {
@@ -925,10 +941,27 @@
       "paintDescription": [""],
       "paintDescription-en": [""],
       "imagePaths": [
-        "09_antarctic-diary/09_IMG_05.jpg",
-        "09_antarctic-diary/09_IMG_06.jpg",
-        "09_antarctic-diary/09_IMG_07.jpg",
-        "09_antarctic-diary/09_IMG_08.jpg"
+        {
+          "small": "/09_antarctic-diary/09_IMG_05.jpg",
+          "full": "/09_antarctic-diary/source/09_IMG_05L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/09_antarctic-diary/09_IMG_06.jpg",
+          "full": "/09_antarctic-diary/source/09_IMG_06L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/09_antarctic-diary/09_IMG_07.jpg",
+          "full": "/09_antarctic-diary/source/09_IMG_07L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/09_antarctic-diary/09_IMG_08.jpg",
+          "full": "/09_antarctic-diary/source/09_IMG_08L.jpg",
+          "descrip": ""
+        }
+        
       ]
     },
     {
@@ -939,11 +972,31 @@
       "paintDescription": [""],
       "paintDescription-en": [""],
       "imagePaths": [
-        "09_antarctic-diary/09_IMG_09.jpg",
-        "09_antarctic-diary/09_IMG_10.jpg",
-        "09_antarctic-diary/09_IMG_11.jpg",
-        "09_antarctic-diary/09_IMG_12.jpg",
-        "09_antarctic-diary/09_IMG_13.jpg"
+        {
+          "small": "/09_antarctic-diary/09_IMG_09.jpg",
+          "full": "/09_antarctic-diary/source/09_IMG_09L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/09_antarctic-diary/09_IMG_10.jpg",
+          "full": "/09_antarctic-diary/source/09_IMG_10L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/09_antarctic-diary/09_IMG_11.jpg",
+          "full": "/09_antarctic-diary/source/09_IMG_11L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/09_antarctic-diary/09_IMG_12.jpg",
+          "full": "/09_antarctic-diary/source/09_IMG_12L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/09_antarctic-diary/09_IMG_13.jpg",
+          "full": "/09_antarctic-diary/source/09_IMG_13L.jpg",
+          "descrip": ""
+        }
       ]
     },
     {
@@ -954,10 +1007,26 @@
       "paintDescription": [""],
       "paintDescription-en": [""],
       "imagePaths": [
-        "09_antarctic-diary/09_IMG_14.jpg",
-        "09_antarctic-diary/09_IMG_15.jpg",
-        "09_antarctic-diary/09_IMG_16.jpg",
-        "09_antarctic-diary/09_IMG_17.jpg"
+        {
+          "small": "/09_antarctic-diary/09_IMG_14.jpg",
+          "full": "/09_antarctic-diary/source/09_IMG_14L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/09_antarctic-diary/09_IMG_15.jpg",
+          "full": "/09_antarctic-diary/source/09_IMG_15L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/09_antarctic-diary/09_IMG_16.jpg",
+          "full": "/09_antarctic-diary/source/09_IMG_16L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/09_antarctic-diary/09_IMG_17.jpg",
+          "full": "/09_antarctic-diary/source/09_IMG_17L.jpg",
+          "descrip": ""
+        }
       ]
     },
     {
@@ -968,10 +1037,26 @@
       "paintDescription": [""],
       "paintDescription-en": [""],
       "imagePaths": [
-        "09_antarctic-diary/09_IMG_18.jpg",
-        "09_antarctic-diary/09_IMG_19.jpg",
-        "09_antarctic-diary/09_IMG_20.jpg",
-        "09_antarctic-diary/09_IMG_21.jpg"
+        {
+          "small": "/09_antarctic-diary/09_IMG_18.jpg",
+          "full": "/09_antarctic-diary/source/09_IMG_18L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/09_antarctic-diary/09_IMG_19.jpg",
+          "full": "/09_antarctic-diary/source/09_IMG_19L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/09_antarctic-diary/09_IMG_20.jpg",
+          "full": "/09_antarctic-diary/source/09_IMG_20L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/09_antarctic-diary/09_IMG_21.jpg",
+          "full": "/09_antarctic-diary/source/09_IMG_21L.jpg",
+          "descrip": ""
+        }
       ]
     }
   ],
