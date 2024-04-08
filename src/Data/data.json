@@ -253,32 +253,111 @@
       "name": "Выставочный проект «Зона ожидания»",
       "name-en": "Exhibition project “Waiting area”",
       "description": "Соляной амбар XVIII в., Таруса \nМузей истории ГУЛАГа, Москва\n2023",
-      "description-en": "Waiting area - an area of space in which a skydiver must stay under the canopy before landing approach. \n\nKaterina Kovaleva offers this metaphor to reflect on the fragility and unpredictability of human life, on the dependence of fate on the flows of time and historical events. \n\nLike a skydiver, a human being is often in a dramatic and exciting zone of expectation and uncertainty before he chooses his exact landing area",
+      "description-en": "Salt barn of the XVIII century, Tarusa\nGulag History Museum, Moscow\n2023",
       "paintDescription": [
         "Зона ожидания — область пространства, в которой парашютист под куполом должен находиться до осуществления захода на посадку.\n\n Используя эту метафору в размышлении над хрупкостью и непредсказуемостью человеческой жизни, над зависимостью судьбы от потоков времени и исторических событий, хочется <span class='bold'> сравнить человека с парашютистом</span>, который находится в драматичной и волнительной зоне ожидания, неопределенности, прежде чем выберет свою точную область приземления.\n\n Как меняется конфигурация и скорость времени в процессе ожидания? Как это влияет на восприятие человеком его пути, как душа человека зависит от ожидания?\n\n Инсталляция <span class='bold'>«Если пойдёт дождь»</span> о привычке подставлять ведра под текущую крышу, собирание воды или слез, капающих с неба…\n\n«Дворцовая люстра» из лагерной колючей проволоки (Томская зона №4) и хрусталя отражается в старых жестяных ведрах, корытах, которые покрыты зеркалами и создают иллюзию наполненности водой. В перевёрнутом виде люстра напоминает парашют.\n\nРасположенные в боковых нефах Павильона в Саду Памяти Музея истории ГУЛАГа лёгкие синтепоновые кулисы с изображением зависших парашютистов, могут создать впечатление торжественного небесного театра. Зритель будто пробирается сквозь облачную плотность, блуждая в лабиринте смыслов и метафор.",
         "Фото: Алексей Народицкий"
       ],
-      "paintDescription-en": ["Photo: Alexei Naroditsky"],
+      "paintDescription-en": [
+        "Waiting area - the area of space in which the parachutist under the canopy must stay before making the landing approach. \n\nUsing this metaphor to reflect on the fragility and unpredictability of human life, on the dependence of fate on the flows of time and historical events, I would like to <span class='bold'>compare man to a parachutist</span>, who is in a dramatic and exciting zone of waiting, uncertainty, before he chooses his exact landing area. \n\nHow does the configuration and speed of time change in the process of waiting? How does it affect a person's perception of his path, how does the human soul depend on waiting? \n\n Installation <span class='bold'>“If it rains”</span> about the habit of putting buckets under a flowing roof, collecting water or tears dripping from the sky...\n\nThe “Palace Chandelier” made of camp barbed wire (Tomsk penal colony No. 4) and crystal is reflected in old tin buckets and troughs, which are covered with mirrors and create the illusion of being filled with water. When turned upside down, the chandelier resembles a parachute.\n\nLocated in the side aisles of the Pavilion in the Garden of Remembrance of the Museum of Gulag History, lightweight padding polyester backdrops depicting hovering parachutists can create the impression of a solemn celestial theater. The viewer feels as if he or she is wading through a cloudy density, wandering through a labyrinth of meanings and metaphors.",
+        "Photo: Alexei Naroditsky"
+      ],
       "imagePaths": [
-        "/04_waiting-zone/block-1/04_IMG_01.jpg",
-        "/04_waiting-zone/block-1/04_IMG_02.jpg",
-        "/04_waiting-zone/block-1/04_IMG_03.jpg",
-        "/04_waiting-zone/block-1/04_IMG_04.jpg",
-        "/04_waiting-zone/block-1/04_IMG_05.jpg",
-        "/04_waiting-zone/block-1/04_IMG_06.jpg",
-        "/04_waiting-zone/block-1/04_IMG_07.jpg",
-        "/04_waiting-zone/block-1/04_IMG_08.jpg",
-        "/04_waiting-zone/block-1/04_IMG_09.jpg",
-        "/04_waiting-zone/block-1/04_IMG_10.jpg",
-        "/04_waiting-zone/block-1/04_IMG_11.jpg",
-        "/04_waiting-zone/block-1/04_IMG_12.jpg",
-        "/04_waiting-zone/block-1/04_IMG_13.jpg",
-        "/04_waiting-zone/block-1/04_IMG_14.jpg",
-        "/04_waiting-zone/block-1/04_IMG_15.jpg",
-        "/04_waiting-zone/block-1/04_IMG_16.jpg",
-        "/04_waiting-zone/block-1/04_IMG_17.jpg",
-        "/04_waiting-zone/block-1/04_IMG_18.jpg",
-        "/04_waiting-zone/block-1/04_IMG_19.jpg"
+        {
+          "small": "/04_waiting-zone/block-1/04_IMG_01.jpg",
+          "full": "/04_waiting-zone/block-1/source/04_IMG_01L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/04_waiting-zone/block-1/04_IMG_02.jpg",
+          "full": "/04_waiting-zone/block-1/source/04_IMG_02L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/04_waiting-zone/block-1/04_IMG_03.jpg",
+          "full": "/04_waiting-zone/block-1/source/04_IMG_03L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/04_waiting-zone/block-1/04_IMG_04.jpg",
+          "full": "/04_waiting-zone/block-1/source/04_IMG_04L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/04_waiting-zone/block-1/04_IMG_05.jpg",
+          "full": "/04_waiting-zone/block-1/source/04_IMG_05L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/04_waiting-zone/block-1/04_IMG_06.jpg",
+          "full": "/04_waiting-zone/block-1/source/04_IMG_06L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/04_waiting-zone/block-1/04_IMG_07.jpg",
+          "full": "/04_waiting-zone/block-1/source/04_IMG_07L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/04_waiting-zone/block-1/04_IMG_08.jpg",
+          "full": "/04_waiting-zone/block-1/source/04_IMG_08L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/04_waiting-zone/block-1/04_IMG_09.jpg",
+          "full": "/04_waiting-zone/block-1/source/04_IMG_09L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/04_waiting-zone/block-1/04_IMG_10.jpg",
+          "full": "/04_waiting-zone/block-1/source/04_IMG_10L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/04_waiting-zone/block-1/04_IMG_11.jpg",
+          "full": "/04_waiting-zone/block-1/source/04_IMG_11L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/04_waiting-zone/block-1/04_IMG_12.jpg",
+          "full": "/04_waiting-zone/block-1/source/04_IMG_12L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/04_waiting-zone/block-1/04_IMG_13.jpg",
+          "full": "/04_waiting-zone/block-1/source/04_IMG_13L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/04_waiting-zone/block-1/04_IMG_14.jpg",
+          "full": "/04_waiting-zone/block-1/source/04_IMG_14L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/04_waiting-zone/block-1/04_IMG_15.jpg",
+          "full": "/04_waiting-zone/block-1/source/04_IMG_15L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/04_waiting-zone/block-1/04_IMG_16.jpg",
+          "full": "/04_waiting-zone/block-1/source/04_IMG_16L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/04_waiting-zone/block-1/04_IMG_17.jpg",
+          "full": "/04_waiting-zone/block-1/source/04_IMG_17L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/04_waiting-zone/block-1/04_IMG_18.jpg",
+          "full": "/04_waiting-zone/block-1/source/04_IMG_18L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/04_waiting-zone/block-1/04_IMG_19.jpg",
+          "full": "/04_waiting-zone/block-1/source/04_IMG_19L.jpg",
+          "descrip": ""
+        }
       ]
     },
     {
@@ -289,16 +368,56 @@
       "paintDescription": [],
       "paintDescription-en": [],
       "imagePaths": [
-        "/04_waiting-zone/block-2/04_IMG_20.jpg",
-        "/04_waiting-zone/block-2/04_IMG_21.jpg",
-        "/04_waiting-zone/block-2/04_IMG_22.jpg",
-        "/04_waiting-zone/block-2/04_IMG_23.jpg",
-        "/04_waiting-zone/block-2/04_IMG_24.jpg",
-        "/04_waiting-zone/block-2/04_IMG_25.jpg",
-        "/04_waiting-zone/block-2/04_IMG_26.jpg",
-        "/04_waiting-zone/block-2/04_IMG_27.jpg",
-        "/04_waiting-zone/block-2/04_IMG_28.jpg",
-        "/04_waiting-zone/block-2/04_IMG_29.jpg"
+        {
+          "small": "/04_waiting-zone/block-2/04_IMG_20.jpg",
+          "full": "/04_waiting-zone/block-2/source/04_IMG_20L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/04_waiting-zone/block-2/04_IMG_21.jpg",
+          "full": "/04_waiting-zone/block-2/source/04_IMG_21L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/04_waiting-zone/block-2/04_IMG_22.jpg",
+          "full": "/04_waiting-zone/block-2/source/04_IMG_22L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/04_waiting-zone/block-2/04_IMG_23.jpg",
+          "full": "/04_waiting-zone/block-2/source/04_IMG_23L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/04_waiting-zone/block-2/04_IMG_24.jpg",
+          "full": "/04_waiting-zone/block-2/source/04_IMG_24L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/04_waiting-zone/block-2/04_IMG_25.jpg",
+          "full": "/04_waiting-zone/block-2/source/04_IMG_25L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/04_waiting-zone/block-2/04_IMG_26.jpg",
+          "full": "/04_waiting-zone/block-2/source/04_IMG_26L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/04_waiting-zone/block-2/04_IMG_27.jpg",
+          "full": "/04_waiting-zone/block-2/source/04_IMG_27L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/04_waiting-zone/block-2/04_IMG_28.jpg",
+          "full": "/04_waiting-zone/block-2/source/04_IMG_28L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/04_waiting-zone/block-2/04_IMG_29.jpg",
+          "full": "/04_waiting-zone/block-2/source/04_IMG_29L.jpg",
+          "descrip": ""
+        }
       ]
     },
     {
@@ -309,20 +428,76 @@
       "paintDescription": [""],
       "paintDescription-en": [""],
       "imagePaths": [
-        "/04_waiting-zone/block-3/04_IMG_30.jpg",
-        "/04_waiting-zone/block-3/04_IMG_31.jpg",
-        "/04_waiting-zone/block-3/04_IMG_32.jpg",
-        "/04_waiting-zone/block-3/04_IMG_33.jpg",
-        "/04_waiting-zone/block-3/04_IMG_34.jpg",
-        "/04_waiting-zone/block-3/04_IMG_35.jpg",
-        "/04_waiting-zone/block-3/04_IMG_36.jpg",
-        "/04_waiting-zone/block-3/04_IMG_37.jpg",
-        "/04_waiting-zone/block-3/04_IMG_38.jpg",
-        "/04_waiting-zone/block-3/04_IMG_39.jpg",
-        "/04_waiting-zone/block-3/04_IMG_40.jpg",
-        "/04_waiting-zone/block-3/04_IMG_41.jpg",
-        "/04_waiting-zone/block-3/04_IMG_42.jpg",
-        "/04_waiting-zone/block-3/04_IMG_43.jpg"
+        {
+          "small": "/04_waiting-zone/block-3/04_IMG_30.jpg",
+          "full": "/04_waiting-zone/block-3/source/04_IMG_30L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/04_waiting-zone/block-3/04_IMG_31.jpg",
+          "full": "/04_waiting-zone/block-3/source/04_IMG_31L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/04_waiting-zone/block-3/04_IMG_32.jpg",
+          "full": "/04_waiting-zone/block-3/source/04_IMG_32L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/04_waiting-zone/block-3/04_IMG_33.jpg",
+          "full": "/04_waiting-zone/block-3/source/04_IMG_33L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/04_waiting-zone/block-3/04_IMG_34.jpg",
+          "full": "/04_waiting-zone/block-3/source/04_IMG_34L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/04_waiting-zone/block-3/04_IMG_35.jpg",
+          "full": "/04_waiting-zone/block-3/source/04_IMG_35L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/04_waiting-zone/block-3/04_IMG_36.jpg",
+          "full": "/04_waiting-zone/block-3/source/04_IMG_36L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/04_waiting-zone/block-3/04_IMG_37.jpg",
+          "full": "/04_waiting-zone/block-3/source/04_IMG_37L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/04_waiting-zone/block-3/04_IMG_38.jpg",
+          "full": "/04_waiting-zone/block-3/source/04_IMG_38L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/04_waiting-zone/block-3/04_IMG_39.jpg",
+          "full": "/04_waiting-zone/block-3/source/04_IMG_39L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/04_waiting-zone/block-3/04_IMG_40.jpg",
+          "full": "/04_waiting-zone/block-3/source/04_IMG_40L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/04_waiting-zone/block-3/04_IMG_41.jpg",
+          "full": "/04_waiting-zone/block-3/source/04_IMG_41L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/04_waiting-zone/block-3/04_IMG_42.jpg",
+          "full": "/04_waiting-zone/block-3/source/04_IMG_42L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/04_waiting-zone/block-3/04_IMG_43.jpg",
+          "full": "/04_waiting-zone/block-3/source/04_IMG_43L.jpg",
+          "descrip": ""
+        }
       ]
     },
     {
@@ -333,14 +508,40 @@
       "paintDescription": [
         "Ожидание письма, весточки, обратной связи одна из самых интенсивных эмоций ожидания."
       ],
-      "paintDescription-en": [""],
+      "paintDescription-en": [
+        "Waiting for a letter, for news, for feedback is one of the most intense emotions of waiting."
+      ],
       "imagePaths": [
-        "/04_waiting-zone/block-4/04_IMG_44.jpg",
-        "/04_waiting-zone/block-4/04_IMG_45.jpg",
-        "/04_waiting-zone/block-4/04_IMG_46.jpg",
-        "/04_waiting-zone/block-4/04_IMG_47.jpg",
-        "/04_waiting-zone/block-4/04_IMG_48.jpg",
-        "/04_waiting-zone/block-4/04_IMG_49.jpg"
+        {
+          "small": "/04_waiting-zone/block-4/04_IMG_44.jpg",
+          "full": "/04_waiting-zone/block-4/source/04_IMG_44L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/04_waiting-zone/block-4/04_IMG_45.jpg",
+          "full": "/04_waiting-zone/block-4/source/04_IMG_45L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/04_waiting-zone/block-4/04_IMG_46.jpg",
+          "full": "/04_waiting-zone/block-4/source/04_IMG_46L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/04_waiting-zone/block-4/04_IMG_47.jpg",
+          "full": "/04_waiting-zone/block-4/source/04_IMG_47L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/04_waiting-zone/block-4/04_IMG_48.jpg",
+          "full": "/04_waiting-zone/block-4/source/04_IMG_48L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/04_waiting-zone/block-4/04_IMG_49.jpg",
+          "full": "/04_waiting-zone/block-4/source/04_IMG_49L.jpg",
+          "descrip": ""
+        }
       ]
     }
   ],
@@ -1687,7 +1888,7 @@
           "full": "/11_right-to-rest/source/11_IMG_37L.jpg",
           "descrip": ""
         }
-    ]
+      ]
     },
     {
       "name": "",
@@ -1772,7 +1973,7 @@
           "full": "/11_right-to-rest/source/11_IMG_52L.jpg",
           "descrip": ""
         }
-    ]
+      ]
     }
   ]
 }
