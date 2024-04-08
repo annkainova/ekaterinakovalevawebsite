@@ -31,19 +31,23 @@
       "imagePaths": [
         {
           "small": "/05_maps-rose-words/05_IMG_01.jpg",
-          "full": "/05_maps-rose-words/source/05_IMG_01L.jpg"
+          "full": "/05_maps-rose-words/source/05_IMG_01L.jpg",
+          "descrip": ""
         },
         {
           "small": "/05_maps-rose-words/05_IMG_02.jpg",
-          "full": "/05_maps-rose-words/source/05_IMG_02L.jpg"
+          "full": "/05_maps-rose-words/source/05_IMG_02L.jpg",
+          "descrip": ""
         },
         {
           "small": "/05_maps-rose-words/05_IMG_03.jpg",
-          "full": "/05_maps-rose-words/source/05_IMG_03L.jpg"
+          "full": "/05_maps-rose-words/source/05_IMG_03L.jpg",
+          "descrip": ""
         },
         {
           "small": "/05_maps-rose-words/05_IMG_04.jpg",
-          "full": "/05_maps-rose-words/source/05_IMG_04L.jpg"
+          "full": "/05_maps-rose-words/source/05_IMG_04L.jpg",
+          "descrip": ""
         }
       ]
     },
