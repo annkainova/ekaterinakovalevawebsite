@@ -10,6 +10,7 @@ declare global {
 interface ImagePath {
   small: string;
   full: string;
+  descrip: string;
 }
 
 interface PaintDataItem {
