@@ -141,12 +141,19 @@ export default class Gallery {
       imageContainer.classList.add('image-box');
       imageContainer.classList.add(`image-box__${index}`);
 
+      const imageLink = document.createElement('a');
+      imageLink.classList.add('fancybox');
+      imageLink.setAttribute('data-fancybox', 'gallery');
+      imageLink.setAttribute('data-caption', path.descrip);
+      imageLink.setAttribute('href', path.full);
+
       const image = document.createElement('img');
       image.classList.add('image');
-      image.setAttribute('src', path);
+      image.setAttribute('src', path.small);
       image.setAttribute('alt', `${this.name} image ${index + 1}`);
 
-      imageContainer.appendChild(image);
+      imageLink.appendChild(image);
+      imageContainer.appendChild(imageLink);
 
       // if (index === 0) {
       //   imageContainer.classList.add('first-img');

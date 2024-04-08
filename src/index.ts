@@ -11,6 +11,7 @@ class AppInitializer {
 }
 
 AppInitializer.initialize();
+// const container = document.querySelector('.your-gallery-container') as HTMLElement;
 
 Fancybox.bind('[data-fancybox="gallery"]', {
   placeFocusBack: false,
