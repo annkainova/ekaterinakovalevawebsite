@@ -1,11 +1,23 @@
 import Gallery from './Gallery';
 import WorkProjects from '../WorkProjects/WorkProjects';
 
+declare global {
+  interface JQuery {
+    fancybox(options?: unknown): JQuery;
+  }
+}
+
+interface ImagePath {
+  small: string;
+  full: string;
+  descrip: string;
+}
+
 interface PaintDataItem {
   name: string;
   description: string;
   paintDescription: string[];
-  imagePaths: string[];
+  imagePaths: ImagePath[];
 }
 
 interface ProjectDataItem {
@@ -33,6 +45,7 @@ export default class Page {
       const galleryEl = galleryView.render();
       mapsContainer?.appendChild(galleryEl);
     });
+    // $('.fancybox').fancybox();
   }
 
   renderGalleryWithoutMainPhoto(namePage: string, dataPaint: Record<string, PaintDataItem[]>) {
@@ -45,6 +58,7 @@ export default class Page {
       const galleryEl = galleryView.renderMethodWithoutBigFirstPhoto();
       mapsContainer?.appendChild(galleryEl);
     });
+    // $('.fancybox').fancybox();
   }
 
   renderProject(dataProject: Record<string, ProjectDataItem[]>) {

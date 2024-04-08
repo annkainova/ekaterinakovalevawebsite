@@ -16,7 +16,6 @@ export default class App {
 
   render() {
     this.page.renderProject(dataProject);
-
     this.page.renderGallery('maps', data);
     this.page.renderGallery('mosaics', data);
     this.page.renderGallery('waiting-zone', data);
