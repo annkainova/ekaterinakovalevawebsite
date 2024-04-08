@@ -1,41 +1,97 @@
 .fancybox__container {
-  --fancybox-bg: #27272a;
-
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) clamp(100px, 30vw, 300px) 46px;
-  grid-template-rows: minmax(0, 1fr);
+  // --right-col-width: 0px;
 }
 
-.fancybox__container.is-opening {
-  --f-transition-duration: 0.25s;
-  --f-transition-easing: ease-out;
-  --f-transition-delay: 0.1s;
+.fancybox__container.has-sidebar {
+  --right-col-width: clamp(150px, 20vw, 300px);
 }
 
-.fancybox__container.is-closing {
-  --f-transition-duration: 0.1s;
+.fancybox__backdrop {
+  background: #f9f9f9;
 }
 
 .fancybox__toolbar {
-  --f-button-color: #fff;
-  --f-button-hover-color: #fff;
-  --f-button-bg: #000;
-  --f-button-hover-bg: #333;
-  --f-button-active-bg: #444;
+}
 
-  grid-column: 3 / 3;
-  grid-row: 1 / 3;
+.fancybox__cols {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) var(--right-col-width);
 
-  background: #000;
+  height: 100%;
+}
+
+.fancybox__col {
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+
+  position: relative;
+  overflow: hidden;
+}
+
+.fancybox__data {
+  padding: 1rem;
+  overflow: auto;
+}
+
+.fancybox__content {
+  position: static;
+}
+
+.fancybox__thumbs {
+  display: none !important;
 }
 
 .fancybox__caption {
-  grid-column: 2 / 3;
-  grid-row: 1 / 3;
+  margin-top: 30px;
 
-  height: 100%;
-  overflow: auto;
+  color: #616161;
+  text-align: center;
+  font-family: Carlito;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.8px;
+}
 
-  padding: 1rem 1.5rem;
-  background: #18181b;
+.fancybox__toolbar.is-absolute {
+  position: relative;
+  display: block;
+}
+
+.fancybox__infobar {
+  display: none;
+}
+
+.f-button {
+  justify-content: flex-end;
+  padding: 30px;
+
+  color: #616161;
+  text-align: justify;
+  font-family: Carlito;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.8px;
+
+  background: none;
+}
+
+// .fancybox__toolbar__column.is-right {
+//   background: none;
+
+//   &:hover {
+//     background: none;
+//     color: #616161;
+//   }
+// }
+
+@media (hover: hover) {
+  .f-button:hover:not([disabled]) {
+    color: #616161;
+    background-color: #f9f9f9;
+  }
 }

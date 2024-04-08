@@ -44,7 +44,7 @@ export default class Page {
       const galleryEl = galleryView.render();
       mapsContainer?.appendChild(galleryEl);
     });
-    $('.fancybox').fancybox();
+    // $('.fancybox').fancybox();
   }
 
   renderGalleryWithoutMainPhoto(namePage: string, dataPaint: Record<string, PaintDataItem[]>) {
@@ -57,7 +57,7 @@ export default class Page {
       const galleryEl = galleryView.renderMethodWithoutBigFirstPhoto();
       mapsContainer?.appendChild(galleryEl);
     });
-    $('.fancybox').fancybox();
+    // $('.fancybox').fancybox();
   }
 
   renderProject(dataProject: Record<string, ProjectDataItem[]>) {
