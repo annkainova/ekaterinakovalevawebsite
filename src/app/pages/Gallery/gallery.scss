@@ -143,18 +143,18 @@
   gap: 20px;
 }
 
-.image-box::before {
-  content: '';
-  position: absolute;
-  top: -6px;
-  left: -6px;
-  right: -6px;
-  bottom: -6px;
-  border: 1px solid $dark;
-  transition: opacity 0.3s ease;
-  opacity: 0;
-  z-index: 1;
-}
+// .image-box::before {
+//   content: '';
+//   position: absolute;
+//   top: -6px;
+//   left: -6px;
+//   right: -6px;
+//   bottom: -6px;
+//   border: 1px solid $dark;
+//   transition: opacity 0.3s ease;
+//   opacity: 0;
+//   z-index: 0;
+// }
 
 .image-box:hover::before {
   opacity: 1;
