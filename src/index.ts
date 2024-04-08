@@ -11,7 +11,6 @@ class AppInitializer {
 }
 
 AppInitializer.initialize();
-// const container = document.querySelector('.your-gallery-container') as HTMLElement;
 
 Fancybox.bind('[data-fancybox="gallery"]', {
   placeFocusBack: false,
@@ -41,44 +40,6 @@ Fancybox.bind('[data-fancybox="gallery"]', {
   Thumbs: {
     type: 'none',
   },
-  // Toolbar: {
-  //   parentEl: toolbar => {
-  //     return toolbar.instance.container.querySelector('.fancybox__col');
-  //   },
-  //   items: {
-  //     sidebar: {
-  //       tpl: `<button class="f-button"><svg><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg></button>`,
-  //       click: toolbar => {
-  //         toolbar.instance.container.classList.toggle('has-sidebar');
-  //       },
-  //     },
-  //   },
-  //   display: {
-  //     left: [],
-  //     middle: [],
-  //     right: ['customButton'],
-  //   },
-  // },
-
-  // on: {
-  //   'Carousel.ready Carousel.change': fancybox => {
-  //     const titleVal = fancybox.getSlide().triggerEl.dataset.title;
-  //     const titleEl = document.getElementById('fancybox_title');
-
-  //     if (titleEl) {
-  //       titleEl.innerHTML = titleVal;
-  //     }
-  //   },
-  //   init: fancybox => {
-  //     fancybox.$container.querySelector('.is-close-btn').style.display = 'none';
-  //     const customBackButton = fancybox.$container.querySelector('.fancybox-button--customReturn');
-  //     if (customBackButton) {
-  //       customBackButton.addEventListener('click', () => {
-  //         fancybox.close();
-  //       });
-  //     }
-  //   },
-  // },
 
   Toolbar: {
     items: {
