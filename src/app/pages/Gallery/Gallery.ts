@@ -143,7 +143,7 @@ export default class Gallery {
 
       const image = document.createElement('img');
       image.classList.add('image');
-      image.setAttribute('src', path);
+      image.setAttribute('src', path.small);
       image.setAttribute('alt', `${this.name} image ${index + 1}`);
 
       imageContainer.appendChild(image);
