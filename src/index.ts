@@ -12,46 +12,44 @@ class AppInitializer {
 
 AppInitializer.initialize();
 
-Fancybox.bind('[data-fancybox="gallery"]', {
-  placeFocusBack: false,
-
-  tpl: {
-    main: `<div class="fancybox__container has-sidebar" role="dialog" aria-modal="true" aria-label="{{MODAL}}" tabindex="-1">
-    <div class="fancybox__backdrop"></div>
-      <div class="fancybox__col">
-        <div class="fancybox__carousel"></div>
-      </div>
-      
-    </div>
-  </div>`,
-  },
-
-  idle: false,
-  compact: false,
-  dragToClose: false,
-
-  showClass: 'f-fadeIn',
-  hideClass: 'f-fadeOut',
-
-  Images: {
-    zoom: false,
-  },
-
-  Thumbs: {
-    type: 'none',
-  },
-
-  Toolbar: {
-    items: {
-      return: {
-        tpl: `<button class="f-button">вернуться</button>`,
-        click: () => {
-          Fancybox.close();
+document.addEventListener('DOMContentLoaded', () => {
+  // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+  // @ts-expect-error
+  Fancybox.bind('[data-fancybox="gallery"]', {
+    // Ваши настройки
+    placeFocusBack: false,
+    tpl: {
+      main: `<div class="fancybox__container has-sidebar" role="dialog" aria-modal="true" aria-label="{{MODAL}}" tabindex="-1">
+              <div class="fancybox__backdrop"></div>
+              <div class="fancybox__col">
+                <div class="fancybox__carousel"></div>
+              </div>
+            </div>
+          </div>`,
+    },
+    idle: false,
+    compact: false,
+    dragToClose: false,
+    showClass: 'f-fadeIn',
+    hideClass: 'f-fadeOut',
+    Images: {
+      zoom: false,
+    },
+    Thumbs: {
+      type: 'none',
+    },
+    Toolbar: {
+      items: {
+        return: {
+          tpl: `<button class="f-button">вернуться</button>`,
+          click: () => {
+            Fancybox.close();
+          },
         },
       },
+      display: {
+        right: ['return'],
+      },
     },
-    display: {
-      right: ['return'],
-    },
-  },
+  });
 });
