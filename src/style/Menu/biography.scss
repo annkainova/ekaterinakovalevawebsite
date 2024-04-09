@@ -1,6 +1,8 @@
 .biography {
   max-width: 970px;
+
   height: 100%;
+
 
   &__links {
     display: flex;
@@ -20,6 +22,7 @@
       outline: none;
 
       padding: 1px 6px;
+
       letter-spacing: 0.8px;
 
       &:hover {
@@ -29,12 +32,17 @@
     }
   }
 
+  &__info {
+  }
+
   &__bio {
     &-text {
       column-count: 2;
       column-gap: 80px;
       line-height: 20px;
     }
+
+    &-img {
 
     &-images {
       margin-top: 100px;
@@ -44,6 +52,10 @@
   }
 
   &__personal {
+    &-text {
+      .year {
+        margin-right: 20px;
+
     margin-bottom: 100px;
     display: flex;
     gap: 208px;

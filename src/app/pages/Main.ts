@@ -13,12 +13,19 @@ export default class Main {
   groupView: Biography;
   biographyController: BiographyController;
 
+  bioView: Biography;
+  personalView: Biography;
+  groupView: Biography;
+  biographyController: BiographyController;
+
   constructor() {
     this.collage = new Collage();
     this.collage.collageAnimation();
 
+
     this.activeLink = new ActiveLink();
     this.activeLink.setActiveLink();
+
 
     this.bioView = new Biography(
       dataBiography.bio.name,

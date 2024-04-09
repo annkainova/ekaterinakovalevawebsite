@@ -1,4 +1,5 @@
 main {
+  // height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -62,4 +63,22 @@ p {
 /* Переопределение цвета заголовка */
 .fancybox-title {
   color: white !important;
+}
+
+.maps,
+.mosaics,
+.waiting-zone,
+.horizon-colonization,
+.artworks,
+.soup-of-the-day,
+.notebooks,
+.early-works,
+.antarctic-diary,
+.work-projects,
+.biography {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  width: 100%;
+  margin-top: 210px;
 }

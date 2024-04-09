@@ -29,6 +29,7 @@ export default class BiographyController {
     if (this.personal) {
       this.personal?.addEventListener('click', () => {
         this.chooseSection(this.personalView);
+
         const bioText = document.querySelector('.biography__personal-text') as HTMLElement;
         bioText.innerHTML = `
         <div class="personal-data">
@@ -115,12 +116,14 @@ export default class BiographyController {
   </p>
 </div>
 `;
+
       });
     }
 
     if (this.group) {
       this.group?.addEventListener('click', () => {
         this.chooseSection(this.groupView);
+
         const bioText = document.querySelector('.biography__group-text') as HTMLElement;
         bioText.innerHTML = `
         <div class="personal-data">
@@ -207,6 +210,7 @@ export default class BiographyController {
   </p>
 </div>
 `;
+
       });
     }
   }
