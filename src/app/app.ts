@@ -1,7 +1,6 @@
 import '../style/main.scss';
 import data from '../Data/data.json';
 import dataEn from '../Data/dataEn.json';
-
 import dataProject from '../Data/projectData.json';
 
 import Main from './pages/Main';
@@ -37,14 +36,15 @@ export default class App {
     this.page = new Page();
     this.mainPage = new Main();
 
+    this.page.renderProject(dataProject);
     this.header.render();
+
     this.mainPageLocal = new MainPageLocal();
     this.localization = new Localization();
     this.selectedData = this.localization.language === 'ru' ? data : dataEn;
   }
 
   render() {
-    this.page.renderProject(dataProject);
     this.page.renderGallery('maps', this.selectedData);
     this.page.renderGallery('mosaics', this.selectedData);
     this.page.renderGallery('waiting-zone', this.selectedData);
