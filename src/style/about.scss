@@ -4,11 +4,14 @@
   margin-top: 80px;
 
   &__text {
+    padding: 10px 60px;
+    text-align: center;
     margin-top: 22px;
-    text-align: justify;
     font-style: normal;
     line-height: normal;
     letter-spacing: 0.8px;
+
+    background: url(../../public/00_IMG_16.png);
   }
 }
 

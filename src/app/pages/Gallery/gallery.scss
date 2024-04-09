@@ -53,6 +53,16 @@
   display: block;
 }
 
+.active {
+  .nav__dot {
+    color: $aсcent;
+  }
+
+  .sections-nav__text {
+    color: $dark;
+  }
+}
+
 .sections-nav {
   margin-top: 128px;
   margin-bottom: -10px;
@@ -123,14 +133,6 @@
   padding: 0;
 }
 
-.active-link {
-  color: $dark;
-
-  .accent-dot {
-    color: $aсcent;
-  }
-}
-
 .image-box {
   position: relative;
 }
@@ -151,7 +153,7 @@
   border: 1px solid $dark;
   transition: opacity 0.3s ease;
   opacity: 0;
-  z-index: 1;
+  z-index: 0;
 }
 
 .image-box:hover::before {

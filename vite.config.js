@@ -24,6 +24,9 @@ export default defineConfig({
         antarcticDiary: path.resolve('antarctic-diary.html'),
         workProjects: path.resolve('work-projects.html'),
         biography: path.resolve('biography.html'),
+        contact: path.resolve('contact.html'),
+        memorialObjects: path.resolve('memorial-objects.html'),
+        rightToRest: path.resolve('right-to-rest.html'),
         // Добавьте другие страницы здесь
       },
     },
@@ -41,7 +44,7 @@ export default defineConfig({
       { from: /\/antarctic-diary/, to: '/antarctic-diary.html' },
       { from: /\/work-projects/, to: '/work-projects.html' },
       { from: /\/biography/, to: '/biography.html' },
-
+      { from: /\/memorial-objects/, to: '/memorial-objects.html' },
       // Добавьте другие правила перенаправления здесь
     ],
   },

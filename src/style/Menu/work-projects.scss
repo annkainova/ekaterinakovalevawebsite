@@ -1,12 +1,18 @@
 .work-projects {
   display: grid;
   grid-template-columns: repeat(3, min-content);
+  grid-template-rows: min-content;
   justify-content: center;
   gap: 65px;
 
   &__link {
-    display: block;
+    // width: calc(100% /3);
     color: $dark;
+  }
+
+  .image-box {
+    display: grid;
+    grid-template-rows: min-content min-content;
   }
 
   &__img {
@@ -19,4 +25,8 @@
     letter-spacing: 0.8px;
     line-height: 20px;
   }
+}
+
+.image-box {
+  box-sizing: border-box;
 }
