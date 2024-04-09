@@ -1,13 +1,13 @@
 import '../style/main.scss';
 import data from '../Data/data.json';
-// import dataEn from '../Data/dataEn.json';
+import dataEn from '../Data/dataEn.json';
 import dataProject from '../Data/projectData.json';
 
 import Main from './pages/Main';
 import Page from './pages/Gallery/Page.ts';
 import Header from './pages/MainPage/Header.ts';
-// import MainPageLocal from './pages/MainPage/MainPage.ts';
-// import Localization from './pages/Localization/Localization.ts';
+import Localization from './pages/Localization/Localization.ts';
+import FirstPage from './pages/MainPage/FirstPage.ts';
 
 // interface choosenData {
 //   name: string;
@@ -25,41 +25,42 @@ import Header from './pages/MainPage/Header.ts';
 
 export default class App {
   header: Header;
-  // mainPageLocal: MainPageLocal;
+  firstPage: FirstPage;
   mainPage: Main;
   page: Page;
-  // localization: Localization;
-  // selectedData: choosenData;
+  localization: Localization;
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  selectedData: any;
 
   constructor() {
     this.header = new Header(document.body);
     this.page = new Page();
     this.mainPage = new Main();
+    this.firstPage = new FirstPage();
 
     // this.page.renderProject(dataProject);
-    // this.header.render();
+    this.header.render();
+    this.firstPage.changeLanguageFirstPage();
+    this.localization = new Localization();
 
     // this.mainPageLocal = new MainPageLocal();
-    // this.localization = new Localization();
-    // this.selectedData = this.localization.language === 'ru' ? data : dataEn;
+    this.selectedData = this.localization.language === 'ru' ? data : dataEn;
   }
 
   render() {
-    // this.selectedData = this.localization.language === 'ru' ? data : dataEn;
-
-    this.header.render();
+    const selectData = this.selectedData;
     this.page.renderProject(dataProject);
 
-    this.page.renderGallery('maps', data);
-    this.page.renderGallery('mosaics', data);
-    this.page.renderGallery('waiting-zone', data);
-    this.page.renderGallery('horizon-colonization', data);
-    this.page.renderGallery('artworks', data);
-    this.page.renderGalleryWithoutMainPhoto('soup-of-the-day', data);
-    this.page.renderGalleryWithoutMainPhoto('notebooks', data);
-    this.page.renderGalleryWithoutMainPhoto('early-works', data);
-    this.page.renderGalleryWithoutMainPhoto('antarctic-diary', data);
-    this.page.renderGallery('memorial-objects', data);
-    this.page.renderGalleryWithoutMainPhoto('right-to-rest', data);
+    this.page.renderGallery('maps', selectData);
+    this.page.renderGallery('mosaics', selectData);
+    this.page.renderGallery('waiting-zone', selectData);
+    this.page.renderGallery('horizon-colonization', selectData);
+    this.page.renderGallery('artworks', selectData);
+    this.page.renderGalleryWithoutMainPhoto('soup-of-the-day', selectData);
+    this.page.renderGalleryWithoutMainPhoto('notebooks', selectData);
+    this.page.renderGalleryWithoutMainPhoto('early-works', selectData);
+    this.page.renderGalleryWithoutMainPhoto('antarctic-diary', selectData);
+    this.page.renderGallery('memorial-objects', selectData);
+    this.page.renderGalleryWithoutMainPhoto('right-to-rest', selectData);
   }
 }
