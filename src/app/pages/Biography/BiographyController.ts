@@ -116,7 +116,6 @@ export default class BiographyController {
   </p>
 </div>
 `;
-
       });
     }
 
@@ -210,7 +209,6 @@ export default class BiographyController {
   </p>
 </div>
 `;
-
       });
     }
   }
