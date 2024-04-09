@@ -1,6 +1,5 @@
 .biography {
   max-width: 970px;
-
   height: 100%;
 
   &__links {
@@ -21,7 +20,6 @@
       outline: none;
 
       padding: 1px 6px;
-
       letter-spacing: 0.8px;
 
       &:hover {
@@ -31,71 +29,68 @@
     }
   }
 
-  &__info {
-  }
-
   &__bio {
+    margin-bottom: 320px;
+
     &-text {
       column-count: 2;
       column-gap: 80px;
       line-height: 20px;
     }
 
-    &-img {
-      &-images {
-        margin-top: 100px;
-        display: flex;
-        gap: 80px;
-      }
+    &-images {
+      margin-top: 100px;
+      display: flex;
+      gap: 80px;
     }
   }
 
   &__personal {
+    margin-bottom: 100px;
+    display: flex;
+    gap: 208px;
+
     &-text {
-      .year {
-        margin-right: 20px;
+      display: flex;
+      flex-wrap: wrap;
 
-        margin-bottom: 100px;
+      .personal-data {
         display: flex;
-        gap: 208px;
+        gap: 20px;
+      }
 
-        &-text {
-          display: flex;
-          flex-wrap: wrap;
+      .personal-text {
+        line-height: 25px;
+      }
+    }
 
-          .personal-data {
-            display: flex;
-            gap: 20px;
-          }
+    &-img {
+    }
+  }
 
-          .personal-text {
-            line-height: 25px;
-          }
-        }
+  &__group {
+    column-count: 2;
+    column-gap: 80px;
+    line-height: 20px;
+    margin-bottom: 160px;
 
-        &-img {
+    &-text {
+      .group-data {
+        display: flex;
+        gap: 20px;
+      }
+
+      .group-text {
+        line-height: 20px;
+
+        p {
+          line-height: 20px;
+          /* 125% */
         }
       }
     }
 
-    &__group {
-      &-text {
-        column-count: 2;
-        column-gap: 80px;
-        line-height: 20px;
-
-        .personal-data {
-          display: flex;
-          gap: 20px;
-        }
-
-        .personal-text {
-          line-height: 25px;
-        }
-      }
-
-      &-img {
-      }
+    &-img {
     }
   }
 }
