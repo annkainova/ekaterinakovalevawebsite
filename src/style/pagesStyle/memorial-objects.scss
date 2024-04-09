@@ -55,13 +55,13 @@
         }
       }
 
-      .image-box::before {
-        border: 1px solid $white;
-      }
-
       .image-box {
         &__1 {
           margin-right: 20px;
+          margin-bottom: 20px;
+        }
+
+        &__2 {
           margin-bottom: 20px;
         }
 

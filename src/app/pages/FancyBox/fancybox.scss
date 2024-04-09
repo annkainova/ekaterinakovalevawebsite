@@ -45,6 +45,7 @@
 
 .fancybox__caption {
   margin-top: 30px;
+  margin-bottom: 30px;
   padding: 0;
 
   color: #616161;
@@ -109,4 +110,8 @@
   content: '';
   flex: 0 0 0;
   margin: auto;
+}
+
+.fancybox-image {
+  margin-bottom: 30px;
 }

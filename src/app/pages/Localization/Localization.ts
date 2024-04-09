@@ -7,7 +7,7 @@ export default class Localization {
     this.buttonRu = document.querySelector('.language-switcher__option--ru');
     this.buttonEn = document.querySelector('.language-switcher__option--en');
 
-    this.language = localStorage.getItem('language') || 'ru'; // Добавьте эту строку
+    this.language = localStorage.getItem('language') || 'ru';
 
     this.buttonRu?.addEventListener('click', () => this.changeLanguage('ru'));
     this.buttonEn?.addEventListener('click', () => this.changeLanguage('en'));
@@ -15,7 +15,7 @@ export default class Localization {
 
   changeLanguage(lang: string) {
     localStorage.setItem('language', lang);
-    this.language = localStorage.getItem('language');
+    this.language = localStorage.getItem('language') as string;
     // eslint-disable-next-line no-restricted-globals
     location.reload();
   }

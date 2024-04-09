@@ -3,14 +3,12 @@ import App from './app/app';
 import '@fancyapps/ui/dist/fancybox/fancybox.css';
 import './app/pages/FancyBox/fancybox.scss';
 
-// import data from './Data/data.json';
-// import dataEn from './Data/dataEn.json';
-// import Localization from './app/pages/Localization/Localization';
-
 class AppInitializer {
   static initialize() {
-    const app = new App();
-    app.render();
+    document.addEventListener('DOMContentLoaded', () => {
+      const app = new App();
+      app.render();
+    });
   }
 }
 
