@@ -1,6 +1,6 @@
 .biography {
   max-width: 970px;
-  height: calc(100vh - 330px);
+  height: 100%;
 
   &__links {
     display: flex;
@@ -71,6 +71,15 @@
       column-count: 2;
       column-gap: 80px;
       line-height: 20px;
+
+      .personal-data {
+        display: flex;
+        gap: 20px;
+      }
+
+      .personal-text {
+        line-height: 25px;
+      }
     }
 
     &-img {
