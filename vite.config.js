@@ -24,6 +24,7 @@ export default defineConfig({
         antarcticDiary: path.resolve('antarctic-diary.html'),
         workProjects: path.resolve('work-projects.html'),
         biography: path.resolve('biography.html'),
+        contact: path.resolve('contact.html'),
         memorialObjects: path.resolve('memorial-objects.html'),
         // Добавьте другие страницы здесь
       },
