@@ -8,6 +8,10 @@
 
   .element {
     &:nth-child(1) {
+      .element__name {
+        margin-bottom: 23px;
+      }
+
       .element__owerview {
         text-align: justify;
         margin-bottom: 23px;

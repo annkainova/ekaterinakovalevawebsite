@@ -208,7 +208,7 @@
       }
 
       .image-wrapper {
-        justify-content: space-between;
+        justify-content: center;
       }
 
       .image-box {
@@ -223,11 +223,16 @@
           margin-top: 60px;
         }
 
+        &__7,
+        &__8 {
+          margin-right: 20px;
+        }
+
         &__10,
         &__11,
         &__12,
         &__13 {
-          // margin-right: 30px;
+          margin-right: 30px;
         }
       }
     }

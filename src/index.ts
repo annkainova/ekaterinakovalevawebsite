@@ -9,8 +9,10 @@ import './app/pages/FancyBox/fancybox.scss';
 
 class AppInitializer {
   static initialize() {
-    const app = new App();
-    app.render();
+    document.addEventListener('DOMContentLoaded', () => {
+      const app = new App();
+      app.render();
+    });
   }
 }
 
