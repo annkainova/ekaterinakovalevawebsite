@@ -26,6 +26,7 @@ export default defineConfig({
         biography: path.resolve('biography.html'),
         contact: path.resolve('contact.html'),
         memorialObjects: path.resolve('memorial-objects.html'),
+        rightToRest: path.resolve('right-to-rest.html'),
         // Добавьте другие страницы здесь
       },
     },

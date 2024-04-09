@@ -16,6 +16,7 @@ export default class ActiveLink {
       'notebooks',
       'mosaics',
       'artworks',
+      'right-to-rest',
     ];
   }
 
