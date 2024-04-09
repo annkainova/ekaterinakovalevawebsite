@@ -1726,10 +1726,18 @@
     {
       "name": "",
       "name-en": "",
-      "description": "В своем проекте я пытаюсь приблизиться к универсальным темам: болезнь/отдых, жизнь/смерть — и особенно к теме посмертия цивилизации.» \n\n\n— Катерина Ковалёва \n\nБольшую часть проекта составляют архивные курортные фотографии, снятые на черноморском побережье Кавказа в период с 1930-х по 1980-е.\n\nОни представлены как в оригинальном виде, так и в «обработанном», в виде холстов и графических листов под названием <span class='bold'>«Текущие наблюдения».</span>",
-      "description-en": "In my project, I try to approach universal themes: <span class='bold'>sickness/rest, life/death</span> - and especially the theme of civilization's postmortem.” \n\n\n— Katerina Kovaleva \n\nThe bulk of the project consists of archival resort photographs taken on the Black Sea coast of the Caucasus between the 1930s and 1980s. They are presented both in their original form and in “processed” form, in the form of canvases and graphic sheets under the title <span class='bold'>“Current Observations”</span>. ",
-      "paintDescription": [""],
-      "paintDescription-en": [""],
+      "description": "",
+      "description-en": "",
+      "paintDescription": [
+        "В своем проекте я пытаюсь приблизиться к универсальным темам: болезнь/отдых, жизнь/смерть — и особенно к теме посмертия цивилизации.»",
+        "— Катерина Ковалёва",
+        "Большую часть проекта составляют архивные курортные фотографии, снятые на черноморском побережье Кавказа в период с 1930-х по 1980-е.\n\nОни представлены как в оригинальном виде, так и в «обработанном», в виде холстов и графических листов под названием <span class='bold'>«Текущие наблюдения».</span>"
+      ],
+      "paintDescription-en": [
+        "In my project, I try to approach universal themes: <span class='bold'>sickness/rest, life/death</span> - and especially the theme of civilization's postmortem.”",
+        "— Katerina Kovaleva",
+        "The bulk of the project consists of archival resort photographs taken on the Black Sea coast of the Caucasus between the 1930s and 1980s.\n\n They are presented both in their original form and in “processed” form, in the form of canvases and graphic sheets under the title <span class='bold'>“Current Observations”</span>."
+      ],
       "imagePaths": [
         {
           "small": "/11_right-to-rest/11_IMG_11.jpg",
@@ -1813,32 +1821,32 @@
       "imagePaths": [
         {
           "small": "/11_right-to-rest/11_IMG_23.jpg",
-          "full": "/11_right-to-rest/source/11_IMG_23L.jpg",
+          "full": "/11_right-to-rest/source/11_IMG_23L.PNG",
           "descrip": ""
         },
         {
-          "small": "/11_right-to-rest/11_IMG_24.jpg",
-          "full": "/11_right-to-rest/source/11_IMG_24L.jpg",
+          "small": "/11_right-to-rest/11_IMG_24.png",
+          "full": "/11_right-to-rest/source/11_IMG_24L.PNG",
           "descrip": ""
         },
         {
-          "small": "/11_right-to-rest/11_IMG_25.jpg",
-          "full": "/11_right-to-rest/source/11_IMG_25L.jpg",
+          "small": "/11_right-to-rest/11_IMG_25.png",
+          "full": "/11_right-to-rest/source/11_IMG_25L.PNG",
           "descrip": ""
         },
         {
           "small": "/11_right-to-rest/11_IMG_26.jpg",
-          "full": "/11_right-to-rest/source/11_IMG_26L.jpg",
+          "full": "/11_right-to-rest/source/11_IMG_26L.PNG",
           "descrip": ""
         },
         {
-          "small": "/11_right-to-rest/11_IMG_27.jpg",
-          "full": "/11_right-to-rest/source/11_IMG_27L.jpg",
+          "small": "/11_right-to-rest/11_IMG_27.png",
+          "full": "/11_right-to-rest/source/11_IMG_27L.PNG",
           "descrip": ""
         },
         {
-          "small": "/11_right-to-rest/11_IMG_28.jpg",
-          "full": "/11_right-to-rest/source/11_IMG_28L.jpg",
+          "small": "/11_right-to-rest/11_IMG_28.png",
+          "full": "/11_right-to-rest/source/11_IMG_28L.PNG",
           "descrip": ""
         }
       ]
@@ -1846,10 +1854,16 @@
     {
       "name": "",
       "name-en": "",
-      "description": "«Выход за пределы повседневности и истории, встреча со своим болезненным, смертным телом, густая тень кошмара государственных преступлений, депортаций и казней — этот мерцающий второй план санаторского рая объясняет то <span class='bold'>колоссальное экзистенциальное напряжение</span>, которое открывает в тепле курортных артефактов выставка Катерины Ковалевой. Ее оптика сфокусирована не на ностальгическом обаянии, но на амбивалентной метафизике мира советского санатория, места, где можно примерить <span class='bold'>жизнь за пределами жизни</span>, посмертное существование».\n\n— Андрей Курилкин",
-      "description-en": "“Going beyond the limits of everyday life and history, meeting with one's own painful, mortal body, the thick shadow of the nightmare of state crimes, deportations and executions - this shimmering second plane of sanatorium paradise explains the colossal existential tension that Katerina Kovaleva's exhibition reveals in the warmth of spa artifacts. Her optics focus not on nostalgic charm, but on the ambivalent metaphysics of the world of the Soviet sanatorium, a place where one can try on life beyond life, a posthumous existence”.\n\n— Andrei Kurilkin",
-      "paintDescription": [""],
-      "paintDescription-en": [""],
+      "description": "",
+      "description-en": "",
+      "paintDescription": [
+        "«Выход за пределы повседневности и истории, встреча со своим болезненным, смертным телом, густая тень кошмара государственных преступлений, депортаций и казней — этот мерцающий второй план санаторского рая объясняет то <span class='bold'>колоссальное экзистенциальное напряжение</span>, которое открывает в тепле курортных артефактов выставка Катерины Ковалевой. Ее оптика сфокусирована не на ностальгическом обаянии, но на амбивалентной метафизике мира советского санатория, места, где можно примерить <span class='bold'>жизнь за пределами жизни</span>, посмертное существование».",
+        "— Андрей Курилкин"
+      ],
+      "paintDescription-en": [
+        "“Going beyond the limits of everyday life and history, meeting with one's own painful, mortal body, the thick shadow of the nightmare of state crimes, deportations and executions - this shimmering second plane of sanatorium paradise explains the colossal existential tension that Katerina Kovaleva's exhibition reveals in the warmth of spa artifacts. Her optics focus not on nostalgic charm, but on the ambivalent metaphysics of the world of the Soviet sanatorium, a place where one can try on life beyond life, a posthumous existence”.",
+        "— Andrei Kurilkin"
+      ],
       "imagePaths": [
         {
           "small": "/11_right-to-rest/11_IMG_29.jpg",
@@ -1901,10 +1915,18 @@
     {
       "name": "",
       "name-en": "",
-      "description": "Большие круглые холсты, поддерживают вечную тему круга, которая появляется и в объектах «Шарики мороженого» и «Бильярдные шары». Здесь и мраморный вазон в стиле сталинского ампира, наполненный мраморными бильярдными шарами, и бронзовая «вазочка» с мраморным мороженым. \n\n\n\n\n «Уникальная в глубоко личной обнаженности, в незащищенности от взгляда события, творческая позиция Кати Ковалевой диктуется обратной перспективой. \n\nХудожница находится в предстоянии перед этой фантастической реальностью, которая обрушивается на нее, заставляя принять себя в беспощадно творческом откровении. В ее образности утверждаются особые признаки русской культуры, они окрашивают ее в самые актуальные уровни, формируя постисторию в единую структуру как феномен художественного сознания, как коэффициент «Черного квадрата» Казимира Малевича. \n\nВ этом случае русский постмодернизм обретает собственную уникальную природу, объявляя в своих образах, по словам Жана-Франсуа Лиотара, «не конец модернизма, но модернизм в состоянии зарождения, и это состояние постоянно».",
-      "description-en": "Large round canvases, support the eternal theme of the circle, which also appears in the objects “Ice Cream Balls” and “Billiard Balls”. There is a marble vase in the Stalin Empire style filled with marble billiard balls and a bronze “vase” with marble ice cream.\n\n\n\nUnique in its deeply personal nudity, in its vulnerability to the gaze of the event, Katya Kovaleva's creative position is dictated by the reverse perspective. \n\nThe artist is in facing this fantastic reality that descends upon her, forcing her to accept herself in a ruthlessly creative revelation. Her imagery asserts the special features of Russian culture, they color it in the most actual levels, forming posthistory into a single structure as a phenomenon of artistic consciousness, as a quotient of Kazimir Malevich's “Black Square”.\n\nIn this case, Russian postmodernism acquires its own unique nature, declaring in its images, in the words of Jean-François Lyotard, “not the end of modernism, but modernism in a state of emergence, and this state is constant”",
-      "paintDescription": [""],
-      "paintDescription-en": [""],
+      "description": "",
+      "description-en": "\n\n\n\nUnique in its deeply personal nudity, in its vulnerability to the gaze of the event, Katya Kovaleva's creative position is dictated by the reverse perspective. \n\nThe artist is in facing this fantastic reality that descends upon her, forcing her to accept herself in a ruthlessly creative revelation. Her imagery asserts the special features of Russian culture, they color it in the most actual levels, forming posthistory into a single structure as a phenomenon of artistic consciousness, as a quotient of Kazimir Malevich's “Black Square”.\n\nIn this case, Russian postmodernism acquires its own unique nature, declaring in its images, in the words of Jean-François Lyotard, “not the end of modernism, but modernism in a state of emergence, and this state is constant”",
+      "paintDescription": [
+        "Большие круглые холсты, поддерживают вечную тему круга, которая появляется и в объектах «Шарики мороженого» и «Бильярдные шары». Здесь и мраморный вазон в стиле сталинского ампира, наполненный мраморными бильярдными шарами, и бронзовая «вазочка» с мраморным мороженым.",
+        "«Уникальная в глубоко личной обнаженности, в незащищенности от взгляда события, творческая позиция Кати Ковалевой диктуется обратной перспективой. \n\nХудожница находится в предстоянии перед этой фантастической реальностью, которая обрушивается на нее, заставляя принять себя в беспощадно творческом откровении. В ее образности утверждаются особые признаки русской культуры, они окрашивают ее в самые актуальные уровни, формируя постисторию в единую структуру как феномен художественного сознания, как коэффициент «Черного квадрата» Казимира Малевича. \n\nВ этом случае русский постмодернизм обретает собственную уникальную природу, объявляя в своих образах, по словам Жана-Франсуа Лиотара, «не конец модернизма, но модернизм в состоянии зарождения, и это состояние постоянно».",
+        "— Виталий Пацюков"
+      ],
+      "paintDescription-en": [
+        "Large round canvases, support the eternal theme of the circle, which also appears in the objects “Ice Cream Balls” and “Billiard Balls”. There is a marble vase in the Stalin Empire style filled with marble billiard balls and a bronze “vase” with marble ice cream.",
+        "Unique in its deeply personal nudity, in its vulnerability to the gaze of the event, Katya Kovaleva's creative position is dictated by the reverse perspective. \n\nThe artist is in facing this fantastic reality that descends upon her, forcing her to accept herself in a ruthlessly creative revelation. Her imagery asserts the special features of Russian culture, they color it in the most actual levels, forming posthistory into a single structure as a phenomenon of artistic consciousness, as a quotient of Kazimir Malevich's “Black Square”.\n\nIn this case, Russian postmodernism acquires its own unique nature, declaring in its images, in the words of Jean-François Lyotard, “not the end of modernism, but modernism in a state of emergence, and this state is constant”",
+        "— Vitaliy Patsyukov"
+      ],
       "imagePaths": [
         {
           "small": "/11_right-to-rest/11_IMG_38.jpg",
