@@ -25,5 +25,6 @@ export default class App {
     this.page.renderGalleryWithoutMainPhoto('notebooks', data);
     this.page.renderGalleryWithoutMainPhoto('early-works', data);
     this.page.renderGalleryWithoutMainPhoto('antarctic-diary', data);
+    this.page.renderGallery('memorial-objects', data);
   }
 }
