@@ -20,6 +20,11 @@ p {
   .bold {
     font-weight: 700;
   }
+
+  .under {
+    color: $dark;
+    text-decoration-line: underline;
+  }
 }
 
 .maps,
