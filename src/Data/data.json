@@ -1479,36 +1479,44 @@
   ],
   "memorial-objects": [
     {
-      "name": "«Что касается объектов или скульптур, выполненных в камне, это памятники-<span class='bold'>надгробия</span> событий или понятий.\n \nПервые такие объекты были сделаны для моей персональной выставки, посвященной снегу.",
-      "name-en": "“As for the objects or sculptures made in stone, they are monuments-<span class='bold'>tombstones</span> of events or concepts.\n \nThe first such objects were made for my solo exhibition dedicated to snow”",
-      "description": "Мне хотелось <span class='bold'>увековечить</span> самое <span class='bold'>эфемерное</span>: снег, снежок. Так появились памятник снеговику или надгробие «Здесь лежат останки снеговика», памятник «Загадочная русская душа» и другие. \n \n \n \nНа камне всегда есть надпись на латыни, отсылающая зрителя к древнеримским надгробиям, подчеркивающая универсальность <span class='bold'>«идеи вечной памяти»</span>.\n \n \n \n— Катерина Ковалёва",
-      "description-en": "I wanted to <span class='bold'>immortalize</span> the most <span class='bold'>ephemeral</span>: snow, snowball. This is how the monument to the snowman or the tombstone “Here lie the remains of a snowman”, the monument “The mysterious Russian soul” and others came into being. \n \n \n \nThe stone always has an inscription in Latin, referring the viewer to the ancient Roman tombstones, emphasizing the universality of the <span class='bold'>“idea of eternal memory”</span>. \n \n \n \n— Katerina Kovaleva",
-      "paintDescription": [""],
-      "paintDescription-en": [""],
+      "name": "",
+      "name-en": "",
+      "description": "«Что касается объектов или скульптур, выполненных в камне, это памятники-<span class='bold'>надгробия</span> событий или понятий.\n \nПервые такие объекты были сделаны для моей персональной выставки, посвященной снегу.",
+      "description-en": "“As for the objects or sculptures made in stone, they are monuments-<span class='bold'>tombstones</span> of events or concepts.\n \nThe first such objects were made for my solo exhibition dedicated to snow”",
+      "paintDescription": [
+        "Мне хотелось <span class='bold'>увековечить</span> самое <span class='bold'>эфемерное</span>: снег, снежок. Так появились памятник снеговику или надгробие «Здесь лежат останки снеговика», памятник «Загадочная русская душа» и другие.",
+        "На камне всегда есть надпись на латыни, отсылающая зрителя к древнеримским надгробиям, подчеркивающая универсальность <span class='bold'>«идеи вечной памяти»</span>.",
+        "— Катерина Ковалёва"
+      ],
+      "paintDescription-en": [
+        "I wanted to <span class='bold'>immortalize</span> the most <span class='bold'>ephemeral</span>: snow, snowball. This is how the monument to the snowman or the tombstone “Here lie the remains of a snowman”, the monument “The mysterious Russian soul” and others came into being.",
+        "The stone always has an inscription in Latin, referring the viewer to the ancient Roman tombstones, emphasizing the universality of the <span class='bold'>“idea of eternal memory”</span>.",
+        "— Katerina Kovaleva"
+      ],
       "imagePaths": [
         {
-          "small": "/10_memorial objects/10_IMG_01.jpg",
-          "full": "/10_memorial objects/source/10_IMG_01L.jpg",
+          "small": "/10_memorial-objects/10_IMG_01.gif",
+          "full": "/10_memorial-objects/source/10_IMG_01L.gif",
+          "descrip": "Ifhbrb"
+        },
+        {
+          "small": "/10_memorial-objects/10_IMG_02.jpg",
+          "full": "/10_memorial-objects/source/10_IMG_02L.jpg",
           "descrip": ""
         },
         {
-          "small": "/10_memorial objects/10_IMG_02.jpg",
-          "full": "/10_memorial objects/source/10_IMG_02L.jpg",
+          "small": "/10_memorial-objects/10_IMG_03.jpg",
+          "full": "/10_memorial-objects/source/10_IMG_03L.jpg",
           "descrip": ""
         },
         {
-          "small": "/10_memorial objects/10_IMG_03.jpg",
-          "full": "/10_memorial objects/source/10_IMG_03L.jpg",
+          "small": "/10_memorial-objects/10_IMG_04.jpg",
+          "full": "/10_memorial-objects/source/10_IMG_04L.jpg",
           "descrip": ""
         },
         {
-          "small": "/10_memorial objects/10_IMG_04.jpg",
-          "full": "/10_memorial objects/source/10_IMG_04L.jpg",
-          "descrip": ""
-        },
-        {
-          "small": "/10_memorial objects/10_IMG_05.jpg",
-          "full": "/10_memorial objects/source/10_IMG_05L.jpg",
+          "small": "/10_memorial-objects/10_IMG_05.jpg",
+          "full": "/10_memorial-objects/source/10_IMG_05L.jpg",
           "descrip": ""
         }
       ]
@@ -1522,48 +1530,48 @@
       "paintDescription-en": [""],
       "imagePaths": [
         {
-          "small": "/10_memorial objects/10_IMG_06.jpg",
-          "full": "/10_memorial objects/source/10_IMG_06L.jpg",
+          "small": "/10_memorial-objects/10_IMG_06.jpg",
+          "full": "/10_memorial-objects/source/10_IMG_06L.jpg",
           "descrip": ""
         },
         {
-          "small": "/10_memorial objects/10_IMG_07.jpg",
-          "full": "/10_memorial objects/source/10_IMG_07L.jpg",
+          "small": "/10_memorial-objects/10_IMG_07.jpg",
+          "full": "/10_memorial-objects/source/10_IMG_07L.jpg",
           "descrip": ""
         },
         {
-          "small": "/10_memorial objects/10_IMG_08.jpg",
-          "full": "/10_memorial objects/source/10_IMG_08L.jpg",
+          "small": "/10_memorial-objects/10_IMG_08.jpg",
+          "full": "/10_memorial-objects/source/10_IMG_08L.jpg",
           "descrip": ""
         },
         {
-          "small": "/10_memorial objects/10_IMG_09.jpg",
-          "full": "/10_memorial objects/source/10_IMG_09L.jpg",
+          "small": "/10_memorial-objects/10_IMG_09.jpg",
+          "full": "/10_memorial-objects/source/10_IMG_09L.jpg",
           "descrip": ""
         },
         {
-          "small": "/10_memorial objects/10_IMG_10.jpg",
-          "full": "/10_memorial objects/source/10_IMG_10L.jpg",
+          "small": "/10_memorial-objects/10_IMG_10.jpg",
+          "full": "/10_memorial-objects/source/10_IMG_10L.jpg",
           "descrip": ""
         },
         {
-          "small": "/10_memorial objects/10_IMG_11.jpg",
-          "full": "/10_memorial objects/source/10_IMG_11L.jpg",
+          "small": "/10_memorial-objects/10_IMG_11.jpg",
+          "full": "/10_memorial-objects/source/10_IMG_11L.jpg",
           "descrip": ""
         },
         {
-          "small": "/10_memorial objects/10_IMG_12.jpg",
-          "full": "/10_memorial objects/source/10_IMG_12L.jpg",
+          "small": "/10_memorial-objects/10_IMG_12.jpg",
+          "full": "/10_memorial-objects/source/10_IMG_12L.jpg",
           "descrip": ""
         },
         {
-          "small": "/10_memorial objects/10_IMG_13.jpg",
-          "full": "/10_memorial objects/source/10_IMG_13L.jpg",
+          "small": "/10_memorial-objects/10_IMG_13.jpg",
+          "full": "/10_memorial-objects/source/10_IMG_13L.jpg",
           "descrip": ""
         },
         {
-          "small": "/10_memorial objects/10_IMG_14.jpg",
-          "full": "/10_memorial objects/source/10_IMG_14L.jpg",
+          "small": "/10_memorial-objects/10_IMG_14.jpg",
+          "full": "/10_memorial-objects/source/10_IMG_14L.jpg",
           "descrip": ""
         }
       ]
@@ -1573,72 +1581,72 @@
       "name-en": "",
       "description": "...Кому уподоблю нашего Незабвенного? Будет ли дерзновением сравнить его с великим Осирисом, растерзанным, умершим и воскресшим, владычествующим над вечностью и несущим жизнь через эту великую метаморфозу. Нимало. Он и есть наш северный Осирис.\n \nПосему и его, нашего Незабвенного, мы призываем подобно древним египтянам, искушенным в тайнах жизни и смерти:\n \n«Хотя ты уходил, да придёшь ты!\n \nХотя ты спал, да проснешься ты!\n \nХотя ты умер, да оживёшь ты!\n \nВстань!..»\n \nВосстань с приходом целительного снега, восстань через забвение и умерщвление, <span class='bold'>восстань под чистый лепет жизни!</span>»",
       "description-en": "...To whom shall I liken our Unforgettable One? Would it be audacity to compare him to the great Osiris, torn, dead and risen, ruling over eternity and bringing life through this great metamorphosis. Not in the least. He is our northern Osiris. \n \nTherefore, we also call upon him, our Unforgettable One, like the ancient Egyptians who were adept in the mysteries of life and death:\n \n«Though you went away, may you come!\n \nThough you slept, may you awake!\n \nThough thou art dead, thou shalt be revived!\n \nArise!...»\n \nArise with the coming of the healing snow, arise through oblivion and mortification, arise to the pure babble of life!”",
-      "paintDescription": [""],
+      "paintDescription": ["— Алексей Юдин о проекте “SNEGOVICUS”"],
       "paintDescription-en": [""],
       "imagePaths": [
         {
-          "small": "/10_memorial objects/10_IMG_15.jpg",
-          "full": "/10_memorial objects/source/10_IMG_15L.jpg",
+          "small": "/10_memorial-objects/10_IMG_15.jpg",
+          "full": "/10_memorial-objects/source/10_IMG_15L.jpg",
           "descrip": ""
         },
         {
-          "small": "/10_memorial objects/10_IMG_16.jpg",
-          "full": "/10_memorial objects/source/10_IMG_16L.jpg",
+          "small": "/10_memorial-objects/10_IMG_16.jpg",
+          "full": "/10_memorial-objects/source/10_IMG_16L.jpg",
           "descrip": ""
         },
         {
-          "small": "/10_memorial objects/10_IMG_17.jpg",
-          "full": "/10_memorial objects/source/10_IMG_17L.jpg",
+          "small": "/10_memorial-objects/10_IMG_17.jpg",
+          "full": "/10_memorial-objects/source/10_IMG_17L.jpg",
           "descrip": ""
         },
         {
-          "small": "/10_memorial objects/10_IMG_18.jpg",
-          "full": "/10_memorial objects/source/10_IMG_18L.jpg",
+          "small": "/10_memorial-objects/10_IMG_18.jpg",
+          "full": "/10_memorial-objects/source/10_IMG_18L.jpg",
           "descrip": ""
         },
         {
-          "small": "/10_memorial objects/10_IMG_19.jpg",
-          "full": "/10_memorial objects/source/10_IMG_19L.jpg",
+          "small": "/10_memorial-objects/10_IMG_19.jpg",
+          "full": "/10_memorial-objects/source/10_IMG_19L.jpg",
           "descrip": ""
         },
         {
-          "small": "/10_memorial objects/10_IMG_20.jpg",
-          "full": "/10_memorial objects/source/10_IMG_20L.jpg",
+          "small": "/10_memorial-objects/10_IMG_20.jpg",
+          "full": "/10_memorial-objects/source/10_IMG_20L.jpg",
           "descrip": ""
         },
         {
-          "small": "/10_memorial objects/10_IMG_21.jpg",
-          "full": "/10_memorial objects/source/10_IMG_21L.jpg",
+          "small": "/10_memorial-objects/10_IMG_21.jpg",
+          "full": "/10_memorial-objects/source/10_IMG_21L.jpg",
           "descrip": ""
         },
         {
-          "small": "/10_memorial objects/10_IMG_22.jpg",
-          "full": "/10_memorial objects/source/10_IMG_22L.jpg",
+          "small": "/10_memorial-objects/10_IMG_22.jpg",
+          "full": "/10_memorial-objects/source/10_IMG_22L.jpg",
           "descrip": ""
         },
         {
-          "small": "/10_memorial objects/10_IMG_23.jpg",
-          "full": "/10_memorial objects/source/10_IMG_23L.jpg",
+          "small": "/10_memorial-objects/10_IMG_23.jpg",
+          "full": "/10_memorial-objects/source/10_IMG_23L.jpg",
           "descrip": ""
         },
         {
-          "small": "/10_memorial objects/10_IMG_24.jpg",
-          "full": "/10_memorial objects/source/10_IMG_24L.jpg",
+          "small": "/10_memorial-objects/10_IMG_24.jpg",
+          "full": "/10_memorial-objects/source/10_IMG_24L.jpg",
           "descrip": ""
         },
         {
-          "small": "/10_memorial objects/10_IMG_25.jpg",
-          "full": "/10_memorial objects/source/10_IMG_25L.jpg",
+          "small": "/10_memorial-objects/10_IMG_25.jpg",
+          "full": "/10_memorial-objects/source/10_IMG_25L.jpg",
           "descrip": ""
         },
         {
-          "small": "/10_memorial objects/10_IMG_26.jpg",
-          "full": "/10_memorial objects/source/10_IMG_26L.jpg",
+          "small": "/10_memorial-objects/10_IMG_26.jpg",
+          "full": "/10_memorial-objects/source/10_IMG_26L.jpg",
           "descrip": ""
         },
         {
-          "small": "/10_memorial objects/10_IMG_27.jpg",
-          "full": "/10_memorial objects/source/10_IMG_27L.jpg",
+          "small": "/10_memorial-objects/10_IMG_27.jpg",
+          "full": "/10_memorial-objects/source/10_IMG_27L.jpg",
           "descrip": ""
         }
       ]

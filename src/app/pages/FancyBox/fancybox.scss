@@ -1,5 +1,6 @@
-.fancybox__container {
-  // --right-col-width: 0px;
+.fancybox {
+  position: relative;
+  z-index: 100;
 }
 
 .fancybox__container.has-sidebar {
@@ -98,5 +99,14 @@
 }
 
 .fancybox__slide {
-  height: 100vh;
+  // margin-top: 30px;
+  justify-content: center;
+}
+
+.fancybox__slide::before,
+.fancybox__slide::after {
+  display: none;
+  content: '';
+  flex: 0 0 0;
+  margin: auto;
 }
