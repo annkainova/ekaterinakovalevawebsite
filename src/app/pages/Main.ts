@@ -22,10 +22,8 @@ export default class Main {
     this.collage = new Collage();
     this.collage.collageAnimation();
 
-
     this.activeLink = new ActiveLink();
     this.activeLink.setActiveLink();
-
 
     this.bioView = new Biography(
       dataBiography.bio.name,
