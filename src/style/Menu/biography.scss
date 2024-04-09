@@ -1,5 +1,6 @@
 .biography {
   max-width: 970px;
+  height: 100%;
 
   &__links {
     display: flex;
@@ -19,15 +20,13 @@
       outline: none;
 
       padding: 1px 6px;
+      letter-spacing: 0.8px;
 
       &:hover {
         background: $dark;
         color: $white;
       }
     }
-  }
-
-  &__info {
   }
 
   &__bio {
@@ -37,14 +36,29 @@
       line-height: 20px;
     }
 
-    &-img {
+    &-images {
+      margin-top: 100px;
+      display: flex;
+      gap: 80px;
     }
   }
 
   &__personal {
+    margin-bottom: 100px;
+    display: flex;
+    gap: 208px;
+
     &-text {
-      .year {
-        margin-right: 20px;
+      display: flex;
+      flex-wrap: wrap;
+
+      .personal-data {
+        display: flex;
+        gap: 20px;
+      }
+
+      .personal-text {
+        line-height: 25px;
       }
     }
 
@@ -57,6 +71,15 @@
       column-count: 2;
       column-gap: 80px;
       line-height: 20px;
+
+      .personal-data {
+        display: flex;
+        gap: 20px;
+      }
+
+      .personal-text {
+        line-height: 25px;
+      }
     }
 
     &-img {
