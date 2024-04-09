@@ -15,7 +15,7 @@ export default class Localization {
 
   changeLanguage(lang: string) {
     localStorage.setItem('language', lang);
-    this.language = localStorage.getItem('language');
+    this.language = localStorage.getItem('language') as string;
     // eslint-disable-next-line no-restricted-globals
     location.reload();
   }
