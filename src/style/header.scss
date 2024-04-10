@@ -193,18 +193,20 @@
   &__element {
     position: relative;
     top: 0;
-    left: -100px;
+    // left: -100px;
+    // right: -100px;
     width: 42px;
     height: 60px;
-    background-image: url(/bear_2.gif);
+    // background-image: url(/bear_2.gif);
+    // background-image: url(/bear_1.gif);
 
     -webkit-animation: linear;
-    -webkit-animation-name: walk;
+    -webkit-animation-name: walkLeft;
     -webkit-animation-duration: 30s;
-    animation: walk linear 30s 1;
+    // animation: walkLeft linear 30s 1;
 
     display: block;
-    // -webkit-animation-iteration-count: 1;
+    -webkit-animation-iteration-count: 1;
   }
 
   &__line {
@@ -217,7 +219,7 @@
   }
 }
 
-@-webkit-keyframes walk {
+@-webkit-keyframes walkRight {
   0% {
     left: -100px;
   }
@@ -228,15 +230,16 @@
 
   100% {
     left: calc(100% + 100px);
-    // -webkit-transform: rotateY(180deg);
+  }
+}
+
+@-webkit-keyframes walkLeft {
+  0% {
+    right: -100%;
   }
 
-  // 98% {
-  //   -webkit-transform: rotateY(180deg);
-  // }
-
-  // 100% {
-  //   left: -30px;
-  //   -webkit-transform: rotateY(0deg);
-  // }
+  100% {
+    right: calc(100% + 100px);
+    // -webkit-transform: rotateY(180deg);
+  }
 }
