@@ -137,17 +137,17 @@
       "imagePaths": [
         {
           "small": "/13_Mosaics/13_IMG_01.jpg",
-          "full": "/13_Mosaics/13_IMG_01L.jpg",
+          "full": "/13_Mosaics/source/13_IMG_01L.jpg",
           "descrip": "120 х 30 см  • 1992"
         },
         {
           "small": "/13_Mosaics/13_IMG_02.jpg",
-          "full": "/13_Mosaics/13_IMG_02L.jpg",
+          "full": "/13_Mosaics/source/13_IMG_02L.jpg",
           "descrip": "75 х 95 см  • 1992"
         },
         {
           "small": "/13_Mosaics/13_IMG_02.jpg",
-          "full": "/13_Mosaics/13_IMG_02L.jpg",
+          "full": "/13_Mosaics//source/13_IMG_02L.jpg",
           "descrip": "75 х 95 см  • 1992"
         }
       ]
@@ -162,22 +162,22 @@
       "imagePaths": [
         {
           "small": "/13_Mosaics/13_IMG_04.jpg",
-          "full": "/13_Mosaics/13_IMG_04L.jpg",
+          "full": "/13_Mosaics/source/13_IMG_04L.jpg",
           "descrip": " "
         },
         {
           "small": "/13_Mosaics/13_IMG_05.jpg",
-          "full": "/13_Mosaics/13_IMG_05L.jpg",
+          "full": "/13_Mosaics/source/13_IMG_05L.jpg",
           "descrip": " "
         },
         {
           "small": "/13_Mosaics/13_IMG_06.jpg",
-          "full": "/13_Mosaics/13_IMG_06L.jpg",
+          "full": "/13_Mosaics/source/13_IMG_06L.jpg",
           "descrip": " "
         },
         {
           "small": "/13_Mosaics/13_IMG_07.jpg",
-          "full": "/13_Mosaics/13_IMG_07L.jpg",
+          "full": "/13_Mosaics/source/13_IMG_07L.jpg",
           "descrip": " "
         }
       ]
@@ -202,42 +202,42 @@
       "imagePaths": [
         {
           "small": "/13_Mosaics/13_IMG_08.jpg",
-          "full": "/13_Mosaics/13_IMG_08L.jpg",
+          "full": "/13_Mosaics/source/13_IMG_08L.jpg",
           "descrip": " "
         },
         {
           "small": "/13_Mosaics/13_IMG_09.jpg",
-          "full": "/13_Mosaics/13_IMG_09L.jpg",
+          "full": "/13_Mosaics/source/13_IMG_09L.jpg",
           "descrip": "140 х 140 см"
         },
         {
           "small": "/13_Mosaics/13_IMG_10.jpg",
-          "full": "/13_Mosaics/13_IMG_10L.jpg",
+          "full": "/13_Mosaics/source/13_IMG_10L.jpg",
           "descrip": "160 х 200 cm"
         },
         {
           "small": "/13_Mosaics/13_IMG_11.jpg",
-          "full": "/13_Mosaics/13_IMG_11L.jpg",
+          "full": "/13_Mosaics/source/13_IMG_11L.jpg",
           "descrip": " "
         },
         {
           "small": "/13_Mosaics/13_IMG_12.jpg",
-          "full": "/13_Mosaics/13_IMG_12L.jpg",
+          "full": "/13_Mosaics/source/13_IMG_12L.jpg",
           "descrip": "160 х 100 cm"
         },
         {
           "small": "/13_Mosaics/13_IMG_13.jpg",
-          "full": "/13_Mosaics/13_IMG_13L.jpg",
+          "full": "/13_Mosaics/source/13_IMG_13L.jpg",
           "descrip": "160 х 100 cm"
         },
         {
           "small": "/13_Mosaics/13_IMG_14.jpg",
-          "full": "/13_Mosaics/13_IMG_14L.jpg",
+          "full": "/13_Mosaics/source/13_IMG_14L.jpg",
           "descrip": "160 х 50 cm"
         },
         {
           "small": "/13_Mosaics/13_IMG_15.jpg",
-          "full": "/13_Mosaics/13_IMG_15L.jpg",
+          "full": "/13_Mosaics/source/13_IMG_15L.jpg",
           "descrip": " "
         }
       ]
@@ -1007,7 +1007,7 @@
       "imagePaths": [
         {
           "small": "/08_early-works/08_IMG_08.jpg",
-          "full": "/08_early-works/source/08_IMG_08L.jpg",
+          "full": "/08_early-works/source/08_IMG_08L.JPG",
           "descrip": " "
         },
         {

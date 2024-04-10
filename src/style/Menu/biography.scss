@@ -1,6 +1,5 @@
 .biography {
   max-width: 970px;
-  height: 100%;
 
   &__links {
     display: flex;
@@ -30,8 +29,6 @@
   }
 
   &__bio {
-    margin-bottom: 320px;
-
     &-text {
       column-count: 2;
       column-gap: 80px;
@@ -46,7 +43,6 @@
   }
 
   &__personal {
-    margin-bottom: 100px;
     display: flex;
     gap: 208px;
 
@@ -72,7 +68,6 @@
     column-count: 2;
     column-gap: 80px;
     line-height: 20px;
-    margin-bottom: 160px;
 
     &-text {
       .group-data {
