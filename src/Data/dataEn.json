@@ -1,11 +1,8 @@
 {
   "empty": [
     {
-      "name": "<span class='bold'> «памятного”</span>",
       "name": "“”«»",
       "description": "",
-      "description": "",
-      "paintDescription": [""],
       "paintDescription": [""],
       "imagePaths": [
         {
@@ -126,17 +123,17 @@
       "imagePaths": [
         {
           "small": "/13_Mosaics/13_IMG_01.jpg",
-          "full": "/13_Mosaics/13_IMG_01L.jpg",
+          "full": "/13_Mosaics/source/13_IMG_01L.jpg",
           "descrip": "120 х 30 см  • 1992"
         },
         {
           "small": "/13_Mosaics/13_IMG_02.jpg",
-          "full": "/13_Mosaics/13_IMG_02L.jpg",
+          "full": "/13_Mosaics/source/13_IMG_02L.jpg",
           "descrip": "75 х 95 см  • 1992"
         },
         {
           "small": "/13_Mosaics/13_IMG_02.jpg",
-          "full": "/13_Mosaics/13_IMG_02L.jpg",
+          "full": "/13_Mosaics/source/13_IMG_02L.jpg",
           "descrip": "75 х 95 см  • 1992"
         }
       ]
@@ -145,26 +142,25 @@
       "name": "Mosaics on the facade of a private house",
       "description": "Moscow region, Russia\nNatural stone, smalta\n1997.",
       "paintDescription": [],
-      "paintDescription": [],
       "imagePaths": [
         {
           "small": "/13_Mosaics/13_IMG_04.jpg",
-          "full": "/13_Mosaics/13_IMG_04L.jpg",
+          "full": "/13_Mosaics/source/13_IMG_04L.jpg",
           "descrip": ""
         },
         {
           "small": "/13_Mosaics/13_IMG_05.jpg",
-          "full": "/13_Mosaics/13_IMG_05L.jpg",
+          "full": "/13_Mosaics/source/13_IMG_05L.jpg",
           "descrip": ""
         },
         {
           "small": "/13_Mosaics/13_IMG_06.jpg",
-          "full": "/13_Mosaics/13_IMG_06L.jpg",
+          "full": "/13_Mosaics/source/13_IMG_06L.jpg",
           "descrip": ""
         },
         {
           "small": "/13_Mosaics/13_IMG_07.jpg",
-          "full": "/13_Mosaics/13_IMG_07L.jpg",
+          "full": "/13_Mosaics/source/13_IMG_07L.jpg",
           "descrip": ""
         }
       ]
@@ -172,12 +168,6 @@
     {
       "name": "Mosaics on the facade of a building",
       "description": "New York, USA\nNatural stone, smalta\n2007.",
-      "paintDescription": [
-        "№1. Общий вид на фасад здания",
-        "№2. 140 х 140 см \n№3. 160 х 200 см \n№4. Фрагмент",
-        "№5. 160 х 100 см \n№6. 160 х 100 см",
-        "№7. 160 х 50 см"
-      ],
       "paintDescription": [
         "№1. General view of the building facade",
         "№2. 140 х 140 cm \n№3. 160 х 200 cm \n№4. Fragment",
@@ -187,42 +177,42 @@
       "imagePaths": [
         {
           "small": "/13_Mosaics/13_IMG_08.jpg",
-          "full": "/13_Mosaics/13_IMG_08L.jpg",
+          "full": "/13_Mosaics/source/13_IMG_08L.jpg",
           "descrip": ""
         },
         {
           "small": "/13_Mosaics/13_IMG_09.jpg",
-          "full": "/13_Mosaics/13_IMG_09L.jpg",
+          "full": "/13_Mosaics/source/13_IMG_09L.jpg",
           "descrip": "140 х 140 см"
         },
         {
           "small": "/13_Mosaics/13_IMG_10.jpg",
-          "full": "/13_Mosaics/13_IMG_10L.jpg",
+          "full": "/13_Mosaics/source/13_IMG_10L.jpg",
           "descrip": "160 х 200 cm"
         },
         {
           "small": "/13_Mosaics/13_IMG_11.jpg",
-          "full": "/13_Mosaics/13_IMG_11L.jpg",
+          "full": "/13_Mosaics/source/13_IMG_11L.jpg",
           "descrip": ""
         },
         {
           "small": "/13_Mosaics/13_IMG_12.jpg",
-          "full": "/13_Mosaics/13_IMG_12L.jpg",
+          "full": "/13_Mosaics/source/13_IMG_12L.jpg",
           "descrip": "160 х 100 cm"
         },
         {
           "small": "/13_Mosaics/13_IMG_13.jpg",
-          "full": "/13_Mosaics/13_IMG_13L.jpg",
+          "full": "/13_Mosaics/source/13_IMG_13L.jpg",
           "descrip": "160 х 100 cm"
         },
         {
           "small": "/13_Mosaics/13_IMG_14.jpg",
-          "full": "/13_Mosaics/13_IMG_14L.jpg",
+          "full": "/13_Mosaics/source/13_IMG_14L.jpg",
           "descrip": "160 х 50 cm"
         },
         {
           "small": "/13_Mosaics/13_IMG_15.jpg",
-          "full": "/13_Mosaics/13_IMG_15L.jpg",
+          "full": "/13_Mosaics/source/13_IMG_15L.jpg",
           "descrip": ""
         }
       ]
@@ -232,10 +222,6 @@
     {
       "name": "Exhibition project “Waiting area”",
       "description": "Salt barn of the XVIII century, Tarusa\nGulag History Museum, Moscow\n2023",
-      "paintDescription": [
-        "Зона ожидания — область пространства, в которой парашютист под куполом должен находиться до осуществления захода на посадку.\n\n Используя эту метафору в размышлении над хрупкостью и непредсказуемостью человеческой жизни, над зависимостью судьбы от потоков времени и исторических событий, хочется <span class='bold'> сравнить человека с парашютистом</span>, который находится в драматичной и волнительной зоне ожидания, неопределенности, прежде чем выберет свою точную область приземления.\n\n Как меняется конфигурация и скорость времени в процессе ожидания? Как это влияет на восприятие человеком его пути, как душа человека зависит от ожидания?\n\n Инсталляция <span class='bold'>«Если пойдёт дождь»</span> о привычке подставлять ведра под текущую крышу, собирание воды или слез, капающих с неба…\n\n«Дворцовая люстра» из лагерной колючей проволоки (Томская зона №4) и хрусталя отражается в старых жестяных ведрах, корытах, которые покрыты зеркалами и создают иллюзию наполненности водой. В перевёрнутом виде люстра напоминает парашют.\n\nРасположенные в боковых нефах Павильона в Саду Памяти Музея истории ГУЛАГа лёгкие синтепоновые кулисы с изображением зависших парашютистов, могут создать впечатление торжественного небесного театра. Зритель будто пробирается сквозь облачную плотность, блуждая в лабиринте смыслов и метафор.",
-        "Фото: Алексей Народицкий"
-      ],
       "paintDescription": [
         "Waiting area - the area of space in which the parachutist under the canopy must stay before making the landing approach. \n\nUsing this metaphor to reflect on the fragility and unpredictability of human life, on the dependence of fate on the flows of time and historical events, I would like to <span class='bold'>compare man to a parachutist</span>, who is in a dramatic and exciting zone of waiting, uncertainty, before he chooses his exact landing area. \n\nHow does the configuration and speed of time change in the process of waiting? How does it affect a person's perception of his path, how does the human soul depend on waiting? \n\n Installation <span class='bold'>“If it rains”</span> about the habit of putting buckets under a flowing roof, collecting water or tears dripping from the sky...\n\nThe “Palace Chandelier” made of camp barbed wire (Tomsk penal colony No. 4) and crystal is reflected in old tin buckets and troughs, which are covered with mirrors and create the illusion of being filled with water. When turned upside down, the chandelier resembles a parachute.\n\nLocated in the side aisles of the Pavilion in the Garden of Remembrance of the Museum of Gulag History, lightweight padding polyester backdrops depicting hovering parachutists can create the impression of a solemn celestial theater. The viewer feels as if he or she is wading through a cloudy density, wandering through a labyrinth of meanings and metaphors.",
         "Photo: Alexei Naroditsky"
@@ -399,7 +385,6 @@
       "name": "",
       "description": "In this project I wanted to get closer to recognizing the main properties of the human soul\n\n <span class='bold'- memory, contemplation, expectation,</span>\n\n with the help of which, according to the definition of Blessed Augustine, the different moduses of time are cognized, to get closer to recognizing the Present, which is defined as the present past, present present, present future.\n\nIs there in eternity a Waiting?",
       "paintDescription": [""],
-      "paintDescription": [""],
       "imagePaths": [
         {
           "small": "/04_waiting-zone/block-3/04_IMG_30.jpg",
@@ -477,9 +462,6 @@
       "name": "",
       "description": "<span class='bold'>Monument Object</span> “Unsent and Unreceived Letters” are stacks of marble letters placed on stools or old trade scales",
       "paintDescription": [
-        "Ожидание письма, весточки, обратной связи одна из самых интенсивных эмоций ожидания."
-      ],
-      "paintDescription": [
         "Waiting for a letter, for news, for feedback is one of the most intense emotions of waiting."
       ],
       "imagePaths": [
@@ -520,9 +502,6 @@
     {
       "name": "“Horizon Colonization” series",
       "description": "Collage, mixed technique \n1989–1993",
-      "paintDescription": [
-        "«Отпечатки пальцев» уходящей эпохи — письма, бланки, записки, формирующие пространство неизменного пейзажа стремление приблизиться к постоянно удаляющейся точке схода, точке, где соединяются горизонтальное и вертикальное направления бытия. \n \n Морской горизонт или горизонт поля — «абсолютный» пейзаж."
-      ],
       "paintDescription": [
         "The “fingerprints” of a bygone era - letters, forms, notes that form the space of an unchanging landscape, the desire to approach the ever-distant vanishing point, the point where the horizontal and vertical directions of being come together. \n \n The horizon of the sea or the horizon of the field is the “absolute” landscape."
       ],
@@ -731,7 +710,7 @@
           "descrip": ""
         },
         {
-          "small": "/14_artworks/14_IMG_155.jpg",
+          "small": "/14_artworks/14_IMG_15.jpg",
           "full": "/14_artworks/source/14_IMG_15L.jpg",
           "descrip": ""
         },
@@ -1085,7 +1064,6 @@
     {
       "name": "",
       "description": "I work in watercolor. Brush movements are minimal, as is the presence of color. <span class='bold'>You have to be restrained</span>, there is no other way. \n \nAntarctic water, mixed with watercolor, remains on the paper, imprinting some meanings that are still unknown to me.",
-      "paintDescription": [""],
       "paintDescription": [""],
       "imagePaths": [
         {
@@ -1464,8 +1442,7 @@
     {
       "name": "",
       "description": "...To whom shall I liken our Unforgettable One? Would it be audacity to compare him to the great Osiris, torn, dead and risen, ruling over eternity and bringing life through this great metamorphosis. Not in the least. He is our northern Osiris. \n \nTherefore, we also call upon him, our Unforgettable One, like the ancient Egyptians who were adept in the mysteries of life and death:\n \n«Though you went away, may you come!\n \nThough you slept, may you awake!\n \nThough thou art dead, thou shalt be revived!\n \nArise!...»\n \nArise with the coming of the healing snow, arise through oblivion and mortification, arise to the pure babble of life!”",
-      "paintDescription": ["— Алексей Юдин о проекте “SNEGOVICUS”"],
-      "paintDescription": [""],
+      "paintDescription": ["— Alexey Yudin about the project “SNEGOVICUS”"],
       "imagePaths": [
         {
           "small": "/10_memorial-objects/10_IMG_15.jpg",
@@ -1540,7 +1517,6 @@
       "name": "Exhibition project\n “Medical History. The Right to Rest”",
       "description": "State Museum and Exhibition Center ROSPHOTO, St. Petersburg, 2021\n\n“This story began when I first got to the abandoned sanatorium “Gruziya” in Gagra. \n\nThe large-scale white health palace, built according to the canons of late Stalinist Empire, sits high above the sea and is clearly visible from the road.",
       "paintDescription": [""],
-      "paintDescription": [""],
       "imagePaths": [
         {
           "small": "/11_right-to-rest/11_IMG_01.jpg",
@@ -1572,7 +1548,6 @@
     {
       "name": "",
       "description": "Once upon a time, more than 30 years ago, the sanatorium life was booming here, as evidenced by the medical records scattered in the corridors and on the grand marble staircase, from which faded <span class='bold'>pink scrolls of cardiograms</span> with someone's frozen heart rhythm fall out.\n\nIn the mid-1930s, amid industrialization, collectivization, famine, and terror, Soviet citizens gained the <span class='bold'>right to rest</span>. The Soviet Union began to develop resorts.",
-      "paintDescription": [""],
       "paintDescription": [""],
       "imagePaths": [
         {
@@ -1686,7 +1661,7 @@
       "paintDescription": [""],
       "imagePaths": [
         {
-          "small": "/11_right-to-rest/11_IMG_23.jpg",
+          "small": "/11_right-to-rest/11_IMG_23.png",
           "full": "/11_right-to-rest/source/11_IMG_23L.PNG",
           "descrip": ""
         },

@@ -137,17 +137,17 @@
       "imagePaths": [
         {
           "small": "/13_Mosaics/13_IMG_01.jpg",
-          "full": "/13_Mosaics/13_IMG_01L.jpg",
+          "full": "/13_Mosaics/source/13_IMG_01L.jpg",
           "descrip": "120 х 30 см  • 1992"
         },
         {
           "small": "/13_Mosaics/13_IMG_02.jpg",
-          "full": "/13_Mosaics/13_IMG_02L.jpg",
+          "full": "/13_Mosaics/source/13_IMG_02L.jpg",
           "descrip": "75 х 95 см  • 1992"
         },
         {
           "small": "/13_Mosaics/13_IMG_02.jpg",
-          "full": "/13_Mosaics/13_IMG_02L.jpg",
+          "full": "/13_Mosaics/source/13_IMG_02L.jpg",
           "descrip": "75 х 95 см  • 1992"
         }
       ]
@@ -162,23 +162,23 @@
       "imagePaths": [
         {
           "small": "/13_Mosaics/13_IMG_04.jpg",
-          "full": "/13_Mosaics/13_IMG_04L.jpg",
-          "descrip": " "
+          "full": "/13_Mosaics/source/13_IMG_04L.jpg",
+          "descrip": "60 х 60 см"
         },
         {
           "small": "/13_Mosaics/13_IMG_05.jpg",
-          "full": "/13_Mosaics/13_IMG_05L.jpg",
-          "descrip": " "
+          "full": "/13_Mosaics/source/13_IMG_05L.jpg",
+          "descrip": "60 х 60 см"
         },
         {
           "small": "/13_Mosaics/13_IMG_06.jpg",
-          "full": "/13_Mosaics/13_IMG_06L.jpg",
-          "descrip": " "
+          "full": "/13_Mosaics/source/13_IMG_06L.jpg",
+          "descrip": "60 х 60 см"
         },
         {
           "small": "/13_Mosaics/13_IMG_07.jpg",
-          "full": "/13_Mosaics/13_IMG_07L.jpg",
-          "descrip": " "
+          "full": "/13_Mosaics/source/13_IMG_07L.jpg",
+          "descrip": "60 х 60 см"
         }
       ]
     },
@@ -202,42 +202,42 @@
       "imagePaths": [
         {
           "small": "/13_Mosaics/13_IMG_08.jpg",
-          "full": "/13_Mosaics/13_IMG_08L.jpg",
-          "descrip": " "
+          "full": "/13_Mosaics/source/13_IMG_08L.jpg",
+          "descrip": "Общий вид на фасад здания"
         },
         {
           "small": "/13_Mosaics/13_IMG_09.jpg",
-          "full": "/13_Mosaics/13_IMG_09L.jpg",
+          "full": "/13_Mosaics/source/13_IMG_09L.jpg",
           "descrip": "140 х 140 см"
         },
         {
           "small": "/13_Mosaics/13_IMG_10.jpg",
-          "full": "/13_Mosaics/13_IMG_10L.jpg",
+          "full": "/13_Mosaics/source/13_IMG_10L.jpg",
           "descrip": "160 х 200 cm"
         },
         {
           "small": "/13_Mosaics/13_IMG_11.jpg",
-          "full": "/13_Mosaics/13_IMG_11L.jpg",
-          "descrip": " "
+          "full": "/13_Mosaics/source/13_IMG_11L.jpg",
+          "descrip": "Фрагмент"
         },
         {
           "small": "/13_Mosaics/13_IMG_12.jpg",
-          "full": "/13_Mosaics/13_IMG_12L.jpg",
+          "full": "/13_Mosaics/source/13_IMG_12L.jpg",
           "descrip": "160 х 100 cm"
         },
         {
           "small": "/13_Mosaics/13_IMG_13.jpg",
-          "full": "/13_Mosaics/13_IMG_13L.jpg",
+          "full": "/13_Mosaics/source/13_IMG_13L.jpg",
           "descrip": "160 х 100 cm"
         },
         {
           "small": "/13_Mosaics/13_IMG_14.jpg",
-          "full": "/13_Mosaics/13_IMG_14L.jpg",
+          "full": "/13_Mosaics/source/13_IMG_14L.jpg",
           "descrip": "160 х 50 cm"
         },
         {
           "small": "/13_Mosaics/13_IMG_15.jpg",
-          "full": "/13_Mosaics/13_IMG_15L.jpg",
+          "full": "/13_Mosaics/source/13_IMG_15L.jpg",
           "descrip": " "
         }
       ]
@@ -1527,27 +1527,27 @@
         {
           "small": "/10_memorial-objects/10_IMG_06.jpg",
           "full": "/10_memorial-objects/source/10_IMG_06L.jpg",
-          "descrip": " "
+          "descrip": "SNEGOVICUS • Действующие лица / Dramatis Personae • Дуэль Пушкина • 2009"
         },
         {
           "small": "/10_memorial-objects/10_IMG_07.jpg",
           "full": "/10_memorial-objects/source/10_IMG_07L.jpg",
-          "descrip": " "
+          "descrip": "SNEGOVICUS • Изменчивый мир / Mutatis Mundis • 2009"
         },
         {
           "small": "/10_memorial-objects/10_IMG_08.jpg",
           "full": "/10_memorial-objects/source/10_IMG_08L.jpg",
-          "descrip": " "
+          "descrip": "SNEGOVICUS • Действующие лица / Dramatis Personae • Дуэль Пушкина • 2009"
         },
         {
           "small": "/10_memorial-objects/10_IMG_09.jpg",
           "full": "/10_memorial-objects/source/10_IMG_09L.jpg",
-          "descrip": " "
+          "descrip": "SNEGOVICUS • Загадочная русская душа / Anima Russa Mystica • 2009"
         },
         {
           "small": "/10_memorial-objects/10_IMG_10.jpg",
           "full": "/10_memorial-objects/source/10_IMG_10L.jpg",
-          "descrip": " "
+          "descrip": "SNEGOVICUS • Странная радостная гармония / Harmonia Laetabilis Insolita • 2009"
         },
         {
           "small": "/10_memorial-objects/10_IMG_11.jpg",
@@ -1582,27 +1582,27 @@
         {
           "small": "/10_memorial-objects/10_IMG_15.jpg",
           "full": "/10_memorial-objects/source/10_IMG_15L.jpg",
-          "descrip": " "
+          "descrip": "SNEGOVICUS • Здесь лежат останки снеговика / Snegovici Ossa His Yacent • 2009"
         },
         {
           "small": "/10_memorial-objects/10_IMG_16.jpg",
           "full": "/10_memorial-objects/source/10_IMG_16L.jpg",
-          "descrip": " "
+          "descrip": "Ignotum Penguin / Неизвестный пингвин"
         },
         {
           "small": "/10_memorial-objects/10_IMG_17.jpg",
           "full": "/10_memorial-objects/source/10_IMG_17L.jpg",
-          "descrip": " "
+          "descrip": "Os De Ossibus / Кость от кости"
         },
         {
           "small": "/10_memorial-objects/10_IMG_18.jpg",
           "full": "/10_memorial-objects/source/10_IMG_18L.jpg",
-          "descrip": " "
+          "descrip": "Dolce Vita / Сладкая жизнь"
         },
         {
           "small": "/10_memorial-objects/10_IMG_19.jpg",
           "full": "/10_memorial-objects/source/10_IMG_19L.jpg",
-          "descrip": " "
+          "descrip": "Salve / Здравствуй"
         },
         {
           "small": "/10_memorial-objects/10_IMG_20.jpg",
@@ -1617,17 +1617,17 @@
         {
           "small": "/10_memorial-objects/10_IMG_22.jpg",
           "full": "/10_memorial-objects/source/10_IMG_22L.jpg",
-          "descrip": " "
+          "descrip": "Os De Ossibus / Кость от кости"
         },
         {
           "small": "/10_memorial-objects/10_IMG_23.jpg",
           "full": "/10_memorial-objects/source/10_IMG_23L.jpg",
-          "descrip": " "
+          "descrip": "Dolce Vita / Сладкая жизнь"
         },
         {
           "small": "/10_memorial-objects/10_IMG_24.jpg",
           "full": "/10_memorial-objects/source/10_IMG_24L.jpg",
-          "descrip": " "
+          "descrip": "Salve / Здравствуй"
         },
         {
           "small": "/10_memorial-objects/10_IMG_25.jpg",
@@ -1637,12 +1637,12 @@
         {
           "small": "/10_memorial-objects/10_IMG_26.jpg",
           "full": "/10_memorial-objects/source/10_IMG_26L.jpg",
-          "descrip": " "
+          "descrip": "SNEGOVICUS • Здесь лежат останки снеговика / Snegovici Ossa His Yacent • 2009"
         },
         {
           "small": "/10_memorial-objects/10_IMG_27.jpg",
           "full": "/10_memorial-objects/source/10_IMG_27L.jpg",
-          "descrip": " "
+          "descrip": "Ignotum Penguin / Неизвестный пингвин"
         }
       ]
     }
@@ -1694,27 +1694,27 @@
         {
           "small": "/11_right-to-rest/11_IMG_06.jpg",
           "full": "/11_right-to-rest/source/11_IMG_06L.jpg",
-          "descrip": " "
+          "descrip": "Фото из открытых источников"
         },
         {
           "small": "/11_right-to-rest/11_IMG_07.jpg",
           "full": "/11_right-to-rest/source/11_IMG_07L.jpg",
-          "descrip": " "
+          "descrip": "Фото из открытых источников"
         },
         {
           "small": "/11_right-to-rest/11_IMG_08.jpg",
           "full": "/11_right-to-rest/source/11_IMG_08L.jpg",
-          "descrip": " "
+          "descrip": "Фото из открытых источников"
         },
         {
           "small": "/11_right-to-rest/11_IMG_09.jpg",
           "full": "/11_right-to-rest/source/11_IMG_09L.jpg",
-          "descrip": " "
+          "descrip": "Фото из открытых источников"
         },
         {
           "small": "/11_right-to-rest/11_IMG_10.jpg",
           "full": "/11_right-to-rest/source/11_IMG_10L.jpg",
-          "descrip": " "
+          "descrip": "Фото из открытых источников"
         }
       ]
     },
