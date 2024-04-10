@@ -162,25 +162,25 @@
   }
 }
 
-@keyframes bearWalkLeft {
-  0% {
-    transform: translateX(0%);
-  }
+// @keyframes bearWalkLeft {
+//   0% {
+//     transform: translateX(0%);
+//   }
 
-  100% {
-    transform: translateX(-200vh);
-  }
-}
+//   100% {
+//     transform: translateX(-200vh);
+//   }
+// }
 
-@keyframes bearWalkRight {
-  0% {
-    transform: translateX(-200vh);
-  }
+// @keyframes bearWalkRight {
+//   0% {
+//     transform: translateX(-200vh);
+//   }
 
-  100% {
-    transform: translateX(0);
-  }
-}
+//   100% {
+//     transform: translateX(0);
+//   }
+// }
 
 .splitter {
   position: relative;
@@ -198,9 +198,10 @@
     height: 60px;
     background-image: url(/bear_2.gif);
 
-    -webkit-animation: linear infinite;
+    -webkit-animation: linear;
     -webkit-animation-name: walk;
     -webkit-animation-duration: 30s;
+    animation: walk linear 30s 1;
 
     display: block;
     // -webkit-animation-iteration-count: 1;
