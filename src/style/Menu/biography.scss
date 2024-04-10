@@ -29,6 +29,8 @@
   }
 
   &__bio {
+    margin-bottom: 160px;
+
     &-text {
       column-count: 2;
       column-gap: 80px;
@@ -45,6 +47,7 @@
   &__personal {
     display: flex;
     gap: 208px;
+    margin-bottom: 160px;
 
     &-text {
       display: flex;
@@ -68,6 +71,7 @@
     column-count: 2;
     column-gap: 80px;
     line-height: 20px;
+    margin-bottom: 160px;
 
     &-text {
       .group-data {
