@@ -56,30 +56,24 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 });
 
-document.addEventListener('DOMContentLoaded', () => {
-  const bear = document.getElementById('bear');
-  const directions = ['left', 'right'];
-  const delays = [0, 3000, 6000, 9000]; // in milliseconds
+// document.addEventListener('DOMContentLoaded', () => {
+//   const bear = document.querySelector('.splitter__element') as HTMLElement;
+//   const directions = ['left', 'right'];
+//   const delays = [0, 3000, 6000, 9000]; // in milliseconds
 
-  // Randomize direction and delay
-  const direction = directions[Math.floor(Math.random() * directions.length)];
-  const delay = delays[Math.floor(Math.random() * delays.length)];
+//   // Randomize direction and delay
+//   const direction = directions[Math.floor(Math.random() * directions.length)];
+//   const delay = delays[Math.floor(Math.random() * delays.length)];
 
-  // Set the bear's initial position and direction
-  if (direction === 'left') {
-    bear.style.left = '0';
-  } else {
-    bear.style.right = '0';
-  }
-
-  // Show the bear after the randomized delay
-  setTimeout(() => {
-    bear.style.display = 'block';
-    // Animate the bear across the screen
-    if (direction === 'left') {
-      bear.style.left = '100%';
-    } else {
-      bear.style.right = '100%';
-    }
-  }, delay);
-});
+//   // Set the bear's initial position and direction
+//   if (direction === 'left') {
+//     bear.style.animationName = 'bearWalkLeft';
+//     // bear.style.animationDuration = '25s';
+//   } else {
+//     bear.style.animationName = 'bearWalkRight';
+//   }
+//   // Show the bear after the randomized delay
+//   setTimeout(() => {
+//     bear.style.display = 'none';
+//   }, delay);
+// });

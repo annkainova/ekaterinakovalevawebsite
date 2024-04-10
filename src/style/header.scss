@@ -168,17 +168,17 @@
   }
 
   100% {
-    transform: translateX(100%);
+    transform: translateX(-200vh);
   }
 }
 
 @keyframes bearWalkRight {
   0% {
-    transform: translateX(200vh);
+    transform: translateX(-200vh);
   }
 
   100% {
-    transform: translateX();
+    transform: translateX(0);
   }
 }
 
@@ -188,22 +188,22 @@
   width: 100%;
   // height: 200px;
   flex-direction: column;
-  align-items: flex-end;
+  // align-items: flex-end;
 
   &__element {
     position: relative;
     top: 0;
-    right: 0;
+    left: -100px;
     width: 42px;
     height: 60px;
-    background-image: url(/bear_1.gif);
+    background-image: url(/bear_2.gif);
 
-    animation: bearWalkLeft linear infinite;
-    animation-duration: 25s;
-    // animation-iteration-count: 1;
-  }
+    -webkit-animation: linear infinite;
+    -webkit-animation-name: walk;
+    -webkit-animation-duration: 30s;
 
-  .splitter__img {
+    display: block;
+    // -webkit-animation-iteration-count: 1;
   }
 
   &__line {
@@ -214,4 +214,28 @@
     background-repeat: repeat-x;
     background-origin: padding-box;
   }
+}
+
+@-webkit-keyframes walk {
+  0% {
+    left: -100px;
+  }
+
+  // 48% {
+  //   -webkit-transform: rotateY(0deg);
+  // }
+
+  100% {
+    left: calc(100% + 100px);
+    // -webkit-transform: rotateY(180deg);
+  }
+
+  // 98% {
+  //   -webkit-transform: rotateY(180deg);
+  // }
+
+  // 100% {
+  //   left: -30px;
+  //   -webkit-transform: rotateY(0deg);
+  // }
 }
