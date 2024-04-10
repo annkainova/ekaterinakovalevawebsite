@@ -99,6 +99,13 @@ export default class Header {
     splitterElement.className = 'splitter__element';
     splitter.appendChild(splitterElement);
 
+    // const splitterImg = document.createElement('img');
+    // splitterImg.className = 'splitter__img';
+    // splitterImg.setAttribute('id', 'bear');
+    // splitterImg.setAttribute('src', './public/bear_1.gif');
+    // splitterImg.setAttribute('alt', 'Bear');
+    // splitterElement.appendChild(splitterImg);
+
     const splitterLine = document.createElement('div');
     splitterLine.className = 'splitter__line';
     splitter.appendChild(splitterLine);

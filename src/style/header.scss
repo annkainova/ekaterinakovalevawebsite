@@ -162,13 +162,23 @@
   }
 }
 
-@keyframes bearWalk {
+@keyframes bearWalkLeft {
   0% {
     transform: translateX(0%);
   }
 
   100% {
-    transform: translateX(-200vh);
+    transform: translateX(100%);
+  }
+}
+
+@keyframes bearWalkRight {
+  0% {
+    transform: translateX(200vh);
+  }
+
+  100% {
+    transform: translateX();
   }
 }
 
@@ -176,15 +186,24 @@
   position: relative;
   display: flex;
   width: 100%;
+  // height: 200px;
   flex-direction: column;
   align-items: flex-end;
 
   &__element {
+    position: relative;
+    top: 0;
+    right: 0;
     width: 42px;
     height: 60px;
-    background-image: url(/bear.gif);
+    background-image: url(/bear_1.gif);
 
-    animation: bearWalk 25s linear infinite;
+    animation: bearWalkLeft linear infinite;
+    animation-duration: 25s;
+    // animation-iteration-count: 1;
+  }
+
+  .splitter__img {
   }
 
   &__line {
