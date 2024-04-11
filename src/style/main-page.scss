@@ -2,6 +2,7 @@ body {
   background: $white;
   @include font($normal, $font-16, $dark);
   letter-spacing: 0.8px;
+  font-family: $family;
 }
 
 main {

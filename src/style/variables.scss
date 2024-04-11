@@ -4,7 +4,6 @@
 @mixin font($weight, $size, $color) {
   font-weight: $weight;
   font-size: $size;
-  font-family: $family;
   color: $color;
 }
 

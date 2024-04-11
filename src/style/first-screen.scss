@@ -67,6 +67,7 @@
     width: 100%;
 
     &__text {
+      font-family: $family-accent;
       @include font($extra-bold, $font-14, $white);
       left: -11px;
       letter-spacing: 7px;
