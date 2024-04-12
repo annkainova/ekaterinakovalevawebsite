@@ -1,16 +1,16 @@
 import { defineConfig } from 'vite';
 import path from 'path';
+import legacy from '@vitejs/plugin-legacy'; // Подключаем плагин для поддержки старых браузеров
 
 export default defineConfig({
-  // Путь к корневой директории вашего проекта
-  // Настройки для сборки проекта
+  plugins: [
+    legacy({
+      targets: ['defaults', 'not IE 11'],
+    }),
+  ],
   build: {
-    // Путь, куда будет складываться собранный проект
     outDir: path.resolve(__dirname, 'dist'),
-
-    // Настройки для Rollup (сборщика, используемого в Vite)
     rollupOptions: {
-      // Точки входа для разных страниц вашего MPA
       input: {
         main: path.resolve('index.html'),
         maps: path.resolve('maps.html'),
@@ -27,7 +27,28 @@ export default defineConfig({
         contact: path.resolve('contact.html'),
         memorialObjects: path.resolve('memorial-objects.html'),
         rightToRest: path.resolve('right-to-rest.html'),
-        // Добавьте другие страницы здесь
+      },
+      output: {
+        // Опции выходных данных, позволяющие контролировать структуру имен файлов и др.
+        chunkFileNames: 'assets/[name]-[hash].js',
+        entryFileNames: 'assets/[name]-[hash].js',
+        assetFileNames: 'assets/[name]-[hash].[ext]',
+      },
+      manualChunks(id) {
+        // Определение manual chunks для разделения кода
+        if (id.includes('node_modules')) {
+          // Разделяем код библиотек
+          return 'vendor';
+        }
+      },
+    },
+    // Включить sourcemaps для продакшена для отладки
+    sourcemap: true,
+    // Минификация
+    minify: 'terser', // используем terser для минификации JavaScript
+    terserOptions: {
+      compress: {
+        drop_console: true, // удаляем console.log в продакшене
       },
     },
   },
@@ -45,7 +66,6 @@ export default defineConfig({
       { from: /\/work-projects/, to: '/work-projects.html' },
       { from: /\/biography/, to: '/biography.html' },
       { from: /\/memorial-objects/, to: '/memorial-objects.html' },
-      // Добавьте другие правила перенаправления здесь
     ],
   },
 });
