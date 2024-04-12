@@ -15,6 +15,16 @@
 
     z-index: 1;
   }
+
+  @media (max-width: 768px) {
+    justify-content: none;
+    margin-top: 90px;
+
+    &__image {
+      height: 192px;
+      background-size: cover;
+    }
+  }
 }
 
 .title {
@@ -22,6 +32,7 @@
   height: 44px;
   margin: 0;
   margin-right: -22.4px;
+
   &__text {
     position: relative;
     box-sizing: border-box;
@@ -49,6 +60,22 @@
       background: rgba(97, 97, 97, 0.5);
 
       z-index: -1;
+    }
+  }
+
+  @media (max-width: 768px) {
+    width: 100%;
+
+    &__text {
+      font-family: $family-accent;
+      @include font($extra-bold, $font-14, $white);
+      left: -11px;
+      letter-spacing: 7px;
+      padding: 13px;
+
+      &::after {
+        width: calc(100%);
+      }
     }
   }
 }

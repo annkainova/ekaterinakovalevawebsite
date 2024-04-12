@@ -12,6 +12,16 @@
     letter-spacing: 0.8px;
 
     background: url(../../public/00_IMG_16.png);
+
+    @media (max-width: 768px) {
+      padding: 20px;
+      text-align: justify;
+      margin-top: 40px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    margin-top: 20px;
   }
 }
 

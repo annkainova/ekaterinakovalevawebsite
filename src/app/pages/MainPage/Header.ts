@@ -40,6 +40,11 @@ export default class Header {
     logo.className = 'logo';
     headerMenu.appendChild(logo);
 
+    const menuButton = document.createElement('div');
+    menuButton.className = 'menu-button';
+    menuButton.textContent = 'меню';
+    headerMenu.appendChild(menuButton);
+
     const navigation = document.createElement('nav');
     navigation.className = 'navigation';
     headerMenu.appendChild(navigation);

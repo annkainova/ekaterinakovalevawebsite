@@ -1,5 +1,8 @@
 body {
   background: $white;
+  @include font($normal, $font-16, $dark);
+  letter-spacing: 0.8px;
+  font-family: $family;
 }
 
 main {
@@ -8,8 +11,12 @@ main {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  @include font($normal, $font-16, $dark);
+  // @include font($normal, $font-16, $dark);
   letter-spacing: 0.8px;
+
+  @media (max-width: 1280px) {
+    padding: 0 20px;
+  }
 }
 
 .container {
@@ -58,6 +65,10 @@ button {
   gap: 80px;
   width: 100%;
   margin-top: 210px;
+
+  @media (max-width: 768px) {
+    margin-top: 90px;
+  }
 }
 
 /* Переопределение фона модального окна */
