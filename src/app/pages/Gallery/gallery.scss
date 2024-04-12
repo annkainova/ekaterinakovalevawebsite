@@ -221,7 +221,7 @@
       position: absolute;
 
       bottom: 0;
-      left: 45%;
+      width: 100%;
       @include font($normal, $font-32, $dark);
       text-align: center;
       font-style: normal;
