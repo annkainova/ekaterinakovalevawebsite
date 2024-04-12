@@ -8,6 +8,7 @@ import Page from './pages/Gallery/Page.ts';
 import Header from './pages/MainPage/Header.ts';
 import Localization from './pages/Localization/Localization.ts';
 import FirstPage from './pages/MainPage/FirstPage.ts';
+import Footer from './pages/MainPage/Footer.ts';
 
 // interface choosenData {
 //   name: string;
@@ -25,6 +26,7 @@ import FirstPage from './pages/MainPage/FirstPage.ts';
 
 export default class App {
   header: Header;
+  footer: Footer;
   firstPage: FirstPage;
   mainPage: Main;
   page: Page;
@@ -37,10 +39,11 @@ export default class App {
     this.page = new Page();
     this.mainPage = new Main();
     this.firstPage = new FirstPage();
-
+    this.footer = new Footer(document.body);
     // this.page.renderProject(dataProject);
     this.header.render();
     this.firstPage.changeLanguageFirstPage();
+    this.footer.render();
     this.localization = new Localization();
 
     // this.mainPageLocal = new MainPageLocal();

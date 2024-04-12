@@ -1,4 +1,5 @@
 import { Fancybox } from '@fancyapps/ui';
+
 import App from './app/app';
 import '@fancyapps/ui/dist/fancybox/fancybox.css';
 import './app/pages/FancyBox/fancybox.scss';
@@ -15,19 +16,36 @@ class AppInitializer {
 AppInitializer.initialize();
 
 document.addEventListener('DOMContentLoaded', () => {
+  const isMobile = window.matchMedia('(max-width: 767px)').matches;
+
+  if (isMobile) {
+    $('.image-wrapper').slick({
+      dots: true,
+      infinite: true,
+      speed: 300,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      arrows: true,
+      // autoplay: true,
+      autoplaySpeed: 2000,
+    });
+  }
+});
+
+document.addEventListener('DOMContentLoaded', () => {
   // eslint-disable-next-line @typescript-eslint/ban-ts-comment
   // @ts-expect-error
   Fancybox.bind('[data-fancybox="gallery"]', {
     // Ваши настройки
     placeFocusBack: false,
     tpl: {
-      main: `<div class="fancybox__container has-sidebar" role="dialog" aria-modal="true" aria-label="{{MODAL}}" tabindex="-1">
-              <div class="fancybox__backdrop"></div>
-              <div class="fancybox__col">
-                <div class="fancybox__carousel"></div>
-              </div>
-            </div>
-          </div>`,
+      // main: `<div class="fancybox__container has-sidebar" role="dialog" aria-modal="true" aria-label="{{MODAL}}" tabindex="-1">
+      //         <div class="fancybox__backdrop"></div>
+      //         <div class="fancybox__col">
+      //           <div class="fancybox__carousel"></div>
+      //         </div>
+      //       </div>
+      //     </div>`,
     },
     idle: false,
     compact: false,

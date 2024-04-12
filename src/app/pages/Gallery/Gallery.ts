@@ -49,7 +49,6 @@ export default class Gallery {
     elementInfo.appendChild(elementDescription);
 
     galleryInfo.appendChild(elementInfo);
-    // galleryInfo.appendChild(elementDescription);
 
     this.paintDescription.forEach(text => {
       const elementPaintDescription = document.createElement('p') as HTMLElement;
@@ -63,32 +62,49 @@ export default class Gallery {
     const imageWrapper = document.createElement('div');
     imageWrapper.classList.add('image-wrapper');
 
-    this.imagePaths.forEach((path: ImagePath, index: number) => {
-      const imageContainer = document.createElement('div');
-      imageContainer.classList.add('image-box');
-      imageContainer.classList.add(`image-box__${index}`);
+    // Логика для мобильного отображения
+    if (this.isMobile()) {
+      imageWrapper.classList.add('slick');
+      this.imagePaths.forEach(path => {
+        const imageBox = document.createElement('div');
+        imageBox.className = 'image-box';
+        imageBox.style.backgroundImage = `url('${path.full}')`;
+        imageWrapper.appendChild(imageBox);
+      });
+    } else {
+      this.imagePaths.forEach((path: ImagePath, index: number) => {
+        const imageContainer = document.createElement('div');
+        imageContainer.classList.add('image-box');
+        imageContainer.classList.add(`image-box__${index}`);
 
-      const imageLink = document.createElement('a');
-      imageLink.classList.add('fancybox');
-      imageLink.setAttribute('data-fancybox', 'gallery');
-      imageLink.setAttribute('data-caption', path.descrip);
-      imageLink.setAttribute('href', path.full);
+        const imageLink = document.createElement('a');
+        imageLink.classList.add('fancybox');
+        imageLink.setAttribute('data-fancybox', 'gallery');
+        imageLink.setAttribute('data-caption', path.descrip);
+        imageLink.setAttribute('href', path.full);
 
-      const image = document.createElement('img');
-      image.classList.add('image');
-      image.setAttribute('src', path.small);
-      image.setAttribute('alt', `${this.name} image ${index + 1}`);
+        const image = document.createElement('img');
+        image.classList.add('image');
+        image.setAttribute('src', path.small);
+        image.setAttribute('alt', `${this.name} image ${index + 1}`);
 
-      imageLink.appendChild(image);
-      imageContainer.appendChild(imageLink);
+        // const imageMobil = document.createElement('img');
+        // imageMobil.classList.add('image-mobil');
+        // imageMobil.style.backgroundImage = `url('${path.full}')`;
+        // //     imageWrapper.appendChild(imageBox);
 
-      if (index === 0) {
-        imageContainer.classList.add('first-img');
-        galleryImg.appendChild(imageContainer);
-      } else {
-        imageWrapper.appendChild(imageContainer);
-      }
-    });
+        imageLink.appendChild(image);
+        // imageLink.appendChild(imageMobil);
+        imageContainer.appendChild(imageLink);
+
+        if (index === 0) {
+          imageContainer.classList.add('first-img');
+          galleryImg.appendChild(imageContainer);
+        } else {
+          imageWrapper.appendChild(imageContainer);
+        }
+      });
+    }
 
     galleryBlock.appendChild(galleryInfo);
     galleryBlock.appendChild(galleryImg);
@@ -166,5 +182,10 @@ export default class Gallery {
     galleryBlock.appendChild(galleryImg);
     galleryImg.appendChild(imageWrapper);
     return galleryBlock;
+  }
+
+  // eslint-disable-next-line class-methods-use-this
+  isMobile() {
+    return window.matchMedia('(max-width: 767px)').matches;
   }
 }

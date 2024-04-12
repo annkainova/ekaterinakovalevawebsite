@@ -83,15 +83,6 @@
   background: none;
 }
 
-// .fancybox__toolbar__column.is-right {
-//   background: none;
-
-//   &:hover {
-//     background: none;
-//     color: #616161;
-//   }
-// }
-
 @media (hover: hover) {
   .f-button:hover:not([disabled]) {
     color: #616161;
@@ -100,7 +91,6 @@
 }
 
 .fancybox__slide {
-  // margin-top: 30px;
   justify-content: center;
 }
 
