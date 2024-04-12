@@ -1,3 +1,7 @@
+import $ from 'jquery';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
+import 'slick-carousel/slick/slick.js';
 import { Fancybox } from '@fancyapps/ui';
 
 import App from './app/app';
@@ -20,13 +24,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
   if (isMobile) {
     $('.image-wrapper').slick({
-      dots: true,
+      dots: false,
       infinite: true,
-      speed: 300,
+      speed: 500,
       slidesToShow: 1,
       slidesToScroll: 1,
-      arrows: true,
-      // autoplay: true,
+      arrows: false,
+      autoplay: true,
       autoplaySpeed: 2000,
     });
   }

@@ -34,6 +34,8 @@ export default defineConfig({
         entryFileNames: 'assets/[name]-[hash].js',
         assetFileNames: 'assets/[name]-[hash].[ext]',
       },
+
+      // eslint-disable-next-line consistent-return
       manualChunks(id) {
         // Определение manual chunks для разделения кода
         if (id.includes('node_modules')) {
