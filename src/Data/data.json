@@ -261,12 +261,12 @@
         {
           "small": "/04_waiting-zone/block-1/04_IMG_01.jpg",
           "full": "/04_waiting-zone/block-1/source/04_IMG_01L.jpg",
-          "descrip": " "
+          "descrip": "Фото: Алексей Народицкий"
         },
         {
           "small": "/04_waiting-zone/block-1/04_IMG_02.jpg",
           "full": "/04_waiting-zone/block-1/source/04_IMG_02L.jpg",
-          "descrip": " "
+          "descrip": "Фото: Алексей Народицкий"
         },
         {
           "small": "/04_waiting-zone/block-1/04_IMG_03.jpg",
@@ -1519,9 +1519,11 @@
     {
       "name": "",
       "name-en": "",
-      "description": "Лишь несколько простых слов отважусь я сказать перед гробницей нашего Незабвенного. На ней начертаны простые и ясные слова: «Snegovici ossa hic jacent» – <span class='bold'>«Здесь лежат останки Снеговика»</span>. \n \nНо спросим себя, где же пресловутые останки нашего Незабвенного? Под этой ли величественной гробницей? Отнюдь. Они разбросаны, вернее, они растеклись по всему миру. \n \nУйдя в землю, <span class='bold'>они стали новой субстанцией</span>, они обратились в ту великую стихию, которая животворит и напояет всё живое. Воистину, наш Незабвенный буквально «утёк смерти».\n \nНо любил ли он жизнь? Здесь мы вступаем под покров тайны, которая и есть часть великой тайны мироздания. \n \nВесь свой короткий век Незабвенный провел в аскетическом молчании, указуя в вечность как перстом своей морковкой. \n \nНо мы с вами свидетели того, что сама жизнь любила его. Именно она, сама жизнь, и создала его из мертвенной снежной стихии под радостные крики и визг детишек и дурацкие восклицания их взрослых эпигонов.\n \nЗатвердев под детскими ладонями, из которых так щедро сочится жизнь, наш Незабвенный стал монументом той великой метаморфозы, которая изводит жизнь из смерти и дает нам <span class='bold'>смерть во спасение жизни</span> от банального ее пустоцветения...",
-      "description-en": "Only a few simple words will I venture to say before the tomb of our Unforgettable. On it are inscribed simple and clear words: “Snegovici ossa hic jacent” - <span class='bold'>“Here lie the remains of the Snowman”</span>\n \nBut let us ask ourselves, where are the notorious remains of our Unforgettable? Are they under this majestic tomb? Not at all. They are scattered, or rather, they have spread all over the world. \n \nWhen they went into the earth, they became a new substance, they turned into that great element which animates and nourishes all living things. Indeed, our Unforgettable One literally “flow away from death”.\n \nBut did he love life? Here we enter under the shroud of mystery, which is part of the great mystery of the universe. \n \nUnforgettable spent his entire short century in ascetic silence, pointing to eternity as a finger with his carrot. \n \nBut you and I are witnesses to the fact that life itself loved him. It was she, life itself, who created him out of the dead snow element under the joyful shouts and squeals of children and the foolish exclamations of their adult epigones.\n \nHaving hardened under the children's palms, from which life so generously oozes, our Unforgettable became a monument to that great metamorphosis that brings life out of death and gives us <span class='bold'>death to save life</span> from its banal hollowing...",
-      "paintDescription": [""],
+      "description": "",
+
+      "paintDescription": [
+        "Лишь несколько простых слов отважусь я сказать перед гробницей нашего Незабвенного. На ней начертаны простые и ясные слова: «Snegovici ossa hic jacent» – <span class='bold'>«Здесь лежат останки Снеговика»</span>. \n \nНо спросим себя, где же пресловутые останки нашего Незабвенного? Под этой ли величественной гробницей? Отнюдь. Они разбросаны, вернее, они растеклись по всему миру. \n \nУйдя в землю, <span class='bold'>они стали новой субстанцией</span>, они обратились в ту великую стихию, которая животворит и напояет всё живое. Воистину, наш Незабвенный буквально «утёк смерти».\n \nНо любил ли он жизнь? Здесь мы вступаем под покров тайны, которая и есть часть великой тайны мироздания. \n \nВесь свой короткий век Незабвенный провел в аскетическом молчании, указуя в вечность как перстом своей морковкой. \n \nНо мы с вами свидетели того, что сама жизнь любила его. Именно она, сама жизнь, и создала его из мертвенной снежной стихии под радостные крики и визг детишек и дурацкие восклицания их взрослых эпигонов.\n \nЗатвердев под детскими ладонями, из которых так щедро сочится жизнь, наш Незабвенный стал монументом той великой метаморфозы, которая изводит жизнь из смерти и дает нам <span class='bold'>смерть во спасение жизни</span> от банального ее пустоцветения..."
+      ],
       "paintDescription-en": [""],
       "imagePaths": [
         {
@@ -1574,10 +1576,11 @@
     {
       "name": "",
       "name-en": "",
-      "description": "...Кому уподоблю нашего Незабвенного? Будет ли дерзновением сравнить его с великим Осирисом, растерзанным, умершим и воскресшим, владычествующим над вечностью и несущим жизнь через эту великую метаморфозу. Нимало. Он и есть наш северный Осирис.\n \nПосему и его, нашего Незабвенного, мы призываем подобно древним египтянам, искушенным в тайнах жизни и смерти:\n \n«Хотя ты уходил, да придёшь ты!\n \nХотя ты спал, да проснешься ты!\n \nХотя ты умер, да оживёшь ты!\n \nВстань!..»\n \nВосстань с приходом целительного снега, восстань через забвение и умерщвление, <span class='bold'>восстань под чистый лепет жизни!</span>»",
-      "description-en": "...To whom shall I liken our Unforgettable One? Would it be audacity to compare him to the great Osiris, torn, dead and risen, ruling over eternity and bringing life through this great metamorphosis. Not in the least. He is our northern Osiris. \n \nTherefore, we also call upon him, our Unforgettable One, like the ancient Egyptians who were adept in the mysteries of life and death:\n \n«Though you went away, may you come!\n \nThough you slept, may you awake!\n \nThough thou art dead, thou shalt be revived!\n \nArise!...»\n \nArise with the coming of the healing snow, arise through oblivion and mortification, arise to the pure babble of life!”",
-      "paintDescription": ["— Алексей Юдин о проекте “SNEGOVICUS”"],
-      "paintDescription-en": [""],
+      "description": "",
+      "paintDescription": [
+        "...Кому уподоблю нашего Незабвенного? Будет ли дерзновением сравнить его с великим Осирисом, растерзанным, умершим и воскресшим, владычествующим над вечностью и несущим жизнь через эту великую метаморфозу. Нимало. Он и есть наш северный Осирис.\n \nПосему и его, нашего Незабвенного, мы призываем подобно древним египтянам, искушенным в тайнах жизни и смерти:\n \n«Хотя ты уходил, да придёшь ты!\n \nХотя ты спал, да проснешься ты!\n \nХотя ты умер, да оживёшь ты!\n \nВстань!..»\n \nВосстань с приходом целительного снега, восстань через забвение и умерщвление, <span class='bold'>восстань под чистый лепет жизни!</span>»",
+        "— Алексей Юдин о проекте “SNEGOVICUS”"
+      ],
       "imagePaths": [
         {
           "small": "/10_memorial-objects/10_IMG_15.jpg",

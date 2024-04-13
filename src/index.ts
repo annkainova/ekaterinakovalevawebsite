@@ -19,6 +19,20 @@ class AppInitializer {
 
 AppInitializer.initialize();
 
+// Chage Background COlor
+
+document.addEventListener('DOMContentLoaded', () => {
+  const isMobile = window.matchMedia('(max-width: 767px)').matches;
+
+  const mainElement = document.querySelector('main');
+  const bodyElement = document.body;
+
+  if (isMobile && mainElement && mainElement.querySelector('.work-projects')) {
+    bodyElement.style.backgroundColor = '#616161';
+  }
+});
+
+// Slider
 document.addEventListener('DOMContentLoaded', () => {
   const isMobile = window.matchMedia('(max-width: 767px)').matches;
 
@@ -30,27 +44,19 @@ document.addEventListener('DOMContentLoaded', () => {
       slidesToShow: 1,
       slidesToScroll: 1,
       arrows: false,
-      autoplay: true,
+      // autoplay: true,
       autoplaySpeed: 2000,
     });
   }
 });
 
+// Open Photo
 document.addEventListener('DOMContentLoaded', () => {
   // eslint-disable-next-line @typescript-eslint/ban-ts-comment
   // @ts-expect-error
   Fancybox.bind('[data-fancybox="gallery"]', {
-    // Ваши настройки
     placeFocusBack: false,
-    tpl: {
-      // main: `<div class="fancybox__container has-sidebar" role="dialog" aria-modal="true" aria-label="{{MODAL}}" tabindex="-1">
-      //         <div class="fancybox__backdrop"></div>
-      //         <div class="fancybox__col">
-      //           <div class="fancybox__carousel"></div>
-      //         </div>
-      //       </div>
-      //     </div>`,
-    },
+    tpl: {},
     idle: false,
     compact: false,
     dragToClose: false,
@@ -78,6 +84,7 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 });
 
+// Bear
 document.addEventListener('DOMContentLoaded', () => {
   const bear = document.querySelector('.splitter__element') as HTMLElement;
   const directions = ['left', 'right'];
