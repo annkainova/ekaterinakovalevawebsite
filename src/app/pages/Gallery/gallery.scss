@@ -115,18 +115,20 @@
     padding: 1px 4px;
     margin-top: -5px;
 
-    &:hover {
-      background: $dark;
+    @media (hover: hover) {
+      &:hover {
+        background: $dark;
 
-      color: $white;
+        color: $white;
 
-      .accent-dot {
-        color: red;
+        .accent-dot {
+          color: red;
+        }
       }
-    }
 
-    &:hover .navigation__link {
-      color: $white;
+      &:hover .navigation__link {
+        color: $white;
+      }
     }
   }
 }
@@ -160,8 +162,10 @@
   z-index: 0;
 }
 
-.image-box:hover::before {
-  opacity: 1;
+@media (hover: hover) {
+  .image-box:hover::before {
+    opacity: 1;
+  }
 }
 
 @media (max-width: 940px) {
