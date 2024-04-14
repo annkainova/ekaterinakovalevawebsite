@@ -16,7 +16,17 @@
     z-index: 1;
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 1024px) {
+    justify-content: none;
+    margin-top: 90px;
+
+    &__image {
+      height: 395px;
+      background-size: cover;
+    }
+  }
+
+  @media (max-width: 400px) {
     justify-content: none;
     margin-top: 90px;
 

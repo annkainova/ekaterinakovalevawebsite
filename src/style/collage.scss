@@ -1,7 +1,6 @@
 //collage
 
-.container {
-}
+.container {}
 
 .collage {
   position: relative;
@@ -289,10 +288,7 @@
   }
 }
 
-@media (max-width: 768px) {
-  // .collage__img:not(:first-child) {
-  //   margin-top: 40px;
-  // }
+@media (max-width: 400px) {
 
   .collage {
     position: relative;
@@ -315,7 +311,6 @@
       background: none;
 
       padding-top: 20px;
-      // top: 20px;
     }
 
     .collage__text--1 {
@@ -342,13 +337,9 @@
 
     &__img {
       position: relative;
-      // padding-top: 40px;
     }
 
     &__item {
-      // display: grid;
-      // grid-template-rows: 1fr max-content;
-      // gap: 20px;
 
       position: relative;
       transform-origin: top left;
@@ -378,22 +369,10 @@
 
     &__item--1-1 {
       display: none;
-      // width: 85px;
-      // height: 191px;
-
-      // top: 0;
-      // left: 0;
-      // background-image: url(/00_main-page/00_IMG_03.jpg);
     }
 
     &__item--1-2 {
       display: none;
-      // width: 70px;
-      // height: 100px;
-
-      // top: 0;
-      // left: 0;
-      // background-image: url(/00_main-page/00_IMG_14.jpg);
     }
 
     //карты
@@ -470,8 +449,6 @@
       top: 0;
 
       grid-row: 2;
-      // background-size: contain;
-      // background-repeat: no-repeat;
     }
 
     //записные книжки
@@ -505,6 +482,211 @@
       left: 0;
       top: 0;
       grid-row: 9;
+    }
+  }
+}
+
+@media (max-width: 1280px) {
+
+  .collage {
+    position: relative;
+    display: grid;
+    grid-template-columns: max-content max-content;
+    gap: 80px;
+    width: 100%;
+    height: auto;
+    margin-top: 60px;
+
+    &__text {
+      display: block;
+      padding: 0;
+      height: 0;
+      white-space: wrap;
+      @include font($normal, $font-16, $dark);
+      letter-spacing: 0.8px;
+      text-align: center;
+      text-decoration-line: underline;
+      text-transform: none;
+      background: none;
+
+      padding-top: 20px;
+    }
+
+    .collage__text--1 {
+      position: relative;
+      background: none;
+    }
+
+    .collage__text--1,
+    .collage__text--bottom {
+      position: relative;
+      margin: 0;
+      height: 0;
+      padding-top: 20px;
+    }
+
+    .collage__text--left,
+    .collage__text--right {
+      position: relative;
+      margin: 0;
+      padding: 0;
+      height: 0;
+      padding-top: 20px;
+    }
+
+    &__img {
+      position: relative;
+    }
+
+    &__item {
+
+      position: relative;
+      transform-origin: top left;
+      background-repeat: no-repeat;
+      background-size: cover;
+
+      width: 100%;
+    }
+
+    // зона ожидания
+    &__item--1 {
+      width: 335px;
+      height: 246px;
+
+      top: 0;
+      left: 0;
+
+      background-image: url(/MOBIL/M00_main-page/M00_IMG_02.png);
+
+      .collage__text {
+        width: 175px;
+        height: 0;
+        margin-left: 169px;
+      }
+
+      grid-row: 2;
+    }
+
+    &__item--1-1 {
+      display: none;
+    }
+
+    &__item--1-2 {
+      display: none;
+    }
+
+    //карты
+    &__item--2 {
+      max-width: 335px;
+      max-height: 209px;
+      left: 0;
+      top: 0px;
+
+      justify-self: center;
+      grid-row: 9;
+    }
+
+    //колонизация горизонта
+    &__item--3 {
+      width: 255px;
+      height: 182px;
+
+      left: 0;
+      top: 0;
+      grid-row: 5;
+
+      margin-left: 40px;
+    }
+
+    //суп дня
+    &__item--4 {
+      width: 235px;
+      height: 145px;
+      left: 0;
+      top: 0;
+      grid-row: 4;
+
+      justify-self: end;
+    }
+
+    //ранние работы
+    &__item--5 {
+      width: 195px;
+      height: 137px;
+      left: 0;
+      top: 0;
+      grid-row: 6;
+
+      margin-left: 60px;
+    }
+
+    //антарктический дневник
+    &__item--6 {
+      width: 215px;
+      height: 155px;
+      left: 0;
+      top: 0;
+      grid-row: 1;
+
+      margin-left: 40px;
+      margin-top: 20px;
+    }
+
+    //объекты памятники
+    &__item--7 {
+      width: 215px;
+      height: 147px;
+      left: 0;
+      top: 0;
+      grid-row: 4;
+    }
+
+    //право на отдых
+    &__item--8 {
+      width: 335px;
+      height: 242px;
+      left: 0;
+      top: 0;
+
+      margin: 0 auto;
+      background-image: url(MOBIL/M00_main-page/M00_IMG_05.jpg);
+
+      grid-row: 3;
+      grid-column: span 2;
+      align-self: center;
+    }
+
+    //записные книжки
+    &__item--9 {
+      width: 150px;
+      height: 100px;
+      left: 0;
+      top: 0;
+      grid-row: 8;
+      margin-top: -20px;
+      margin-left: 65px;
+    }
+
+    //мозаики
+    &__item--10 {
+      width: 160px;
+      height: 100px;
+      left: 0;
+      top: 0;
+      grid-row: 11;
+
+      justify-self: end;
+
+      margin-top: -77px;
+    }
+
+    //рисунки
+    &__item--11 {
+      width: 143px;
+      height: 100px;
+      left: 0;
+      top: 0;
+      grid-row: 10;
     }
   }
 }
