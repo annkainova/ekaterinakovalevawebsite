@@ -95,8 +95,121 @@
   }
 }
 
+@media (max-width: 1024px) {
+  .biography {
+    display: grid;
+    gap: 40px;
+    margin-top: 110px;
 
-@media (max-width: 375px) {
+    &__info {
+      margin: 0;
+    }
+
+    &__links {
+      .biography__link {}
+
+
+    }
+
+    &__bio {
+      margin-bottom: 0px;
+
+      &-text {
+        column-count: 1;
+      }
+
+
+      &-img {
+        margin: 0 auto;
+        position: relative;
+        display: block;
+
+        width: auto;
+        height: 265px;
+
+        margin-bottom: 40px;
+        margin-top: 40px;
+      }
+
+    }
+
+    &__personal {
+      display: block;
+      margin-bottom: 0;
+
+      &-text {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+
+        .personal-data {
+          display: block;
+          gap: 20px;
+
+          .bold {
+            display: block;
+          }
+
+          p {
+            text-align: left;
+          }
+        }
+
+        .personal-text {
+          line-height: 25px;
+        }
+      }
+
+      &-image {
+        margin-top: 40px;
+        width: 100%;
+      }
+    }
+
+    &__group {
+      column-count: 1;
+      width: 100%;
+
+      &-text {
+        display: grid;
+
+        gap: 20px;
+
+        .group-data {
+          display: block;
+          gap: 20px;
+
+          .year {
+            display: block;
+          }
+
+          .group-text {
+            text-align: left;
+            line-height: 20px;
+
+            .bold {
+              display: block;
+            }
+
+            p {
+              text-align: left;
+            }
+          }
+        }
+
+        &-img {}
+      }
+    }
+  }
+
+  .biography__bio::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+@media (max-width: 450px) {
   .biography {
     gap: 20px;
 
@@ -121,7 +234,7 @@
         max-width: 400px;
         padding: 13px 0 12px 0;
         margin: -1px 0 0 0;
-        
+
         text-align: center;
         align-items: center;
 
@@ -135,25 +248,23 @@
     }
 
     &__bio {
-      margin-bottom: 160px;
+      margin-bottom: 0%;
 
       &-text {
         column-count: 1;
       }
 
-      &-images {
+      &-img {
         height: 100%;
         margin-top: 40px;
         display: block;
-      }
 
-      &-image {
         position: relative;
         display: block;
         float: left;
         width: 100%;
 
-        margin-bottom: 20px;
+        margin-bottom: 40px;
       }
 
     }

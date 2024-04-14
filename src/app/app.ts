@@ -11,6 +11,7 @@ import FirstPage from './pages/MainPage/FirstPage.ts';
 import Footer from './pages/MainPage/Footer.ts';
 import NavPanel from './pages/MainPage/NavPanel.ts';
 import ActiveLink from './pages/ActivePages/activePages.ts';
+import Collage from './pages/Collage/Collage.ts';
 
 export default class App {
   header: Header;
@@ -23,6 +24,7 @@ export default class App {
   selectedData: any;
   navPanel: NavPanel;
   activeLink: ActiveLink;
+  collage: Collage;
 
   constructor() {
     this.header = new Header(document.body);

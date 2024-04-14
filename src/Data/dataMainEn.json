@@ -15,5 +15,18 @@
   },
   "footer": {
     "name": "© Katerina Kovalyova, 2024"
+  },
+  "collage": {
+    "waitingZone": "Exhibition project 'Waiting area'",
+    "maps": "Cards • 'Roses of the World'",
+    "horizon-colonization": "'Colonizing the horizon.'",
+    "soup-of-the-day": "«Soup of the Day»",
+    "early-works": "Early works",
+    "antarctic-diary": "«Antarctic Diary»",
+    "memorial-objects": "Monument sites",
+    "right-to-rest": "Exhibition project Case History. The Right to Rest»",
+    "notebooks": "Notebooks",
+    "mosaics": "Mosaics",
+    "artworks": "Drawings"
   }
 }
