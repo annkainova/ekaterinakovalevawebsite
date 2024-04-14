@@ -1,6 +1,5 @@
 import Gallery from './Gallery';
 import WorkProjects from '../WorkProjects/WorkProjects';
-import NavPanel from '../MainPage/NavPanel';
 
 declare global {
   interface JQuery {
