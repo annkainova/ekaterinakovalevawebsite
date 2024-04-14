@@ -59,6 +59,7 @@
     padding: 0px 11px;
 
     cursor: pointer;
+    z-index: 100;
   }
 
   @media (max-width: 768px) {
@@ -294,10 +295,12 @@
 }
 
 .navigation.open {
+  box-sizing: border-box;
   display: block;
   position: absolute;
 
   margin-top: 70px;
+  padding: 0 40px;
 
   width: 100%;
   height: calc(100vh - 70px);
@@ -308,7 +311,7 @@
   .navigation__container {
     display: grid;
     justify-content: center;
-    grid-template-columns: max-content;
+    grid-template-columns: minmax(300px, 400px);
     grid-template-rows: repeat(5, 45px);
 
     list-style-type: none;
@@ -319,7 +322,7 @@
   .navigation__element {
     display: block;
     box-sizing: border-box;
-    width: 400px;
+    max-width: 400px;
     padding: 13px 0px;
     margin: 0;
     @include font($normal, $font-16, $dark);
@@ -329,13 +332,12 @@
     border: 1px solid $dark;
 
 
-
   }
 
   .language-switcher {
     display: block;
     box-sizing: border-box;
-    width: 400px;
+    max-width: 400px;
     padding: 12px 0px;
     margin: 0;
     @include font($normal, $font-16, $dark);
@@ -343,5 +345,12 @@
     align-items: center;
 
     border: 1px solid $dark;
+
   }
 }
+
+// @media (max-width: 375px) {
+//   .navigation__element {
+//     max-width: 335px;
+//   }
+// }
