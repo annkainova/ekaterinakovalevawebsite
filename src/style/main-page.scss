@@ -29,11 +29,11 @@ p {
   .bold {
     font-weight: 700;
   }
+}
 
-  .under {
-    color: $dark;
-    text-decoration-line: underline;
-  }
+.under {
+  color: $dark;
+  text-decoration-line: underline;
 }
 
 button {
