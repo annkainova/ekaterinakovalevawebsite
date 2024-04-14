@@ -40,7 +40,25 @@ export default class App {
     this.selectedData = this.localization.language === 'ru' ? data : dataEn;
 
     this.activeLink = new ActiveLink();
-    this.activeLink.setActiveLink();
+  }
+
+  // eslint-disable-next-line class-methods-use-this
+  isGalleryPage(): boolean {
+    const galleryPages = [
+      'waiting-zone',
+      'maps',
+      'horizon-colonization',
+      'soup-of-the-day',
+      'early-works',
+      'antarctic-diary',
+      'memorial-objects',
+      'right-to-rest',
+      'notebooks',
+      'mosaics',
+      'artworks',
+    ];
+
+    return galleryPages.some(id => window.location.pathname.endsWith(`${id}.html`));
   }
 
   render() {
@@ -59,7 +77,8 @@ export default class App {
     this.page.renderGallery('memorial-objects', selectData);
     this.page.renderGalleryWithoutMainPhoto('right-to-rest', selectData);
 
-    this.navPanel.render();
-
+    if (this.isGalleryPage()) {
+      this.navPanel.render();
+    }
   }
 }

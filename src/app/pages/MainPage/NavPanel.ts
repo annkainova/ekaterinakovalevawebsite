@@ -18,7 +18,6 @@ export default class NavPanel {
     this.container = document.querySelector(containerName) as HTMLElement;
 
     this.activeLink = new ActiveLink();
-    this.activeLink.setActiveLink();
   }
 
   public render(): void {
@@ -28,7 +27,6 @@ export default class NavPanel {
 
     section.innerHTML = `
       <nav class="sections-nav__box">
-      THIS!!!!
         <ul class="sections-nav__container">
           <div class="row">
             <li class="sections-nav__element">
@@ -78,9 +76,9 @@ export default class NavPanel {
             </li>
 
             <li class="sections-nav__element">
-              <a class="sections-nav__link" id="medical-history" href="right-to-rest.html"><span
+              <a class="sections-nav__link" id="right-to-rest" href="right-to-rest.html"><span
                   class="nav__dot">•</span>
-                <span class="sections-nav__text"> “${this.selectedData.medicalHistory.text}”</span>
+                <span class="sections-nav__text">“${this.selectedData.medicalHistory.text}”</span>
               </a>
             </li>
           </div>

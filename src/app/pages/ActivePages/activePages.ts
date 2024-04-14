@@ -14,20 +14,30 @@ export default class ActiveLink {
       'early-works',
       'antarctic-diary',
       'memorial-objects',
-      'medical-history',
+      'right-to-rest',
       'notebooks',
       'mosaics',
       'artworks',
-      'right-to-rest',
     ];
     this.determineAdjacentLinks();
   }
+
   determineAdjacentLinks() {
     const currentIndex = this.linkIds.findIndex(id => this.currentPath.endsWith(`${id}.html`));
 
-    this.prevLink = currentIndex > 0 ? this.linkIds[currentIndex - 1] : undefined;
-    this.nextLink =
-      currentIndex < this.linkIds.length - 1 ? this.linkIds[currentIndex + 1] : undefined;
+    const lastIndex = this.linkIds.length - 1;
+
+    if (currentIndex === 0) {
+      this.prevLink = this.linkIds[lastIndex];
+      this.nextLink = this.linkIds[currentIndex + 1];
+    } else if (currentIndex === lastIndex) {
+      this.prevLink = this.linkIds[currentIndex - 1];
+      // eslint-disable-next-line prefer-destructuring
+      this.nextLink = this.linkIds[0];
+    } else {
+      this.prevLink = currentIndex > 0 ? this.linkIds[currentIndex - 1] : undefined;
+      this.nextLink = currentIndex < lastIndex ? this.linkIds[currentIndex + 1] : undefined;
+    }
   }
 
   // eslint-disable-next-line class-methods-use-this
@@ -40,6 +50,7 @@ export default class ActiveLink {
     });
 
     const currentPage = this.linkIds.find(id => this.currentPath.endsWith(`${id}.html`));
+
     if (currentPage) {
       const link = document.getElementById(currentPage);
       if (link) {
