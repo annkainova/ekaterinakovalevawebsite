@@ -3,7 +3,8 @@
     "textMain": "HOME",
     "textBio": "BIOGRAPHY",
     "textWork": "WORKS <span class='accent-dot'>•</span> PROJECTS",
-    "textContact": "CONTACT"
+    "textContact": "CONTACT",
+    "textMenu": "menu"
   },
   "main": {
     "title": "KATERINA KOVALEVA",

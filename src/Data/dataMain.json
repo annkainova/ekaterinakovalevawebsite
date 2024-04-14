@@ -3,7 +3,8 @@
     "textMain": "ГЛАВНАЯ",
     "textBio": "БИОГРАФИЯ",
     "textWork": "РАБОТЫ <span class='accent-dot'>•</span> ПРОЕКТЫ",
-    "textContact": "КОНТАКТЫ"
+    "textContact": "КОНТАКТЫ",
+    "textMenu": "меню"
   },
   "main": {
     "title": "КАТЕРИНА КОВАЛЕВА",

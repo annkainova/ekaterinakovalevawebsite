@@ -57,6 +57,8 @@
     background: #767676;
     height: 100%;
     padding: 0px 11px;
+
+    cursor: pointer;
   }
 
   @media (max-width: 768px) {
@@ -112,12 +114,14 @@
     padding: 1px 6px;
     @include font($normal, $font-16, $dark);
 
-    &:hover {
-      background: $dark;
-    }
+    @media (hover: hover) {
+      &:hover {
+        background: $dark;
+      }
 
-    &:hover .navigation__link {
-      color: $white;
+      &:hover .navigation__link {
+        color: $white;
+      }
     }
   }
 
@@ -277,5 +281,67 @@
 
   100% {
     right: calc(100% + 100px);
+  }
+}
+
+
+.body--no-scroll {
+  overflow: hidden;
+  position: fixed;
+  /* Для предотвращения скролла на iOS */
+  width: 100%;
+  top: 0;
+}
+
+.navigation.open {
+  display: block;
+  position: absolute;
+
+  margin-top: 70px;
+
+  width: 100%;
+  height: calc(100vh - 70px);
+  left: 0px;
+
+  background: $white;
+
+  .navigation__container {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: max-content;
+    grid-template-rows: repeat(5, 45px);
+
+    list-style-type: none;
+    margin: 40px 0 0 0;
+    gap: 0;
+  }
+
+  .navigation__element {
+    display: block;
+    box-sizing: border-box;
+    width: 400px;
+    padding: 13px 0px;
+    margin: 0;
+    @include font($normal, $font-16, $dark);
+    text-align: center;
+    align-items: center;
+
+    border: 1px solid $dark;
+
+
+
+  }
+
+  .language-switcher {
+    display: block;
+    box-sizing: border-box;
+    width: 400px;
+    padding: 12px 0px;
+    margin: 0;
+    @include font($normal, $font-16, $dark);
+    text-align: center;
+    align-items: center;
+
+    border: 1px solid $dark;
   }
 }
