@@ -16,8 +16,7 @@
     grid-template-rows: min-content min-content;
   }
 
-  &__img {
-  }
+  &__img {}
 
   &__text {
     margin-top: 20px;
@@ -32,7 +31,25 @@
   box-sizing: border-box;
 }
 
-@media (max-width: 940px) {
+@media (max-width: 1200px) {
+  .work-projects {
+    grid-template-columns: repeat(2, min-content);
+    gap: 40px;
+    margin-bottom: 20px;
+
+    &__link {
+      color: $white;
+    }
+
+    &__text {
+      @include font($normal, $font-16, $white);
+      text-decoration-line: underline;
+    }
+  }
+
+}
+
+@media (max-width: 768px) {
   .work-projects {
     grid-template-columns: min-content;
     gap: 40px;
@@ -47,4 +64,5 @@
       text-decoration-line: underline;
     }
   }
+
 }

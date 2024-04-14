@@ -134,11 +134,17 @@
     }
 
     &__personal {
-      display: block;
+      gap: 40px;
+
+      @media (max-width: 760px) {
+        flex-direction: column;
+      }
+
       margin-bottom: 0;
 
       &-text {
-        display: flex;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
         flex-wrap: wrap;
         gap: 20px;
 
@@ -160,20 +166,19 @@
         }
       }
 
-      &-image {
+      &-img {
         margin-top: 40px;
+        margin-bottom: 40px;
         width: 100%;
       }
     }
 
     &__group {
-      column-count: 1;
+      column-count: 2;
       width: 100%;
 
       &-text {
-        display: grid;
 
-        gap: 20px;
 
         .group-data {
           display: block;
