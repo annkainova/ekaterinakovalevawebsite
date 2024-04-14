@@ -21,10 +21,13 @@
       padding: 1px 6px;
       letter-spacing: 0.8px;
 
-      &:hover {
-        background: $dark;
-        color: $white;
+      @media (hover: hover) {
+        &:hover {
+          background: $dark;
+          color: $white;
+        }
       }
+
     }
   }
 
@@ -63,8 +66,7 @@
       }
     }
 
-    &-img {
-    }
+    &-img {}
   }
 
   &__group {
@@ -89,7 +91,145 @@
       }
     }
 
-    &-img {
+    &-img {}
+  }
+}
+
+
+@media (max-width: 375px) {
+  .biography {
+    gap: 20px;
+
+    &__links {
+      display: grid;
+      justify-content: center;
+      grid-template-columns: minmax(300px, 400px);
+      grid-template-rows: repeat(3, 45px);
+
+      list-style-type: none;
+      margin: 0;
+      gap: 0;
+      text-align: center;
+
+      span {
+        display: none;
+      }
+
+      .biography__link {
+        display: block;
+        box-sizing: border-box;
+        max-width: 400px;
+        padding: 13px 0 12px 0;
+        margin: -1px 0 0 0;
+        
+        text-align: center;
+        align-items: center;
+
+        border: 1px solid $dark-grey;
+      }
+
+      .active {
+        background: $dark-grey;
+        color: $white;
+      }
     }
+
+    &__bio {
+      margin-bottom: 160px;
+
+      &-text {
+        column-count: 1;
+      }
+
+      &-images {
+        height: 100%;
+        margin-top: 40px;
+        display: block;
+      }
+
+      &-image {
+        position: relative;
+        display: block;
+        float: left;
+        width: 100%;
+
+        margin-bottom: 20px;
+      }
+
+    }
+
+    &__personal {
+      display: block;
+      margin-bottom: 0;
+
+      &-text {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+
+        .personal-data {
+          display: block;
+          gap: 20px;
+
+          .bold {
+            display: block;
+          }
+
+          p {
+            text-align: left;
+          }
+        }
+
+        .personal-text {
+          line-height: 25px;
+        }
+      }
+
+      &-image {
+        margin-top: 40px;
+        width: 100%;
+      }
+    }
+
+    &__group {
+      column-count: 1;
+      width: 100%;
+
+      &-text {
+        display: grid;
+
+        gap: 20px;
+
+        .group-data {
+          display: block;
+          gap: 20px;
+
+          .year {
+            display: block;
+          }
+
+          .group-text {
+            text-align: left;
+            line-height: 20px;
+
+            .bold {
+              display: block;
+            }
+
+            p {
+              text-align: left;
+            }
+          }
+        }
+
+        &-img {}
+      }
+    }
+  }
+
+  .biography__bio::after {
+    content: "";
+    display: table;
+    clear: both;
   }
 }

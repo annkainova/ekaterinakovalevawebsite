@@ -15,19 +15,29 @@ export default class BiographyController {
     this.personalView = personalView;
     this.groupView = groupView;
 
-    this.bio = document.querySelector('.biography__link--bio');
+    this.bio = document.querySelector('.biography__link--bio ');
     this.personal = document.querySelector('.biography__link--personal');
     this.group = document.querySelector('.biography__link--group');
+
+    this.bio?.classList.add('active');
 
     this.chooseSection(this.bioView);
     if (this.bio) {
       this.bio.addEventListener('click', () => {
+        this.bio?.classList.add('active');
+        this.personal?.classList.remove('active');
+        this.group?.classList.remove('active');
+
         this.chooseSection(this.bioView);
       });
     }
 
     if (this.personal) {
       this.personal?.addEventListener('click', () => {
+        this.personal?.classList.add('active');
+        this.bio?.classList.remove('active');
+        this.group?.classList.remove('active');
+
         this.chooseSection(this.personalView);
         const bioText = document.querySelector('.biography__personal-text') as HTMLElement;
         bioText.innerHTML = `
@@ -120,6 +130,10 @@ export default class BiographyController {
 
     if (this.group) {
       this.group?.addEventListener('click', () => {
+        this.group?.classList.add('active');
+        this.bio?.classList.remove('active');
+        this.personal?.classList.remove('active');
+
         this.chooseSection(this.groupView);
         const bioText = document.querySelector('.biography__group-text') as HTMLElement;
         bioText.innerHTML = `
