@@ -60,6 +60,6 @@ export default class App {
     this.page.renderGalleryWithoutMainPhoto('right-to-rest', selectData);
 
     this.navPanel.render();
-    this.activeLink.init();
+
   }
 }

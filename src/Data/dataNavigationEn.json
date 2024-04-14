@@ -1,57 +1,57 @@
 {
-  "waiting-zone": {
+  "waitingZone": {
     "id": "waiting-zone",
     "href": "waiting-zone.html",
-    "text": "Waiting Zone"
+    "text": "waiting zone"
   },
-  "medical-history": {
+  "medicalHistory": {
     "id": "medical-history",
     "href": "right-to-rest.html",
-    "text": "Medical History: The Right to Rest"
+    "text": "medical history: the right to rest"
   },
-  "antarctic-diary": {
+  "antarcticDiary": {
     "id": "antarctic-diary",
     "href": "antarctic-diary.html",
-    "text": "Antarctic Diary"
+    "text": "antarctic diary"
   },
-  "soup-of-the-day": {
+  "soup": {
     "id": "soup-of-the-day",
     "href": "soup-of-the-day.html",
-    "text": "Soup of the Day"
+    "text": "soup of the day"
   },
-  "memorial-objects": {
+  "memorialObjects": {
     "id": "memorial-objects",
     "href": "memorial-objects.html",
-    "text": "Memorial Objects"
+    "text": "memorial objects"
   },
-  "horizon-colonization": {
+  "horizonColonization": {
     "id": "horizon-colonization",
     "href": "horizon-colonization.html",
-    "text": "Horizon Colonization"
+    "text": "horizon colonization"
   },
-  "early-works": {
+  "earlyWorks": {
     "id": "early-works",
     "href": "early-works.html",
-    "text": "Early Works"
+    "text": "early works"
   },
   "maps": {
     "id": "maps",
     "href": "maps.html",
-    "text": "Maps • Roses of the World"
+    "text": "maps • roses of the world"
   },
   "artworks": {
     "id": "artworks",
     "href": "artworks.html",
-    "text": "Artworks"
+    "text": "artworks"
   },
   "notebooks": {
     "id": "notebooks",
     "href": "notebooks.html",
-    "text": "Notebooks"
+    "text": "notebooks"
   },
   "mosaics": {
     "id": "mosaics",
     "href": "mosaics.html",
-    "text": "Mosaics"
+    "text": "mosaics"
   }
 }

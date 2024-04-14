@@ -1,6 +1,7 @@
 import Localization from '../Localization/Localization';
 import dataNavigation from '../../../Data/dataNavigation.json';
 import dataNavigationEn from '../../../Data/dataNavigationEn.json';
+import ActiveLink from '../ActivePages/activePages';
 
 //
 
@@ -9,11 +10,15 @@ export default class NavPanel {
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   selectedData: any;
   localization: Localization;
+  activeLink: ActiveLink;
 
   constructor(containerName: string) {
     this.localization = new Localization();
     this.selectedData = this.localization.language === 'ru' ? dataNavigation : dataNavigationEn;
     this.container = document.querySelector(containerName) as HTMLElement;
+
+    this.activeLink = new ActiveLink();
+    this.activeLink.setActiveLink();
   }
 
   public render(): void {
@@ -23,6 +28,7 @@ export default class NavPanel {
 
     section.innerHTML = `
       <nav class="sections-nav__box">
+      THIS!!!!
         <ul class="sections-nav__container">
           <div class="row">
             <li class="sections-nav__element">
@@ -106,5 +112,7 @@ export default class NavPanel {
       </div>`;
 
     this.container.appendChild(section);
+
+    this.activeLink.init();
   }
 }
