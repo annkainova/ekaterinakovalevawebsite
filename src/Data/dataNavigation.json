@@ -1,0 +1,57 @@
+{
+  "waitingZone": {
+    "id": "waiting-zone",
+    "href": "waiting-zone.html",
+    "text": "Зона ожидания"
+  },
+  "medicalHistory": {
+    "id": "medical-history",
+    "href": "right-to-rest.html",
+    "text": "История болезни. Право на отдых"
+  },
+  "antarcticDiary": {
+    "id": "antarctic-diary",
+    "href": "antarctic-diary.html",
+    "text": "Антарктический дневник"
+  },
+  "soup": {
+    "id": "soup-of-the-day",
+    "href": "soup-of-the-day.html",
+    "text": "Суп дня"
+  },
+  "memorialObjects": {
+    "id": "memorial-objects",
+    "href": "memorial-objects.html",
+    "text": "Объекты-памятники"
+  },
+  "horizonColonization": {
+    "id": "horizon-colonization",
+    "href": "horizon-colonization.html",
+    "text": "Колонизация горизонта"
+  },
+  "earlyWorks": {
+    "id": "early-works",
+    "href": "early-works.html",
+    "text": "Ранние работы"
+  },
+  "maps": {
+    "id": "maps",
+    "href": "maps.html",
+    "text": "Карты <span class='accent-dot'>• </span> “Розы мира”"
+  },
+  "artworks": {
+    "id": "artworks",
+    "href": "artworks.html",
+    "text": "Рисунки"
+  },
+  "notebooks": {
+    "id": "notebooks",
+    "href": "notebooks.html",
+    "text": "Записные книжки"
+  },
+  "mosaics": {
+    "id": "mosaics",
+    "href": "mosaics.html",
+    "text": "Мозаики"
+  }
+}

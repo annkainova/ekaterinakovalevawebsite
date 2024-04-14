@@ -81,6 +81,10 @@
   }
 }
 
+.mobile-nav {
+  display: none;
+}
+
 .sections-nav {
   margin-top: 128px;
   margin-bottom: -10px;
@@ -270,7 +274,28 @@
     }
   }
 
-  .sections-nav {
+  .sections-nav__box {
     display: none;
+  }
+
+  .sections-nav {
+    width: 100%;
+  }
+
+  .mobile-nav {
+    display: block;
+    width: 100%;
+
+    .mobile-nav__button {
+      box-sizing: border-box;
+      @include font($normal, $font-16, $dark);
+      text-align: center;
+      line-height: 20px;
+      letter-spacing: 0.8px;
+
+      padding: 13px 0;
+      margin: -1px 0 0;
+      border: 1px solid #767676;
+    }
   }
 }

@@ -9,20 +9,8 @@ import Header from './pages/MainPage/Header.ts';
 import Localization from './pages/Localization/Localization.ts';
 import FirstPage from './pages/MainPage/FirstPage.ts';
 import Footer from './pages/MainPage/Footer.ts';
-
-// interface choosenData {
-//   name: string;
-//   description: string;
-//   paintDescription: string[];
-
-//   imagePaths: [
-//     {
-//       small: string;
-//       full: string;
-//       descrip: string;
-//     },
-//   ];
-// }
+import NavPanel from './pages/MainPage/NavPanel.ts';
+import ActiveLink from './pages/ActivePages/activePages.ts';
 
 export default class App {
   header: Header;
@@ -33,6 +21,8 @@ export default class App {
   localization: Localization;
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   selectedData: any;
+  navPanel: NavPanel;
+  activeLink: ActiveLink;
 
   constructor() {
     this.header = new Header(document.body);
@@ -40,14 +30,17 @@ export default class App {
     this.mainPage = new Main();
     this.firstPage = new FirstPage();
     this.footer = new Footer(document.body);
-    // this.page.renderProject(dataProject);
+
     this.header.render();
     this.firstPage.changeLanguageFirstPage();
     this.footer.render();
-    this.localization = new Localization();
 
-    // this.mainPageLocal = new MainPageLocal();
+    this.localization = new Localization();
+    this.navPanel = new NavPanel('main');
     this.selectedData = this.localization.language === 'ru' ? data : dataEn;
+
+    this.activeLink = new ActiveLink();
+    this.activeLink.setActiveLink();
   }
 
   render() {
@@ -65,5 +58,8 @@ export default class App {
     this.page.renderGalleryWithoutMainPhoto('antarctic-diary', selectData);
     this.page.renderGallery('memorial-objects', selectData);
     this.page.renderGalleryWithoutMainPhoto('right-to-rest', selectData);
+
+    this.navPanel.render();
+    this.activeLink.init();
   }
 }
