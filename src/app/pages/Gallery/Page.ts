@@ -21,6 +21,7 @@ interface PaintDataItem {
 }
 
 interface ProjectDataItem {
+  id: string;
   nameSection: string;
   linkSection: string;
   imgSection: string;

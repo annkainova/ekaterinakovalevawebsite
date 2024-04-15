@@ -26,11 +26,12 @@ export default class Localization {
   }
 
   updateTexts() {
-    const selectedData = this.language === 'ru' ? dataMain.general : dataMainEn.general;
+    const selectedData = this.language === 'ru' ? dataMain.general : (dataMainEn.general as any);
 
     document.querySelectorAll('[data-localize]').forEach(element => {
       const key = element.getAttribute('data-localize');
       if (key && selectedData) {
+        // eslint-disable-next-line no-param-reassign
         element.textContent = selectedData[key];
       }
     });

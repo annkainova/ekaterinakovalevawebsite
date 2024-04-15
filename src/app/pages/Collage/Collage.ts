@@ -1,6 +1,4 @@
 import Localization from '../Localization/Localization';
-import dataMain from '../../../Data/dataMain.json';
-import dataMainEn from '../../../Data/dataMainEn.json';
 
 export default class Collage {
   allImg: NodeListOf<Element>;
