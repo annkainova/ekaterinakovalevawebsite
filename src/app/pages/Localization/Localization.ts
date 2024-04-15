@@ -1,10 +1,15 @@
 import dataMain from '../../../Data/dataMain.json';
 import dataMainEn from '../../../Data/dataMainEn.json';
 
+interface TranslationData {
+  [key: string]: string; // This index signature says that any string key returns a string value
+}
+
 export default class Localization {
   language?: string;
   buttonRu: HTMLElement | null;
   buttonEn: HTMLElement | null;
+  selectedData: TranslationData;
 
   constructor() {
     this.buttonRu = document.querySelector('.language-switcher__option--ru');
@@ -15,6 +20,7 @@ export default class Localization {
     this.buttonRu?.addEventListener('click', () => this.changeLanguage('ru'));
     this.buttonEn?.addEventListener('click', () => this.changeLanguage('en'));
 
+    this.selectedData = this.language === 'ru' ? dataMain.general : dataMainEn.general;
     this.updateTexts();
   }
 
@@ -26,13 +32,11 @@ export default class Localization {
   }
 
   updateTexts() {
-    const selectedData = this.language === 'ru' ? dataMain.general : (dataMainEn.general as any);
-
     document.querySelectorAll('[data-localize]').forEach(element => {
       const key = element.getAttribute('data-localize');
-      if (key && selectedData) {
+      if (key) {
         // eslint-disable-next-line no-param-reassign
-        element.textContent = selectedData[key];
+        element.innerHTML = this.selectedData[key];
       }
     });
   }
