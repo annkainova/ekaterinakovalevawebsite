@@ -50,4 +50,53 @@
       }
     }
   }
+
+  @media (max-width: 940px) {
+    .element {
+      &:nth-child(1) {
+        .element__owerview {
+          margin-bottom: 0px;
+        }
+
+        .element__paint {
+          &:not(:nth-child(2)) {
+            margin-top: 0px;
+            height: auto;
+          }
+        }
+      }
+
+      &:nth-child(2) {
+        .element__owerview {
+          margin-bottom: 0px;
+        }
+
+        .element__paint {
+          &:nth-child(2) {
+          }
+
+          &:nth-child(3) {
+            margin-top: 0px;
+          }
+        }
+      }
+
+      &:nth-child(3) {
+        .element__owerview {
+          margin-bottom: 0px;
+        }
+
+        .element__paint {
+          &:not(:nth-child(2)) {
+            margin-top: 0px;
+            height: auto;
+          }
+
+          &:nth-child(3) {
+            margin-top: 0px;
+          }
+        }
+      }
+    }
+  }
 }

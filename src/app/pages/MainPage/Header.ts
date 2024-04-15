@@ -8,6 +8,8 @@ export default class Header {
   private textBio: string;
   private textWork: string;
   private textContact: string;
+  private textMenu: string;
+
   localization: Localization;
 
   buttonRuElement: HTMLElement;
@@ -22,9 +24,16 @@ export default class Header {
     this.textBio = selectedData.header.textBio;
     this.textWork = selectedData.header.textWork;
     this.textContact = selectedData.header.textContact;
+    this.textMenu = selectedData.header.textMenu;
 
     this.buttonRuElement = document.createElement('button');
     this.buttonEnElement = document.createElement('button');
+
+    window.addEventListener('resize', () => {
+      if (window.innerWidth > 940) {
+        this.closeMenu();
+      }
+    });
   }
 
   render() {
@@ -42,12 +51,17 @@ export default class Header {
 
     const menuButton = document.createElement('div');
     menuButton.className = 'menu-button';
-    menuButton.textContent = 'меню';
+    menuButton.textContent = this.textMenu;
     headerMenu.appendChild(menuButton);
 
     const navigation = document.createElement('nav');
     navigation.className = 'navigation';
     headerMenu.appendChild(navigation);
+
+    menuButton.addEventListener('click', () => {
+      navigation.classList.toggle('open');
+      document.body.classList.toggle('body--no-scroll');
+    });
 
     const navContainer = document.createElement('ul');
     navContainer.className = 'navigation__container';
@@ -116,5 +130,14 @@ export default class Header {
     splitter.appendChild(splitterLine);
 
     this.container.appendChild(header);
+  }
+
+  // eslint-disable-next-line class-methods-use-this
+  closeMenu() {
+    const navigation = document.querySelector('.navigation') as HTMLElement;
+    if (navigation.classList.contains('open')) {
+      navigation.classList.remove('open');
+      document.body.classList.remove('body--no-scroll');
+    }
   }
 }

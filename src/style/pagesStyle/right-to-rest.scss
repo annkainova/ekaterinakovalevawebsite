@@ -3,8 +3,7 @@
 
   .element {
     &:nth-child(1) {
-      .element__info {
-      }
+      .element__info {}
 
       .element__owerview {
         display: flex;
@@ -12,8 +11,7 @@
         gap: 23px;
       }
 
-      .element__paint {
-      }
+      .element__paint {}
 
       .element__img {
         flex-wrap: nowrap;
@@ -25,8 +23,7 @@
       }
 
       .image-box {
-        &__0 {
-        }
+        &__0 {}
 
         &__1 {
           margin-left: 20px;
@@ -35,12 +32,10 @@
     }
 
     &:nth-child(2) {
-      .element__owerview {
-      }
+      .element__owerview {}
 
       .element__paint {
-        &:nth-child(2) {
-        }
+        &:nth-child(2) {}
       }
 
       .image-wrapper {
@@ -49,16 +44,16 @@
       }
 
       .image-box {
-        &__0 {
-        }
+        &__0 {}
 
         &__1 {
           margin-left: 20px;
         }
 
-        &__2 {
-        }
+        &__2 {}
       }
+
+
     }
 
     &:nth-child(3) {
@@ -66,8 +61,7 @@
         grid-template-rows: 0px 168px max-content auto;
       }
 
-      .element__owerview {
-      }
+      .element__owerview {}
 
       .element__paint {
         &:nth-child(3) {
@@ -101,11 +95,9 @@
     }
 
     &:nth-child(4) {
-      .element__owerview {
-      }
+      .element__owerview {}
 
-      .element__paint {
-      }
+      .element__paint {}
 
       .image-wrapper {
         row-gap: 40px;
@@ -128,11 +120,9 @@
     }
 
     &:nth-child(5) {
-      .element__owerview {
-      }
+      .element__owerview {}
 
-      .element__paint {
-      }
+      .element__paint {}
 
       .image-wrapper {
         row-gap: 40px;
@@ -151,8 +141,7 @@
     }
 
     &:nth-child(6) {
-      .element__owerview {
-      }
+      .element__owerview {}
 
       .element__info {
         grid-template-rows: max-content auto;
@@ -186,16 +175,14 @@
     }
 
     &:nth-child(7) {
-      .element__owerview {
-      }
+      .element__owerview {}
 
       .element__info {
         grid-template-rows: 0 auto max-content 100px;
       }
 
       .element__paint {
-        &:nth-child(2) {
-        }
+        &:nth-child(2) {}
 
         &:nth-child(3) {
           font-style: italic;
@@ -233,6 +220,248 @@
         &__12,
         &__13 {
           margin-right: 30px;
+        }
+      }
+    }
+  }
+}
+
+
+@media (max-width: 1024px) {
+
+
+  .right-to-rest {
+    line-height: 0;
+
+    .element {
+
+      &:nth-child(2) {
+        .element__owerview {}
+
+        .element__paint {
+          &:nth-child(2) {}
+        }
+
+        .image-wrapper {
+          height: 310px;
+
+          &::after {
+            content: '';
+            bottom: 30px;
+          }
+        }
+
+      }
+
+      &:nth-child(3) {
+        .element__info {
+          display: block;
+        }
+
+        .element__owerview {}
+
+        .element__paint {
+          &:nth-child(3) {}
+
+          &:nth-child(4) {
+            margin-top: 10px;
+            text-align: right;
+            align-self: end;
+          }
+
+          &:nth-child(6) {
+            margin-top: 40px;
+          }
+        }
+
+        .image-wrapper {
+          row-gap: 40px;
+          justify-content: center;
+        }
+
+        .image-box {
+          &__1 {
+            margin-left: 20px;
+          }
+
+          &__5 {
+            margin-top: -20px;
+          }
+
+          &__6 {
+            margin-top: -20px;
+          }
+        }
+      }
+
+      &:nth-child(4) {
+        .element__owerview {}
+
+        .element__paint {}
+
+        .image-wrapper {
+          row-gap: 40px;
+          justify-content: center;
+        }
+
+        .image-box {
+          &__1 {
+            margin-left: 20px;
+          }
+
+          &__5 {
+            margin-top: -20px;
+          }
+
+          &__6 {
+            margin-top: -20px;
+          }
+        }
+      }
+
+      &:nth-child(5) {
+        .element__owerview {}
+
+        .element__paint {}
+
+        .image-wrapper {
+          row-gap: 40px;
+          justify-content: center;
+        }
+
+        .image-box {
+          &__1 {
+            margin-left: 20px;
+          }
+        }
+
+        .image-box::before {
+          border-radius: 134.5px;
+        }
+      }
+
+      &:nth-child(6) {
+        .element__owerview {}
+
+        .element__info {
+          grid-template-rows: max-content auto;
+        }
+
+        .element__paint {
+          margin: 0;
+          display: block;
+
+          &:nth-child(2) {
+            overflow: hidden;
+            position: relative;
+            transition: max-height 0.5s ease;
+            max-height: 120px;
+
+            &::before {
+              content: 'Андрей Курилкин о выставке «История болезни. Право на отдых»:';
+              display: block;
+              font-style: normal;
+              margin-bottom: 20px;
+            }
+          }
+
+          &:nth-child(2).folded {
+            max-height: 120px;
+          }
+
+          &:nth-child(2).unfolded {
+            max-height: none;
+          }
+
+          &:nth-child(4) {
+            display: none;
+          }
+        }
+
+        .toggle--0 {
+          display: block;
+        }
+
+      }
+
+      &:nth-child(7) {
+        .element__owerview {}
+
+        .element__info {
+          grid-template-rows: 0 auto max-content 100px;
+        }
+
+        .element__paint {
+          &:nth-child(2) {
+            margin-bottom: 40px;
+          }
+
+          &:nth-child(3) {}
+
+          &:nth-child(4) {
+            overflow: hidden;
+            position: relative;
+            transition: max-height 0.5s ease;
+            max-height: 140px;
+
+            text-align: justify;
+            align-self: left;
+            font-style: italic;
+
+            &::before {
+              content: 'Виталий Пацюков о выставке «История болезни. Право на отдых»:';
+              display: block;
+
+              margin-bottom: 20px;
+              font-style: normal;
+            }
+          }
+
+          &:nth-child(4).folded {
+            max-height: 140px;
+          }
+
+          &:nth-child(4).unfolded {
+            max-height: none;
+          }
+
+          &:nth-child(6) {
+            display: none;
+          }
+        }
+
+
+        .toggle--1 {
+          display: block;
+        }
+
+        .image-wrapper {
+          justify-content: center;
+        }
+
+        .image-box {
+          &__0 {
+            margin-bottom: 20px;
+          }
+
+          &__7,
+          &__8,
+          &__9 {
+            margin-bottom: 60px;
+            margin-top: 60px;
+          }
+
+          &__7,
+          &__8 {
+            margin-right: 20px;
+          }
+
+          &__10,
+          &__11,
+          &__12,
+          &__13 {
+            margin-right: 30px;
+          }
         }
       }
     }

@@ -12,15 +12,15 @@
       }
 
       .element__paint {
-        &:nth-child(2) {
-        }
-
-        &:nth-child(3) {
-        }
+        &:nth-child(2) {}
 
         &:nth-child(4) {
           text-align: right;
           align-self: end;
+        }
+
+        &:nth-child(6) {
+          margin-top: 20px;
         }
       }
 
@@ -36,12 +36,11 @@
       }
     }
 
-    &:nth-child(2) {
-    }
+    &:nth-child(2) {}
 
     &:nth-child(3) {
       .element__info {
-        grid-template-rows: min-content min-content;
+        grid-template-rows: 0 auto min-content;
       }
 
       .element__owerview {
@@ -50,6 +49,10 @@
 
       .element__paint {
         &:nth-child(2) {
+          text-align: justify;
+        }
+
+        &:nth-child(3) {
           text-align: right;
           align-self: end;
         }
@@ -67,6 +70,130 @@
 
         &__7 {
           margin-right: 40px;
+        }
+      }
+    }
+  }
+
+  @media (max-width: 1024px) {
+    .element {
+      &:nth-child(1) {
+        .element__info {
+          grid-template-rows: auto;
+        }
+
+        .element__owerview {
+          text-align: justify;
+        }
+
+        .element__paint {
+          &:nth-child(2) {}
+
+          &:nth-child(3) {}
+
+          &:nth-child(4) {
+            text-align: justify;
+          }
+
+          &:nth-child(6) {
+            text-align: right;
+            align-self: end;
+          }
+        }
+      }
+
+      &:nth-child(2) {
+        .image-wrapper {
+          height: 330px;
+
+          &::after {
+            content: '';
+            bottom: 50px;
+          }
+        }
+
+        .element__info {
+          grid-template-rows: auto;
+        }
+
+        .element__owerview {
+          position: relative;
+          margin-bottom: 0px;
+
+          &::before {
+            content: '— Алексей Юдин о проекте “SNEGOVICUS”';
+            display: block;
+            box-sizing: border-box;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 20px;
+            letter-spacing: 0.8px;
+
+            margin-bottom: 20px;
+          }
+        }
+
+        .element__paint {
+          margin: 0;
+          display: block;
+
+          &:nth-child(2) {
+            overflow: hidden;
+            position: relative;
+            transition: max-height 0.5s ease;
+            max-height: 200px;
+          }
+
+          &:nth-child(2).folded {
+            max-height: 200px;
+          }
+
+          &:nth-child(2).unfolded {
+            max-height: none;
+          }
+        }
+
+        .toggle--0 {
+          display: block;
+        }
+      }
+
+      &:nth-child(3) {
+        .element__info {
+          grid-template-rows: auto;
+        }
+
+        .element__owerview {
+          margin-bottom: 0px;
+        }
+
+        .element__paint {
+          display: block;
+
+          &:nth-child(2) {
+            margin-top: 20px;
+            overflow: hidden;
+            position: relative;
+            transition: max-height 0.5s ease;
+            max-height: 200px;
+          }
+
+          &:nth-child(2).folded {
+            max-height: 200px;
+          }
+
+          &:nth-child(2).unfolded {
+            max-height: none;
+          }
+
+          &:nth-child(4) {
+            display: none;
+          }
+        }
+
+        .toggle--0 {
+          display: block;
+          grid-row: 5;
         }
       }
     }

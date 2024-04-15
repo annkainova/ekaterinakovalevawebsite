@@ -24,22 +24,22 @@
         {
           "small": "/05_maps-rose-words/05_IMG_01.jpg",
           "full": "/05_maps-rose-words/source/05_IMG_01L.jpg",
-          "descrip": ""
+          "descrip": "112 х 72 cm • 1992"
         },
         {
           "small": "/05_maps-rose-words/05_IMG_02.jpg",
           "full": "/05_maps-rose-words/source/05_IMG_02L.jpg",
-          "descrip": ""
+          "descrip": "112 х 72 cm • 1992"
         },
         {
           "small": "/05_maps-rose-words/05_IMG_03.jpg",
           "full": "/05_maps-rose-words/source/05_IMG_03L.jpg",
-          "descrip": ""
+          "descrip": "112 х 72 cm • 1992"
         },
         {
           "small": "/05_maps-rose-words/05_IMG_04.jpg",
           "full": "/05_maps-rose-words/source/05_IMG_04L.jpg",
-          "descrip": ""
+          "descrip": "112 х 72 cm • 1992"
         }
       ]
     },
@@ -47,33 +47,33 @@
       "name": "",
       "description": "",
       "paintDescription": [
-        "Geographical paper maps are among the items of a bygone era and deserve special <span class='bold'>“commemorative”</span> treatment. Through maps, roses <span class='bold'>“thrive”</span>"
+        "Geographical paper maps are among the items of a bygone era and deserve special <span class='bold'>“commemorative”</span> treatment. Through maps, roses <span class='bold'>“thrive”</span>."
       ],
       "imagePaths": [
         {
           "small": "/05_maps-rose-words/05_IMG_05.jpg",
           "full": "/05_maps-rose-words/source/05_IMG_05L.jpg",
-          "descrip": "112 х 72 см • 1996"
+          "descrip": "112 х 72 cm • 1996"
         },
         {
           "small": "/05_maps-rose-words/05_IMG_06.jpg",
           "full": "/05_maps-rose-words/source/05_IMG_06L.jpg",
-          "descrip": "106 х 68 см • 1996"
+          "descrip": "106 х 68 cm • 1996"
         },
         {
           "small": "/05_maps-rose-words/05_IMG_07.jpg",
           "full": "/05_maps-rose-words/source/05_IMG_07L.jpg",
-          "descrip": "57 х 60 см • 1996"
+          "descrip": "57 х 60 cm • 1996"
         },
         {
           "small": "/05_maps-rose-words/05_IMG_08.jpg",
           "full": "/05_maps-rose-words/source/05_IMG_08L.jpg",
-          "descrip": "90 х 112 см • 1998"
+          "descrip": "90 х 112 cm • 1998"
         },
         {
           "small": "/05_maps-rose-words/05_IMG_09.jpg",
           "full": "/05_maps-rose-words/source/05_IMG_09L.jpg",
-          "descrip": "78 х 80 см • 1998"
+          "descrip": "78 х 80 cm • 1998"
         }
       ]
     },
@@ -85,32 +85,32 @@
         {
           "small": "/05_maps-rose-words/05_IMG_10.jpg",
           "full": "/05_maps-rose-words/source/05_IMG_10L.jpg",
-          "descrip": "44 х 56 см • 1998"
+          "descrip": "44 х 56 cm • 1998"
         },
         {
           "small": "/05_maps-rose-words/05_IMG_11.jpg",
           "full": "/05_maps-rose-words/source/05_IMG_11L.jpg",
-          "descrip": "44 х 56 см • 1998"
+          "descrip": "44 х 56 cm • 1998"
         },
         {
           "small": "/05_maps-rose-words/05_IMG_12.jpg",
           "full": "/05_maps-rose-words/source/05_IMG_12L.jpg",
-          "descrip": "40 х 54 см • 1998"
+          "descrip": "40 х 54 cm • 1998"
         },
         {
           "small": "/05_maps-rose-words/05_IMG_13.jpg",
           "full": "/05_maps-rose-words/source/05_IMG_13L.jpg",
-          "descrip": "44 х 56 см • 1998"
+          "descrip": "44 х 56 cm • 1998"
         },
         {
           "small": "/05_maps-rose-words/05_IMG_14.jpg",
           "full": "/05_maps-rose-words/source/05_IMG_14L.jpg",
-          "descrip": "68 х 106 см • 1998"
+          "descrip": "68 х 106 cm • 1998"
         },
         {
           "small": "/05_maps-rose-words/05_IMG_15.jpg",
           "full": "/05_maps-rose-words/source/05_IMG_15L.jpg",
-          "descrip": "44 х 56 см • 1998"
+          "descrip": "44 х 56 cm • 1998"
         }
       ]
     }
@@ -118,72 +118,67 @@
   "mosaics": [
     {
       "name": "Mosaics on the facade of a building",
-      "description": "Groningen, Netherlands\nNatural stone, smalta\n1992.",
-      "paintDescription": ["№1. 120 х 30 cm", "№2. 75 х 95 cm \n№3. 75 х 95 cm"],
+      "description": "Groningen, Netherlands\nNatural stone, smalta\n1992",
+      "paintDescription": [""],
       "imagePaths": [
         {
           "small": "/13_Mosaics/13_IMG_01.jpg",
           "full": "/13_Mosaics/source/13_IMG_01L.jpg",
-          "descrip": "120 х 30 см  • 1992"
+          "descrip": "120 х 30 cm  • 1992"
         },
         {
           "small": "/13_Mosaics/13_IMG_02.jpg",
           "full": "/13_Mosaics/source/13_IMG_02L.jpg",
-          "descrip": "75 х 95 см  • 1992"
+          "descrip": "75 х 95 cm  • 1992"
         },
         {
           "small": "/13_Mosaics/13_IMG_02.jpg",
           "full": "/13_Mosaics/source/13_IMG_02L.jpg",
-          "descrip": "75 х 95 см  • 1992"
+          "descrip": "75 х 95 cm  • 1992"
         }
       ]
     },
     {
       "name": "Mosaics on the facade of a private house",
-      "description": "Moscow region, Russia\nNatural stone, smalta\n1997.",
+      "description": "Moscow region, Russia\nNatural stone, smalta\n1997",
       "paintDescription": [],
       "imagePaths": [
         {
           "small": "/13_Mosaics/13_IMG_04.jpg",
           "full": "/13_Mosaics/source/13_IMG_04L.jpg",
-          "descrip": ""
+          "descrip": "60 х 60 cm"
         },
         {
           "small": "/13_Mosaics/13_IMG_05.jpg",
           "full": "/13_Mosaics/source/13_IMG_05L.jpg",
-          "descrip": ""
+          "descrip": "60 х 60 cm"
         },
         {
           "small": "/13_Mosaics/13_IMG_06.jpg",
           "full": "/13_Mosaics/source/13_IMG_06L.jpg",
-          "descrip": ""
+          "descrip": "60 х 60 cm"
         },
         {
           "small": "/13_Mosaics/13_IMG_07.jpg",
           "full": "/13_Mosaics/source/13_IMG_07L.jpg",
-          "descrip": ""
+          "descrip": "60 х 60 cm"
         }
       ]
     },
     {
       "name": "Mosaics on the facade of a building",
-      "description": "New York, USA\nNatural stone, smalta\n2007.",
-      "paintDescription": [
-        "№1. General view of the building facade",
-        "№2. 140 х 140 cm \n№3. 160 х 200 cm \n№4. Fragment",
-        "№5. 160 х 100 cm \n№6. 160 х 100 cm",
-        "№7. 160 х 50 cm"
-      ],
+      "description": "New York, USA\nNatural stone, smalta\n2007",
+      "paintDescription": [],
       "imagePaths": [
         {
           "small": "/13_Mosaics/13_IMG_08.jpg",
           "full": "/13_Mosaics/source/13_IMG_08L.jpg",
-          "descrip": ""
+          "descrip": "General view of the building facade"
         },
         {
           "small": "/13_Mosaics/13_IMG_09.jpg",
           "full": "/13_Mosaics/source/13_IMG_09L.jpg",
-          "descrip": "140 х 140 см"
+          "descrip": "140 х 140 cm"
         },
         {
           "small": "/13_Mosaics/13_IMG_10.jpg",
@@ -193,7 +188,7 @@
         {
           "small": "/13_Mosaics/13_IMG_11.jpg",
           "full": "/13_Mosaics/source/13_IMG_11L.jpg",
-          "descrip": ""
+          "descrip": "Fragment"
         },
         {
           "small": "/13_Mosaics/13_IMG_12.jpg",
@@ -383,7 +378,7 @@
     },
     {
       "name": "",
-      "description": "In this project I wanted to get closer to recognizing the main properties of the human soul\n\n <span class='bold'- memory, contemplation, expectation,</span>\n\n with the help of which, according to the definition of Blessed Augustine, the different moduses of time are cognized, to get closer to recognizing the Present, which is defined as the present past, present present, present future.\n\nIs there in eternity a Waiting?",
+      "description": "In this project I wanted to get closer to recognizing the main properties of the human soul\n\n <span class='bold'>- memory, contemplation, expectation,</span>\n\n with the help of which, according to the definition of Blessed Augustine, the different moduses of time are cognized, to get closer to recognizing the Present, which is defined as the present past, present present, present future.\n\nIs there in eternity a Waiting?",
       "paintDescription": [""],
       "imagePaths": [
         {
@@ -509,32 +504,32 @@
         {
           "small": "/06_horizon-colonization/06_IMG_01.jpg",
           "full": "/06_horizon-colonization/source/06_IMG_01L.jpg",
-          "descrip": "110 х 70 см • 1989"
+          "descrip": "110 х 70 cm • 1989"
         },
         {
           "small": "/06_horizon-colonization/06_IMG_02.jpg",
           "full": "/06_horizon-colonization/source/06_IMG_02L.jpg",
-          "descrip": "110 х 70 см • 1989"
+          "descrip": "110 х 70 cm • 1989"
         },
         {
           "small": "/06_horizon-colonization/06_IMG_03.jpg",
           "full": "/06_horizon-colonization/source/06_IMG_03L.jpg",
-          "descrip": "86 х 60 см • 1990"
+          "descrip": "86 х 60 cm • 1990"
         },
         {
           "small": "/06_horizon-colonization/06_IMG_04.jpg",
           "full": "/06_horizon-colonization/source/06_IMG_04L.jpg",
-          "descrip": "80 х 60 см • 1990"
+          "descrip": "80 х 60 cm • 1990"
         },
         {
           "small": "/06_horizon-colonization/06_IMG_05.jpg",
           "full": "/06_horizon-colonization/source/06_IMG_05L.jpg",
-          "descrip": "86 х 60 см • 1990"
+          "descrip": "86 х 60 cm • 1990"
         },
         {
           "small": "/06_horizon-colonization/06_IMG_06.jpg",
           "full": "/06_horizon-colonization/source/06_IMG_06L.jpg",
-          "descrip": "86 х 60 см • 1990"
+          "descrip": "86 х 60 cm • 1990"
         }
       ]
     },
@@ -546,52 +541,52 @@
         {
           "small": "/06_horizon-colonization/06_IMG_07.jpg",
           "full": "/06_horizon-colonization/source/06_IMG_07L.jpg",
-          "descrip": "90 х 60 см • 1991"
+          "descrip": "90 х 60 cm • 1991"
         },
         {
           "small": "/06_horizon-colonization/06_IMG_08.jpg",
           "full": "/06_horizon-colonization/source/06_IMG_08L.jpg",
-          "descrip": "72 х 55 см • 1991"
+          "descrip": "72 х 55 cm • 1991"
         },
         {
           "small": "/06_horizon-colonization/06_IMG_09.jpg",
           "full": "/06_horizon-colonization/source/06_IMG_09L.jpg",
-          "descrip": "90 х 60 см • 1991"
+          "descrip": "90 х 60 cm • 1991"
         },
         {
           "small": "/06_horizon-colonization/06_IMG_10.jpg",
           "full": "/06_horizon-colonization/source/06_IMG_10L.jpg",
-          "descrip": "90 х 60 см • 1991"
+          "descrip": "90 х 60 cm • 1991"
         },
         {
           "small": "/06_horizon-colonization/06_IMG_11.jpg",
           "full": "/06_horizon-colonization/source/06_IMG_11L.jpg",
-          "descrip": "90 х 60 см • 1991"
+          "descrip": "90 х 60 cm • 1991"
         },
         {
           "small": "/06_horizon-colonization/06_IMG_12.jpg",
           "full": "/06_horizon-colonization/source/06_IMG_12L.jpg",
-          "descrip": "93 х 67 см • 1991"
+          "descrip": "93 х 67 cm • 1991"
         },
         {
           "small": "/06_horizon-colonization/06_IMG_13.jpg",
           "full": "/06_horizon-colonization/source/06_IMG_13L.jpg",
-          "descrip": "200 х 160 см • 1991"
+          "descrip": "200 х 160 cm • 1991"
         },
         {
           "small": "/06_horizon-colonization/06_IMG_14.jpg",
           "full": "/06_horizon-colonization/source/06_IMG_14L.jpg",
-          "descrip": "150 х 100 см • 1991"
+          "descrip": "150 х 100 cm • 1991"
         },
         {
           "small": "/06_horizon-colonization/06_IMG_15.jpg",
           "full": "/06_horizon-colonization/source/06_IMG_15L.jpg",
-          "descrip": "150 х 100 см • 1991"
+          "descrip": "150 х 100 cm • 1991"
         },
         {
           "small": "/06_horizon-colonization/06_IMG_16.jpg",
           "full": "/06_horizon-colonization/source/06_IMG_16L.jpg",
-          "descrip": "60 х 90 см • 1991"
+          "descrip": "60 х 90 cm • 1991"
         }
       ]
     },
@@ -600,28 +595,28 @@
       "description": "",
 
       "paintDescription": [
-        "This eternal landscape is shaped by the marks left by someone's hand, which become a kind of sacred relics. These are <span class='bold'>memo-monuments</span>"
+        "This eternal landscape is shaped by the marks left by someone's hand, which become a kind of sacred relics. These are <span class='bold'>memo-monuments</span>."
       ],
       "imagePaths": [
         {
           "small": "/06_horizon-colonization/06_IMG_17.jpg",
           "full": "/06_horizon-colonization/source/06_IMG_17L.jpg",
-          "descrip": "65 х 51 см • 1992"
+          "descrip": "65 х 51 cm • 1992"
         },
         {
           "small": "/06_horizon-colonization/06_IMG_18.jpg",
           "full": "/06_horizon-colonization/source/06_IMG_18L.jpg",
-          "descrip": "65 х 51 см • 1992"
+          "descrip": "65 х 51 cm • 1992"
         },
         {
           "small": "/06_horizon-colonization/06_IMG_19.jpg",
           "full": "/06_horizon-colonization/source/06_IMG_19L.jpg",
-          "descrip": "86 х 60 см • 1993"
+          "descrip": "86 х 60 cm • 1993"
         },
         {
           "small": "/06_horizon-colonization/06_IMG_20.jpg",
           "full": "/06_horizon-colonization/source/06_IMG_20L.jpg",
-          "descrip": "86 х 60 см • 1993"
+          "descrip": "86 х 60 cm • 1993"
         }
       ]
     }
@@ -786,7 +781,7 @@
       "name": "",
       "description": "",
       "paintDescription": [
-        "The monotony of the paper inadvertently emphasizes the boredom of The Basics of the Day, an uncomplicated recipe for the «soup of the day». \n\n The image almost always has a grounded foreground, the people on the shore, and the ephemerality of celestial phenomena in the background."
+        "The monotony of the paper inadvertently emphasizes the boredom of The Basics of the Day, an uncomplicated recipe for the «soup of the day». \n\n The image almost always has a grounded foreground, <span class='bold'>the people</span> on the shore, and <span class='bold'>the ephemerality</span> of celestial phenomena in the background."
       ],
       "imagePaths": [
         {
@@ -825,7 +820,7 @@
       "name": "",
       "description": "",
       "paintDescription": [
-        "The clouds, the smoke, are connected to who is on the ground, one might even say that this mirage of non-duality is the real foundation of any day. \n \n The apparent chamberliness of the diary entry turns into a presentational declaration of the significance and epochality of each day, each «soup of the day»."
+        "The clouds, the smoke, are connected to who is on the ground, one might even say that this <span class='bold'>mirage of non-duality</span> is the real foundation of any day. \n \n The apparent chamberliness of the diary entry turns into a presentational declaration of <span class='bold'>the significance and epochality</span> of each day, each «soup of the day»."
       ],
       "imagePaths": [
         {
@@ -893,8 +888,8 @@
       "name": "",
       "description": "Paper, pencil, watercolor, collage \n160 х 120 cm \n1988",
       "paintDescription": [
-        "“Wave №2”, 160 х 120 cm, 1988",
-        "“Death of a Bumblebee”, 160 х 130 cm, 1989"
+        "<span class='bold'>“Wave №2”</span>, 160 х 120 cm, 1988",
+        "<span class='bold'>“Death of a Bumblebee”</span>, 160 х 130 cm, 1989"
       ],
       "imagePaths": [
         {
@@ -948,7 +943,7 @@
     },
     {
       "name": "“Rituals”",
-      "description": "Soviet-French video action \n \nIn the summer of 1989, the French TV channel “Antenne 2” made a film about the interaction between musicians and artists, in the context of a trip along the Northern Dvina River, from Arkhangelsk to Kotlas. \n \nTwo French artists and dancers, jazz trio “Three O's” and Katerina Kovaleva, in the remote and sparsely populated areas of the Russian North, made the first attempts to master the genre of Land Art.\n \nKaterina Kovaleva experimented with the theme of the border, drawing the horizon line in different landscape conditions. On the river bank, on rocks, on sand, in the forest and in the city.",
+      "description": "Soviet-French video action \n \nIn the summer of 1989, the French TV channel “Antenne 2” made a film about the interaction between musicians and artists, in the context of a trip along the Northern Dvina River, from Arkhangelsk to Kotlas. \n \nTwo French artists and dancers, jazz trio “Three O's” and Katerina Kovaleva, in the remote and sparsely populated areas of the Russian North, made the first attempts to master the genre of Land Art.\n \nKaterina Kovaleva experimented with the theme of the border, drawing <span class='bold'>the horizon line</span> in different landscape conditions. On the river bank, on rocks, on sand, in the forest and in the city.",
       "paintDescription": [""],
       "imagePaths": [
         {
@@ -980,7 +975,7 @@
       "imagePaths": [
         {
           "small": "/08_early-works/08_IMG_17.jpg",
-          "full": "/08_early-works/source/08_IMG_01L.jpg",
+          "full": "/08_early-works/source/08_IMG_17L.jpg",
           "descrip": ""
         },
         {
@@ -1095,7 +1090,7 @@
     },
     {
       "name": "",
-      "description": "There is no tension here; <span class='bold'>the peace</span> that permeates the entire space subdues it and forces you to listen to silence and intuition. Time has its own flow here - or maybe it doesn't exist at all.\n \nThe thickness of Antarctic ice keeps <span class='bold'>Time untouched from the beginning of time/span>. It is well known that the study of ice cores reveals many mysteries and helps scientists to understand the genesis of the earth. \n \nI am trying to get my Antarctic ice core: I look into this eternal landscape, into its rhythmic foundations, listen to the sounds of ice breaking off and collapsing, the sighs and splashing of whales, the quacking of penguins, the barking of seals.",
+      "description": "There is no tension here; <span class='bold'>the peace</span> that permeates the entire space subdues it and forces you to listen to silence and intuition. Time has its own flow here - or maybe it doesn't exist at all.\n \nThe thickness of Antarctic ice keeps <span class='bold'>Time untouched from the beginning of time</span>. It is well known that the study of ice cores reveals many mysteries and helps scientists to understand the genesis of the earth. \n \nI am trying to get my Antarctic ice core: I look into this eternal landscape, into its rhythmic foundations, listen to the sounds of ice breaking off and collapsing, the sighs and splashing of whales, the quacking of penguins, the barking of seals.",
       "paintDescription": [""],
       "imagePaths": [
         {
@@ -1363,7 +1358,7 @@
         {
           "small": "/10_memorial-objects/10_IMG_01.gif",
           "full": "/10_memorial-objects/source/10_IMG_01L.gif",
-          "descrip": "Ifhbrb"
+          "descrip": ""
         },
         {
           "small": "/10_memorial-objects/10_IMG_02.jpg",
@@ -1389,33 +1384,35 @@
     },
     {
       "name": "",
-      "description": "Only a few simple words will I venture to say before the tomb of our Unforgettable. On it are inscribed simple and clear words: “Snegovici ossa hic jacent” - <span class='bold'>“Here lie the remains of the Snowman”</span>\n \nBut let us ask ourselves, where are the notorious remains of our Unforgettable? Are they under this majestic tomb? Not at all. They are scattered, or rather, they have spread all over the world. \n \nWhen they went into the earth, they became a new substance, they turned into that great element which animates and nourishes all living things. Indeed, our Unforgettable One literally “flow away from death”.\n \nBut did he love life? Here we enter under the shroud of mystery, which is part of the great mystery of the universe. \n \nUnforgettable spent his entire short century in ascetic silence, pointing to eternity as a finger with his carrot. \n \nBut you and I are witnesses to the fact that life itself loved him. It was she, life itself, who created him out of the dead snow element under the joyful shouts and squeals of children and the foolish exclamations of their adult epigones.\n \nHaving hardened under the children's palms, from which life so generously oozes, our Unforgettable became a monument to that great metamorphosis that brings life out of death and gives us <span class='bold'>death to save life</span> from its banal hollowing...",
-      "paintDescription": [""],
+      "description": "",
+      "paintDescription": [
+        "Only a few simple words will I venture to say before the tomb of our Unforgettable. On it are inscribed simple and clear words: “Snegovici ossa hic jacent” - <span class='bold'>“Here lie the remains of the Snowman”</span>\n \nBut let us ask ourselves, where are the notorious remains of our Unforgettable? Are they under this majestic tomb? Not at all. They are scattered, or rather, they have spread all over the world. \n \nWhen they went into the earth, they became a new substance, they turned into that great element which animates and nourishes all living things. Indeed, our Unforgettable One literally “flow away from death”.\n \nBut did he love life? Here we enter under the shroud of mystery, which is part of the great mystery of the universe. \n \nUnforgettable spent his entire short century in ascetic silence, pointing to eternity as a finger with his carrot. \n \nBut you and I are witnesses to the fact that life itself loved him. It was she, life itself, who created him out of the dead snow element under the joyful shouts and squeals of children and the foolish exclamations of their adult epigones.\n \nHaving hardened under the children's palms, from which life so generously oozes, our Unforgettable became a monument to that great metamorphosis that brings life out of death and gives us <span class='bold'>death to save life</span> from its banal hollowing..."
+      ],
       "imagePaths": [
         {
           "small": "/10_memorial-objects/10_IMG_06.jpg",
           "full": "/10_memorial-objects/source/10_IMG_06L.jpg",
-          "descrip": ""
+          "descrip": "SNEGOVICUS • Acting Persons / Dramatis Personae • Pushkin's Duel • 2009"
         },
         {
           "small": "/10_memorial-objects/10_IMG_07.jpg",
           "full": "/10_memorial-objects/source/10_IMG_07L.jpg",
-          "descrip": ""
+          "descrip": "SNEGOVICUS • Changing World / Mutatis Mundis • 2009"
         },
         {
           "small": "/10_memorial-objects/10_IMG_08.jpg",
           "full": "/10_memorial-objects/source/10_IMG_08L.jpg",
-          "descrip": ""
+          "descrip": "SNEGOVICUS • Acting Persons / Dramatis Personae • Pushkin's Duel • 2009"
         },
         {
           "small": "/10_memorial-objects/10_IMG_09.jpg",
           "full": "/10_memorial-objects/source/10_IMG_09L.jpg",
-          "descrip": ""
+          "descrip": "SNEGOVICUS • Mysterious Russian soul / Anima Russa Mystica • 2009"
         },
         {
           "small": "/10_memorial-objects/10_IMG_10.jpg",
           "full": "/10_memorial-objects/source/10_IMG_10L.jpg",
-          "descrip": ""
+          "descrip": "SNEGOVICUS • Strange Joyful Harmony / Harmonia Laetabilis Insolita • 2009"
         },
         {
           "small": "/10_memorial-objects/10_IMG_11.jpg",
@@ -1441,33 +1438,36 @@
     },
     {
       "name": "",
-      "description": "...To whom shall I liken our Unforgettable One? Would it be audacity to compare him to the great Osiris, torn, dead and risen, ruling over eternity and bringing life through this great metamorphosis. Not in the least. He is our northern Osiris. \n \nTherefore, we also call upon him, our Unforgettable One, like the ancient Egyptians who were adept in the mysteries of life and death:\n \n«Though you went away, may you come!\n \nThough you slept, may you awake!\n \nThough thou art dead, thou shalt be revived!\n \nArise!...»\n \nArise with the coming of the healing snow, arise through oblivion and mortification, arise to the pure babble of life!”",
-      "paintDescription": ["— Alexey Yudin about the project “SNEGOVICUS”"],
+      "description": "",
+      "paintDescription": [
+        "...To whom shall I liken our Unforgettable One? Would it be audacity to compare him to the great Osiris, torn, dead and risen, ruling over eternity and bringing life through this great metamorphosis. Not in the least. He is our northern Osiris. \n \nTherefore, we also call upon him, our Unforgettable One, like the ancient Egyptians who were adept in the mysteries of life and death:\n \n«Though you went away, may you come!\n \nThough you slept, may you awake!\n \nThough thou art dead, thou shalt be revived!\n \nArise!...»\n \nArise with the coming of the healing snow, arise through oblivion and mortification, arise to the pure babble of life!”",
+        "— Alexey Yudin about the project “SNEGOVICUS”"
+      ],
       "imagePaths": [
         {
           "small": "/10_memorial-objects/10_IMG_15.jpg",
           "full": "/10_memorial-objects/source/10_IMG_15L.jpg",
-          "descrip": ""
+          "descrip": "SNEGOVICUS • Here lie the remains of a snowman / Snegovici Ossa His Yacent • 2009"
         },
         {
           "small": "/10_memorial-objects/10_IMG_16.jpg",
           "full": "/10_memorial-objects/source/10_IMG_16L.jpg",
-          "descrip": ""
+          "descrip": "Ignotum Penguin / An unknown penguin"
         },
         {
           "small": "/10_memorial-objects/10_IMG_17.jpg",
           "full": "/10_memorial-objects/source/10_IMG_17L.jpg",
-          "descrip": ""
+          "descrip": "Os De Ossibus / Bone from bone"
         },
         {
           "small": "/10_memorial-objects/10_IMG_18.jpg",
           "full": "/10_memorial-objects/source/10_IMG_18L.jpg",
-          "descrip": ""
+          "descrip": "Dolce Vita / Sweet Life"
         },
         {
           "small": "/10_memorial-objects/10_IMG_19.jpg",
           "full": "/10_memorial-objects/source/10_IMG_19L.jpg",
-          "descrip": ""
+          "descrip": "Salve / Hello"
         },
         {
           "small": "/10_memorial-objects/10_IMG_20.jpg",
@@ -1482,17 +1482,17 @@
         {
           "small": "/10_memorial-objects/10_IMG_22.jpg",
           "full": "/10_memorial-objects/source/10_IMG_22L.jpg",
-          "descrip": ""
+          "descrip": "Os De Ossibus / Bone from bone"
         },
         {
           "small": "/10_memorial-objects/10_IMG_23.jpg",
           "full": "/10_memorial-objects/source/10_IMG_23L.jpg",
-          "descrip": ""
+          "descrip": "Dolce Vita / Sweet Life"
         },
         {
           "small": "/10_memorial-objects/10_IMG_24.jpg",
           "full": "/10_memorial-objects/source/10_IMG_24L.jpg",
-          "descrip": ""
+          "descrip": "Salve / Hello"
         },
         {
           "small": "/10_memorial-objects/10_IMG_25.jpg",
@@ -1502,12 +1502,12 @@
         {
           "small": "/10_memorial-objects/10_IMG_26.jpg",
           "full": "/10_memorial-objects/source/10_IMG_26L.jpg",
-          "descrip": ""
+          "descrip": "SNEGOVICUS • Here lie the remains of a snowman / Snegovici Ossa His Yacent • 2009"
         },
         {
           "small": "/10_memorial-objects/10_IMG_27.jpg",
           "full": "/10_memorial-objects/source/10_IMG_27L.jpg",
-          "descrip": ""
+          "descrip": "Ignotum Penguin / An unknown penguin"
         }
       ]
     }
@@ -1553,27 +1553,27 @@
         {
           "small": "/11_right-to-rest/11_IMG_06.jpg",
           "full": "/11_right-to-rest/source/11_IMG_06L.jpg",
-          "descrip": ""
+          "descrip": "Photo from public sources"
         },
         {
           "small": "/11_right-to-rest/11_IMG_07.jpg",
           "full": "/11_right-to-rest/source/11_IMG_07L.jpg",
-          "descrip": ""
+          "descrip": "Photo from public sources"
         },
         {
           "small": "/11_right-to-rest/11_IMG_08.jpg",
           "full": "/11_right-to-rest/source/11_IMG_08L.jpg",
-          "descrip": ""
+          "descrip": "Photo from public sources"
         },
         {
           "small": "/11_right-to-rest/11_IMG_09.jpg",
           "full": "/11_right-to-rest/source/11_IMG_09L.jpg",
-          "descrip": ""
+          "descrip": "Photo from public sources"
         },
         {
           "small": "/11_right-to-rest/11_IMG_10.jpg",
           "full": "/11_right-to-rest/source/11_IMG_10L.jpg",
-          "descrip": ""
+          "descrip": "Photo from public sources"
         }
       ]
     },

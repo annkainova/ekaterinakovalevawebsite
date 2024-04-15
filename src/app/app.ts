@@ -8,43 +8,59 @@ import Page from './pages/Gallery/Page.ts';
 import Header from './pages/MainPage/Header.ts';
 import Localization from './pages/Localization/Localization.ts';
 import FirstPage from './pages/MainPage/FirstPage.ts';
-
-// interface choosenData {
-//   name: string;
-//   description: string;
-//   paintDescription: string[];
-
-//   imagePaths: [
-//     {
-//       small: string;
-//       full: string;
-//       descrip: string;
-//     },
-//   ];
-// }
+import Footer from './pages/MainPage/Footer.ts';
+import NavPanel from './pages/MainPage/NavPanel.ts';
+import ActiveLink from './pages/ActivePages/activePages.ts';
+import Collage from './pages/Collage/Collage.ts';
 
 export default class App {
   header: Header;
+  footer: Footer;
   firstPage: FirstPage;
   mainPage: Main;
   page: Page;
   localization: Localization;
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   selectedData: any;
+  navPanel: NavPanel;
+  activeLink: ActiveLink;
+  collage: Collage;
 
   constructor() {
     this.header = new Header(document.body);
     this.page = new Page();
     this.mainPage = new Main();
     this.firstPage = new FirstPage();
+    this.footer = new Footer(document.body);
 
-    // this.page.renderProject(dataProject);
     this.header.render();
     this.firstPage.changeLanguageFirstPage();
-    this.localization = new Localization();
+    this.footer.render();
 
-    // this.mainPageLocal = new MainPageLocal();
+    this.localization = new Localization();
+    this.navPanel = new NavPanel('main');
     this.selectedData = this.localization.language === 'ru' ? data : dataEn;
+
+    this.activeLink = new ActiveLink();
+  }
+
+  // eslint-disable-next-line class-methods-use-this
+  isGalleryPage(): boolean {
+    const galleryPages = [
+      'waiting-zone',
+      'maps',
+      'horizon-colonization',
+      'soup-of-the-day',
+      'early-works',
+      'antarctic-diary',
+      'memorial-objects',
+      'right-to-rest',
+      'notebooks',
+      'mosaics',
+      'artworks',
+    ];
+
+    return galleryPages.some(id => window.location.pathname.endsWith(`${id}.html`));
   }
 
   render() {
@@ -62,5 +78,9 @@ export default class App {
     this.page.renderGalleryWithoutMainPhoto('antarctic-diary', selectData);
     this.page.renderGallery('memorial-objects', selectData);
     this.page.renderGalleryWithoutMainPhoto('right-to-rest', selectData);
+
+    if (this.isGalleryPage()) {
+      this.navPanel.render();
+    }
   }
 }

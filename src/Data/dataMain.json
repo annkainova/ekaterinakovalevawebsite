@@ -3,7 +3,8 @@
     "textMain": "ГЛАВНАЯ",
     "textBio": "БИОГРАФИЯ",
     "textWork": "РАБОТЫ <span class='accent-dot'>•</span> ПРОЕКТЫ",
-    "textContact": "КОНТАКТЫ"
+    "textContact": "КОНТАКТЫ",
+    "textMenu": "меню"
   },
   "main": {
     "title": "КАТЕРИНА КОВАЛЕВА",
@@ -14,5 +15,18 @@
   },
   "footer": {
     "name": "© Катерина Ковалёва, 2024"
+  },
+  "collage": {
+    "waitingZone": "Выставочный проект «Зона ожидания»",
+    "maps": "Карты •«Розы мира»",
+    "horizon-colonization": "«Колонизация горизонта»",
+    "soup-of-the-day": "«Суп дня»",
+    "early-works": "Ранние работы",
+    "antarctic-diary": "«Антарктический дневник»",
+    "memorial-objects": "Объекты-памятники",
+    "right-to-rest": "Выставочный проект «История болезни. Право на отдых»",
+    "notebooks": "Записные книжки",
+    "mosaics": "Мозаики",
+    "artworks": "Рисунки"
   }
 }

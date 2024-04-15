@@ -13,11 +13,12 @@
     "prepare": "cd .. && npx husky install"
   },
   "lint-staged": {
-    "*.{js,ts,tsx}": "eslint . --fix --max-warnings=0",
-    "*.{js,ts,tsx,scss,md,html,json}": "prettier . --write"
+    "*.{ts,tsx}": "eslint . --fix --max-warnings=0",
+    "*.{ts,tsx,scss,md,html,json}": "prettier . --write"
   },
   "devDependencies": {
     "@types/jquery": "^3.5.29",
+    "@types/slick-carousel": "^1.6.40",
     "@typescript-eslint/eslint-plugin": "^7.3.1",
     "@typescript-eslint/parser": "^7.3.1",
     "eslint": "^8.57.0",
@@ -40,8 +41,10 @@
   },
   "dependencies": {
     "@fancyapps/ui": "^5.0.35",
+    "@vitejs/plugin-legacy": "^5.3.2",
     "jquery": "^3.7.1",
     "normalize-scss": "^8.0.0",
-    "normalize.css": "^8.0.1"
+    "normalize.css": "^8.0.1",
+    "slick-carousel": "^1.8.1"
   }
 }

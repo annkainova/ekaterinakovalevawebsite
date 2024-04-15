@@ -3,21 +3,16 @@
 
   .element {
     &:nth-child(1) {
-      .element__owerview {
-      }
+      .element__owerview {}
 
       .element__paint {
-        &:nth-child(2) {
-        }
+        &:nth-child(2) {}
 
-        &:nth-child(3) {
-        }
+        &:nth-child(3) {}
 
-        &:nth-child(4) {
-        }
+        &:nth-child(4) {}
 
-        &:not(:nth-child(2)) {
-        }
+        &:not(:nth-child(2)) {}
       }
 
       .image-wrapper {
@@ -42,15 +37,12 @@
         grid-template-rows: auto 100px;
       }
 
-      .element__owerview {
-      }
+      .element__owerview {}
 
       .element__paint {
-        &:nth-child(2) {
-        }
+        &:nth-child(2) {}
 
-        &:not(:nth-child(2)) {
-        }
+        &:not(:nth-child(2)) {}
       }
 
       .image-wrapper {
@@ -69,15 +61,12 @@
         grid-template-rows: auto 100px;
       }
 
-      .element__owerview {
-      }
+      .element__owerview {}
 
       .element__paint {
-        &:nth-child(2) {
-        }
+        &:nth-child(2) {}
 
-        &:not(:nth-child(2)) {
-        }
+        &:not(:nth-child(2)) {}
       }
 
       .element__img {
@@ -112,15 +101,12 @@
         grid-template-rows: auto 100px;
       }
 
-      .element__owerview {
-      }
+      .element__owerview {}
 
       .element__paint {
-        &:nth-child(2) {
-        }
+        &:nth-child(2) {}
 
-        &:not(:nth-child(2)) {
-        }
+        &:not(:nth-child(2)) {}
       }
 
       .element__img {
@@ -139,6 +125,75 @@
       .image-box {
         &__1 {
           margin-left: 20px;
+        }
+      }
+    }
+  }
+
+  // Movil
+  @media (max-width: 1024px) {
+
+    .element__info {
+      display: block;
+      margin: 0;
+    }
+
+    .element {
+      &:nth-child(1) {
+        .image-wrapper {
+          display: block;
+        }
+      }
+
+      &:nth-child(2) {
+
+        .image-wrapper {
+          row-gap: 40px;
+        }
+
+        .image-box {
+          &__4 {
+            margin-left: 0px;
+          }
+        }
+      }
+
+      &:nth-child(3) {
+        .element__info {
+          grid-template-rows: auto;
+        }
+
+        .image-wrapper {
+          display: flex;
+          row-gap: 0px;
+        }
+
+        .image-box {
+          &__1 {
+            margin-left: 0px;
+          }
+        }
+      }
+
+      &:nth-child(4) {
+        .image-wrapper {
+          row-gap: 0px;
+        }
+      }
+
+      &:nth-child(5) {
+        .element__info {
+          grid-template-rows: auto;
+        }
+
+        .image-wrapper {
+          row-gap: 0px;
+        }
+
+        .image-box {
+          &__1 {
+            margin-left: 0px;
+          }
         }
       }
     }

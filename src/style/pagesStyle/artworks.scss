@@ -56,4 +56,15 @@
       }
     }
   }
+
+  @media (max-width: 940px) {
+    .element {
+      &:nth-child(1) {
+        .element__owerview {
+          text-align: justify;
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
 }

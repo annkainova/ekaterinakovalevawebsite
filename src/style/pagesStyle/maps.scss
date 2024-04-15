@@ -9,28 +9,37 @@
     }
 
     &:nth-child(2) {
-      .element__owerview {
-      }
+      .element__owerview {}
 
       .element__paint {
-        &:nth-child(2) {
-        }
+        &:nth-child(2) {}
 
-        &:nth-child(3) {
-        }
+        &:nth-child(3) {}
       }
     }
 
     &:nth-child(3) {
-      .element__owerview {
-      }
+      .element__owerview {}
 
       .element__paint {
-        &:not(:nth-child(2)) {
-        }
+        &:not(:nth-child(2)) {}
 
-        &:nth-child(3) {
-        }
+        &:nth-child(3) {}
+      }
+    }
+  }
+}
+
+
+@media (max-width: 1024px) {
+  .maps {
+
+    .image-wrapper {
+      height: 310px;
+
+      &::after {
+        content: '';
+        bottom: 30px;
       }
     }
   }

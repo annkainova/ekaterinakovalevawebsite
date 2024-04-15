@@ -22,7 +22,7 @@
 
   background: $white;
 
-  @media (max-width: 768px) {
+  @media (max-width: 1280px) {
     background: $dark;
   }
 
@@ -34,12 +34,12 @@
     width: 100%;
 
     @media (max-width: 1280px) {
-      margin: 0;
+      margin: 35px 0 0px;
       padding: 0 20px;
       box-sizing: border-box;
     }
 
-    @media (max-width: 768px) {
+    @media (max-width: 1280px) {
       margin: 0;
       padding: 0 0 0 20px;
       box-sizing: border-box;
@@ -57,9 +57,12 @@
     background: #767676;
     height: 100%;
     padding: 0px 11px;
+
+    cursor: pointer;
+    z-index: 100;
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 1280px) {
     .navigation {
       display: none;
     }
@@ -83,12 +86,13 @@
     background-image: url(/KATKART-dark.svg);
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 1280px) {
     width: 109px;
     height: 24px;
     margin-top: 10px;
     background-image: url(/KATKART-dark.svg);
     background-size: contain;
+    background-repeat: no-repeat;
   }
 }
 
@@ -111,12 +115,14 @@
     padding: 1px 6px;
     @include font($normal, $font-16, $dark);
 
-    &:hover {
-      background: $dark;
-    }
+    @media (hover: hover) {
+      &:hover {
+        background: $dark;
+      }
 
-    &:hover .navigation__link {
-      color: $white;
+      &:hover .navigation__link {
+        color: $white;
+      }
     }
   }
 
@@ -219,7 +225,7 @@
   width: 100%;
   flex-direction: column;
 
-  @media (max-width: 768px) {
+  @media (max-width: 1280px) {
     position: absolute;
     bottom: 0px;
   }
@@ -237,7 +243,7 @@
     -webkit-animation-duration: 30s;
     -webkit-animation-iteration-count: 1;
 
-    @media (max-width: 768px) {
+    @media (max-width: 1280px) {
       width: 22.4px;
       height: 32px;
 
@@ -253,7 +259,7 @@
     background-repeat: repeat-x;
     background-origin: padding-box;
 
-    @media (max-width: 768px) {
+    @media (max-width: 1280px) {
       display: none;
     }
   }
@@ -278,3 +284,62 @@
     right: calc(100% + 100px);
   }
 }
+
+
+.navigation.open {
+  box-sizing: border-box;
+  display: block;
+  position: absolute;
+
+  margin-top: 30px;
+  padding: 0 0px;
+
+  width: 100%;
+  height: calc(100vh - 70px);
+
+  left: 0;
+  top: 0;
+  z-index: 100;
+
+  .navigation__container {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: minmax(375px, 1fr);
+    grid-template-rows: repeat(5, 45px);
+
+    list-style-type: none;
+    margin: 40px 0 0 0;
+    gap: 0;
+
+
+    background: $white;
+  }
+
+  .navigation__element {
+    display: block;
+    box-sizing: border-box;
+    max-width: 100%;
+    padding: 13px 0px;
+    margin: 0;
+    @include font($normal, $font-16, $dark);
+    text-align: center;
+    align-items: center;
+
+    border: 1px solid $dark;
+  }
+
+  .language-switcher {
+    display: block;
+    box-sizing: border-box;
+    max-width: 100%;
+    padding: 12px 0px;
+    margin: 0;
+    @include font($normal, $font-16, $dark);
+    text-align: center;
+    align-items: center;
+
+    border: 1px solid $dark;
+  }
+}
+
+
