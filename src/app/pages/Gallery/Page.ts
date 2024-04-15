@@ -1,8 +1,6 @@
 import Gallery from './Gallery';
 import WorkProjects from '../WorkProjects/WorkProjects';
 import Localization from '../Localization/Localization';
-import dataMain from '../../../Data/dataMain.json';
-import dataMainEn from '../../../Data/dataMainEn.json';
 
 declare global {
   interface JQuery {
