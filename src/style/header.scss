@@ -49,14 +49,18 @@
   .menu-button {
     display: none;
 
+
     text-align: center;
     @include font($extra-bold, $font-16, $white);
-    line-height: normal;
     letter-spacing: 2.4px;
+
+    box-sizing: border-box;
+
 
     background: #767676;
     height: 100%;
-    padding: 0px 11px;
+    padding: 0px 11px 3px 11px;
+
 
     cursor: pointer;
     z-index: 100;
@@ -72,6 +76,7 @@
       justify-content: center;
       align-items: center;
       height: 70px;
+      z-index: 100;
     }
   }
 }
@@ -244,8 +249,8 @@
     -webkit-animation-iteration-count: 1;
 
     @media (max-width: 1280px) {
-      width: 22.4px;
-      height: 32px;
+      width: 28px;
+      height: 40px;
 
       background-size: contain;
     }
@@ -285,6 +290,13 @@
   }
 }
 
+.menu-button.open {
+  box-sizing: border-box;
+  border: 1px solid #767676;
+  background: #F9F9F9;
+
+  color: #616161;
+}
 
 .navigation.open {
   box-sizing: border-box;
@@ -299,7 +311,7 @@
 
   left: 0;
   top: 0;
-  z-index: 100;
+  z-index: 50;
 
   .navigation__container {
     display: grid;
@@ -341,5 +353,3 @@
     border: 1px solid $dark;
   }
 }
-
-

@@ -52,8 +52,12 @@
     transform-origin: top left;
     background-repeat: no-repeat;
     background-size: cover;
-
     transition: background-image 0.8s ease;
+
+    // Vendor prefixes for transitions
+    -webkit-transition: background-image 0.8s ease;
+    -moz-transition: background-image 0.8s ease;
+    -o-transition: background-image 0.8s ease;
 
     @media (hover: hover) {
       &:hover .collage__text--1 {
@@ -343,7 +347,6 @@
     }
 
     &__item {
-
       position: relative;
       transform-origin: top left;
       background-repeat: no-repeat;
@@ -455,7 +458,7 @@
       top: 0;
 
       margin: 0 auto;
-      background-image: url(MOBIL/M00_main-page/M00_IMG_05.jpg);
+      background-image: url(/MOBIL/M00_main-page/M00_IMG_05.jpg);
 
       grid-row: 2;
       grid-column: span 2;
@@ -558,7 +561,7 @@
       background-repeat: no-repeat;
       background-size: cover;
 
-      width: 100%;
+      width: 90vw;
     }
 
     &__item--1 {

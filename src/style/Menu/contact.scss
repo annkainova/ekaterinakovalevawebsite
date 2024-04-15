@@ -3,7 +3,8 @@
 .contact {
   width: 100%;
   margin-top: 210px;
-  height: 100vh;
+  height: calc(100vh - 77px - 45px - 70px);
+  // margin-bottom: 150px;
 
   &__image {
     display: flex;
@@ -77,20 +78,90 @@
 
 
 @media (max-width: 1024px) {
+
+
   .contact {
-    margin-top: 90px;
-    height: calc(100vh - 201px);
+    height: calc(100vh - 77px - 45px);
+    margin: 190px 0 0 0;
+
+    // margin-bottom: 50px;
 
     &__image {
+      margin: 0 auto;
       display: flex;
       justify-content: center;
-      width: 100%;
+      width: 410px;
+      height: 615px;
+      background-image: url(/MOBIL/М03_contact/M03_IMG_01.jpg);
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center;
+      margin-bottom: 110px;
+      z-index: 1;
+
+      @media (max-width: 375px) {
+        background-size: cover;
+      }
+    }
+  }
+
+
+  .contact__box {
+    position: relative;
+    margin: 0;
+    margin-top: 61px;
+
+
+    .contact__panel {
+      text-align: center;
+      line-height: 20px;
+
+      width: calc(100% - 35px);
+      margin: 0 auto;
+
+      @media (max-width: 375px) {
+        width: 100%;
+        margin: 0 auto;
+      }
+
+      .contact__element {
+        display: none;
+      }
+
+      .instagram {
+        span {
+          @include font($normal, $font-16, $white);
+          font-family: $family-accent;
+          letter-spacing: 0.8px;
+        }
+
+        display: block;
+      }
+
+    }
+  }
+}
+
+@media (max-width: 760px) {
+
+
+  .contact {
+    margin: 90px 0 0 0;
+    height: calc(100vh - 77px - 45px);
+
+    // margin-bottom: 50px;
+
+    &__image {
+      margin: 0 auto;
+      display: flex;
+      justify-content: center;
+      width: 335px;
       height: 502px;
       background-image: url(/MOBIL/М03_contact/M03_IMG_01.jpg);
       background-repeat: no-repeat;
       background-size: contain;
       background-position: center;
-
+      margin-bottom: 100px;
       z-index: 1;
 
       @media (max-width: 375px) {

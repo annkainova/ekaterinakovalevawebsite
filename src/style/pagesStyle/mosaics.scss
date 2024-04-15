@@ -8,8 +8,7 @@
       }
 
       .element__paint {
-        &:nth-child(2) {
-        }
+        &:nth-child(2) {}
 
         &:not(:nth-child(2)) {
           margin-top: 40px;
@@ -24,8 +23,7 @@
       }
 
       .element__paint {
-        &:nth-child(2) {
-        }
+        &:nth-child(2) {}
 
         &:nth-child(3) {
           margin-top: 40px;
@@ -51,7 +49,18 @@
     }
   }
 
-  @media (max-width: 940px) {
+
+
+  @media (max-width: 1024px) {
+    .image-wrapper {
+      height: 310px;
+
+      &::after {
+        content: '';
+        bottom: 30px;
+      }
+    }
+
     .element {
       &:nth-child(1) {
         .element__owerview {
@@ -72,8 +81,7 @@
         }
 
         .element__paint {
-          &:nth-child(2) {
-          }
+          &:nth-child(2) {}
 
           &:nth-child(3) {
             margin-top: 0px;
@@ -85,6 +93,7 @@
         .element__owerview {
           margin-bottom: 0px;
         }
+
 
         .element__paint {
           &:not(:nth-child(2)) {

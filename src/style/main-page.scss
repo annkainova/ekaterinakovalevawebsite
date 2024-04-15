@@ -3,6 +3,7 @@ body {
   @include font($normal, $font-16, $dark);
   letter-spacing: 0.8px;
   font-family: $family;
+
 }
 
 main {
@@ -11,6 +12,7 @@ main {
   align-items: center;
   justify-content: space-between;
   letter-spacing: 0.8px;
+  height: 100%;
 
   @media (max-width: 1280px) {
     padding: 0 20px;
@@ -68,6 +70,17 @@ button {
     margin-top: 90px;
     gap: 40px;
   }
+}
+
+.biography {
+  margin-bottom: 100px;
+
+}
+
+
+.contact {
+  // margin-bottom: 60px;
+  // height: calc(100vh - 330px);
 }
 
 /* Переопределение фона модального окна */

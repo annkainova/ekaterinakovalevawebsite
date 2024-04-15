@@ -355,18 +355,18 @@
             overflow: hidden;
             position: relative;
             transition: max-height 0.5s ease;
-            max-height: 120px;
+            max-height: 100px;
 
-            &::before {
-              content: 'Андрей Курилкин о выставке «История болезни. Право на отдых»:';
-              display: block;
-              font-style: normal;
-              margin-bottom: 20px;
-            }
+            // &::before {
+            //   content: 'Андрей Курилкин о выставке «История болезни. Право на отдых»:';
+            //   display: block;
+            //   font-style: normal;
+            //   margin-bottom: 20px;
+            // }
           }
 
           &:nth-child(2).folded {
-            max-height: 120px;
+            max-height: 10px;
           }
 
           &:nth-child(2).unfolded {
@@ -388,7 +388,7 @@
         .element__owerview {}
 
         .element__info {
-          grid-template-rows: 0 auto max-content 100px;
+          grid-template-rows: auto;
         }
 
         .element__paint {
@@ -402,23 +402,23 @@
             overflow: hidden;
             position: relative;
             transition: max-height 0.5s ease;
-            max-height: 140px;
+            max-height: 120px;
 
             text-align: justify;
             align-self: left;
             font-style: italic;
 
-            &::before {
-              content: 'Виталий Пацюков о выставке «История болезни. Право на отдых»:';
-              display: block;
+            // &::before {
+            //   content: 'Виталий Пацюков о выставке «История болезни. Право на отдых»:';
+            //   display: block;
 
-              margin-bottom: 20px;
-              font-style: normal;
-            }
+            //   margin-bottom: 20px;
+            //   font-style: normal;
+            // }
           }
 
           &:nth-child(4).folded {
-            max-height: 140px;
+            max-height: 120px;
           }
 
           &:nth-child(4).unfolded {

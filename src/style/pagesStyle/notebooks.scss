@@ -8,11 +8,9 @@
       }
 
       .element__paint {
-        &:nth-child(2) {
-        }
+        &:nth-child(2) {}
 
-        &:not(:nth-child(2)) {
-        }
+        &:not(:nth-child(2)) {}
       }
 
       .element__img {
@@ -20,22 +18,18 @@
       }
 
       .image-box {
-        &__0 {
-        }
+        &__0 {}
 
-        &__1 {
-        }
+        &__1 {}
 
-        &__2 {
-        }
+        &__2 {}
       }
     }
 
     &:nth-child(2) {
       margin-top: -60px;
 
-      .element__owerview {
-      }
+      .element__owerview {}
 
       .element__paint {
         &:nth-child(2) {
@@ -45,22 +39,19 @@
     }
 
     &:nth-child(3) {
-      .element__owerview {
-      }
+      .element__owerview {}
 
       .image-wrapper {
         gap: 30px;
       }
 
       .image-box {
-        &__0 {
-        }
+        &__0 {}
       }
     }
 
     &:nth-child(4) {
-      .element__owerview {
-      }
+      .element__owerview {}
 
       .image-box {
         &__0 {
@@ -74,13 +65,96 @@
     }
 
     &:nth-child(5) {
-      .element__owerview {
-      }
+      .element__owerview {}
 
       .image-box {
         &__0 {
           margin-bottom: 20px;
           margin-right: 264px;
+        }
+      }
+    }
+  }
+}
+
+
+
+@media (max-width: 1024px) {
+  .notebooks {
+    line-height: 0;
+
+    .element {
+      &:nth-child(1) {
+        .element__owerview {
+          text-align: justify;
+        }
+
+        .element__paint {
+          &:nth-child(2) {}
+
+          &:not(:nth-child(2)) {}
+        }
+
+        .element__img {
+          flex-wrap: nowrap;
+        }
+
+        .image-box {
+          &__0 {}
+
+          &__1 {}
+
+          &__2 {}
+        }
+      }
+
+      &:nth-child(2) {
+        margin-top: 0px;
+
+        .element__owerview {}
+
+        .element__paint {
+          &:nth-child(2) {
+            margin-top: 0px;
+            display: none;
+          }
+        }
+      }
+
+      &:nth-child(3) {
+        .element__owerview {}
+
+        .image-wrapper {
+          gap: 30px;
+        }
+
+        .image-box {
+          &__0 {}
+        }
+      }
+
+      &:nth-child(4) {
+        .element__owerview {}
+
+        .image-box {
+          &__0 {
+            margin-bottom: 20px;
+          }
+
+          &__5 {
+            margin-right: 40px;
+          }
+        }
+      }
+
+      &:nth-child(5) {
+        .element__owerview {}
+
+        .image-box {
+          &__0 {
+            margin-bottom: 20px;
+            margin-right: 264px;
+          }
         }
       }
     }

@@ -1,6 +1,7 @@
 .biography {
   max-width: 970px;
 
+
   &__links {
     display: flex;
     gap: 15px;
@@ -99,7 +100,9 @@
   .biography {
     display: grid;
     gap: 40px;
-    margin-top: 110px;
+    margin: 0;
+    margin-top: 90px;
+
 
     &__info {
       margin: 0;
@@ -135,6 +138,7 @@
 
     &__personal {
       gap: 40px;
+      margin-bottom: 55px;
 
       @media (max-width: 760px) {
         flex-direction: column;
@@ -277,6 +281,7 @@
     &__personal {
       display: block;
       margin-bottom: 0;
+      margin-bottom: 55px;
 
       &-text {
         display: flex;

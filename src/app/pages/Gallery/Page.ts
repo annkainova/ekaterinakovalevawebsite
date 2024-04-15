@@ -1,5 +1,6 @@
 import Gallery from './Gallery';
 import WorkProjects from '../WorkProjects/WorkProjects';
+import Localization from '../Localization/Localization';
 
 declare global {
   interface JQuery {
@@ -21,6 +22,7 @@ interface PaintDataItem {
 }
 
 interface ProjectDataItem {
+  id: string;
   nameSection: string;
   linkSection: string;
   imgSection: string;
@@ -29,10 +31,12 @@ interface ProjectDataItem {
 export default class Page {
   galleryViews: Gallery[];
   workProjectViews: WorkProjects[];
+  localization: Localization;
 
   constructor() {
     this.galleryViews = [];
     this.workProjectViews = [];
+    this.localization = new Localization();
   }
 
   renderGallery(namePage: string, dataPaint: Record<string, PaintDataItem[]>) {
@@ -64,7 +68,7 @@ export default class Page {
   renderProject(dataProject: Record<string, ProjectDataItem[]>) {
     this.workProjectViews = dataProject.workProjects.map(
       (item: ProjectDataItem) =>
-        new WorkProjects(item.nameSection, item.imgSection, item.linkSection)
+        new WorkProjects(item.id, item.nameSection, item.imgSection, item.linkSection)
     );
 
     const mapsContainer = document.querySelector('.work-projects');
