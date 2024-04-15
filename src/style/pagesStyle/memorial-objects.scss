@@ -122,17 +122,17 @@
           position: relative;
           margin-bottom: 0px;
 
-          &::before {
-            content: 'Алексей Юдин о проекте “SNEGOVICUS”:';
-            display: block;
-            box-sizing: border-box;
-            font-style: normal;
-            font-weight: 400;
-            line-height: 20px;
-            letter-spacing: 0.8px;
+          // &::before {
+          //   content: 'Алексей Юдин о проекте “SNEGOVICUS”:';
+          //   display: block;
+          //   box-sizing: border-box;
+          //   font-style: normal;
+          //   font-weight: 400;
+          //   line-height: 20px;
+          //   letter-spacing: 0.8px;
 
-            margin-bottom: 20px;
-          }
+          //   margin-bottom: 20px;
+          // }
         }
 
         .element__paint {
@@ -198,9 +198,9 @@
           //   max-height: none;
           // }
 
-          // &:nth-child(4) {
-          //   display: none;
-          // }
+          &:nth-child(4) {
+            margin-top: 20px;
+          }
         }
 
         // .toggle--0 {
