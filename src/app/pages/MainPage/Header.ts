@@ -60,6 +60,8 @@ export default class Header {
 
     menuButton.addEventListener('click', () => {
       navigation.classList.toggle('open');
+      menuButton.classList.toggle('open');
+
       document.body.classList.toggle('body--no-scroll');
     });
 
@@ -135,8 +137,11 @@ export default class Header {
   // eslint-disable-next-line class-methods-use-this
   closeMenu() {
     const navigation = document.querySelector('.navigation') as HTMLElement;
+    const menuButton = document.querySelector('.menu-button') as HTMLElement;
+
     if (navigation.classList.contains('open')) {
       navigation.classList.remove('open');
+      menuButton.classList.remove('open');
       document.body.classList.remove('body--no-scroll');
     }
   }

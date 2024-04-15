@@ -7,6 +7,7 @@ import { Fancybox } from '@fancyapps/ui';
 import App from './app/app';
 import '@fancyapps/ui/dist/fancybox/fancybox.css';
 import './app/pages/FancyBox/fancybox.scss';
+import Localization from './app/pages/Localization/Localization';
 
 class AppInitializer {
   static initialize() {
@@ -20,7 +21,6 @@ class AppInitializer {
 AppInitializer.initialize();
 
 // Chage Background COlor
-
 document.addEventListener('DOMContentLoaded', () => {
   const isMobile = window.matchMedia('(max-width: 1024px)').matches;
 
@@ -108,4 +108,10 @@ document.addEventListener('DOMContentLoaded', () => {
       bear.style.left = '-100px';
     }
   }, delay);
+});
+
+// loacal
+document.addEventListener('DOMContentLoaded', () => {
+  const localization = new Localization();
+  localization.updateTexts();
 });
