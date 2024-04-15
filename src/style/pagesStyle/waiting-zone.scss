@@ -108,11 +108,9 @@
         margin-bottom: 350px;
       }
 
-      .element__paint {
-      }
+      .element__paint {}
 
-      .image-box {
-      }
+      .image-box {}
     }
   }
 }
@@ -128,9 +126,7 @@
           grid-template-rows: auto;
         }
 
-        .element__owerview {
-          margin-bottom: 0px;
-        }
+        .element__owerview {}
 
         .element__paint {
           display: block;
@@ -139,11 +135,11 @@
             overflow: hidden;
             position: relative;
             transition: max-height 0.5s ease;
-            max-height: 400px;
+            max-height: 300px;
           }
 
           &:nth-child(2).folded {
-            max-height: 400px;
+            max-height: 300px;
           }
 
           &:nth-child(2).unfolded {
@@ -202,11 +198,9 @@
           margin-bottom: 0px;
         }
 
-        .element__paint {
-        }
+        .element__paint {}
 
-        .image-box {
-        }
+        .image-box {}
       }
     }
   }

@@ -286,43 +286,39 @@
 }
 
 
-// .body--no-scroll {
-//   overflow: hidden;
-//   position: fixed;
-//   /* Для предотвращения скролла на iOS */
-//   width: 100%;
-//   top: 0;
-// }
-
 .navigation.open {
   box-sizing: border-box;
   display: block;
   position: absolute;
 
-  margin-top: 70px;
-  padding: 0 40px;
+  margin-top: 30px;
+  padding: 0 0px;
 
   width: 100%;
   height: calc(100vh - 70px);
-  left: 0px;
 
-  background: $white;
+  left: 0;
+  top: 0;
+  z-index: 100;
 
   .navigation__container {
     display: grid;
     justify-content: center;
-    grid-template-columns: minmax(300px, 400px);
+    grid-template-columns: minmax(375px, 1fr);
     grid-template-rows: repeat(5, 45px);
 
     list-style-type: none;
     margin: 40px 0 0 0;
     gap: 0;
+
+
+    background: $white;
   }
 
   .navigation__element {
     display: block;
     box-sizing: border-box;
-    max-width: 400px;
+    max-width: 100%;
     padding: 13px 0px;
     margin: 0;
     @include font($normal, $font-16, $dark);
@@ -335,7 +331,7 @@
   .language-switcher {
     display: block;
     box-sizing: border-box;
-    max-width: 400px;
+    max-width: 100%;
     padding: 12px 0px;
     margin: 0;
     @include font($normal, $font-16, $dark);
@@ -345,3 +341,5 @@
     border: 1px solid $dark;
   }
 }
+
+

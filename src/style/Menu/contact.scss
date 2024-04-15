@@ -40,6 +40,12 @@
 
     .instagram {
       display: block;
+
+      span {
+        @include font($normal, $font-16, $white);
+        font-family: $family-accent;
+        letter-spacing: 0.8px;
+      }
     }
 
     position: relative;
@@ -70,7 +76,7 @@
 
 
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .contact {
     margin-top: 90px;
     height: calc(100vh - 201px);
@@ -83,8 +89,13 @@
       background-image: url(/MOBIL/М03_contact/M03_IMG_01.jpg);
       background-repeat: no-repeat;
       background-size: contain;
+      background-position: center;
 
       z-index: 1;
+
+      @media (max-width: 375px) {
+        background-size: cover;
+      }
     }
   }
 
@@ -94,9 +105,18 @@
     margin: 0;
     margin-top: 61px;
 
+
     .contact__panel {
       text-align: center;
       line-height: 20px;
+
+      width: calc(100% - 35px);
+      margin: 0 auto;
+
+      @media (max-width: 375px) {
+        width: 100%;
+        margin: 0 auto;
+      }
 
       .contact__element {
         display: none;
