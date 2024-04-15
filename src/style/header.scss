@@ -244,8 +244,8 @@
     -webkit-animation-iteration-count: 1;
 
     @media (max-width: 1280px) {
-      width: 22.4px;
-      height: 32px;
+      width: 28px;
+      height: 40px;
 
       background-size: contain;
     }
@@ -277,7 +277,7 @@
 
 @-webkit-keyframes walkLeft {
   0% {
-    right: -100%;
+    right: -100px;
   }
 
   100% {
@@ -341,5 +341,3 @@
     border: 1px solid $dark;
   }
 }
-
-

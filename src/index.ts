@@ -8,7 +8,6 @@ import App from './app/app';
 import '@fancyapps/ui/dist/fancybox/fancybox.css';
 import './app/pages/FancyBox/fancybox.scss';
 
-
 class AppInitializer {
   static initialize() {
     document.addEventListener('DOMContentLoaded', () => {
@@ -35,7 +34,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 // Slider
 document.addEventListener('DOMContentLoaded', () => {
-  const isMobile = window.matchMedia('(max-width: 767px)').matches;
+  const isMobile = window.matchMedia('(max-width: 1024px)').matches;
 
   if (isMobile) {
     $('.image-wrapper').slick({
@@ -45,7 +44,7 @@ document.addEventListener('DOMContentLoaded', () => {
       slidesToShow: 1,
       slidesToScroll: 1,
       arrows: false,
-      // autoplay: true,
+      autoplay: true,
       autoplaySpeed: 2000,
     });
   }
@@ -110,4 +109,3 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }, delay);
 });
-

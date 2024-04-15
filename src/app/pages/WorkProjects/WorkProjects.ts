@@ -1,9 +1,11 @@
 export default class WorkProjects {
+  id: string;
   nameSection: string;
   imgSection: string;
   linkSection: string;
 
-  constructor(name: string, imgSection: string, linkSection: string) {
+  constructor(id: string, name: string, imgSection: string, linkSection: string) {
+    this.id = id;
     this.nameSection = name;
     this.imgSection = imgSection;
     this.linkSection = linkSection;
@@ -24,6 +26,7 @@ export default class WorkProjects {
 
     const projectText = document.createElement('p');
     projectText.classList.add('work-projects__text');
+    projectText.setAttribute('data-localize', `${this.id}`);
     projectText.textContent = this.nameSection;
 
     imageBox.appendChild(projectImg);

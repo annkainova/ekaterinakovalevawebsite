@@ -1,56 +1,67 @@
 {
   "workProjects": [
     {
+      "id": "waiting-zone",
       "nameSection": "Выставочный проект “Зона ожидания”",
       "linkSection": "waiting-zone.html",
       "imgSection": "/02_work-projects/02_IMG_01.jpg"
     },
     {
+      "id": "waiting-zone",
       "nameSection": "Выставочный проект “История болезни. Право на отдых”",
       "linkSection": "right-to-rest.html",
       "imgSection": "/02_work-projects/02_IMG_02.jpg"
     },
     {
+      "id": "waiting-zone",
       "nameSection": "“Антарктический дневник”",
       "linkSection": "antarctic-diary.html",
       "imgSection": "/02_work-projects/02_IMG_03.jpg"
     },
     {
+      "id": "waiting-zone",
       "nameSection": "“Суп дня”",
       "linkSection": "soup-of-the-day.html",
       "imgSection": "/02_work-projects/02_IMG_04.jpg"
     },
     {
+      "id": "waiting-zone",
       "nameSection": "Объекты-памятники",
       "linkSection": "memorial-objects.html",
       "imgSection": "/02_work-projects/02_IMG_05.jpg"
     },
     {
+      "id": "waiting-zone",
       "nameSection": "“Колонизация горизонта”",
       "linkSection": "horizon-colonization.html",
       "imgSection": "/02_work-projects/02_IMG_06.jpg"
     },
     {
+      "id": "waiting-zone",
       "nameSection": "Ранние работы",
       "linkSection": "early-works.html",
       "imgSection": "/02_work-projects/02_IMG_07.jpg"
     },
     {
+      "id": "waiting-zone",
       "nameSection": "Карты • “Розы мира”",
       "linkSection": "maps.html",
       "imgSection": "/02_work-projects/02_IMG_08.jpg"
     },
     {
+      "id": "waiting-zone",
       "nameSection": "Рисунки",
       "linkSection": "artworks.html",
       "imgSection": "/02_work-projects/02_IMG_09.jpg"
     },
     {
+      "id": "waiting-zone",
       "nameSection": "Записные книжки",
       "linkSection": "notebooks.html",
       "imgSection": "/02_work-projects/02_IMG_10.jpg"
     },
     {
+      "id": "waiting-zone",
       "nameSection": "Мозаики",
       "linkSection": "mosaics.html",
       "imgSection": "/02_work-projects/02_IMG_11.jpg"

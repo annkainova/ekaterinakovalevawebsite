@@ -144,11 +144,6 @@
           "small": "/13_Mosaics/13_IMG_02.jpg",
           "full": "/13_Mosaics/source/13_IMG_02L.jpg",
           "descrip": "75 х 95 см  • 1992"
-        },
-        {
-          "small": "/13_Mosaics/13_IMG_02.jpg",
-          "full": "/13_Mosaics/source/13_IMG_02L.jpg",
-          "descrip": "75 х 95 см  • 1992"
         }
       ]
     },
@@ -187,12 +182,8 @@
       "name-en": "Mosaics on the facade of a building",
       "description": "Нью-Йорк, США\nНатуральный камень, смальта\n2007 год",
       "description-en": "New York, USA\nNatural stone, smalta\n2007.",
-      "paintDescription": [
-        ""
-      ],
-      "paintDescription-en": [
-        ""
-      ],
+      "paintDescription": [""],
+      "paintDescription-en": [""],
       "imagePaths": [
         {
           "small": "/13_Mosaics/13_IMG_08.jpg",

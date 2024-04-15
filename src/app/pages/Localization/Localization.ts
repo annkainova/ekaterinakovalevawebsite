@@ -1,3 +1,6 @@
+import dataMain from '../../../Data/dataMain.json';
+import dataMainEn from '../../../Data/dataMainEn.json';
+
 export default class Localization {
   language?: string;
   buttonRu: HTMLElement | null;
@@ -11,6 +14,8 @@ export default class Localization {
 
     this.buttonRu?.addEventListener('click', () => this.changeLanguage('ru'));
     this.buttonEn?.addEventListener('click', () => this.changeLanguage('en'));
+
+    this.updateTexts();
   }
 
   changeLanguage(lang: string) {
@@ -18,5 +23,16 @@ export default class Localization {
     this.language = localStorage.getItem('language') as string;
     // eslint-disable-next-line no-restricted-globals
     location.reload();
+  }
+
+  updateTexts() {
+    const selectedData = this.language === 'ru' ? dataMain.general : dataMainEn.general;
+
+    document.querySelectorAll('[data-localize]').forEach(element => {
+      const key = element.getAttribute('data-localize');
+      if (key && selectedData) {
+        element.textContent = selectedData[key];
+      }
+    });
   }
 }

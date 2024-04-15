@@ -64,7 +64,7 @@ export default class Page {
   renderProject(dataProject: Record<string, ProjectDataItem[]>) {
     this.workProjectViews = dataProject.workProjects.map(
       (item: ProjectDataItem) =>
-        new WorkProjects(item.nameSection, item.imgSection, item.linkSection)
+        new WorkProjects(item.id, item.nameSection, item.imgSection, item.linkSection)
     );
 
     const mapsContainer = document.querySelector('.work-projects');
