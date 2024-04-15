@@ -362,8 +362,6 @@
               display: block;
               font-style: normal;
               margin-bottom: 20px;
-
-
             }
           }
 
@@ -375,8 +373,6 @@
             max-height: none;
           }
 
-
-
           &:nth-child(4) {
             display: none;
           }
@@ -386,20 +382,6 @@
           display: block;
         }
 
-        .image-wrapper {
-          row-gap: 40px;
-          justify-content: center;
-        }
-
-        .image-box {
-          &__1 {
-            margin-left: 25px;
-          }
-
-          &__2 {
-            margin-left: 25px;
-          }
-        }
       }
 
       &:nth-child(7) {
@@ -410,16 +392,47 @@
         }
 
         .element__paint {
-          &:nth-child(2) {}
-
-          &:nth-child(3) {
-            font-style: italic;
+          &:nth-child(2) {
+            margin-bottom: 40px;
           }
+
+          &:nth-child(3) {}
 
           &:nth-child(4) {
-            text-align: right;
-            align-self: end;
+            overflow: hidden;
+            position: relative;
+            transition: max-height 0.5s ease;
+            max-height: 140px;
+
+            text-align: justify;
+            align-self: left;
+            font-style: italic;
+
+            &::before {
+              content: 'Виталий Пацюков о выставке «История болезни. Право на отдых»:';
+              display: block;
+
+              margin-bottom: 20px;
+              font-style: normal;
+            }
           }
+
+          &:nth-child(4).folded {
+            max-height: 140px;
+          }
+
+          &:nth-child(4).unfolded {
+            max-height: none;
+          }
+
+          &:nth-child(6) {
+            display: none;
+          }
+        }
+
+
+        .toggle--1 {
+          display: block;
         }
 
         .image-wrapper {
