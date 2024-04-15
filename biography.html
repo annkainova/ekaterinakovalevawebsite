@@ -1,30 +1,32 @@
 <!doctype html>
 <html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title data-localize="biography">БИОГРАФИЯ</title>
-  </head>
 
-  <body>
-    <main>
-      <section class="biography container">
-        <div class="biography__links">
-          <button class="biography__link biography__link--bio" href="">Биография</button>
-          <span>•</span>
-          <button class="biography__link biography__link--personal" href="">
-            Избранные персональные выставки
-          </button>
-          <span>•</span>
-          <button class="biography__link biography__link--group" href="">
-            Избранные групповые выставки
-          </button>
-        </div>
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title data-localize="biography">БИОГРАФИЯ</title>
+</head>
 
-        <div class="biography__info"></div>
-      </section>
-    </main>
-    <script type="module" src="/src/index.ts"></script>
-  </body>
+<body>
+  <main>
+    <section class="biography container">
+      <div class="biography__links">
+        <button class="biography__link biography__link--bio" href="" data-localize="biography">Биография</button>
+        <span>•</span>
+        <button class="biography__link biography__link--personal" href="" data-localize="personal-name">
+          Избранные персональные выставки
+        </button>
+        <span>•</span>
+        <button class="biography__link biography__link--group" href="" data-localize="group-name">
+          Избранные групповые выставки
+        </button>
+      </div>
+
+      <div class="biography__info"></div>
+    </section>
+  </main>
+  <script type="module" src="/src/index.ts"></script>
+</body>
+
 </html>

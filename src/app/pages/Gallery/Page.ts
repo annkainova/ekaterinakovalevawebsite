@@ -1,5 +1,6 @@
 import Gallery from './Gallery';
 import WorkProjects from '../WorkProjects/WorkProjects';
+import Localization from '../Localization/Localization';
 
 declare global {
   interface JQuery {
@@ -30,10 +31,12 @@ interface ProjectDataItem {
 export default class Page {
   galleryViews: Gallery[];
   workProjectViews: WorkProjects[];
+  localization: Localization;
 
   constructor() {
     this.galleryViews = [];
     this.workProjectViews = [];
+    this.localization = new Localization();
   }
 
   renderGallery(namePage: string, dataPaint: Record<string, PaintDataItem[]>) {

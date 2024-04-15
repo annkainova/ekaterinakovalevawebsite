@@ -355,7 +355,7 @@
             overflow: hidden;
             position: relative;
             transition: max-height 0.5s ease;
-            max-height: 120px;
+            max-height: 100px;
 
             // &::before {
             //   content: 'Андрей Курилкин о выставке «История болезни. Право на отдых»:';
@@ -366,7 +366,7 @@
           }
 
           &:nth-child(2).folded {
-            max-height: 120px;
+            max-height: 10px;
           }
 
           &:nth-child(2).unfolded {
@@ -402,7 +402,7 @@
             overflow: hidden;
             position: relative;
             transition: max-height 0.5s ease;
-            max-height: 140px;
+            max-height: 120px;
 
             text-align: justify;
             align-self: left;
@@ -418,7 +418,7 @@
           }
 
           &:nth-child(4).folded {
-            max-height: 140px;
+            max-height: 120px;
           }
 
           &:nth-child(4).unfolded {

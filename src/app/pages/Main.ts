@@ -29,6 +29,8 @@ export default class Main {
       selectedData.bio.image
     );
 
+    this.bioView.render();
+
     this.personalView = new Biography(
       selectedData.personal.name,
       selectedData.personal.text,
@@ -46,5 +48,7 @@ export default class Main {
       this.personalView,
       this.groupView
     );
+
+    this.biographyController.chooseSection(this.bioView);
   }
 }

@@ -167,6 +167,16 @@
           margin-bottom: 0px;
         }
 
+
+        .image-wrapper {
+          height: 330px;
+
+          &::after {
+            content: '';
+            bottom: 50px;
+          }
+        }
+
         .element__paint {
           display: block;
 

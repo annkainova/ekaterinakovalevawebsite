@@ -8,8 +8,7 @@
       }
 
       .element__paint {
-        &:nth-child(2) {
-        }
+        &:nth-child(2) {}
 
         &:not(:nth-child(2)) {
           margin-top: 40px;
@@ -24,8 +23,7 @@
       }
 
       .element__paint {
-        &:nth-child(2) {
-        }
+        &:nth-child(2) {}
 
         &:nth-child(3) {
           margin-top: 40px;
@@ -72,8 +70,7 @@
         }
 
         .element__paint {
-          &:nth-child(2) {
-          }
+          &:nth-child(2) {}
 
           &:nth-child(3) {
             margin-top: 0px;
@@ -85,6 +82,7 @@
         .element__owerview {
           margin-bottom: 0px;
         }
+
 
         .element__paint {
           &:not(:nth-child(2)) {
