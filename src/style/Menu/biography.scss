@@ -1,6 +1,9 @@
 .biography {
   max-width: 970px;
 
+  @media (max-width: 1024px) {
+    margin-top: 150px;
+  }
 
   &__links {
     display: flex;

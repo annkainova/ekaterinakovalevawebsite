@@ -120,15 +120,23 @@
     padding: 1px 6px;
     @include font($normal, $font-16, $dark);
 
-    @media (hover: hover) {
-      &:hover {
-        background: $dark;
-      }
+    &:hover {
+      background: $dark;
 
-      &:hover .navigation__link {
-        color: $white;
+      @media (hover: none) {
+        background: none;
       }
     }
+
+    &:hover .navigation__link {
+      color: $white;
+
+      @media (hover: none) {
+        color: $dark;
+      }
+    }
+
+
   }
 
   &__main {
@@ -149,6 +157,10 @@
 
     &:hover {
       color: #fff;
+
+      @media (hover: none) {
+        color: $dark;
+      }
 
       .accent-dot {
         color: $aсcent;
@@ -174,20 +186,22 @@
       position: relative;
       padding: 1px 0 1px 6px;
 
-      &:hover {
-        color: #fff;
+      @media (hover: hover) {
+        &:hover {
+          color: #fff;
 
-        &::after {
-          content: '';
-          position: absolute;
-          top: 50%;
-          left: 0;
-          width: 40px;
-          height: 22px;
-          background-color: $dark;
-          transform: translateY(-50%);
-          z-index: -1;
-          transition: background-color 0.3s;
+          &::after {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 0;
+            width: 40px;
+            height: 22px;
+            background-color: $dark;
+            transform: translateY(-50%);
+            z-index: -1;
+            transition: background-color 0.3s;
+          }
         }
       }
     }
@@ -197,20 +211,24 @@
       position: relative;
       padding: 1px 6px 1px 0;
 
-      &:hover {
-        color: #fff;
+      @media (hover: hover) {
+        &:hover {
+          color: #fff;
 
-        &::after {
-          content: '';
-          position: absolute;
-          top: 50%;
-          right: 0;
-          width: 40px;
-          height: 22px;
-          background-color: $dark;
-          transform: translateY(-50%);
-          z-index: -1;
-          transition: background-color 0.3s;
+
+          &::after {
+            content: '';
+            position: absolute;
+            top: 50%;
+            right: 0;
+            width: 40px;
+            height: 22px;
+            background-color: $dark;
+            transform: translateY(-50%);
+            z-index: -1;
+            transition: background-color 0.3s;
+
+          }
         }
       }
     }
@@ -306,12 +324,14 @@
   margin-top: 30px;
   padding: 0 0px;
 
-  width: 100%;
-  height: calc(100vh - 70px);
-
-  left: 0;
+  right: 0;
   top: 0;
   z-index: 50;
+
+  @media (max-width: 375px) {
+    width: 100%;
+  }
+
 
   .navigation__container {
     display: grid;

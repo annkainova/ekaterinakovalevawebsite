@@ -23,18 +23,6 @@ class AppInitializer {
 
 AppInitializer.initialize();
 
-// Chage Background COlor
-document.addEventListener('DOMContentLoaded', () => {
-  const isMobile = window.matchMedia('(max-width: 1024px)').matches;
-
-  const mainElement = document.querySelector('main');
-  const bodyElement = document.body;
-
-  if (isMobile && mainElement && mainElement.querySelector('.work-projects')) {
-    bodyElement.style.backgroundColor = '#616161';
-  }
-});
-
 // Slider
 document.addEventListener('DOMContentLoaded', () => {
   console.log('Checking images:', document.querySelectorAll('.image-mobil'));

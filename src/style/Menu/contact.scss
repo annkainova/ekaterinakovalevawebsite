@@ -13,6 +13,7 @@
   @media (max-width: 1024px) {
     display: flex;
     flex-direction: column;
+    margin-top: 210px;
   }
 
   &__image {
@@ -22,7 +23,7 @@
     height: 734px;
     background-image: url(/03_contact/03_IMG_01.jpg);
     background-repeat: no-repeat;
-
+    background-position: center;
     z-index: 1;
   }
 }
