@@ -313,7 +313,6 @@
 }
 
 @media (max-width: 1280px) {
-
   .collage {
     position: relative;
     display: grid;
@@ -549,6 +548,7 @@
     }
 
     .collage__text--1 {
+      width: 200px;
       position: relative;
       background: none;
     }
@@ -589,7 +589,7 @@
       height: 246px;
 
       top: 0;
-      left: 40px;
+      left: 30px;
 
       margin: 0 auto;
 
@@ -598,7 +598,7 @@
       justify-items: center;
 
       .collage__text {
-        width: 175px;
+        width: 160px;
         height: 0;
         margin-left: 169px;
       }
