@@ -1169,7 +1169,7 @@
     {
       "name": "Series “Mats”",
       "description": "Electrical circuits, plotting paper, mixed technique\n1993",
-      "paintDescription": ["Collage, mixed technique\n45 х 60 cm\n1993"],
+      "paintDescription": [],
       "imagePaths": [
         {
           "small": "/12_notebooks/12_IMG_04.jpg",
@@ -1185,7 +1185,14 @@
           "small": "/12_notebooks/12_IMG_06.jpg",
           "full": "/12_notebooks/source/12_IMG_06L.jpg",
           "descrip": ""
-        },
+        }
+      ]
+    },
+    {
+      "name": "",
+      "description": "",
+      "paintDescription": ["Collage, mixed technique\n45 х 60 cm\n1993"],
+      "imagePaths": [
         {
           "small": "/12_notebooks/12_IMG_07.jpg",
           "full": "/12_notebooks/source/12_IMG_07L.jpg",
@@ -1203,6 +1210,7 @@
         }
       ]
     },
+
     {
       "name": "“The Khrushchev Report” series",
       "description": "Watercolorn\n30 х 20 cm\n1996",

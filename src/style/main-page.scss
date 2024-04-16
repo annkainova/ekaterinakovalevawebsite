@@ -9,7 +9,7 @@ body {
 body {
   display: grid;
   grid-template-rows: 1fr auto;
-  grid-template-columns: minmax(300px, max-content);
+  grid-template-columns: minmax(300px, 100%);
   justify-content: center;
 
   background: $white;
