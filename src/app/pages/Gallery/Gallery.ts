@@ -182,16 +182,18 @@ export default class Gallery {
       galleryInfo.appendChild(elementPaintDescription);
 
       if (this.isMobile()) {
+        const selectedData = this.localization.language === 'ru' ? dataMain : dataMainEn;
+
         const toggleButton = document.createElement('button');
         toggleButton.classList.add(`toggle`);
         toggleButton.classList.add(`toggle--${index}`);
 
-        toggleButton.innerHTML = `<span class="toggle__text" data-localize="unfold">Развернуть</span> <span class="toggle__element">▼</span>`;
+        toggleButton.innerHTML = `<span class="toggle__text">${selectedData.general.unfold}</span> <span class="toggle__element">▼</span>`;
         toggleButton.onclick = () => {
           const isUnfolded = elementPaintDescription.classList.toggle('unfolded');
           toggleButton.innerHTML = isUnfolded
-            ? `<span class="toggle__text" data-localize="roll-up">Свернуть</span> <span class="toggle__element">▲</span>`
-            : `<span class="toggle__text" data-localize="unfold">Развернуть</span> <span class="toggle__element">▼</span>`;
+            ? `<span class="toggle__text" data-localize="roll-up">${selectedData.general['roll-up']}</span> <span class="toggle__element">▲</span>`
+            : `<span class="toggle__text" data-localize="unfold">${selectedData.general.unfold}</span> <span class="toggle__element">▼</span>`;
         };
         galleryInfo.appendChild(toggleButton);
       }
