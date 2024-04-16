@@ -7,6 +7,10 @@
 
   margin-bottom: 120px;
 
+  @media (max-width: 1024px) {
+    margin-top: 150px;
+  }
+
   &__link {
     color: $dark;
   }
@@ -32,6 +36,11 @@
 }
 
 @media (max-width: 1200px) {
+
+  .main-black {
+    background: $dark;
+  }
+
   .work-projects {
     grid-template-columns: repeat(2, min-content);
     gap: 40px;
@@ -48,6 +57,8 @@
   }
 
 }
+
+
 
 @media (max-width: 768px) {
   .work-projects {

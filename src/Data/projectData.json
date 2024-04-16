@@ -2,25 +2,25 @@
   "workProjects": [
     {
       "id": "waiting-zone",
-      "nameSection": "Выставочный проект “Зона ожидания”",
+      "nameSection": "Выставочный проект «Зона ожидания»",
       "linkSection": "waiting-zone.html",
       "imgSection": "/02_work-projects/02_IMG_01.jpg"
     },
     {
       "id": "right-to-rest",
-      "nameSection": "Выставочный проект “История болезни. Право на отдых”",
+      "nameSection": "Выставочный проект «История болезни. Право на отдых»",
       "linkSection": "right-to-rest.html",
       "imgSection": "/02_work-projects/02_IMG_02.jpg"
     },
     {
       "id": "antarctic-diary",
-      "nameSection": "“Антарктический дневник”",
+      "nameSection": "«Антарктический дневник»",
       "linkSection": "antarctic-diary.html",
       "imgSection": "/02_work-projects/02_IMG_03.jpg"
     },
     {
       "id": "soup-of-the-day",
-      "nameSection": "“Суп дня”",
+      "nameSection": "«Суп дня»",
       "linkSection": "soup-of-the-day.html",
       "imgSection": "/02_work-projects/02_IMG_04.jpg"
     },
@@ -32,7 +32,7 @@
     },
     {
       "id": "horizon-colonization",
-      "nameSection": "“Колонизация горизонта”",
+      "nameSection": "«Колонизация горизонта»",
       "linkSection": "horizon-colonization.html",
       "imgSection": "/02_work-projects/02_IMG_06.jpg"
     },
@@ -44,7 +44,7 @@
     },
     {
       "id": "maps",
-      "nameSection": "Карты • “Розы мира”",
+      "nameSection": "Карты • «Розы мира»",
       "linkSection": "maps.html",
       "imgSection": "/02_work-projects/02_IMG_08.jpg"
     },

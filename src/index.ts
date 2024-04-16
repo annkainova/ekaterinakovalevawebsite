@@ -9,6 +9,10 @@ import '@fancyapps/ui/dist/fancybox/fancybox.css';
 import './app/pages/FancyBox/fancybox.scss';
 import Localization from './app/pages/Localization/Localization';
 
+import dataMain from './Data/dataMain.json';
+import dataMainEn from './Data/dataMainEn.json';
+
+
 class AppInitializer {
   static initialize() {
     document.addEventListener('DOMContentLoaded', () => {
@@ -19,18 +23,6 @@ class AppInitializer {
 }
 
 AppInitializer.initialize();
-
-// Chage Background COlor
-document.addEventListener('DOMContentLoaded', () => {
-  const isMobile = window.matchMedia('(max-width: 1024px)').matches;
-
-  const mainElement = document.querySelector('main');
-  const bodyElement = document.body;
-
-  if (isMobile && mainElement && mainElement.querySelector('.work-projects')) {
-    bodyElement.style.backgroundColor = '#616161';
-  }
-});
 
 // Slider
 document.addEventListener('DOMContentLoaded', () => {
@@ -51,7 +43,12 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 // Open Photo
+
 document.addEventListener('DOMContentLoaded', () => {
+  const localization = new Localization();
+  const selectedData = localization.language === 'ru' ? dataMain : dataMainEn;
+  const returnText = selectedData.general.return;
+
   // eslint-disable-next-line @typescript-eslint/ban-ts-comment
   // @ts-expect-error
   Fancybox.bind('[data-fancybox="gallery"]', {
@@ -71,7 +68,7 @@ document.addEventListener('DOMContentLoaded', () => {
     Toolbar: {
       items: {
         return: {
-          tpl: `<button class="f-button">вернуться</button>`,
+          tpl: `<button class="f-button"><p class="f-button__text" data-localize="return">${returnText}</p></button>`,
           click: () => {
             Fancybox.close();
           },
@@ -82,13 +79,16 @@ document.addEventListener('DOMContentLoaded', () => {
       },
     },
   });
+
+  localization.updateTexts();
 });
 
 // Bear
 document.addEventListener('DOMContentLoaded', () => {
   const bear = document.querySelector('.splitter__element') as HTMLElement;
   const directions = ['left', 'right'];
-  const delays = [0, 3000, 6000, 9000]; // in milliseconds
+  // const delays = [0, 3000, 6000, 9000]; // in milliseconds
+  const delays = [0]; // in milliseconds
 
   // Randomize direction and delay
   const direction = directions[Math.floor(Math.random() * directions.length)];
@@ -115,3 +115,20 @@ document.addEventListener('DOMContentLoaded', () => {
   const localization = new Localization();
   localization.updateTexts();
 });
+
+
+// Eye Contact
+document.addEventListener('DOMContentLoaded', () => {
+  const contactEyeIcon = document.querySelector('.contact__eye-icon') as HTMLElement;
+  const contactEyeText = document.querySelector('.contact__eye-text') as HTMLElement;
+
+  function handleInteraction() {
+    contactEyeIcon.classList.add('hidden'); // Скрываем "глаз"
+    contactEyeText.classList.remove('hidden'); // Показываем текст
+  }
+  if (contactEyeIcon) {
+    contactEyeIcon.addEventListener('mouseover', handleInteraction); // Обработка наведения мыши
+    contactEyeIcon.addEventListener('click', handleInteraction); // Обработка клика
+  }
+});
+

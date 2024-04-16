@@ -1,7 +1,7 @@
 {
   "empty": [
     {
-      "name": "“”«»",
+      "name": "“”“”",
       "description": "",
       "paintDescription": [""],
       "imagePaths": [
@@ -321,7 +321,7 @@
     },
     {
       "name": "",
-      "description": "“I used allegorical scenes from Tiepolo's and Ricci's frescoes, fantasy skies inhabited by deities, in my parachute drawings. The idea was to transform the canopy of the parachute into the dome of a portable sky.\n \nThe canopy of the parachute, as a portable sky, as a reassuring ceiling, as a painted «heaven» of an old Russian church or a plafond of a Venetian palazzo, as a blessed shade, a hupa, on the wanderings of the world, on the way to the Place, becomes a model of the cosmos enclosed in the framework of real space, which seeks to create the effect of the presence of “heaven on earth.”",
+      "description": "“I used allegorical scenes from Tiepolo's and Ricci's frescoes, fantasy skies inhabited by deities, in my parachute drawings. The idea was to transform the canopy of the parachute into the dome of a portable sky.\n \nThe canopy of the parachute, as a portable sky, as a reassuring ceiling, as a painted “heaven” of an old Russian church or a plafond of a Venetian palazzo, as a blessed shade, a hupa, on the wanderings of the world, on the way to the Place, becomes a model of the cosmos enclosed in the framework of real space, which seeks to create the effect of the presence of “heaven on earth.”",
       "paintDescription": [],
       "imagePaths": [
         {
@@ -734,7 +734,7 @@
   ],
   "soup-of-the-day": [
     {
-      "name": "The series «Soup of the Day. Writers House»",
+      "name": "The series “Soup of the Day. Writers House”",
       "description": "Vintage paper, acrylic, watercolor \n2020–2023",
       "paintDescription": [
         "Portraits of Russian writers seem to have been taken from a school literature class. \n \n These images are all too familiar, sometimes seeming to have little to do with real people, those very writers, they seem to live separately, in an inaccessible ether, part of the everyday landscape, part of speech, like passing and disappearing clouds. \n \n Standing observers can watch these celestial phenomena with participation or indifference. One thing is certain, someone bearing the same name, Ivan Andreyevich, Nikolai Vasilyevich..."
@@ -781,7 +781,7 @@
       "name": "",
       "description": "",
       "paintDescription": [
-        "The monotony of the paper inadvertently emphasizes the boredom of The Basics of the Day, an uncomplicated recipe for the «soup of the day». \n\n The image almost always has a grounded foreground, <span class='bold'>the people</span> on the shore, and <span class='bold'>the ephemerality</span> of celestial phenomena in the background."
+        "The monotony of the paper inadvertently emphasizes the boredom of The Basics of the Day, an uncomplicated recipe for the “soup of the day”. \n\n The image almost always has a grounded foreground, <span class='bold'>the people</span> on the shore, and <span class='bold'>the ephemerality</span> of celestial phenomena in the background."
       ],
       "imagePaths": [
         {
@@ -820,7 +820,7 @@
       "name": "",
       "description": "",
       "paintDescription": [
-        "The clouds, the smoke, are connected to who is on the ground, one might even say that this <span class='bold'>mirage of non-duality</span> is the real foundation of any day. \n \n The apparent chamberliness of the diary entry turns into a presentational declaration of <span class='bold'>the significance and epochality</span> of each day, each «soup of the day»."
+        "The clouds, the smoke, are connected to who is on the ground, one might even say that this <span class='bold'>mirage of non-duality</span> is the real foundation of any day. \n \n The apparent chamberliness of the diary entry turns into a presentational declaration of <span class='bold'>the significance and epochality</span> of each day, each “soup of the day”."
       ],
       "imagePaths": [
         {
@@ -1169,7 +1169,7 @@
     {
       "name": "Series “Mats”",
       "description": "Electrical circuits, plotting paper, mixed technique\n1993",
-      "paintDescription": ["Collage, mixed technique\n45 х 60 cm\n1993"],
+      "paintDescription": [],
       "imagePaths": [
         {
           "small": "/12_notebooks/12_IMG_04.jpg",
@@ -1185,7 +1185,14 @@
           "small": "/12_notebooks/12_IMG_06.jpg",
           "full": "/12_notebooks/source/12_IMG_06L.jpg",
           "descrip": ""
-        },
+        }
+      ]
+    },
+    {
+      "name": "",
+      "description": "",
+      "paintDescription": ["Collage, mixed technique\n45 х 60 cm\n1993"],
+      "imagePaths": [
         {
           "small": "/12_notebooks/12_IMG_07.jpg",
           "full": "/12_notebooks/source/12_IMG_07L.jpg",
@@ -1203,6 +1210,7 @@
         }
       ]
     },
+
     {
       "name": "“The Khrushchev Report” series",
       "description": "Watercolorn\n30 х 20 cm\n1996",
@@ -1348,7 +1356,7 @@
   "memorial-objects": [
     {
       "name": "",
-      "description": "“As for the objects or sculptures made in stone, they are monuments-<span class='bold'>tombstones</span> of events or concepts.\n \nThe first such objects were made for my solo exhibition dedicated to snow”",
+      "description": "“As for the objects or sculptures made in stone, they are monuments-<span class='bold'>tombstones</span> of events or concepts.\n\nThe first such objects were made for my solo exhibition dedicated to snow”.",
       "paintDescription": [
         "I wanted to <span class='bold'>immortalize</span> the most <span class='bold'>ephemeral</span>: snow, snowball. This is how the monument to the snowman or the tombstone “Here lie the remains of a snowman”, the monument “The mysterious Russian soul” and others came into being.",
         "The stone always has an inscription in Latin, referring the viewer to the ancient Roman tombstones, emphasizing the universality of the <span class='bold'>“idea of eternal memory”</span>.",
@@ -1386,7 +1394,7 @@
       "name": "",
       "description": "",
       "paintDescription": [
-        "Only a few simple words will I venture to say before the tomb of our Unforgettable. On it are inscribed simple and clear words: “Snegovici ossa hic jacent” - <span class='bold'>“Here lie the remains of the Snowman”</span>\n \nBut let us ask ourselves, where are the notorious remains of our Unforgettable? Are they under this majestic tomb? Not at all. They are scattered, or rather, they have spread all over the world. \n \nWhen they went into the earth, they became a new substance, they turned into that great element which animates and nourishes all living things. Indeed, our Unforgettable One literally “flow away from death”.\n \nBut did he love life? Here we enter under the shroud of mystery, which is part of the great mystery of the universe. \n \nUnforgettable spent his entire short century in ascetic silence, pointing to eternity as a finger with his carrot. \n \nBut you and I are witnesses to the fact that life itself loved him. It was she, life itself, who created him out of the dead snow element under the joyful shouts and squeals of children and the foolish exclamations of their adult epigones.\n \nHaving hardened under the children's palms, from which life so generously oozes, our Unforgettable became a monument to that great metamorphosis that brings life out of death and gives us <span class='bold'>death to save life</span> from its banal hollowing..."
+        "I dare utter just a few simple words before the tomb of our Unforgettable. Engraved upon it are the clear words: “Snegovici ossa hic jacent” – <span class='bold'>“Here lie the remains of the Snowman”</span>.\n\nBut let us ask, where are the famed remains of our Unforgettable? Beneath this majestic tomb? Not at all. They are scattered, rather, they have melted away across the world.\n\nReturning to the earth, <span class='bold'>they became a new substance</span>, transforming into the great element that enlivens and nourishes all life. Indeed, our Unforgettable has literally 'escaped death'.\n\nBut did he love life? Here we enter the shroud of mystery that is part of the universe’s great mystery.\n\nHis entire brief life, Unforgettable spent in ascetic silence, pointing to eternity with his carrot finger.\n\n Yet, you and I are witnesses to the fact that life itself loved him. It was life itself that created him from the lifeless snow amid children’s joyful cries and the foolish exclamations of their adult epigones.\n\nHardening under children's hands, from which life so generously flows, our Unforgettable became a monument to that great metamorphosis that extracts life from death and gives us <span class='bold'>death to save life</span> from its banal blooming..."
       ],
       "imagePaths": [
         {
@@ -1440,8 +1448,8 @@
       "name": "",
       "description": "",
       "paintDescription": [
-        "...To whom shall I liken our Unforgettable One? Would it be audacity to compare him to the great Osiris, torn, dead and risen, ruling over eternity and bringing life through this great metamorphosis. Not in the least. He is our northern Osiris. \n \nTherefore, we also call upon him, our Unforgettable One, like the ancient Egyptians who were adept in the mysteries of life and death:\n \n«Though you went away, may you come!\n \nThough you slept, may you awake!\n \nThough thou art dead, thou shalt be revived!\n \nArise!...»\n \nArise with the coming of the healing snow, arise through oblivion and mortification, arise to the pure babble of life!”",
-        "— Alexey Yudin about the project “SNEGOVICUS”"
+        "...To whom shall I compare our Unforgettable? Would it be audacious to liken him to the great Osiris, torn apart, deceased, and resurrected, ruling over eternity and bearing life through this great metamorphosis? Not at all. He is our Northern Osiris.\n\nThus, like the ancient Egyptians skilled in the mysteries of life and death, we call upon our Unforgettable:\n\n“Though you departed, may you return!\n\nThough you slept, may you awaken!\n\nThough you died, may you come to life!\n\nArise!..\n\n”Arise with the coming of the healing snow, arise through oblivion and annihilation, <span class='bold'>rise up to the pure babble of life!</span>",
+        "— Alexey Yudin on the project “SNEGOVICUS”"
       ],
       "imagePaths": [
         {
@@ -1750,12 +1758,11 @@
     },
     {
       "name": "",
-      "description": "\n\n\n\nUnique in its deeply personal nudity, in its vulnerability to the gaze of the event, Katya Kovaleva's creative position is dictated by the reverse perspective. \n\nThe artist is in facing this fantastic reality that descends upon her, forcing her to accept herself in a ruthlessly creative revelation. Her imagery asserts the special features of Russian culture, they color it in the most actual levels, forming posthistory into a single structure as a phenomenon of artistic consciousness, as a quotient of Kazimir Malevich's “Black Square”.\n\nIn this case, Russian postmodernism acquires its own unique nature, declaring in its images, in the words of Jean-François Lyotard, “not the end of modernism, but modernism in a state of emergence, and this state is constant”",
+      "description": "",
 
       "paintDescription": [
         "Large round canvases, support the eternal theme of the circle, which also appears in the objects “Ice Cream Balls” and “Billiard Balls”. There is a marble vase in the Stalin Empire style filled with marble billiard balls and a bronze “vase” with marble ice cream.",
-        "Unique in its deeply personal nudity, in its vulnerability to the gaze of the event, Katya Kovaleva's creative position is dictated by the reverse perspective. \n\nThe artist is in facing this fantastic reality that descends upon her, forcing her to accept herself in a ruthlessly creative revelation. Her imagery asserts the special features of Russian culture, they color it in the most actual levels, forming posthistory into a single structure as a phenomenon of artistic consciousness, as a quotient of Kazimir Malevich's “Black Square”.\n\nIn this case, Russian postmodernism acquires its own unique nature, declaring in its images, in the words of Jean-François Lyotard, “not the end of modernism, but modernism in a state of emergence, and this state is constant”",
-        "— Vitaliy Patsyukov"
+        "Unique in its deeply personal nudity, in its vulnerability to the gaze of the event, Katya Kovaleva's creative position is dictated by the reverse perspective. \n\nThe artist is in facing this fantastic reality that descends upon her, forcing her to accept herself in a ruthlessly creative revelation. Her imagery asserts the special features of Russian culture, they color it in the most actual levels, forming posthistory into a single structure as a phenomenon of artistic consciousness, as a quotient of Kazimir Malevich's “Black Square”.\n\nIn this case, Russian postmodernism acquires its own unique nature, declaring in its images, in the words of Jean-François Lyotard, “not the end of modernism, but modernism in a state of emergence, and this state is constant”\n<span class='author'>— Vitaliy Patsyukov</span>"
       ],
       "imagePaths": [
         {

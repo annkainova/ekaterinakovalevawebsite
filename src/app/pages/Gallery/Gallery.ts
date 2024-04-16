@@ -91,6 +91,12 @@ export default class Gallery {
     if (this.isMobile()) {
       imageWrapper.classList.add('slick');
       this.imagePaths.forEach(path => {
+        const imageLink = document.createElement('a');
+        imageLink.classList.add('fancybox');
+        imageLink.setAttribute('data-fancybox', 'gallery');
+        imageLink.setAttribute('data-caption', path.descrip);
+        imageLink.setAttribute('href', path.full);
+
         const imageMobil = document.createElement('div');
         imageMobil.className = 'image-mobil';
         imageMobil.style.backgroundImage = `url('${path.full}')`;
@@ -99,8 +105,9 @@ export default class Gallery {
         imageMobilDescription.className = 'image-mobil__description';
         imageMobilDescription.textContent = path.descrip;
 
-        imageMobil.appendChild(imageMobilDescription);
-        imageWrapper.appendChild(imageMobil);
+        imageLink.appendChild(imageMobil);
+        imageLink.appendChild(imageMobilDescription);
+        imageWrapper.appendChild(imageLink);
       });
     } else {
       // descop
@@ -120,13 +127,7 @@ export default class Gallery {
         image.setAttribute('src', path.small);
         image.setAttribute('alt', `${this.name} image ${index + 1}`);
 
-        // const imageMobil = document.createElement('img');
-        // imageMobil.classList.add('image-mobil');
-        // imageMobil.style.backgroundImage = `url('${path.full}')`;
-        // //     imageWrapper.appendChild(imageBox);
-
         imageLink.appendChild(image);
-        // imageLink.appendChild(imageMobil);
         imageContainer.appendChild(imageLink);
 
         if (index === 0) {
@@ -181,16 +182,18 @@ export default class Gallery {
       galleryInfo.appendChild(elementPaintDescription);
 
       if (this.isMobile()) {
+        const selectedData = this.localization.language === 'ru' ? dataMain : dataMainEn;
+
         const toggleButton = document.createElement('button');
         toggleButton.classList.add(`toggle`);
         toggleButton.classList.add(`toggle--${index}`);
 
-        toggleButton.innerHTML = `<span class="toggle__text" data-localize="unfold">Развернуть</span> <span class="toggle__element">▼</span>`;
+        toggleButton.innerHTML = `<span class="toggle__text">${selectedData.general.unfold}</span> <span class="toggle__element">▼</span>`;
         toggleButton.onclick = () => {
           const isUnfolded = elementPaintDescription.classList.toggle('unfolded');
           toggleButton.innerHTML = isUnfolded
-            ? `<span class="toggle__text" data-localize="roll-up">Свернуть</span> <span class="toggle__element">▲</span>`
-            : `<span class="toggle__text" data-localize="unfold">Развернуть</span> <span class="toggle__element">▼</span>`;
+            ? `<span class="toggle__text" data-localize="roll-up">${selectedData.general['roll-up']}</span> <span class="toggle__element">▲</span>`
+            : `<span class="toggle__text" data-localize="unfold">${selectedData.general.unfold}</span> <span class="toggle__element">▼</span>`;
         };
         galleryInfo.appendChild(toggleButton);
       }
@@ -203,6 +206,12 @@ export default class Gallery {
     if (this.isMobile()) {
       imageWrapper.classList.add('slick');
       this.imagePaths.forEach(path => {
+        const imageLink = document.createElement('a');
+        imageLink.classList.add('fancybox');
+        imageLink.setAttribute('data-fancybox', 'gallery');
+        imageLink.setAttribute('data-caption', path.descrip);
+        imageLink.setAttribute('href', path.full);
+
         const imageMobil = document.createElement('div');
         imageMobil.className = 'image-mobil';
         imageMobil.style.backgroundImage = `url('${path.full}')`;
@@ -211,8 +220,9 @@ export default class Gallery {
         imageMobilDescription.className = 'image-mobil__description';
         imageMobilDescription.textContent = path.descrip;
 
-        imageMobil.appendChild(imageMobilDescription);
-        imageWrapper.appendChild(imageMobil);
+        imageLink.appendChild(imageMobil);
+        imageLink.appendChild(imageMobilDescription);
+        imageWrapper.appendChild(imageLink);
       });
     } else {
       // Desktop

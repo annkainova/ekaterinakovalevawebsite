@@ -68,6 +68,10 @@
         align-items: center;
 
         margin-top: 120px;
+
+        @media (hover: none) {
+          display: none;
+        }
       }
 
       &:hover .collage__text--bottom {
@@ -77,6 +81,10 @@
         display: flex;
         justify-content: center;
         align-items: center;
+
+        @media (hover: none) {
+          display: none;
+        }
       }
 
       &:hover .collage__text--left {
@@ -87,6 +95,10 @@
         justify-content: center;
         align-items: center;
         z-index: 200;
+
+        @media (hover: none) {
+          display: none;
+        }
       }
 
       &:hover .collage__text--right {
@@ -96,6 +108,10 @@
         justify-content: center;
         align-items: center;
         z-index: 200;
+
+        @media (hover: none) {
+          display: none;
+        }
       }
     }
   }
@@ -155,6 +171,10 @@
     @media (hover: hover) {
       &:hover {
         z-index: 50;
+
+        @media (hover: none) {
+          display: none;
+        }
       }
     }
   }

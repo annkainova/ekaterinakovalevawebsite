@@ -186,11 +186,15 @@
 
         &:nth-child(3) {
           font-style: italic;
-        }
 
-        &:nth-child(4) {
-          text-align: right;
-          align-self: end;
+          .author {
+            position: relative;
+            display: block;
+            font-style: normal;
+            text-align: right;
+            align-self: end;
+            top: 105px;
+          }
         }
       }
 
@@ -355,31 +359,17 @@
             overflow: hidden;
             position: relative;
             transition: max-height 0.5s ease;
-            max-height: 100px;
 
-            // &::before {
-            //   content: 'Андрей Курилкин о выставке «История болезни. Право на отдых»:';
-            //   display: block;
-            //   font-style: normal;
-            //   margin-bottom: 20px;
-            // }
-          }
-
-          &:nth-child(2).folded {
-            max-height: 10px;
-          }
-
-          &:nth-child(2).unfolded {
-            max-height: none;
           }
 
           &:nth-child(4) {
-            display: none;
+            margin-top: 20px;
+            display: block;
           }
         }
 
         .toggle--0 {
-          display: block;
+          display: none;
         }
 
       }
@@ -402,23 +392,42 @@
             overflow: hidden;
             position: relative;
             transition: max-height 0.5s ease;
-            max-height: 120px;
 
             text-align: justify;
             align-self: left;
             font-style: italic;
 
-            // &::before {
-            //   content: 'Виталий Пацюков о выставке «История болезни. Право на отдых»:';
-            //   display: block;
+            max-height: 40px;
 
-            //   margin-bottom: 20px;
-            //   font-style: normal;
-            // }
+            .author {
+              position: relative;
+              display: block;
+              font-style: normal;
+              text-align: left;
+              top: 0px;
+              margin-top: 20px;
+            }
+
+            @media (max-width: 768px) {
+              max-height: 40px;
+            }
+
+            @media (max-width: 375px) {
+              max-height: 100px;
+            }
           }
 
           &:nth-child(4).folded {
-            max-height: 120px;
+            max-height: 40px;
+
+            @media (max-width: 768px) {
+              max-height: 40px;
+            }
+
+            @media (max-width: 375px) {
+              max-height: 100px;
+            }
+
           }
 
           &:nth-child(4).unfolded {

@@ -34,6 +34,15 @@ export default class Header {
         this.closeMenu();
       }
     });
+
+    document.addEventListener('click', event => {
+      const target = event.target as HTMLElement;
+      const withinBoundaries = target.closest('.header') || target.closest('.menu-button');
+
+      if (!withinBoundaries) {
+        this.closeMenu();
+      }
+    });
   }
 
   render() {
