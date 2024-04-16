@@ -412,6 +412,10 @@
               max-height: 40px;
             }
 
+            @media (max-width: 425px) {
+              max-height: 80px;
+            }
+
             @media (max-width: 375px) {
               max-height: 100px;
             }
@@ -422,6 +426,10 @@
 
             @media (max-width: 768px) {
               max-height: 40px;
+            }
+
+            @media (max-width: 425px) {
+              max-height: 80px;
             }
 
             @media (max-width: 375px) {

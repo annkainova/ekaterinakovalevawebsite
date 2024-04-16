@@ -136,10 +136,14 @@
             overflow: hidden;
             position: relative;
             transition: max-height 0.5s ease;
-            max-height: 120px;
+            max-height: 160px;
 
             @media (max-width: 768px) {
-              max-height: 250px;
+              max-height: 170px;
+            }
+
+            @media (max-width: 425px) {
+              max-height: 260px;
             }
 
             @media (max-width: 375px) {
@@ -148,10 +152,14 @@
           }
 
           &:nth-child(2).folded {
-            max-height: 120px;
+            max-height: 160px;
 
             @media (max-width: 768px) {
-              max-height: 150px;
+              max-height: 170px;
+            }
+
+            @media (max-width: 425px) {
+              max-height: 260px;
             }
 
             @media (max-width: 375px) {
