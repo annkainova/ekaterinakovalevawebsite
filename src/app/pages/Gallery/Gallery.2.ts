@@ -1,12 +1,7 @@
 import Localization from '../Localization/Localization';
 import dataMain from '../../../Data/dataMain.json';
 import dataMainEn from '../../../Data/dataMainEn.json';
-
-interface ImagePath {
-  small: string;
-  full: string;
-  descrip: string;
-}
+import { ImagePath } from './Gallery';
 
 export default class Gallery {
   name: string = '';
@@ -97,12 +92,14 @@ export default class Gallery {
         imageLink.setAttribute('data-caption', path.descrip);
         imageLink.setAttribute('href', path.full);
 
+        //
+        // const imageMobil = document.createElement('div');
+        // imageMobil.className = 'image-mobil';
+        // imageMobil.style.backgroundImage = `url('${path.full}')`;
         const imageMobil = document.createElement('div');
         imageMobil.className = 'image-mobil';
-        // imageMobil.setAttribute('src', path.full);
 
-        imageMobil.style.backgroundImage = `url('${path.full}')`;
-
+        // imageMobil.style.backgroundImage = `url('${path.full}')`;
         const imageMobilDescription = document.createElement('p');
         imageMobilDescription.className = 'image-mobil__description';
         imageMobilDescription.textContent = path.descrip;
@@ -136,7 +133,6 @@ export default class Gallery {
         // imageMobil.classList.add('image-mobil');
         // imageMobil.style.backgroundImage = `url('${path.full}')`;
         // //     imageWrapper.appendChild(imageBox);
-
         imageLink.appendChild(image);
         // imageLink.appendChild(imageMobil);
         imageContainer.appendChild(imageLink);

@@ -9,6 +9,9 @@ import '@fancyapps/ui/dist/fancybox/fancybox.css';
 import './app/pages/FancyBox/fancybox.scss';
 import Localization from './app/pages/Localization/Localization';
 
+import dataMain from './Data/dataMain.json';
+import dataMainEn from './Data/dataMainEn.json';
+
 class AppInitializer {
   static initialize() {
     document.addEventListener('DOMContentLoaded', () => {
@@ -34,6 +37,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
 // Slider
 document.addEventListener('DOMContentLoaded', () => {
+  console.log('Checking images:', document.querySelectorAll('.image-mobil'));
+
   const isMobile = window.matchMedia('(max-width: 1024px)').matches;
 
   if (isMobile) {
@@ -44,14 +49,19 @@ document.addEventListener('DOMContentLoaded', () => {
       slidesToShow: 1,
       slidesToScroll: 1,
       arrows: false,
-      autoplay: true,
-      autoplaySpeed: 4000,
+      // autoplay: true,
+      // autoplaySpeed: 4000,
     });
   }
 });
 
 // Open Photo
+
 document.addEventListener('DOMContentLoaded', () => {
+  const localization = new Localization();
+  const selectedData = localization.language === 'ru' ? dataMain : dataMainEn;
+  const returnText = selectedData.general.return;
+
   // eslint-disable-next-line @typescript-eslint/ban-ts-comment
   // @ts-expect-error
   Fancybox.bind('[data-fancybox="gallery"]', {
@@ -71,7 +81,7 @@ document.addEventListener('DOMContentLoaded', () => {
     Toolbar: {
       items: {
         return: {
-          tpl: `<button class="f-button">вернуться</button>`,
+          tpl: `<button class="f-button"><p class="f-button__text" data-localize="return">${returnText}</p></button>`,
           click: () => {
             Fancybox.close();
           },
@@ -82,6 +92,8 @@ document.addEventListener('DOMContentLoaded', () => {
       },
     },
   });
+
+  localization.updateTexts();
 });
 
 // Bear

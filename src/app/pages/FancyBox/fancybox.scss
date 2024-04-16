@@ -11,8 +11,7 @@
   background: #f9f9f9;
 }
 
-.fancybox__toolbar {
-}
+.fancybox__toolbar {}
 
 .fancybox__cols {
   display: grid;
@@ -87,6 +86,17 @@
   .f-button:hover:not([disabled]) {
     color: #616161;
     background-color: #f9f9f9;
+  }
+}
+
+.f-button__text {
+  box-sizing: border-box;
+  position: relative;
+  padding: 0px 5px 2px 5px;
+
+  &:hover {
+    background: #616161;
+    color: #f9f9f9;
   }
 }
 
