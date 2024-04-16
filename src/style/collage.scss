@@ -545,10 +545,13 @@
       background: none;
 
       padding-top: 20px;
+
+      .separate {
+        display: block;
+      }
     }
 
     .collage__text--1 {
-      width: 200px;
       position: relative;
       background: none;
     }
