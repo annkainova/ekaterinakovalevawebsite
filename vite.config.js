@@ -3,6 +3,7 @@ import path from 'path';
 import legacy from '@vitejs/plugin-legacy'; // Подключаем плагин для поддержки старых браузеров
 
 export default defineConfig({
+  base: './',
   plugins: [
     legacy({
       targets: ['defaults', 'not IE 11'],
