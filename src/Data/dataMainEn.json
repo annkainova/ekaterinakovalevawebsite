@@ -34,6 +34,7 @@
     "mosaics": "Mosaics",
     "artworks": "Artworks",
 
+
     "roll-up": "Roll up",
     "unfold": "Unfold",
 
@@ -47,5 +48,6 @@
 
     "personal-text": "<div class='personal-data'> <p class='year'>1991</p><p><span class='bold'>“Colonizing the Horizon”.</span> Pace Gallery, New York</p></div><div class='personal-data'><p class='year'>1992</p><p><span class='bold'>“Colonization of the Horizon 2”.</span> Studio 20 Gallery, Moscow</p></div><div class='personal-data'<p class='year'>1995</p> <p> <span class='bold'>“Basis”.</span> Studio 20 Gallery, Moscow </p> </div> <div class='personal-data'> <p class='year'>1998</p><p><span class='bold'>“Unfulfilled Journey”.</span> Union Gallery, Moscow </p></div><div class='personal-data'><p class='year'>2009</p> <p> <span class='bold'>“SNEGOVICUS”.</span> CEH V Gallery, Moscow</p></div> <div class='personal-data'> <p class='year'>2012</p><p> <span class='bold'>“7 words”.</span> Pokrovskie Vorota Cultural Center </p></div><div class='personal-data'><p class='year'>2017</p> <p>  <span class='bold'>“Antarctic Diary”.</span> Research vessel “Akademik Vavilov”, Drake Strait, Argentina </p></div><div class='personal-data'><p class='year'>2018</p> <p> <span class='bold'>“Routes of Memory”.</span> Moscow Museum of Modern Art </p></div><div class='personal-data'><p class='year'>2019</p><p> <span class='bold'>“Cutting Unnecessary Things”.</span>  Pereletny kabak Gallery, Moscow </p></div><div class='personal-data'><p class='year'>2021</p> <p> <span class='bold'>“Medical History. The Right to Rest”.</span> Rosphoto Museum. St. Petersburg </p></div><div class='personal-data'> <p class='year'>2022</p> <p><span class='bold'>“Waiting Area”.</span> Salt barn XVIII c. Tarusa </p></div><div class='personal-data'><p class='year'>2023</p> <p> <span class='bold'>“Waiting area”.</span> Museum of Gulag History. Moscow </p></div>",
     "group-text": ""
+
   }
 }

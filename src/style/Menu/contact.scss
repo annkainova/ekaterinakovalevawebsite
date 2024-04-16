@@ -16,6 +16,7 @@
     margin-top: 210px;
   }
 
+
   &__image {
     display: flex;
     justify-content: center;
@@ -113,6 +114,7 @@
 
 
 @media (max-width: 1024px) {
+
   .contact__eye {
     margin: 0 auto;
     margin-top: 84px;
@@ -143,6 +145,7 @@
 @media (max-width: 1024px) {
 
   .contact {
+
     margin: 190px 0 0 0;
 
     // margin-bottom: 50px;
@@ -185,6 +188,7 @@
         margin: 0 auto;
       }
 
+
       .contact__element {
         display: none;
       }
@@ -210,6 +214,7 @@
     margin: 90px 0 0 0;
     height: calc(100vh);
 
+
     // margin-bottom: 50px;
 
     &__image {
@@ -217,7 +222,9 @@
       display: flex;
       justify-content: center;
       width: 335px;
+      
       max-height: 502px;
+
       background-image: url(/MOBIL/М03_contact/M03_IMG_01.jpg);
       background-repeat: no-repeat;
       background-size: contain;

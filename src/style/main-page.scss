@@ -16,6 +16,7 @@ body {
   @include font($normal, $font-16, $dark);
   letter-spacing: 0.8px;
   font-family: $family;
+
 }
 
 footer {

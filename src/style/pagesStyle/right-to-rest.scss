@@ -359,6 +359,7 @@
             overflow: hidden;
             position: relative;
             transition: max-height 0.5s ease;
+
           }
 
           &:nth-child(4) {
@@ -426,6 +427,7 @@
             @media (max-width: 375px) {
               max-height: 100px;
             }
+
           }
 
           &:nth-child(4).unfolded {

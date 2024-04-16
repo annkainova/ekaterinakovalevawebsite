@@ -12,6 +12,7 @@ import Localization from './app/pages/Localization/Localization';
 import dataMain from './Data/dataMain.json';
 import dataMainEn from './Data/dataMainEn.json';
 
+
 class AppInitializer {
   static initialize() {
     document.addEventListener('DOMContentLoaded', () => {
@@ -115,6 +116,7 @@ document.addEventListener('DOMContentLoaded', () => {
   localization.updateTexts();
 });
 
+
 // Eye Contact
 document.addEventListener('DOMContentLoaded', () => {
   const contactEyeIcon = document.querySelector('.contact__eye-icon') as HTMLElement;
@@ -129,3 +131,4 @@ document.addEventListener('DOMContentLoaded', () => {
     contactEyeIcon.addEventListener('click', handleInteraction); // Обработка клика
   }
 });
+

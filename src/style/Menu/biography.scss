@@ -5,6 +5,7 @@
     margin-top: 150px;
   }
 
+
   &__links {
     display: flex;
     gap: 15px;
@@ -151,6 +152,7 @@
 
     &__personal {
       gap: 40px;
+      margin-bottom: 55px;
 
       @media (max-width: 760px) {
         flex-direction: column;
