@@ -25,8 +25,6 @@ AppInitializer.initialize();
 
 // Slider
 document.addEventListener('DOMContentLoaded', () => {
-  console.log('Checking images:', document.querySelectorAll('.image-mobil'));
-
   const isMobile = window.matchMedia('(max-width: 1024px)').matches;
 
   if (isMobile) {
@@ -37,8 +35,8 @@ document.addEventListener('DOMContentLoaded', () => {
       slidesToShow: 1,
       slidesToScroll: 1,
       arrows: false,
-      // autoplay: true,
-      // autoplaySpeed: 4000,
+      autoplay: true,
+      autoplaySpeed: 4000,
     });
   }
 });
@@ -88,7 +86,8 @@ document.addEventListener('DOMContentLoaded', () => {
 document.addEventListener('DOMContentLoaded', () => {
   const bear = document.querySelector('.splitter__element') as HTMLElement;
   const directions = ['left', 'right'];
-  const delays = [0, 3000, 6000, 9000]; // in milliseconds
+  // const delays = [0, 3000, 6000, 9000]; // in milliseconds
+  const delays = [0]; // in milliseconds
 
   // Randomize direction and delay
   const direction = directions[Math.floor(Math.random() * directions.length)];
