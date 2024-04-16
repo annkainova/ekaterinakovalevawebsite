@@ -1,16 +1,32 @@
+html,
 body {
+  height: 100%;
+  /* Устанавливаем минимальную высоту для html и body */
+  margin: 0;
+  /* Убираем отступы */
+}
+
+body {
+  display: grid;
+  grid-template-rows: 1fr auto;
+  grid-template-columns: minmax(300px, max-content);
+  justify-content: center;
+
   background: $white;
   @include font($normal, $font-16, $dark);
   letter-spacing: 0.8px;
   font-family: $family;
+}
 
+footer {
+  grid-row-start: 2;
+  /* Футер всегда начинается со второго ряда */
 }
 
 main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
   letter-spacing: 0.8px;
   height: 100%;
 

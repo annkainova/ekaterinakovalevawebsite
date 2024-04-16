@@ -116,7 +116,7 @@
 }
 
 //Mobil
-@media (max-width: 940px) {
+@media (max-width: 1024px) {
   .waiting-zone {
     line-height: 0;
 
@@ -131,15 +131,32 @@
         .element__paint {
           display: block;
 
+          // spoiler
           &:nth-child(2) {
             overflow: hidden;
             position: relative;
             transition: max-height 0.5s ease;
-            max-height: 300px;
+            max-height: 120px;
+
+            @media (max-width: 768px) {
+              max-height: 250px;
+            }
+
+            @media (max-width: 375px) {
+              max-height: 300px;
+            }
           }
 
           &:nth-child(2).folded {
-            max-height: 300px;
+            max-height: 120px;
+
+            @media (max-width: 768px) {
+              max-height: 150px;
+            }
+
+            @media (max-width: 375px) {
+              max-height: 300px;
+            }
           }
 
           &:nth-child(2).unfolded {

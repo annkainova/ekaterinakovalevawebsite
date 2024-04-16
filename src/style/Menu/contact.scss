@@ -1,10 +1,19 @@
 //Main Screen
 
 .contact {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+
   width: 100%;
   margin-top: 210px;
-  height: 100%;
   margin-bottom: 25px;
+
+
+  @media (max-width: 1024px) {
+    display: flex;
+    flex-direction: column;
+  }
 
   &__image {
     display: flex;
@@ -75,22 +84,62 @@
   }
 }
 
-
 .contact__eye {
-  margin: 0 auto;
-  margin-top: 84px;
-  width: 50px;
-  height: 50px;
+  margin-top: 40px;
+}
 
-  background: url(/Contact-eye.svg)
+.contact__eye-icon {
+  width: 35px;
+  height: 35px;
+  background: url(/Contact-eye.svg);
+  background-size: contain;
+}
+
+.contact__eye-text {
+  display: block;
+  text-align: right;
+}
+
+.contact__eye-icon.hidden {
+  display: none;
+}
+
+.contact__eye-text.hidden {
+  display: none;
 }
 
 
+
+@media (max-width: 1024px) {
+  .contact__eye {
+    margin: 0 auto;
+    margin-top: 84px;
+  }
+
+  .contact__eye-icon {
+    width: 50px;
+    height: 50px;
+
+    background: url(/Contact-eye.svg)
+  }
+
+  .contact__eye-text {
+    display: block;
+    text-align: center;
+  }
+
+  .contact__eye-icon.hidden {
+    display: none;
+  }
+
+  .contact__eye-text.hidden {
+    display: none;
+  }
+}
+
 @media (max-width: 1024px) {
 
-
   .contact {
-    height: calc(100vh);
     margin: 190px 0 0 0;
 
     // margin-bottom: 50px;

@@ -99,8 +99,6 @@ export default class Gallery {
 
         const imageMobil = document.createElement('div');
         imageMobil.className = 'image-mobil';
-        // imageMobil.setAttribute('src', path.full);
-
         imageMobil.style.backgroundImage = `url('${path.full}')`;
 
         const imageMobilDescription = document.createElement('p');
@@ -110,9 +108,6 @@ export default class Gallery {
         imageLink.appendChild(imageMobil);
         imageLink.appendChild(imageMobilDescription);
         imageWrapper.appendChild(imageLink);
-
-        // imageMobil.appendChild(imageMobilDescription);
-        // imageWrapper.appendChild(imageMobil);
       });
     } else {
       // descop
@@ -132,13 +127,7 @@ export default class Gallery {
         image.setAttribute('src', path.small);
         image.setAttribute('alt', `${this.name} image ${index + 1}`);
 
-        // const imageMobil = document.createElement('img');
-        // imageMobil.classList.add('image-mobil');
-        // imageMobil.style.backgroundImage = `url('${path.full}')`;
-        // //     imageWrapper.appendChild(imageBox);
-
         imageLink.appendChild(image);
-        // imageLink.appendChild(imageMobil);
         imageContainer.appendChild(imageLink);
 
         if (index === 0) {
@@ -215,6 +204,12 @@ export default class Gallery {
     if (this.isMobile()) {
       imageWrapper.classList.add('slick');
       this.imagePaths.forEach(path => {
+        const imageLink = document.createElement('a');
+        imageLink.classList.add('fancybox');
+        imageLink.setAttribute('data-fancybox', 'gallery');
+        imageLink.setAttribute('data-caption', path.descrip);
+        imageLink.setAttribute('href', path.full);
+
         const imageMobil = document.createElement('div');
         imageMobil.className = 'image-mobil';
         imageMobil.style.backgroundImage = `url('${path.full}')`;
@@ -223,8 +218,9 @@ export default class Gallery {
         imageMobilDescription.className = 'image-mobil__description';
         imageMobilDescription.textContent = path.descrip;
 
-        imageMobil.appendChild(imageMobilDescription);
-        imageWrapper.appendChild(imageMobil);
+        imageLink.appendChild(imageMobil);
+        imageLink.appendChild(imageMobilDescription);
+        imageWrapper.appendChild(imageLink);
       });
     } else {
       // Desktop
