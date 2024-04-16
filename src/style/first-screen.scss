@@ -74,12 +74,13 @@
     }
   }
 
-  @media (max-width: 425px) {
+
+  @media (max-width: 1024px) {
     width: 100%;
 
     &__text {
       font-family: $family-accent;
-      @include font($extra-bold, $font-14, $white);
+      @include font($extra-bold, $font-20, $white);
       left: -11px;
       letter-spacing: 7px;
       padding: 13px;
@@ -90,12 +91,13 @@
     }
   }
 
-  @media (max-width: 1024px) {
+
+  @media (max-width: 425px) {
     width: 100%;
 
     &__text {
       font-family: $family-accent;
-      @include font($extra-bold, $font-20, $white);
+      @include font($extra-bold, $font-14, $white);
       left: -11px;
       letter-spacing: 7px;
       padding: 13px;

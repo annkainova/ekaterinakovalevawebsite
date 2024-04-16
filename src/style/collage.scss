@@ -598,6 +598,9 @@
       justify-items: center;
 
       .collage__text {
+        word-wrap: break-word; // Переносит длинные слова на новую строку
+        word-break: break-all;
+
         width: 160px;
         height: 0;
         margin-left: 169px;
