@@ -1,11 +1,54 @@
-@import url('https://fonts.googleapis.com/css2?family=Carlito:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Carlito:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+@font-face {
+  font-family: 'Carlito';
+  src: local('Carlito Regular'), url('/fonts/Carlito-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Carlito';
+  src: local('Carlito Italic'), url('/fonts/Carlito-Italic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Carlito';
+  src: local('Carlito Bold'), url('/fonts/Carlito-Bold.ttf') format('truetype');
+  font-weight: 700;
+  /* Обычно bold соответствует 700 */
+  font-style: normal;
+}
+
+
+
+/* Предположим, что 'YourFontName' это 'Anonymous Pro' */
+@font-face {
+  font-family: 'Anonymous Pro';
+  src: local('Anonymous Pro'), url('./fonts/AnonymousPro-Regular.woff2') format('woff2'),
+    url('./fonts/AnonymousPro-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Anonymous Pro';
+  src: local('Anonymous Pro Bold'), url('./fonts/AnonymousPro-Bold.woff2') format('woff2'),
+    url('./fonts/AnonymousPro-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
 
 @mixin font($weight, $size, $color) {
   font-weight: $weight;
   font-size: $size;
   color: $color;
 }
+
+
 
 $normal: 400;
 $bold: 600;
