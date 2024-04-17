@@ -59,6 +59,7 @@
     -moz-transition: background-image 0.8s ease;
     -o-transition: background-image 0.8s ease;
 
+
     @media (hover: hover) {
       &:hover .collage__text--1 {
         position: absolute;
@@ -72,6 +73,11 @@
         @media (hover: none) {
           display: none;
         }
+
+        @media (max-width: 1280px) {
+          margin-top: 225px;
+          display: block;
+        }
       }
 
       &:hover .collage__text--bottom {
@@ -84,6 +90,10 @@
 
         @media (hover: none) {
           display: none;
+        }
+
+        @media (max-width: 1280px) {
+          bottom: -29px;
         }
       }
 
@@ -99,6 +109,12 @@
         @media (hover: none) {
           display: none;
         }
+
+        @media (max-width: 1280px) {
+          right: 0;
+          left: 0;
+          display: block;
+        }
       }
 
       &:hover .collage__text--right {
@@ -112,6 +128,8 @@
         @media (hover: none) {
           display: none;
         }
+
+        @media (max-width: 1280px) {}
       }
     }
   }
@@ -175,6 +193,8 @@
         @media (hover: none) {
           display: none;
         }
+
+        @media (max-width: 1280px) {}
       }
     }
   }
@@ -355,6 +375,8 @@
       margin: 0;
       height: 0;
       padding-top: 20px;
+
+
     }
 
     .collage__text--left,
@@ -567,6 +589,8 @@
       margin: 0;
       height: 0;
       padding-top: 20px;
+
+
     }
 
     .collage__text--left,
