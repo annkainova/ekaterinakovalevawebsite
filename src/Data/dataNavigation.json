@@ -2,22 +2,22 @@
   "waitingZone": {
     "id": "waiting-zone",
     "href": "waiting-zone.html",
-    "text": "зона ожидания"
+    "text": "«зона ожидания»"
   },
   "medicalHistory": {
     "id": "right-to-rest",
     "href": "right-to-rest.html",
-    "text": "история болезни. право на отдых"
+    "text": "«история болезни. право на отдых»"
   },
   "antarcticDiary": {
     "id": "antarctic-diary",
     "href": "antarctic-diary.html",
-    "text": "антарктический дневник"
+    "text": "«антарктический дневник»"
   },
   "soup": {
     "id": "soup-of-the-day",
     "href": "soup-of-the-day.html",
-    "text": "суп дня"
+    "text": "«суп дня»"
   },
   "memorialObjects": {
     "id": "memorial-objects",
@@ -27,7 +27,7 @@
   "horizonColonization": {
     "id": "horizon-colonization",
     "href": "horizon-colonization.html",
-    "text": "колонизация горизонта"
+    "text": "«колонизация горизонта»"
   },
   "earlyWorks": {
     "id": "early-works",

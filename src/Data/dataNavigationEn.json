@@ -2,32 +2,32 @@
   "waitingZone": {
     "id": "waiting-zone",
     "href": "waiting-zone.html",
-    "text": "waiting zone"
+    "text": "“waiting zone”"
   },
   "medicalHistory": {
     "id": "right-to-rest",
     "href": "right-to-rest.html",
-    "text": "medical history: the right to rest"
+    "text": "“medical history: the right to rest”"
   },
   "antarcticDiary": {
     "id": "antarctic-diary",
     "href": "antarctic-diary.html",
-    "text": "antarctic diary"
+    "text": "“antarctic diary”"
   },
   "soup": {
     "id": "soup-of-the-day",
     "href": "soup-of-the-day.html",
-    "text": "soup of the day"
+    "text": "“soup of the day”"
   },
   "memorialObjects": {
     "id": "memorial-objects",
     "href": "memorial-objects.html",
-    "text": "memorial objects"
+    "text": "“memorial objects”"
   },
   "horizonColonization": {
     "id": "horizon-colonization",
     "href": "horizon-colonization.html",
-    "text": "horizon colonization"
+    "text": "“horizon colonization”"
   },
   "earlyWorks": {
     "id": "early-works",
@@ -37,7 +37,7 @@
   "maps": {
     "id": "maps",
     "href": "maps.html",
-    "text": "maps • roses of the world"
+    "text": "maps • “roses of the world”"
   },
   "artworks": {
     "id": "artworks",

@@ -31,7 +31,7 @@ export default class NavPanel {
           <div class="row">
             <li class="sections-nav__element">
               <a class="sections-nav__link" id="waiting-zone" href="waiting-zone.html">
-                <span class="sections-nav__text">"${this.selectedData.waitingZone.text}"</span>
+                <span class="sections-nav__text">${this.selectedData.waitingZone.text}</span>
               </a>
             </li>
 
@@ -46,13 +46,13 @@ export default class NavPanel {
             <li class="sections-nav__element">
               <a class="sections-nav__link" id="horizon-colonization" href="horizon-colonization.html">
                 <span class="nav__dot">•</span>
-                <span class="sections-nav__text">“${this.selectedData.horizonColonization.text}”</span>
+                <span class="sections-nav__text">${this.selectedData.horizonColonization.text}</span>
               </a>
             </li>
 
             <li class="sections-nav__element">
               <a class="sections-nav__link" id="soup-of-the-day" href="soup-of-the-day.html">
-                <span class="nav__dot">•</span> <span class="sections-nav__text">“${this.selectedData.soup.text}”</span>
+                <span class="nav__dot">•</span> <span class="sections-nav__text">${this.selectedData.soup.text}</span>
               </a>
             </li>
           </div>
@@ -66,7 +66,7 @@ export default class NavPanel {
             <li class="sections-nav__element">
               <a class="sections-nav__link" id="antarctic-diary" href="antarctic-diary.html"><span
                   class="nav__dot">•</span>
-                <span class="sections-nav__text">“${this.selectedData.antarcticDiary.text}”</span></a>
+                <span class="sections-nav__text">${this.selectedData.antarcticDiary.text}</span></a>
             </li>
 
             <li class="sections-nav__element">
@@ -78,7 +78,7 @@ export default class NavPanel {
             <li class="sections-nav__element">
               <a class="sections-nav__link" id="right-to-rest" href="right-to-rest.html"><span
                   class="nav__dot">•</span>
-                <span class="sections-nav__text">“${this.selectedData.medicalHistory.text}”</span>
+                <span class="sections-nav__text">${this.selectedData.medicalHistory.text}</span>
               </a>
             </li>
           </div>

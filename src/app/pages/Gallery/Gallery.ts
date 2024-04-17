@@ -106,7 +106,7 @@ export default class Gallery {
         imageMobilDescription.textContent = path.descrip;
 
         imageLink.appendChild(imageMobil);
-        imageLink.appendChild(imageMobilDescription);
+        imageMobil.appendChild(imageMobilDescription);
         imageWrapper.appendChild(imageLink);
       });
     } else {
@@ -221,7 +221,7 @@ export default class Gallery {
         imageMobilDescription.textContent = path.descrip;
 
         imageLink.appendChild(imageMobil);
-        imageLink.appendChild(imageMobilDescription);
+        imageMobil.appendChild(imageMobilDescription);
         imageWrapper.appendChild(imageLink);
       });
     } else {
