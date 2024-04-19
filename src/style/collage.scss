@@ -110,11 +110,12 @@
           display: none;
         }
 
-        @media (max-width: 1280px) {
-          right: 0;
-          left: 0;
-          display: block;
-        }
+        // @media (max-width: 1280px) {
+        //   right: 0;
+        //   left: 0;
+        //   top: 242px;
+        //   display: block;
+        // }
       }
 
       &:hover .collage__text--right {
@@ -149,6 +150,10 @@
 
   &__img.greyscale &__item--1 {
     background-image: url(/00_main-page/bw/00_IMG_02B.png);
+
+    @media (max-width: 1280px) {
+      background-image: url(/mobil-ver/00_IMG_02.png);
+    }
   }
 
   &__item--1-1 {
@@ -158,10 +163,18 @@
     top: 820px;
     left: -100px;
     background-image: url(/00_main-page/00_IMG_03.jpg);
+
+    @media (max-width: 1280px) {
+      display: none;
+    }
   }
 
   &__img.greyscale &__item--1-1 {
     background-image: url(/00_main-page/bw/00_IMG_03B.png);
+
+    @media (max-width: 1280px) {
+      display: none;
+    }
   }
 
   &__item--1-2 {
@@ -171,10 +184,18 @@
     top: 670px;
     left: 176px;
     background-image: url(/00_main-page/00_IMG_14.jpg);
+
+    @media (max-width: 1280px) {
+      display: none;
+    }
   }
 
   &__img.greyscale &__item--1-2 {
     background-image: url(/00_main-page/bw/00_IMG_14B.png);
+
+    @media (max-width: 1280px) {
+      display: none;
+    }
   }
 
   &__item--2 {
@@ -203,6 +224,10 @@
     width: 416px;
     height: 260px;
     background-image: url(/00_main-page/bw/00_IMG_04B.png);
+
+    @media (max-width: 1280px) {
+      background-image: url(/00_main-page/00_IMG_04.jpg);
+    }
   }
 
   &__item--3 {
@@ -217,6 +242,10 @@
 
   &__item--3.greyscale {
     background-image: url(/00_main-page/bw/00_IMG_05B.png);
+
+    @media (max-width: 1280px) {
+      background-image: url(/00_main-page/00_IMG_05.jpg);
+    }
   }
 
   &__item--4 {
@@ -231,6 +260,11 @@
 
   &__item--4.greyscale {
     background-image: url(/00_main-page/bw/00_IMG_06B.png);
+
+
+    @media (max-width: 1280px) {
+      background-image: url(/00_main-page/00_IMG_06.jpg);
+    }
   }
 
   &__item--5 {
@@ -245,6 +279,11 @@
 
   &__item--5.greyscale {
     background-image: url(/00_main-page/bw/00_IMG_07B.png);
+
+
+    @media (max-width: 1280px) {
+      background-image: url(/00_main-page/00_IMG_07.jpg);
+    }
   }
 
   &__item--6 {
@@ -259,6 +298,10 @@
 
   &__item--6.greyscale {
     background-image: url(/00_main-page/bw/00_IMG_08B.png);
+
+    @media (max-width: 1280px) {
+      background-image: url(/00_main-page/00_IMG_08.jpg);
+    }
   }
 
   &__item--7 {
@@ -273,6 +316,10 @@
 
   &__item--7.greyscale {
     background-image: url(/00_main-page/bw/00_IMG_09B.png);
+
+    @media (max-width: 1280px) {
+      background-image: url(/00_main-page/00_IMG_09.jpg);
+    }
   }
 
   &__item--8 {
@@ -287,6 +334,10 @@
 
   &__item--8.greyscale {
     background-image: url(/00_main-page/bw/00_IMG_10B.png);
+
+    @media (max-width: 1280px) {
+      background-image: url(/mobil-ver/00_IMG_05.jpg);
+    }
   }
 
   &__item--9 {
@@ -301,6 +352,10 @@
 
   &__item--9.greyscale {
     background-image: url(/00_main-page/bw/00_IMG_11B.png);
+
+    @media (max-width: 1280px) {
+      background-image: url(/00_main-page/00_IMG_11.jpg);
+    }
   }
 
   &__item--10 {
@@ -315,6 +370,10 @@
 
   &__item--10.greyscale {
     background-image: url(/00_main-page/bw/00_IMG_12B.png);
+
+    @media (max-width: 1280px) {
+      background-image: url(/00_main-page/00_IMG_12.jpg);
+    }
   }
 
   &__item--11 {
@@ -329,6 +388,10 @@
 
   &__item--11.greyscale {
     background-image: url(/00_main-page/bw/00_IMG_13B.png);
+
+    @media (max-width: 1280px) {
+      background-image: url(/00_main-page/00_IMG_13.jpg);
+    }
   }
 }
 
@@ -397,8 +460,6 @@
       transform-origin: top left;
       background-repeat: no-repeat;
       background-size: cover;
-
-      width: 100%;
     }
 
     // зона ожидания
@@ -430,8 +491,8 @@
 
     //карты
     &__item--2 {
-      max-width: 100%;
-      max-height: 209px;
+      // max-width: 100%;
+      // height: 209px;
       left: -50px;
       top: 160px;
 
@@ -472,6 +533,18 @@
       grid-row: 4;
 
       margin-left: 60px;
+
+      @media (hover: hover) {
+        &:hover .collage__text--left {
+          @media (max-width: 1280px) {
+            right: 0;
+            left: 0;
+            top: 137px;
+            display: block;
+          }
+        }
+      }
+
     }
 
     //антарктический дневник
@@ -509,6 +582,17 @@
       grid-row: 2;
       grid-column: span 2;
       align-self: center;
+
+      @media (hover: hover) {
+        &:hover .collage__text--left {
+          @media (max-width: 1280px) {
+            right: 0;
+            left: 0;
+            top: 242px;
+            display: block;
+          }
+        }
+      }
     }
 
     //записные книжки
@@ -520,6 +604,18 @@
       grid-row: 5;
       margin-top: -20px;
       margin-left: 65px;
+
+
+      @media (hover: hover) {
+        &:hover .collage__text--left {
+          @media (max-width: 1280px) {
+            right: 0;
+            left: 0;
+            top: 100px;
+            display: block;
+          }
+        }
+      }
     }
 
     //мозаики
@@ -534,6 +630,18 @@
       justify-self: end;
 
       margin-top: 170px;
+
+
+      @media (hover: hover) {
+        &:hover .collage__text--left {
+          @media (max-width: 1280px) {
+            right: 0;
+            left: 0;
+            top: 100px;
+            display: block;
+          }
+        }
+      }
     }
 
     //рисунки
@@ -544,6 +652,17 @@
       top: 0;
       grid-row: 6;
       margin-top: 140px;
+
+      @media (hover: hover) {
+        &:hover .collage__text--left {
+          @media (max-width: 1280px) {
+            right: 0;
+            left: 0;
+            top: 100px;
+            display: block;
+          }
+        }
+      }
     }
   }
 }
