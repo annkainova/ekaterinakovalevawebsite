@@ -3,7 +3,7 @@
     {
       "class": "three-chapters",
       "active": "active",
-      "imageSrc": "/public/00_main-page/announcement/00_PREVIEW_01.jpg",
+      "imageSrc": "00_main-page/announcement/00_PREVIEW_01.jpg",
       "imageAlt": "Картина Катерины Ковалевой из выставки 'Три главы из жизни женщины'",
       "eventType": "Групповая выставка",
       "eventName": "«Три главы из жизни женщины»",
@@ -18,7 +18,7 @@
       "class": "personal-structur",
       "active": "active",
 
-      "imageSrc": "/public/00_main-page/announcement/00_PREVIEW_02_1.jpg",
+      "imageSrc": "00_main-page/announcement/00_PREVIEW_02_1.jpg",
       "imageAlt": "Картина Катерины Ковалевой",
       "eventType": "Групповая выставка",
       "eventName": "«ПЕРСОНАЛЬНЫЕ СТРУКТУРЫ»",
@@ -33,7 +33,7 @@
       "class": "autoportret",
       "active": "active",
 
-      "imageSrc": "/public/00_main-page/announcement/00_PREVIEW_03.jpg",
+      "imageSrc": "00_main-page/announcement/00_PREVIEW_03.jpg",
       "imageAlt": "Картина Катерины Ковалевой из выставки 'Три главы из жизни женщины'",
       "eventType": "Групповая выставка",
       "eventName": "«АВТОПОРТРЕТ 1900–2024»",
@@ -47,7 +47,7 @@
     {
       "class": "limbo",
       "active": "no-active",
-      "imageSrc": "/public/00_main-page/announcement/00_PREVIEW_04.jpg",
+      "imageSrc": "00_main-page/announcement/00_PREVIEW_04.jpg",
       "imageAlt": "Картина Катерины Ковалевой из выставки 'Три главы из жизни женщины'",
       "eventType": "Персональная выставка",
       "eventName": "«LIMBO. ЗОНА ОЖИДАНИЯ»",
