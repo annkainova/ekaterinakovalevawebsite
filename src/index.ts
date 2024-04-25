@@ -12,7 +12,6 @@ import Localization from './app/pages/Localization/Localization';
 import dataMain from './Data/dataMain.json';
 import dataMainEn from './Data/dataMainEn.json';
 
-
 class AppInitializer {
   static initialize() {
     document.addEventListener('DOMContentLoaded', () => {
@@ -40,6 +39,42 @@ document.addEventListener('DOMContentLoaded', () => {
       autoplaySpeed: 4000,
     });
   }
+});
+
+document.addEventListener('DOMContentLoaded', () => {
+  const $slider = $('.slider');
+
+  $slider.on('init reInit afterChange', (event, slick, currentSlide, nextSlide) => {
+    const i = (currentSlide || 0) + 1;
+    $('#slideIndicator').text(`${i} / ${slick.slideCount}`);
+  });
+
+  $('.slider').slick({
+    infinite: true,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    prevArrow: $('.custom-prev'),
+    nextArrow: $('.custom-next'),
+    // autoplay: true,
+    // autoplaySpeed: 2000,
+    fade: false, // Установите true для эффекта затухания
+    responsive: [
+      {
+        breakpoint: 1200,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 700,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
+  });
 });
 
 // Open Photo
@@ -116,7 +151,6 @@ document.addEventListener('DOMContentLoaded', () => {
   localization.updateTexts();
 });
 
-
 // Eye Contact
 document.addEventListener('DOMContentLoaded', () => {
   const contactEyeIcon = document.querySelector('.contact__eye-icon') as HTMLElement;
@@ -131,4 +165,3 @@ document.addEventListener('DOMContentLoaded', () => {
     contactEyeIcon.addEventListener('click', handleInteraction); // Обработка клика
   }
 });
-

@@ -1,0 +1,196 @@
+.announcement {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 50px 38px 67px 38px;
+  margin-top: 80px;
+  background: $dark-grey;
+
+  &__header {
+    margin-left: 12px;
+    margin-bottom: 38px;
+    @include font ($extra-bold, 24px, $white);
+    font-family: "Anonymous Pro";
+    letter-spacing: 7.2px;
+
+    @media (max-width: 1024px) {}
+  }
+
+  @media (max-width: 1024px) {
+    padding: 30px 20px 60px 30px;
+  }
+}
+
+.slider {
+  display: flex;
+  flex-wrap: nowrap;
+  // gap: 26px;
+}
+
+div {
+  display: block;
+}
+
+.event {
+  box-sizing: border-box;
+  display: block !important;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  gap: 20px;
+
+  padding: 12px;
+  max-width: 384px;
+  margin: 0 auto;
+  background: $white;
+  @include font ($normal, $font-16, $dark);
+  text-align: left;
+
+
+  @media (max-width: 1024px) {
+    max-width: 274px;
+  }
+
+  img {
+    width: 360px;
+
+    @media (max-width: 1024px) {
+      width: 250px;
+    }
+  }
+
+  &__text {
+    margin-top: 20px;
+  }
+
+  &__type {
+    margin-bottom: 15px;
+  }
+
+  &__name {
+    height: 44px;
+    margin-bottom: 15px;
+
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: left;
+  }
+
+  &__info {
+    height: 60px;
+
+
+    .date {}
+
+    .location {
+      display: block;
+      color: $dark;
+      text-align: left;
+
+
+      &__link {
+        color: $dark;
+        text-decoration: underline;
+        text-align: left;
+      }
+    }
+  }
+}
+
+
+.no-active {
+  background: $dark-grey;
+  color: $white;
+
+}
+
+.no-active .location {
+  color: $white;
+}
+
+.personal-structur img:hover {
+  content: url('/public/00_main-page/announcement/00_PREVIEW_02_2.jpg');
+}
+
+.slick-arrow {}
+
+
+.slider-box {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+
+.slider-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 67px;
+
+
+  @media (max-width: 1024px) {
+    margin-top: 32px;
+  }
+
+
+  &__line {
+    display: block;
+    width: 360px;
+    height: 1px;
+    background-color: $white;
+
+    @media (max-width: 1024px) {
+      display: none;
+    }
+  }
+
+  .nav-info {
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    color: $white;
+
+    @media (max-width: 1024px) {
+      display: none;
+    }
+  }
+
+  .custom-prev {
+    margin-left: 50px;
+    width: 50px;
+    height: 26px;
+    background-image: url('/public/00_main-page/announcement/00_TIME_LEFT.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    @media (max-width: 1024px) {
+      margin-left: 0;
+      background-image: url('/public/00_main-page/announcement/LeftMobil.svg');
+      background-size: auto;
+      background-position: left;
+    }
+  }
+
+  .custom-next {
+    margin-right: 50px;
+    width: 50px;
+    height: 26px;
+    background-image: url('/public/00_main-page/announcement/00_TIME_RIGHT.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    @media (max-width: 1024px) {
+      margin-right: 0;
+      background-image: url('/public/00_main-page/announcement/RightMobil.svg');
+      background-size: auto;
+      background-position: right;
+    }
+  }
+
+}
+
+
+div {
+  display: block;
+}

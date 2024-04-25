@@ -6,34 +6,33 @@
 
 // If we've customized any font variables, we'll need extra properties.
 
-a {
-  text-decoration: none;
+h2 {
+  margin: 0;
 }
 
-@if $normalize-vertical-rhythm
-  ==null and
-  (
-    $base-line-height
-      !=24px or
-      $base-unit !=
-      'em' or
-      $h2-font-size
-      !=1.5 *
-      $base-font-size or
-      $h3-font-size
-      !=1.17 *
-      $base-font-size or
-      $h4-font-size
-      !=1 *
-      $base-font-size or
-      $h5-font-size
-      !=0.83 *
-      $base-font-size or
-      $h6-font-size
-      !=0.67 *
-      $base-font-size
-  )
-{
+a {
+  color: inherit;
+  /* Устанавливает цвет текста, наследуемый от родительского элемента */
+
+  /* Убирает подчёркивание */
+  background-color: transparent;
+  /* Устанавливает прозрачный фон */
+  outline: none;
+  /* Убирает контур при фокусе */
+}
+
+a:hover,
+a:active,
+a:focus {
+  text-decoration: none;
+  /* Убирает подчёркивание при наведении и активации */
+  color: inherit;
+  /* Цвет при наведении также остаётся наследуемым */
+  outline: none;
+  /* Убирает контур при фокусе */
+}
+
+@if $normalize-vertical-rhythm ==null and ($base-line-height !=24px or $base-unit !='em' or $h2-font-size !=1.5 * $base-font-size or $h3-font-size !=1.17 * $base-font-size or $h4-font-size !=1 * $base-font-size or $h5-font-size !=0.83 * $base-font-size or $h6-font-size !=0.67 * $base-font-size ) {
   $normalize-vertical-rhythm: true !global;
 }
 
@@ -62,7 +61,9 @@ html {
     // $base-line-height variables.
     line-height: math.div($base-line-height, $base-font-size) * 1em;
     /* 1 */
-  } @else {
+  }
+
+  @else {
     line-height: 1.15;
     /* 1 */
   }
@@ -105,7 +106,9 @@ h1 {
   @if $normalize-vertical-rhythm {
     /* Set 1 unit of vertical rhythm on the top and bottom margins. */
     @include normalize-margin(1 0, $h1-font-size);
-  } @else {
+  }
+
+  @else {
     margin: 0.67em 0;
   }
 }
@@ -166,6 +169,7 @@ h1 {
 
   ol,
   ul {
+
     ol,
     ul {
       margin: 0;
@@ -363,7 +367,9 @@ textarea {
   @if $normalize-vertical-rhythm {
     @include normalize-line-height($base-font-size);
     /* 1 */
-  } @else {
+  }
+
+  @else {
     line-height: 1.15;
     /* 1 */
   }

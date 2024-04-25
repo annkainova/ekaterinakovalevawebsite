@@ -11,6 +11,7 @@ import FirstPage from './pages/MainPage/FirstPage.ts';
 import Footer from './pages/MainPage/Footer.ts';
 import NavPanel from './pages/MainPage/NavPanel.ts';
 import ActiveLink from './pages/ActivePages/activePages.ts';
+import Anonsement from './pages/MainPage/Anonsement.ts';
 
 export default class App {
   header: Header;
@@ -23,6 +24,7 @@ export default class App {
   selectedData: any;
   navPanel: NavPanel;
   activeLink: ActiveLink;
+  announcement: Anonsement;
 
   constructor() {
     this.header = new Header(document.body);
@@ -31,10 +33,13 @@ export default class App {
     this.firstPage = new FirstPage();
     this.footer = new Footer(document.body);
 
+    const announcementSection = document.querySelector('.slider-box') as HTMLElement;
+    this.announcement = new Anonsement(announcementSection);
+
     this.header.render();
     this.firstPage.changeLanguageFirstPage();
     this.page.renderProject(dataProject);
-
+    this.announcement.render();
     this.footer.render();
 
     this.localization = new Localization();

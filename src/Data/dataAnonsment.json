@@ -1,0 +1,62 @@
+{
+  "events": [
+    {
+      "class": "three-chapters",
+      "active": "active",
+      "imageSrc": "/public/00_main-page/announcement/00_PREVIEW_01.jpg",
+      "imageAlt": "Картина Катерины Ковалевой из выставки 'Три главы из жизни женщины'",
+      "eventType": "Групповая выставка",
+      "eventName": "«Три главы из жизни женщины»",
+      "eventDate": "4 апреля — 19 мая 2024",
+      "eventLocation": {
+        "link": "https://www.art-story.com/events/items/tri-glavyi-iz-zhizni-zhenshhinyi/",
+        "linkText": "Галерея Artstory,",
+        "locationText": " Москва, Россия"
+      }
+    },
+    {
+      "class": "personal-structur",
+      "active": "active",
+
+      "imageSrc": "/public/00_main-page/announcement/00_PREVIEW_02_1.jpg",
+      "imageAlt": "Картина Катерины Ковалевой",
+      "eventType": "Групповая выставка",
+      "eventName": "«ПЕРСОНАЛЬНЫЕ СТРУКТУРЫ»",
+      "eventDate": "20 апреля — 21 ноября 2024",
+      "eventLocation": {
+        "link": "https://personalstructures.com/participants/katerina-kovaleva/",
+        "linkText": "Палаццо Бембо,",
+        "locationText": " Венеция, Италия"
+      }
+    },
+    {
+      "class": "autoportret",
+      "active": "active",
+
+      "imageSrc": "/public/00_main-page/announcement/00_PREVIEW_03.jpg",
+      "imageAlt": "Картина Катерины Ковалевой из выставки 'Три главы из жизни женщины'",
+      "eventType": "Групповая выставка",
+      "eventName": "«АВТОПОРТРЕТ 1900–2024»",
+      "eventDate": "2 апреля — 2 июня 2024",
+      "eventLocation": {
+        "link": "",
+        "linkText": "",
+        "locationText": "In artibus Foundation, Москва, Россия"
+      }
+    },
+    {
+      "class": "limbo",
+      "active": "no-active",
+      "imageSrc": "/public/00_main-page/announcement/00_PREVIEW_04.jpg",
+      "imageAlt": "Картина Катерины Ковалевой из выставки 'Три главы из жизни женщины'",
+      "eventType": "Персональная выставка",
+      "eventName": "«LIMBO. ЗОНА ОЖИДАНИЯ»",
+      "eventDate": "3 сентября — 3 ноября 2024",
+      "eventLocation": {
+        "link": "",
+        "linkText": "",
+        "locationText": "CREA, Международный культурный центр Венеция, Италия"
+      }
+    }
+  ]
+}
