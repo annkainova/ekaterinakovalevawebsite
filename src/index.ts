@@ -44,7 +44,8 @@ document.addEventListener('DOMContentLoaded', () => {
 document.addEventListener('DOMContentLoaded', () => {
   const $slider = $('.slider');
 
-  $slider.on('init reInit afterChange', (event, slick, currentSlide, nextSlide) => {
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
+  $slider.on('init reInit afterChange', (_event, slick, currentSlide) => {
     const i = (currentSlide || 0) + 1;
     $('#slideIndicator').text(`${i} / ${slick.slideCount}`);
   });

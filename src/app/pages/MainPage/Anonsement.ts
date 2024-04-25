@@ -4,10 +4,13 @@ import dataAnonsmentEn from '../../../Data/dataAnonsmentEn.json';
 
 interface EventLocation {
   link: string;
+  linkText: string;
   locationText: string;
 }
 
 interface Event {
+  class: string;
+  active: string;
   imageSrc: string;
   imageAlt: string;
   eventType: string;
