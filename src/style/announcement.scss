@@ -7,15 +7,16 @@
   background: $dark-grey;
 
   &__header {
-    margin-left: 12px;
+    margin-left: 24px;
     margin-bottom: 38px;
     @include font ($extra-bold, 24px, $white);
     font-family: "Anonymous Pro";
     letter-spacing: 7.2px;
 
-    @media (max-width: 768px) {
+    @media (max-width: 1024px) {
       font-size: 18px;
-
+      margin-left: 0;
+      margin-bottom: 20px;
     }
 
     @media (max-width: 1024px) {
@@ -25,6 +26,13 @@
 
   @media (max-width: 1024px) {
     padding: 20px 30px 20px 30px;
+
+    .header-container {
+      display: flex;
+      justify-content: center;
+
+
+    }
   }
 
 }
