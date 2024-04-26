@@ -33,14 +33,15 @@ export default class App {
     this.firstPage = new FirstPage();
     this.footer = new Footer(document.body);
 
-    const announcementSection = document.querySelector('.slider-box') as HTMLElement;
-    this.announcement = new Anonsement(announcementSection);
-
     this.header.render();
     this.firstPage.changeLanguageFirstPage();
     this.page.renderProject(dataProject);
-    this.announcement.render();
+
     this.footer.render();
+
+    // const announcementSection = document.querySelector('.slider-box') as HTMLElement;
+    // this.announcement = new Anonsement(announcementSection);
+    // this.announcement.render();
 
     this.localization = new Localization();
     this.navPanel = new NavPanel('main');

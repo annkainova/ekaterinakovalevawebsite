@@ -1620,6 +1620,11 @@
           "descrip": "Os De Ossibus / Кость от кости"
         },
         {
+          "small": "/10_memorial-objects/10_IMG_28.jpg",
+          "full": "/10_memorial-objects/source/10_IMG_28L.jpg",
+          "descrip": ""
+        },
+        {
           "small": "/10_memorial-objects/10_IMG_23.jpg",
           "full": "/10_memorial-objects/source/10_IMG_23L.jpg",
           "descrip": "Dolce Vita / Сладкая жизнь"
@@ -1643,6 +1648,11 @@
           "small": "/10_memorial-objects/10_IMG_27.jpg",
           "full": "/10_memorial-objects/source/10_IMG_27L.jpg",
           "descrip": "Ignotum Penguin / Неизвестный пингвин"
+        },
+        {
+          "small": "/10_memorial-objects/10_IMG_29.jpg",
+          "full": "/10_memorial-objects/source/10_IMG_29L.jpg",
+          "descrip": ""
         }
       ]
     }

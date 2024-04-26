@@ -13,12 +13,20 @@
     font-family: "Anonymous Pro";
     letter-spacing: 7.2px;
 
-    @media (max-width: 1024px) {}
+    @media (max-width: 768px) {
+      font-size: 18px;
+
+    }
+
+    @media (max-width: 1024px) {
+      font-size: 18px;
+    }
   }
 
   @media (max-width: 1024px) {
-    padding: 30px 20px 60px 30px;
+    padding: 20px 30px 20px 30px;
   }
+
 }
 
 .slider {
@@ -31,6 +39,8 @@ div {
   display: block;
 }
 
+
+
 .event {
   box-sizing: border-box;
   display: block !important;
@@ -38,24 +48,26 @@ div {
   justify-content: center;
   align-items: center;
 
-  gap: 20px;
+  // gap: 20px;
 
   padding: 12px;
   max-width: 384px;
-  margin: 0 auto;
   background: $white;
   @include font ($normal, $font-16, $dark);
   text-align: left;
 
+  margin: 0 auto;
 
-  @media (max-width: 1024px) {
+
+  @media (max-width: 1200px) {
+    margin: 0 auto;
     max-width: 274px;
   }
 
   img {
     width: 360px;
 
-    @media (max-width: 1024px) {
+    @media (max-width: 1200px) {
       width: 250px;
     }
   }
@@ -98,6 +110,11 @@ div {
   }
 }
 
+// .slick-list {
+//   display: grid;
+//   grid-template-columns: repeat(3, minmax(274px, 384px));
+//   gap: 26px;
+// }
 
 .no-active {
   background: $dark-grey;
@@ -124,13 +141,15 @@ div {
 
 .slider-nav {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   margin-top: 67px;
 
 
   @media (max-width: 1024px) {
-    margin-top: 32px;
+    margin-top: 20px;
+    justify-content: center;
+    gap: 23px;
   }
 
 
@@ -165,6 +184,7 @@ div {
     background-size: contain;
 
     @media (max-width: 1024px) {
+      width: 20px;
       margin-left: 0;
       background-image: url('/public/00_main-page/announcement/LeftMobil.svg');
       background-size: auto;
@@ -181,6 +201,7 @@ div {
     background-size: contain;
 
     @media (max-width: 1024px) {
+      width: 20px;
       margin-right: 0;
       background-image: url('/public/00_main-page/announcement/RightMobil.svg');
       background-size: auto;
@@ -193,4 +214,41 @@ div {
 
 div {
   display: block;
+}
+
+.empty {
+  p {
+    filter: blur(4px)
+  }
+}
+
+
+.slick-slide {
+  // position: relative;
+  // width: 384px !important;
+
+  // margin-right: 25px;
+  // left: -25px;
+
+  @media (max-width: 1024px) {
+    // width: 274px !important;
+    // min-width: 100% !important;
+  }
+}
+
+.slick-track {
+  position: relative;
+  top: 0;
+  left: 0px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  // display: flex;
+  // gap: 26px;
+
+
+  @media (max-width: 1024px) {
+    // gap: 0;
+    // left: 0;
+  }
 }

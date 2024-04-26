@@ -42,13 +42,13 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 document.addEventListener('DOMContentLoaded', () => {
-  const $slider = $('.slider');
+  // const $slider = $('.slider');
 
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
-  $slider.on('init reInit afterChange', (_event, slick, currentSlide) => {
-    const i = (currentSlide || 0) + 1;
-    $('#slideIndicator').text(`${i} / ${slick.slideCount}`);
-  });
+  // $slider.on('init reInit afterChange', (_event, slick, currentSlide) => {
+  //   const i = (currentSlide || 0) + 1;
+  //   $('#slideIndicator').text(`${i} / ${slick.slideCount}`);
+  // });
 
   $('.slider').slick({
     infinite: true,
@@ -58,17 +58,16 @@ document.addEventListener('DOMContentLoaded', () => {
     nextArrow: $('.custom-next'),
     // autoplay: true,
     // autoplaySpeed: 2000,
-    fade: false, // Установите true для эффекта затухания
     responsive: [
       {
-        breakpoint: 1200,
+        breakpoint: 1000,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 1,
         },
       },
       {
-        breakpoint: 700,
+        breakpoint: 670,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
