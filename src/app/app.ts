@@ -38,10 +38,8 @@ export default class App {
     this.page.renderProject(dataProject);
 
     this.footer.render();
-
-    // const announcementSection = document.querySelector('.slider-box') as HTMLElement;
-    // this.announcement = new Anonsement(announcementSection);
-    // this.announcement.render();
+    const announcementSection = document.querySelector('.slider-box') as HTMLElement;
+    this.announcement = new Anonsement(announcementSection);
 
     this.localization = new Localization();
     this.navPanel = new NavPanel('main');
@@ -87,5 +85,7 @@ export default class App {
     if (this.isGalleryPage()) {
       this.navPanel.render();
     }
+
+    this.announcement.render();
   }
 }
