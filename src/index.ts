@@ -56,8 +56,8 @@ document.addEventListener('DOMContentLoaded', () => {
     slidesToScroll: 1,
     prevArrow: $('.custom-prev'),
     nextArrow: $('.custom-next'),
-    // autoplay: true,
-    // autoplaySpeed: 2000,
+    autoplay: true,
+    autoplaySpeed: 5000,
     responsive: [
       {
         breakpoint: 1000,
