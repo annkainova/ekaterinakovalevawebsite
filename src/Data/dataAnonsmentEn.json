@@ -4,14 +4,14 @@
       "class": "three-chapters",
       "active": "active",
       "imageSrc": "/public/00_main-page/announcement/00_PREVIEW_01.jpg",
-      "imageAlt": "Картина Катерины Ковалевой из выставки 'Три главы из жизни женщины'",
-      "eventType": "Групповая выставка",
-      "eventName": "«Три главы из жизни женщины»",
-      "eventDate": "4 апреля — 19 мая 2024",
+      "imageAlt": "Painting by Katerina Kovaleva from the exhibition “Three Chapters in a Woman's Life”",
+      "eventType": "Group exhibition",
+      "eventName": "“Three Chapters in a Woman's Life”",
+      "eventDate": "April 4 - May 19, 2024",
       "eventLocation": {
         "link": "https://www.art-story.com/events/items/tri-glavyi-iz-zhizni-zhenshhinyi/",
-        "linkText": "Галерея Artstory,",
-        "locationText": " Москва, Россия"
+        "linkText": "Gallery Artstory,",
+        "locationText": " Moscow, Russia"
       }
     },
     {
@@ -19,14 +19,14 @@
       "active": "active",
 
       "imageSrc": "/public/00_main-page/announcement/00_PREVIEW_02_1.jpg",
-      "imageAlt": "Картина Катерины Ковалевой",
-      "eventType": "Групповая выставка",
-      "eventName": "«ПЕРСОНАЛЬНЫЕ СТРУКТУРЫ»",
-      "eventDate": "20 апреля — 21 ноября 2024",
+      "imageAlt": "Painting by Katerina Kovaleva",
+      "eventType": "Group exhibition",
+      "eventName": "“PERSONAL STRUCTURES”",
+      "eventDate": "April 20 - November 21, 2024",
       "eventLocation": {
         "link": "https://personalstructures.com/participants/katerina-kovaleva/",
-        "linkText": "Палаццо Бембо,",
-        "locationText": " Венеция, Италия"
+        "linkText": "Palazzo Bembo,",
+        "locationText": " Venice, Italy"
       }
     },
     {
@@ -34,28 +34,28 @@
       "active": "active",
 
       "imageSrc": "/public/00_main-page/announcement/00_PREVIEW_03.jpg",
-      "imageAlt": "Картина Катерины Ковалевой из выставки 'Три главы из жизни женщины'",
-      "eventType": "Групповая выставка",
-      "eventName": "«АВТОПОРТРЕТ 1900–2024»",
-      "eventDate": "2 апреля — 2 июня 2024",
+      "imageAlt": "Painting by Katerina Kovaleva from the exhibition “Three Chapters in a Woman's Life”",
+      "eventType": "Group exhibition",
+      "eventName": "“SELF-PORTRAIT 1900-2024”",
+      "eventDate": "April 2 - June 2, 2024",
       "eventLocation": {
         "link": "",
         "linkText": "",
-        "locationText": "In artibus Foundation, Москва, Россия"
+        "locationText": "In artibus Foundation, Moscow, Russia"
       }
     },
     {
       "class": "limbo",
       "active": "no-active",
       "imageSrc": "/public/00_main-page/announcement/00_PREVIEW_04.jpg",
-      "imageAlt": "Картина Катерины Ковалевой из выставки 'Три главы из жизни женщины'",
-      "eventType": "Персональная выставка",
-      "eventName": "«LIMBO. ЗОНА ОЖИДАНИЯ»",
-      "eventDate": "3 сентября — 3 ноября 2024",
+      "imageAlt": "Painting by Katerina Kovaleva from the exhibition “Three Chapters in a Woman's Life”",
+      "eventType": "Solo exhibition",
+      "eventName": "“LIMBO. WAITING AREA”",
+      "eventDate": "September 3 - November 3, 2024",
       "eventLocation": {
         "link": "",
         "linkText": "",
-        "locationText": "CREA, Международный культурный центр Венеция, Италия"
+        "locationText": "CREA, Venice International Cultural Center, Italy"
       }
     }
   ]
