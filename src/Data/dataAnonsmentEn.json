@@ -3,7 +3,7 @@
     {
       "class": "three-chapters",
       "active": "active",
-      "imageSrc": "/public/00_main-page/announcement/00_PREVIEW_01.jpg",
+      "imageSrc": "00_main-page/announcement/00_PREVIEW_01.jpg",
       "imageAlt": "Painting by Katerina Kovaleva from the exhibition “Three Chapters in a Woman's Life”",
       "eventType": "Group exhibition",
       "eventName": "“Three Chapters in a Woman's Life”",
@@ -18,7 +18,7 @@
       "class": "personal-structur",
       "active": "active",
 
-      "imageSrc": "/public/00_main-page/announcement/00_PREVIEW_02_1.jpg",
+      "imageSrc": "00_main-page/announcement/00_PREVIEW_02_1.jpg",
       "imageAlt": "Painting by Katerina Kovaleva",
       "eventType": "Group exhibition",
       "eventName": "“PERSONAL STRUCTURES”",
@@ -33,7 +33,7 @@
       "class": "autoportret",
       "active": "active",
 
-      "imageSrc": "/public/00_main-page/announcement/00_PREVIEW_03.jpg",
+      "imageSrc": "00_main-page/announcement/00_PREVIEW_03.jpg",
       "imageAlt": "Painting by Katerina Kovaleva from the exhibition “Three Chapters in a Woman's Life”",
       "eventType": "Group exhibition",
       "eventName": "“SELF-PORTRAIT 1900-2024”",
@@ -47,7 +47,7 @@
     {
       "class": "limbo",
       "active": "no-active",
-      "imageSrc": "/public/00_main-page/announcement/00_PREVIEW_04.jpg",
+      "imageSrc": "00_main-page/announcement/00_PREVIEW_04.jpg",
       "imageAlt": "Painting by Katerina Kovaleva from the exhibition “Three Chapters in a Woman's Life”",
       "eventType": "Solo exhibition",
       "eventName": "“LIMBO. WAITING AREA”",
