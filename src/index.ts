@@ -42,21 +42,13 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 document.addEventListener('DOMContentLoaded', () => {
-  // const $slider = $('.slider');
-
-  // eslint-disable-next-line @typescript-eslint/no-unused-vars
-  // $slider.on('init reInit afterChange', (_event, slick, currentSlide) => {
-  //   const i = (currentSlide || 0) + 1;
-  //   $('#slideIndicator').text(`${i} / ${slick.slideCount}`);
-  // });
-
   $('.slider').slick({
-    infinite: true,
+    infinite: false,
     slidesToShow: 3,
     slidesToScroll: 1,
     prevArrow: $('.custom-prev'),
     nextArrow: $('.custom-next'),
-    autoplay: true,
+    autoplay: false,
     autoplaySpeed: 5000,
     responsive: [
       {

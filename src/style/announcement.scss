@@ -25,6 +25,7 @@
   }
 
   @media (max-width: 1024px) {
+    margin-top: 40px;
     padding: 20px 30px 20px 30px;
 
     .header-container {
@@ -50,15 +51,17 @@ div {
 
 
 .event {
-  box-sizing: border-box;
+
+
+  // box-sizing: border-box;
   display: block !important;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  // flex-direction: column;
+  // justify-content: center;
+  // align-items: center;
 
   // gap: 20px;
 
-  padding: 12px;
+  padding: 12px 12px 12px 12px;
   max-width: 384px;
   background: $white;
   @include font ($normal, $font-16, $dark);
@@ -72,11 +75,19 @@ div {
     max-width: 274px;
   }
 
+  @media (max-width: 360px) {
+    padding: 12px 12px 30px 12px;
+  }
+
   img {
     width: 360px;
 
     @media (max-width: 1200px) {
       width: 250px;
+    }
+
+    @media (max-width: 375px) {
+      width: 100%;
     }
   }
 
@@ -99,7 +110,7 @@ div {
 
   &__info {
     height: 60px;
-
+    padding-bottom: 12px;
 
     .date {}
 
