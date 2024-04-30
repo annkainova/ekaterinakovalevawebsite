@@ -54,7 +54,7 @@ export default class Header {
     header.appendChild(headerMenu);
 
     const logo = document.createElement('a');
-    logo.href = 'index.html';
+    logo.href = 'https://katkart.ru';
     logo.className = 'logo';
     headerMenu.appendChild(logo);
 
@@ -79,7 +79,7 @@ export default class Header {
     navigation.appendChild(navContainer);
 
     const navItems = [
-      { href: 'index.html', text: this.textMain, main: true },
+      { href: 'https://katkart.ru', text: this.textMain, main: true },
       { href: 'biography.html', text: this.textBio },
       { href: 'work-projects.html', text: this.textWork },
       { href: 'contact.html', text: this.textContact },
@@ -128,13 +128,6 @@ export default class Header {
     const splitterElement = document.createElement('div');
     splitterElement.className = 'splitter__element';
     splitter.appendChild(splitterElement);
-
-    // const splitterImg = document.createElement('img');
-    // splitterImg.className = 'splitter__img';
-    // splitterImg.setAttribute('id', 'bear');
-    // splitterImg.setAttribute('src', './public/bear_1.gif');
-    // splitterImg.setAttribute('alt', 'Bear');
-    // splitterElement.appendChild(splitterImg);
 
     const splitterLine = document.createElement('div');
     splitterLine.className = 'splitter__line';
