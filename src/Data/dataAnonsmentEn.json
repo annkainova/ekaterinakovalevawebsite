@@ -1,20 +1,6 @@
 {
   "events": [
     {
-      "class": "three-chapters",
-      "active": "active",
-      "imageSrc": "00_main-page/announcement/00_PREVIEW_01.jpg",
-      "imageAlt": "Painting by Katerina Kovaleva from the exhibition “Three Chapters in a Woman's Life”",
-      "eventType": "Group exhibition",
-      "eventName": "“Three Chapters in a Woman's Life”",
-      "eventDate": "April 4 - May 19, 2024",
-      "eventLocation": {
-        "link": "https://www.art-story.com/events/items/tri-glavyi-iz-zhizni-zhenshhinyi/",
-        "linkText": "Gallery Artstory,",
-        "locationText": " Moscow, Russia"
-      }
-    },
-    {
       "class": "personal-structur",
       "active": "active",
 
@@ -29,24 +15,10 @@
         "locationText": " Venice, Italy"
       }
     },
-    {
-      "class": "autoportret",
-      "active": "active",
 
-      "imageSrc": "00_main-page/announcement/00_PREVIEW_03.jpg",
-      "imageAlt": "Painting by Katerina Kovaleva from the exhibition “Three Chapters in a Woman's Life”",
-      "eventType": "Group exhibition",
-      "eventName": "“SELF-PORTRAIT 1900-2024”",
-      "eventDate": "April 2 - June 2, 2024",
-      "eventLocation": {
-        "link": "",
-        "linkText": "",
-        "locationText": "In artibus Foundation, Moscow, Russia"
-      }
-    },
     {
       "class": "limbo",
-      "active": "no-active",
+      "active": "active",
       "imageSrc": "00_main-page/announcement/00_PREVIEW_04.jpg",
       "imageAlt": "Painting by Katerina Kovaleva from the exhibition “Three Chapters in a Woman's Life”",
       "eventType": "Solo exhibition",
@@ -56,6 +28,20 @@
         "link": "",
         "linkText": "",
         "locationText": "CREA, Venice, Italy"
+      }
+    },
+    {
+      "class": "empty",
+      "active": "no-active",
+      "imageSrc": "00_main-page/announcement/00_FUTURE.png",
+      "imageAlt": "Картина Катерины Ковалевой из выставки 'Три главы из жизни женщины'",
+      "eventType": "Персональная выставка",
+      "eventName": "«LIMBO. ЗОНА ОЖИДАНИЯ»",
+      "eventDate": "3 сентября — 3 ноября 2024",
+      "eventLocation": {
+        "link": "",
+        "linkText": "",
+        "locationText": "CREA Cantieri Del Contemporaneo"
       }
     },
     {
