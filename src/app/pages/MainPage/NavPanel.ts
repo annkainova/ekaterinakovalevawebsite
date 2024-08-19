@@ -30,13 +30,13 @@ export default class NavPanel {
         <ul class="sections-nav__container">
           <div class="row">
             <li class="sections-nav__element">
-              <a class="sections-nav__link" id="waiting-zone" href="waiting-zone.html">
+              <a class="sections-nav__link" id="waiting-zone" href="waiting-zone">
                 <span class="sections-nav__text">${this.selectedData.waitingZone.text}</span>
               </a>
             </li>
 
             <li class="sections-nav__element">
-              <a class="sections-nav__link" id="maps" href="maps.html">
+              <a class="sections-nav__link" id="maps" href="maps">
                 <span class="nav__dot">•</span>
                 <span class="sections-nav__text">
                   ${this.selectedData.maps.text}</span>
@@ -44,14 +44,14 @@ export default class NavPanel {
             </li>
 
             <li class="sections-nav__element">
-              <a class="sections-nav__link" id="horizon-colonization" href="horizon-colonization.html">
+              <a class="sections-nav__link" id="horizon-colonization" href="horizon-colonization">
                 <span class="nav__dot">•</span>
                 <span class="sections-nav__text">${this.selectedData.horizonColonization.text}</span>
               </a>
             </li>
 
             <li class="sections-nav__element">
-              <a class="sections-nav__link" id="soup-of-the-day" href="soup-of-the-day.html">
+              <a class="sections-nav__link" id="soup-of-the-day" href="soup-of-the-day">
                 <span class="nav__dot">•</span> <span class="sections-nav__text">${this.selectedData.soup.text}</span>
               </a>
             </li>
@@ -59,24 +59,24 @@ export default class NavPanel {
 
           <div class="row">
             <li class="sections-nav__element">
-              <a class="sections-nav__link" id="early-works" href="early-works.html"><span
+              <a class="sections-nav__link" id="early-works" href="early-works"><span
                   class="sections-nav__text">${this.selectedData.earlyWorks.text}</span></a>
             </li>
 
             <li class="sections-nav__element">
-              <a class="sections-nav__link" id="antarctic-diary" href="antarctic-diary.html"><span
+              <a class="sections-nav__link" id="antarctic-diary" href="antarctic-diary"><span
                   class="nav__dot">•</span>
                 <span class="sections-nav__text">${this.selectedData.antarcticDiary.text}</span></a>
             </li>
 
             <li class="sections-nav__element">
-              <a class="sections-nav__link" id="memorial-objects" href="memorial-objects.html"><span
+              <a class="sections-nav__link" id="memorial-objects" href="memorial-objects"><span
                   class="nav__dot">•</span>
                 <span class="sections-nav__text">${this.selectedData.memorialObjects.text}</span></a>
             </li>
 
             <li class="sections-nav__element">
-              <a class="sections-nav__link" id="right-to-rest" href="right-to-rest.html"><span
+              <a class="sections-nav__link" id="right-to-rest" href="right-to-rest"><span
                   class="nav__dot">•</span>
                 <span class="sections-nav__text">${this.selectedData.medicalHistory.text}</span>
               </a>
@@ -85,19 +85,19 @@ export default class NavPanel {
 
           <div class="row">
             <li class="sections-nav__element">
-              <a class="sections-nav__link" id="notebooks" href="notebooks.html">
+              <a class="sections-nav__link" id="notebooks" href="notebooks">
                 <span class="sections-nav__text">${this.selectedData.notebooks.text}</span>
               </a>
             </li>
 
             <li class="sections-nav__element">
-              <a class="sections-nav__link" id="mosaics" href="mosaics.html"><span class="nav__dot">•</span>
+              <a class="sections-nav__link" id="mosaics" href="mosaics"><span class="nav__dot">•</span>
                 <span class="sections-nav__text">${this.selectedData.mosaics.text}</span>
               </a>
             </li>
 
             <li class="sections-nav__element">
-              <a class="sections-nav__link" id="artworks" href="artworks.html"><span class="nav__dot">•</span>
+              <a class="sections-nav__link" id="artworks" href="artworks"><span class="nav__dot">•</span>
                 <span class="sections-nav__text">${this.selectedData.artworks.text}</span>
               </a>
             </li>

@@ -23,7 +23,7 @@ export default class ActiveLink {
   }
 
   determineAdjacentLinks() {
-    const currentIndex = this.linkIds.findIndex(id => this.currentPath.endsWith(`${id}.html`));
+    const currentIndex = this.linkIds.findIndex(id => this.currentPath.endsWith(`${id}`));
 
     const lastIndex = this.linkIds.length - 1;
 
@@ -49,7 +49,7 @@ export default class ActiveLink {
       }
     });
 
-    const currentPage = this.linkIds.find(id => this.currentPath.endsWith(`${id}.html`));
+    const currentPage = this.linkIds.find(id => this.currentPath.endsWith(`${id}`));
 
     if (currentPage) {
       const link = document.getElementById(currentPage);
@@ -64,7 +64,7 @@ export default class ActiveLink {
     const nextButton = document.getElementById('nav-next') as HTMLAnchorElement;
 
     if (this.prevLink) {
-      prevButton.href = `${this.prevLink}.html`;
+      prevButton.href = `${this.prevLink}`;
       prevButton.textContent = this.getLinkText(this.prevLink);
       prevButton.style.display = 'block';
     } else {
@@ -72,7 +72,7 @@ export default class ActiveLink {
     }
 
     if (this.nextLink) {
-      nextButton.href = `${this.nextLink}.html`;
+      nextButton.href = `${this.nextLink}`;
       nextButton.textContent = this.getLinkText(this.nextLink);
       nextButton.style.display = 'block';
     } else {
