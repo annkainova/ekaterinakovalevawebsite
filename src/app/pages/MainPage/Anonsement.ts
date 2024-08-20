@@ -56,7 +56,7 @@ export default class Anonsement {
 
       const eventName = document.createElement('p');
       eventName.className = 'event__name';
-      eventName.textContent = event.eventName;
+      eventName.innerHTML = event.eventName;
 
       const eventInfo = document.createElement('div');
       eventInfo.className = 'event__info';

@@ -31,17 +31,17 @@
       }
     },
     {
-      "class": "empty",
-      "active": "no-active",
-      "imageSrc": "00_main-page/announcement/00_FUTURE.png",
-      "imageAlt": "Картина Катерины Ковалевой из выставки 'Три главы из жизни женщины'",
-      "eventType": "Персональная выставка",
-      "eventName": "«LIMBO. ЗОНА ОЖИДАНИЯ»",
-      "eventDate": "3 сентября — 3 ноября 2024",
+      "class": "interview",
+      "active": "active",
+      "imageSrc": "00_main-page/announcement/00_PREVIEW_05.jpg",
+      "imageAlt": "Photo of the interview 'Europe Suffers Parachute That Will Save Us'",
+      "eventType": "Interview",
+      "eventName": "Europe Suffers <br> Parachute That Will Save Us",
+      "eventDate": "August 11, 2024",
       "eventLocation": {
         "link": "",
         "linkText": "",
-        "locationText": "CREA Cantieri Del Contemporaneo"
+        "locationText": "Italian newspaper 'Corriere della Sera'"
       }
     },
     {
