@@ -80,9 +80,9 @@ export default class Header {
 
     const navItems = [
       { href: 'https://katkart.ru', text: this.textMain, main: true },
-      { href: 'biography', text: this.textBio },
-      { href: 'work-projects', text: this.textWork },
-      { href: 'contact', text: this.textContact },
+      { href: 'biography.html', text: this.textBio },
+      { href: 'work-projects.html', text: this.textWork },
+      { href: 'contact.html', text: this.textContact },
     ];
 
     navItems.forEach(item => {

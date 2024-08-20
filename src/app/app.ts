@@ -64,7 +64,7 @@ export default class App {
       'artworks',
     ];
 
-    return galleryPages.some(id => window.location.pathname.endsWith(`${id}`));
+    return galleryPages.some(id => window.location.pathname.endsWith(`${id}.html`));
   }
 
   render() {
