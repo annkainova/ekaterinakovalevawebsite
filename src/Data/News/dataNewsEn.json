@@ -1,0 +1,62 @@
+{
+  "events": [
+    {
+      "class": "personal-structur",
+      "active": "active",
+
+      "imageSrc": "00_main-page/announcement/00_PREVIEW_02_1.jpg",
+      "imageAlt": "Painting by Katerina Kovaleva",
+      "eventType": "Group exhibition",
+      "eventName": "“PERSONAL STRUCTURES”",
+      "eventDate": "April 20 - November 21, 2024",
+      "eventLocation": {
+        "link": "https://personalstructures.com/participants/katerina-kovaleva/",
+        "linkText": "Palazzo Bembo,",
+        "locationText": " Venice, Italy"
+      }
+    },
+
+    {
+      "class": "limbo",
+      "active": "active",
+      "imageSrc": "00_main-page/announcement/00_PREVIEW_04.jpg",
+      "imageAlt": "Painting by Katerina Kovaleva from the exhibition “LIMBO”",
+      "eventType": "Solo exhibition",
+      "eventName": "“LIMBO”",
+      "eventDate": "September 4 - October 31, 2024",
+      "eventLocation": {
+        "link": "",
+        "linkText": "",
+        "locationText": "CREA, Venice, Italy"
+      }
+    },
+    {
+      "class": "interview",
+      "active": "active",
+      "imageSrc": "00_main-page/announcement/00_PREVIEW_05.jpg",
+      "imageAlt": "Photo of the interview 'Europe Suffers Parachute That Will Save Us'",
+      "eventType": "Interview",
+      "eventName": "Europe Suffers <br> Parachute That Will Save Us",
+      "eventDate": "August 11, 2024",
+      "eventLocation": {
+        "link": "",
+        "linkText": "",
+        "locationText": "Italian newspaper 'Corriere della Sera'"
+      }
+    },
+    {
+      "class": "empty",
+      "active": "no-active",
+      "imageSrc": "00_main-page/announcement/00_FUTURE.png",
+      "imageAlt": "Картина Катерины Ковалевой из выставки 'Три главы из жизни женщины'",
+      "eventType": "Персональная выставка",
+      "eventName": "«LIMBO. ЗОНА ОЖИДАНИЯ»",
+      "eventDate": "3 сентября — 3 ноября 2024",
+      "eventLocation": {
+        "link": "",
+        "linkText": "",
+        "locationText": "CREA Cantieri Del Contemporaneo"
+      }
+    }
+  ]
+}

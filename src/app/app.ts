@@ -12,6 +12,7 @@ import Footer from './pages/MainPage/Footer.ts';
 import NavPanel from './pages/MainPage/NavPanel.ts';
 import ActiveLink from './pages/ActivePages/activePages.ts';
 import Anonsement from './pages/MainPage/Anonsement.ts';
+import NewsPage from './pages/News/News.ts';
 
 export default class App {
   header: Header;
@@ -25,6 +26,7 @@ export default class App {
   navPanel: NavPanel;
   activeLink: ActiveLink;
   announcement: Anonsement;
+  news: NewsPage;
 
   constructor() {
     this.header = new Header(document.body);
@@ -40,6 +42,14 @@ export default class App {
     this.footer.render();
     const announcementSection = document.querySelector('.slider-box') as HTMLElement;
     this.announcement = new Anonsement(announcementSection);
+
+    const newsSection = document.querySelector('.news-section') as HTMLElement;
+    const paginationContainer = document.querySelector('.pagination-container') as HTMLElement;
+    this.news = new NewsPage(newsSection, paginationContainer); // где dataNews - это твои данные для новостей
+    this.news.render();
+
+    // const newsSection = document.querySelector('.newsBox') as HTMLElement;
+    // const paginationContainer = document.querySelector('.pagination') as HTMLElement;
 
     this.localization = new Localization();
     this.navPanel = new NavPanel('main');
@@ -87,5 +97,6 @@ export default class App {
     }
 
     this.announcement.render();
+    this.news.render();
   }
 }

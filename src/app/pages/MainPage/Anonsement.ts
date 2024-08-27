@@ -1,27 +1,8 @@
 import Localization from '../Localization/Localization';
+import { EventsData } from '../../interface/Event';
+
 import dataAnonsment from '../../../Data/dataAnonsment.json';
 import dataAnonsmentEn from '../../../Data/dataAnonsmentEn.json';
-
-interface EventLocation {
-  link: string;
-  linkText: string;
-  locationText: string;
-}
-
-interface Event {
-  class: string;
-  active: string;
-  imageSrc: string;
-  imageAlt: string;
-  eventType: string;
-  eventName: string;
-  eventDate: string;
-  eventLocation: EventLocation;
-}
-
-interface EventsData {
-  events: Event[];
-}
 
 export default class Anonsement {
   private container: HTMLElement;
