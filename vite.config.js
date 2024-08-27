@@ -28,6 +28,7 @@ export default defineConfig({
         contact: path.resolve('contact.html'),
         memorialObjects: path.resolve('memorial-objects.html'),
         rightToRest: path.resolve('right-to-rest.html'),
+        news: path.resolve('news.html'),
       },
       output: {
         // Опции выходных данных, позволяющие контролировать структуру имен файлов и др.
@@ -58,7 +59,7 @@ export default defineConfig({
   historyApiFallback: {
     rewrites: [
       { from: /\/maps/, to: '/maps.html' },
-      { from: /\/mosaics/, to: '/mosaics.html' },
+      { from: /\/mosaics/, to: '/mosaics' },
       { from: /\/waiting-zone/, to: '/waiting-zone.html' },
       { from: /\/horizon-colonization/, to: '/horizon-colonization.html' },
       { from: /\/artworks/, to: '/artworks.html' },
@@ -69,6 +70,7 @@ export default defineConfig({
       { from: /\/work-projects/, to: '/work-projects.html' },
       { from: /\/biography/, to: '/biography.html' },
       { from: /\/memorial-objects/, to: '/memorial-objects.html' },
+      { from: /\/news/, to: '/news.html' },
     ],
   },
 });
