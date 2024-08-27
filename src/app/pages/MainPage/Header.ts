@@ -4,6 +4,7 @@ import dataMainEn from '../../../Data/dataMainEn.json';
 
 export default class Header {
   private container: HTMLElement;
+  private textNews: string;
   private textMain: string;
   private textBio: string;
   private textWork: string;
@@ -20,6 +21,7 @@ export default class Header {
     const selectedData = this.localization.language === 'ru' ? dataMain : dataMainEn;
 
     this.container = container;
+    this.textNews = selectedData.header.textNews;
     this.textMain = selectedData.header.textMain;
     this.textBio = selectedData.header.textBio;
     this.textWork = selectedData.header.textWork;
@@ -79,6 +81,7 @@ export default class Header {
     navigation.appendChild(navContainer);
 
     const navItems = [
+      { href: 'news.html', text: this.textNews },
       { href: 'https://katkart.ru', text: this.textMain, main: true },
       { href: 'biography.html', text: this.textBio },
       { href: 'work-projects.html', text: this.textWork },

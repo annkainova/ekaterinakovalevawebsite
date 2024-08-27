@@ -1,5 +1,6 @@
 {
   "header": {
+    "textNews": "NEWS",
     "textMain": "HOME",
     "textBio": "BIOGRAPHY",
     "textWork": "WORKS <span class='accent-dot'>•</span> PROJECTS",
