@@ -1,20 +1,6 @@
 {
   "events": [
     {
-      "class": "three-chapters",
-      "active": "active",
-      "imageSrc": "00_main-page/announcement/00_PREVIEW_01.jpg",
-      "imageAlt": "Painting by Katerina Kovaleva from the exhibition “Three Chapters in a Woman's Life”",
-      "eventType": "Group exhibition",
-      "eventName": "“Three Chapters in a Woman's Life”",
-      "eventDate": "April 4 - May 19, 2024",
-      "eventLocation": {
-        "link": "https://www.art-story.com/events/items/tri-glavyi-iz-zhizni-zhenshhinyi/",
-        "linkText": "Gallery Artstory,",
-        "locationText": " Moscow, Russia"
-      }
-    },
-    {
       "class": "personal-structur",
       "active": "active",
 
@@ -29,33 +15,33 @@
         "locationText": " Venice, Italy"
       }
     },
-    {
-      "class": "autoportret",
-      "active": "active",
 
-      "imageSrc": "00_main-page/announcement/00_PREVIEW_03.jpg",
-      "imageAlt": "Painting by Katerina Kovaleva from the exhibition “Three Chapters in a Woman's Life”",
-      "eventType": "Group exhibition",
-      "eventName": "“SELF-PORTRAIT 1900-2024”",
-      "eventDate": "April 2 - June 2, 2024",
-      "eventLocation": {
-        "link": "",
-        "linkText": "",
-        "locationText": "In artibus Foundation, Moscow, Russia"
-      }
-    },
     {
       "class": "limbo",
-      "active": "no-active",
+      "active": "active",
       "imageSrc": "00_main-page/announcement/00_PREVIEW_04.jpg",
-      "imageAlt": "Painting by Katerina Kovaleva from the exhibition “Three Chapters in a Woman's Life”",
+      "imageAlt": "Painting by Katerina Kovaleva from the exhibition “LIMBO”",
       "eventType": "Solo exhibition",
-      "eventName": "“LIMBO. WAITING AREA”",
-      "eventDate": "September 3 - November 3, 2024",
+      "eventName": "“LIMBO”",
+      "eventDate": "September 4 - October 31, 2024",
       "eventLocation": {
         "link": "",
         "linkText": "",
         "locationText": "CREA, Venice, Italy"
+      }
+    },
+    {
+      "class": "interview",
+      "active": "active",
+      "imageSrc": "00_main-page/announcement/00_PREVIEW_05.jpg",
+      "imageAlt": "Photo of the interview 'Europe Suffers Parachute That Will Save Us'",
+      "eventType": "Interview",
+      "eventName": "Europe Suffers <br> Parachute That Will Save Us",
+      "eventDate": "August 11, 2024",
+      "eventLocation": {
+        "link": "",
+        "linkText": "",
+        "locationText": "Italian newspaper 'Corriere della Sera'"
       }
     },
     {
