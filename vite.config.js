@@ -59,7 +59,7 @@ export default defineConfig({
   historyApiFallback: {
     rewrites: [
       { from: /\/maps/, to: '/maps.html' },
-      { from: /\/mosaics/, to: '/mosaics' },
+      { from: /\/mosaics/, to: '/mosaics.html' },
       { from: /\/waiting-zone/, to: '/waiting-zone.html' },
       { from: /\/horizon-colonization/, to: '/horizon-colonization.html' },
       { from: /\/artworks/, to: '/artworks.html' },

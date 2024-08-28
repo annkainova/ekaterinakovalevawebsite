@@ -29,7 +29,7 @@
       }
     },
     {
-      "class": "personal-structur",
+      "class": "event",
       "active": "active",
 
       "imageSrc": "00_main-page/announcement/00_PREVIEW_02_1.jpg",
@@ -45,7 +45,7 @@
     },
 
     {
-      "class": "personal-structur",
+      "class": "event",
       "active": "active",
 
       "imageSrc": "00_main-page/announcement/00_PREVIEW_03.jpg",
@@ -60,7 +60,7 @@
       }
     },
     {
-      "class": "personal-structur",
+      "class": "event",
       "active": "active",
 
       "imageSrc": "00_main-page/announcement/00_PREVIEW_01.jpg",
@@ -75,10 +75,10 @@
       }
     },
     {
-      "class": "personal-structur",
+      "class": "event",
       "active": "active",
 
-      "imageSrc": "public/00_news/00_PREVIEW_OLD_01.jpg",
+      "imageSrc": "00_news/00_PREVIEW_OLD_01.jpg",
       "imageAlt": "Картина Катерины Ковалевой",
       "eventType": "Групповая выставка",
       "eventName": "«ПЛАНЫ НА ЛЕТО»",
@@ -90,10 +90,10 @@
       }
     },
     {
-      "class": "personal-structur",
+      "class": "event",
       "active": "active",
 
-      "imageSrc": "public/00_news/00_PREVIEW_OLD_02.jpg",
+      "imageSrc": "00_news/00_PREVIEW_OLD_02.jpg",
       "imageAlt": "Картина Катерины Ковалевой",
       "eventType": "Групповая выставка",
       "eventName": "«ОТКРЫТКИ ОТ ХУДОЖНИКОВ»",
@@ -105,10 +105,10 @@
       }
     },
     {
-      "class": "personal-structur",
+      "class": "event",
       "active": "active",
 
-      "imageSrc": "public/00_news/00_PREVIEW_OLD_03.jpg",
+      "imageSrc": "00_news/00_PREVIEW_OLD_03.jpg",
       "imageAlt": "Картина Катерины Ковалевой",
       "eventType": "Ярмарка современного искусства",
       "eventName": "«COSMOSCOW»",
@@ -120,10 +120,10 @@
       }
     },
     {
-      "class": "personal-structur",
+      "class": "event",
       "active": "active",
 
-      "imageSrc": "public/00_news/00_PREVIEW_OLD_04.jpg",
+      "imageSrc": "00_news/00_PREVIEW_OLD_04.jpg",
       "imageAlt": "Картина Катерины Ковалевой",
       "eventType": "Групповая выставка",
       "eventName": "«ОХОТА НА РАСТВОРИМУЮ РЫБУ IV»",
@@ -135,10 +135,10 @@
       }
     },
     {
-      "class": "personal-structur",
+      "class": "event",
       "active": "active",
 
-      "imageSrc": "public/00_news/00_PREVIEW_OLD_05.jpg",
+      "imageSrc": "00_news/00_PREVIEW_OLD_05.jpg",
       "imageAlt": "Картина Катерины Ковалевой",
       "eventType": "Групповая выставка",
       "eventName": "«КОГДА-ТО ДАВНО, КОГДА-ТО ПОТОМ»",
@@ -150,10 +150,10 @@
       }
     },
     {
-      "class": "personal-structur",
+      "class": "event",
       "active": "active",
 
-      "imageSrc": "public/00_news/00_PREVIEW_OLD_06.jpg",
+      "imageSrc": "00_news/00_PREVIEW_OLD_06.jpg",
       "imageAlt": "Картина Катерины Ковалевой",
       "eventType": "Персональная выставка",
       "eventName": "«ЗОНА ОЖИДАНИЯ»",
@@ -165,10 +165,10 @@
       }
     },
     {
-      "class": "personal-structur",
+      "class": "event",
       "active": "active",
 
-      "imageSrc": "public/00_news/00_PREVIEW_OLD_07.jpg",
+      "imageSrc": "00_news/00_PREVIEW_OLD_07.jpg",
       "imageAlt": "Картина Катерины Ковалевой",
       "eventType": "Ярмарка графики",
       "eventName": "«КОНТУР»",
@@ -180,10 +180,10 @@
       }
     },
     {
-      "class": "personal-structur",
+      "class": "event",
       "active": "active",
 
-      "imageSrc": "public/00_news/00_PREVIEW_OLD_08.jpg",
+      "imageSrc": "00_news/00_PREVIEW_OLD_08.jpg",
       "imageAlt": "Картина Катерины Ковалевой",
       "eventType": "Ярмарка современного искусства",
       "eventName": "«АРТ МИР»",
@@ -196,10 +196,10 @@
     },
 
     {
-      "class": "personal-structur",
+      "class": "event",
       "active": "active",
 
-      "imageSrc": "public/00_news/00_PREVIEW_OLD_09.jpg",
+      "imageSrc": "00_news/00_PREVIEW_OLD_09.jpg",
       "imageAlt": "Картина Катерины Ковалевой",
       "eventType": "Групповая выставка",
       "eventName": "«Пассажиры. Диалоге о ландшафте.»",
@@ -212,10 +212,10 @@
     },
 
     {
-      "class": "personal-structur",
+      "class": "event",
       "active": "active",
 
-      "imageSrc": "public/00_news/00_PREVIEW_OLD_10.jpg",
+      "imageSrc": "00_news/00_PREVIEW_OLD_10.jpg",
       "imageAlt": "Картина Катерины Ковалевой",
       "eventType": "Персональная выставка",
       "eventName": "«ЗОНА ОЖИДАНИЯ»",
@@ -228,10 +228,10 @@
     },
 
     {
-      "class": "personal-structur",
+      "class": "event",
       "active": "active",
 
-      "imageSrc": "public/00_news/00_PREVIEW_OLD_11.jpg",
+      "imageSrc": "00_news/00_PREVIEW_OLD_11.jpg",
       "imageAlt": "Картина Катерины Ковалевой",
       "eventType": "Фестиваль",
       "eventName": "«КУРОРТ»",
@@ -243,10 +243,10 @@
       }
     },
     {
-      "class": "personal-structur",
+      "class": "event",
       "active": "active",
 
-      "imageSrc": "public/00_news/00_PREVIEW_OLD_12.jpg",
+      "imageSrc": "00_news/00_PREVIEW_OLD_12.jpg",
 
       "imageAlt": "Картина Катерины Ковалевой",
       "eventType": "Выставка-ярмарка",
