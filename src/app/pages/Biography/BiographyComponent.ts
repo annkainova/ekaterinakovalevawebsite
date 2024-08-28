@@ -1,13 +1,12 @@
-import Collage from './Collage/Collage';
-import Biography from './Biography/biography';
-import BiographyController from './Biography/BiographyController';
-import dataBiography from './Biography/dataBiography.json';
-import dataBiographyEn from './Biography/dataBiographyEn.json';
+import Localization from '../Localization/Localization';
+import Biography from './biography';
+import BiographyController from './BiographyController';
 
-import Localization from './Localization/Localization';
+import dataBiography from './dataBiography.json';
+import dataBiographyEn from './dataBiographyEn.json';
 
-export default class Main {
-  collage: Collage;
+export default class BiographyComponent {
+  // collage: Collage;
 
   bioView: Biography;
   personalView: Biography;
@@ -17,8 +16,9 @@ export default class Main {
   localization: Localization;
 
   constructor() {
-    this.collage = new Collage();
-    this.collage.collageAnimation();
+    // this.bio = new Biography(bioData.name, bioData.text, bioData.image);
+    // this.personal = new Biography(personalData.name, personalData.text, personalData.image);
+    // this.group = new Biography(groupData.name, groupData.text, groupData.image);
 
     this.localization = new Localization();
     const selectedData = this.localization.language === 'ru' ? dataBiography : dataBiographyEn;
@@ -28,8 +28,6 @@ export default class Main {
       selectedData.bio.text,
       selectedData.bio.image
     );
-
-    this.bioView.render();
 
     this.personalView = new Biography(
       selectedData.personal.name,
@@ -48,7 +46,12 @@ export default class Main {
       this.personalView,
       this.groupView
     );
-
-    this.biographyController.chooseSection(this.bioView);
   }
+
+  render() {
+    this.biographyController.chooseSection(this.bioView);
+    this.bioView.render();
+  }
+
+  // Другие методы для работы с персональной и групповой биографией
 }

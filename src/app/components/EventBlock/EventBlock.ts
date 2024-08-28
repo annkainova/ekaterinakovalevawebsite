@@ -1,5 +1,5 @@
 // EventBlock.ts
-import { EventProps } from '../../interface/Event';
+import { EventProps } from '../../interfaces/Event';
 
 export default class EventBlock {
   container: HTMLElement;

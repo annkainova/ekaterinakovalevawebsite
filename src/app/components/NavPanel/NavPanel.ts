@@ -1,7 +1,7 @@
-import Localization from '../Localization/Localization';
+import Localization from '../../pages/Localization/Localization';
 import dataNavigation from '../../../Data/dataNavigation.json';
 import dataNavigationEn from '../../../Data/dataNavigationEn.json';
-import ActiveLink from '../ActivePages/activePages';
+import ActiveLink from '../../pages/ActivePages/activePages';
 
 //
 

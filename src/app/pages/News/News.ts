@@ -2,7 +2,7 @@
 
 import EventBlock from '../../components/EventBlock/EventBlock';
 import Localization from '../Localization/Localization';
-import { EventsData } from '../../interface/Event';
+import { EventsData } from '../../interfaces/Event';
 
 import dataNews from '../../../Data/News/dataNews.json';
 import dataNewsEn from '../../../Data/News/dataNewsEn.json';
