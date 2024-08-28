@@ -8,6 +8,7 @@
       "eventType": "Персональная выставка",
       "eventName": "«LIMBO»",
       "eventDate": "4 сентября — 31 октября 2024",
+      "eventLink": "",
       "eventLocation": {
         "link": "",
         "linkText": "",
@@ -22,6 +23,7 @@
       "eventType": "Интервью",
       "eventName": "Европа страдает <br> Парашют, который нас спасёт",
       "eventDate": "11 августа 2024",
+      "eventLink": "src/app/pages/News/DetailNews/Interview_EuropeSuffer.html",
       "eventLocation": {
         "link": "",
         "linkText": "",
@@ -158,6 +160,7 @@
       "eventType": "Персональная выставка",
       "eventName": "«ЗОНА ОЖИДАНИЯ»",
       "eventDate": "16 мая — 16 июля 2023",
+      "eventLink": "waiting-zone.html",
       "eventLocation": {
         "link": "",
         "linkText": "",
@@ -219,6 +222,7 @@
       "imageAlt": "Картина Катерины Ковалевой",
       "eventType": "Персональная выставка",
       "eventName": "«ЗОНА ОЖИДАНИЯ»",
+      "eventLink": "waiting-zone.html",
       "eventDate": "6 августа — 28 августа 2022",
       "eventLocation": {
         "link": "",

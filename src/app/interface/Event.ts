@@ -12,6 +12,7 @@ export interface EventProps {
   eventType: string;
   eventName: string;
   eventDate: string;
+  eventLink: string;
   eventLocation: EventLocation;
 }
 

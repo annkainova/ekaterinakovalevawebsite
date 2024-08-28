@@ -1,4 +1,4 @@
-import Localization from '../Localization/Localization';
+import Localization from '../../pages/Localization/Localization';
 import dataMain from '../../../Data/dataMain.json';
 import dataMainEn from '../../../Data/dataMainEn.json';
 

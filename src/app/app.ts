@@ -5,10 +5,10 @@ import dataProject from '../Data/projectData.json';
 
 import Main from './pages/Main';
 import Page from './pages/Gallery/Page.ts';
-import Header from './pages/MainPage/Header.ts';
+import Header from './components/Header/Header.ts';
 import Localization from './pages/Localization/Localization.ts';
 import FirstPage from './pages/MainPage/FirstPage.ts';
-import Footer from './pages/MainPage/Footer.ts';
+import Footer from './components/Footer/Footer.ts';
 import NavPanel from './pages/MainPage/NavPanel.ts';
 import ActiveLink from './pages/ActivePages/activePages.ts';
 import Anonsement from './pages/MainPage/Anonsement.ts';
@@ -38,18 +38,14 @@ export default class App {
     this.header.render();
     this.firstPage.changeLanguageFirstPage();
     this.page.renderProject(dataProject);
-
     this.footer.render();
+
     const announcementSection = document.querySelector('.slider-box') as HTMLElement;
     this.announcement = new Anonsement(announcementSection);
 
     const newsSection = document.querySelector('.news-section') as HTMLElement;
     const paginationContainer = document.querySelector('.pagination-container') as HTMLElement;
-    this.news = new NewsPage(newsSection, paginationContainer); // где dataNews - это твои данные для новостей
-    this.news.render();
-
-    // const newsSection = document.querySelector('.newsBox') as HTMLElement;
-    // const paginationContainer = document.querySelector('.pagination') as HTMLElement;
+    this.news = new NewsPage(newsSection, paginationContainer);
 
     this.localization = new Localization();
     this.navPanel = new NavPanel('main');
@@ -77,9 +73,13 @@ export default class App {
     return galleryPages.some(id => window.location.pathname.endsWith(`${id}.html`));
   }
 
-  render() {
-    const selectData = this.selectedData;
+  // eslint-disable-next-line class-methods-use-this
+  isNewsPage(): boolean {
+    return window.location.pathname.endsWith('news.html');
+  }
 
+  renderGalleryPage() {
+    const selectData = this.selectedData;
     this.page.renderGallery('maps', selectData);
     this.page.renderGallery('mosaics', selectData);
     this.page.renderGallery('waiting-zone', selectData);
@@ -95,8 +95,19 @@ export default class App {
     if (this.isGalleryPage()) {
       this.navPanel.render();
     }
+  }
+
+  renderNewsPage() {
+    this.news.render();
+  }
+
+  render() {
+    if (this.isNewsPage()) {
+      this.renderNewsPage();
+    } else if (this.isGalleryPage()) {
+      this.renderGalleryPage();
+    }
 
     this.announcement.render();
-    this.news.render();
   }
 }

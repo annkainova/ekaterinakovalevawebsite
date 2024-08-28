@@ -1,5 +1,5 @@
 // EventBlock.ts
-import { EventProps } from '../interface/Event';
+import { EventProps } from '../../interface/Event';
 
 export default class EventBlock {
   container: HTMLElement;
@@ -11,7 +11,15 @@ export default class EventBlock {
   }
 
   render() {
-    const eventElement = document.createElement('div');
+    const eventElement = this.data.eventLink
+      ? document.createElement('a')
+      : document.createElement('div');
+
+    if (this.data.eventLink) {
+      eventElement.setAttribute('href', this.data.eventLink);
+      eventElement.classList.add('event-link');
+    }
+
     eventElement.classList.add('event', this.data.class, this.data.active);
 
     const eventImg = document.createElement('img');

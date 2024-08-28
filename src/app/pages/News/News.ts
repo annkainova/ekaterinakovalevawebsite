@@ -1,6 +1,6 @@
 // NewsPage.ts
 
-import EventBlock from '../../components/EventBlock';
+import EventBlock from '../../components/EventBlock/EventBlock';
 import Localization from '../Localization/Localization';
 import { EventsData } from '../../interface/Event';
 
