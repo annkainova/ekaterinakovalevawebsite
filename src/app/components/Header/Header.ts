@@ -56,7 +56,7 @@ export default class Header {
     header.appendChild(headerMenu);
 
     const logo = document.createElement('a');
-    logo.href = 'https://katkart.ru';
+    logo.href = '/';
     logo.className = 'logo';
     headerMenu.appendChild(logo);
 
@@ -82,7 +82,7 @@ export default class Header {
 
     const navItems = [
       { href: 'events.html', text: this.textNews },
-      { href: 'https://katkart.ru', text: this.textMain, main: true },
+      { href: '/', text: this.textMain, main: true },
       { href: 'biography.html', text: this.textBio },
       { href: 'work-projects.html', text: this.textWork },
       { href: 'contact.html', text: this.textContact },
