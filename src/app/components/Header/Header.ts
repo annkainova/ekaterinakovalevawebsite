@@ -81,7 +81,7 @@ export default class Header {
     navigation.appendChild(navContainer);
 
     const navItems = [
-      { href: 'news.html', text: this.textNews },
+      { href: 'events.html', text: this.textNews },
       { href: 'https://katkart.ru', text: this.textMain, main: true },
       { href: 'biography.html', text: this.textBio },
       { href: 'work-projects.html', text: this.textWork },

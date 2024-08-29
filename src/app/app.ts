@@ -9,7 +9,7 @@ import Localization from './pages/Localization/Localization.ts';
 import Footer from './components/Footer/Footer.ts';
 import NavPanel from './components/NavPanel/NavPanel.ts';
 import ActiveLink from './pages/ActivePages/activePages.ts';
-import NewsPage from './pages/News/News.ts';
+import NewsPage from './pages/Events/Events.ts';
 import BiographyComponent from './pages/Biography/BiographyComponent.ts';
 import HomePage from './pages/HomePage/HomePage.ts';
 
@@ -69,7 +69,7 @@ export default class App {
   }
 
   isNewsPage(): boolean {
-    return window.location.pathname.endsWith('news.html');
+    return window.location.pathname.endsWith('events.html');
   }
 
   isBioPage(): boolean {

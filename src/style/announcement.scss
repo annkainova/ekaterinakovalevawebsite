@@ -88,27 +88,38 @@ div {
 
   &__type {
     margin-bottom: 15px;
+    // letter-spacing: initial;
+    text-align: left;
+    letter-spacing: initial;
+
+    @media (max-width: 1024px) {}
+
   }
 
   &__name {
     height: 44px;
     margin-bottom: 15px;
-
+    font-weight: 700;
     font-size: 18px;
     text-align: left;
+    letter-spacing: initial;
+
+    @media (max-width: 1024px) {}
   }
 
   &__info {
     height: 60px;
     padding-bottom: 12px;
 
-    .date {}
+    .data {
+      letter-spacing: initial;
+    }
 
     .location {
       display: block;
       color: $dark;
       text-align: left;
-
+      letter-spacing: initial;
 
       &__link {
         color: $dark;
