@@ -48,7 +48,6 @@ export default class NewsPage {
     });
     this.renderPagination();
     this.scrollToTop();
-    this.renderDetailPage();
   }
 
   scrollToTop() {
