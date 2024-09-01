@@ -37,7 +37,6 @@ export default class App {
     this.footer.render();
     this.biography = new BiographyComponent();
 
-
     const newsSection = document.querySelector('.news-section') as HTMLElement;
     const paginationContainer = document.querySelector('.pagination-container') as HTMLElement;
     this.news = new NewsPage(newsSection, paginationContainer);
@@ -76,6 +75,10 @@ export default class App {
     return window.location.pathname.endsWith('biography.html');
   }
 
+  isMainPage() {
+    return window.location.pathname.endsWith('');
+  }
+
   renderGalleryPage() {
     const selectData = this.selectedData;
     this.page.renderGallery('maps', selectData);
@@ -104,6 +107,10 @@ export default class App {
   }
 
   render() {
+    // if (this.isMainPage()) {
+    //   this.homePage.render();
+    // }
+
     if (this.isNewsPage()) {
       this.renderNewsPage();
     } else if (this.isGalleryPage()) {
@@ -111,7 +118,5 @@ export default class App {
     } else if (this.isBioPage()) {
       this.renderBiography();
     }
-
-    this.homePage.render();
   }
 }

@@ -26,9 +26,14 @@ export default class NewsPage {
 
     const urlParams = new URLSearchParams(window.location.search);
     this.currentPage = parseInt(urlParams.get('page') || '1', 10);
+
+    console.log('NewsPage initialized');
+    console.log(this.container, this.containerPagination, this.selectedData);
   }
 
   render() {
+    console.log('Rendering page', this.currentPage);
+
     const startIndex = (this.currentPage - 1) * this.itemsPerPage;
     const endIndex = startIndex + this.itemsPerPage;
     const pageData = this.selectedData.events.slice(startIndex, endIndex);
@@ -41,6 +46,17 @@ export default class NewsPage {
       eventBlock.render();
     });
     this.renderPagination();
+    this.scrollToTop();
+  }
+
+  scrollToTop() {
+    console.log('Scrolling to top');
+    requestAnimationFrame(() => {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth',
+      });
+    });
   }
 
   renderPagination() {
@@ -48,6 +64,7 @@ export default class NewsPage {
     paginationContainer.className = 'pagination';
 
     const totalPages = Math.ceil(this.selectedData.events.length / this.itemsPerPage);
+    console.log('Total Pages:', totalPages);
 
     // Кнопка для перехода к предыдущей странице
     const prevPageButton = document.createElement('button');

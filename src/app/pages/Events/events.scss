@@ -26,14 +26,14 @@
 
 
 .pagination-container {
+
   margin-top: 130px;
   margin-bottom: calc(160px - 44px);
 
 
   @media (max-width: 1200px) {
-    margin-top: 6px; // padding: 20px 30px 20px 30px;
+    margin-top: 60px; // padding: 20px 30px 20px 30px;
     margin-bottom: calc(60px - 44px);
-    row-gap: 60px;
   }
 }
 
@@ -76,6 +76,11 @@
   background: none;
   padding: 15px;
   cursor: pointer;
+
+  @media(max-width: 1200px) {
+    font-size: 24px;
+  }
+
 }
 
 .pagination__page-number {}
