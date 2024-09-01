@@ -12,6 +12,7 @@ import ActiveLink from './pages/ActivePages/activePages.ts';
 import NewsPage from './pages/Events/Events.ts';
 import BiographyComponent from './pages/Biography/BiographyComponent.ts';
 import HomePage from './pages/HomePage/HomePage.ts';
+import Interview from './pages/Events/DetailNews/Interview.ts';
 
 export default class App {
   header: Header;
@@ -25,6 +26,7 @@ export default class App {
   activeLink: ActiveLink;
   biography: BiographyComponent;
   news: NewsPage;
+  interview: Interview;
 
   constructor() {
     this.header = new Header(document.body);
@@ -36,6 +38,8 @@ export default class App {
     this.page.renderProject(dataProject);
     this.footer.render();
     this.biography = new BiographyComponent();
+
+    this.interview = new Interview();
 
     const newsSection = document.querySelector('.news-section') as HTMLElement;
     const paginationContainer = document.querySelector('.pagination-container') as HTMLElement;
@@ -75,8 +79,8 @@ export default class App {
     return window.location.pathname.endsWith('biography.html');
   }
 
-  isMainPage() {
-    return window.location.pathname.endsWith('');
+  isInterviewPage() {
+    return window.location.pathname.endsWith('interview.html');
   }
 
   renderGalleryPage() {
@@ -106,17 +110,20 @@ export default class App {
     this.biography.render();
   }
 
-  render() {
-    // if (this.isMainPage()) {
-    //   this.homePage.render();
-    // }
+  renderDetailPage() {
+    this.interview.render();
+  }
 
+  render() {
     if (this.isNewsPage()) {
       this.renderNewsPage();
     } else if (this.isGalleryPage()) {
       this.renderGalleryPage();
     } else if (this.isBioPage()) {
       this.renderBiography();
+    } else if (this.isInterviewPage()) {
+      this.renderDetailPage();
     }
+    this.homePage.render();
   }
 }

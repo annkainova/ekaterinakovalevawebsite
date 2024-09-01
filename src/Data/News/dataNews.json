@@ -23,7 +23,7 @@
       "eventType": "Интервью",
       "eventName": "Европа страдает <br> Парашют, который нас спасёт",
       "eventDate": "11 августа 2024",
-      "eventLink": "src/app/pages/News/DetailNews/Interview_EuropeSuffer.html",
+      "eventLink": "interview.html",
       "eventLocation": {
         "link": "",
         "linkText": "",

@@ -26,14 +26,15 @@ export default class NewsPage {
 
     const urlParams = new URLSearchParams(window.location.search);
     this.currentPage = parseInt(urlParams.get('page') || '1', 10);
-
-    console.log('NewsPage initialized');
-    console.log(this.container, this.containerPagination, this.selectedData);
   }
 
-  render() {
-    console.log('Rendering page', this.currentPage);
+  // renderDetailPage() {
+  //   if (window.location.pathname.endsWith('interview.html')) {
+  //     this.interview.render();
+  //   }
+  // }
 
+  render() {
     const startIndex = (this.currentPage - 1) * this.itemsPerPage;
     const endIndex = startIndex + this.itemsPerPage;
     const pageData = this.selectedData.events.slice(startIndex, endIndex);
@@ -47,6 +48,7 @@ export default class NewsPage {
     });
     this.renderPagination();
     this.scrollToTop();
+    this.renderDetailPage();
   }
 
   scrollToTop() {

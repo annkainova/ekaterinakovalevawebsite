@@ -8,9 +8,12 @@
 
 
   @media (max-width: 1200px) {
-    margin-top: 150px; // padding: 20px 30px 20px 30px;
+    margin-top: 150px;
     column-gap: 80px;
     row-gap: 60px;
+  }
+
+  @media (max-width: 760px) {
     margin-top: 90px;
   }
 
@@ -19,22 +22,19 @@
     flex-direction: column;
     gap: 20px;
   }
-
-
 }
 
-
-
 .pagination-container {
-
   margin-top: 130px;
   margin-bottom: calc(160px - 44px);
 
 
   @media (max-width: 1200px) {
-    margin-top: 60px; // padding: 20px 30px 20px 30px;
+    margin-top: 60px;
     margin-bottom: calc(60px - 44px);
   }
+
+
 }
 
 .pagination {

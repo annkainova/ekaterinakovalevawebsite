@@ -29,6 +29,7 @@ export default defineConfig({
         memorialObjects: path.resolve('memorial-objects.html'),
         rightToRest: path.resolve('right-to-rest.html'),
         events: path.resolve('events.html'),
+        interview: path.resolve('interview.html'),
       },
       output: {
         // Опции выходных данных, позволяющие контролировать структуру имен файлов и др.
@@ -71,6 +72,7 @@ export default defineConfig({
       { from: /\/biography/, to: '/biography.html' },
       { from: /\/memorial-objects/, to: '/memorial-objects.html' },
       { from: /\/events/, to: '/events.html' },
+      { from: /\/interview/, to: '/interview.html' },
     ],
   },
 });
