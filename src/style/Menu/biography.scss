@@ -66,7 +66,8 @@
 
     &-text {
       display: grid;
-      grid-template-rows: repeat(3, min-content);
+      grid-template-columns: repeat(1, 1fr);
+      grid-template-rows: repeat(3, max-content);
       gap: 10px;
 
       .group-data {
@@ -74,8 +75,7 @@
         gap: 20px;
       }
 
-      .group-text {
-      }
+      .group-text {}
     }
   }
 
@@ -132,15 +132,8 @@
     margin: 0;
     margin-top: 90px;
 
-
     &__info {
       margin-bottom: 45px;
-    }
-
-    &__links {
-      .biography__link {}
-
-
     }
 
     &__bio-box {
@@ -155,7 +148,6 @@
         column-count: 1;
       }
 
-
       &-img {
         margin: 0 auto;
         position: relative;
@@ -163,9 +155,7 @@
 
         width: auto;
         height: 265px;
-
       }
-
     }
 
     &__personal {
@@ -198,6 +188,21 @@
         .personal-text {
           line-height: 25px;
         }
+      }
+
+      &-img {
+        // margin-top: 40px;
+        // margin-bottom: 40px;
+        width: 100%;
+      }
+    }
+
+    &__interview {
+      gap: 40px;
+      margin-bottom: 55px;
+
+      @media (max-width: 760px) {
+        flex-direction: column;
       }
 
       &-img {
@@ -314,6 +319,26 @@
         height: 100%;
       }
 
+    }
+
+    &__interview {
+      display: flex;
+      gap: 80px;
+
+      &-text {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0px;
+
+        .group-data {
+          display: flex;
+          gap: 20px;
+        }
+      }
+
+      &-image {
+        width: 100%;
+      }
     }
 
     &__personal {
