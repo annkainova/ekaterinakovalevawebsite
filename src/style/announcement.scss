@@ -12,6 +12,7 @@
     @include font ($extra-bold, 24px, $white);
     font-family: "Anonymous Pro";
     letter-spacing: 7.2px;
+    text-transform: uppercase;
 
     @media (max-width: 1024px) {
       font-size: 18px;
