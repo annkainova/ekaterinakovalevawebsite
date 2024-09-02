@@ -6,20 +6,15 @@ import dataBiography from './dataBiography.json';
 import dataBiographyEn from './dataBiographyEn.json';
 
 export default class BiographyComponent {
-  // collage: Collage;
-
   bioView: Biography;
   personalView: Biography;
   groupView: Biography;
+  interviewView: Biography;
   biographyController: BiographyController;
 
   localization: Localization;
 
   constructor() {
-    // this.bio = new Biography(bioData.name, bioData.text, bioData.image);
-    // this.personal = new Biography(personalData.name, personalData.text, personalData.image);
-    // this.group = new Biography(groupData.name, groupData.text, groupData.image);
-
     this.localization = new Localization();
     const selectedData = this.localization.language === 'ru' ? dataBiography : dataBiographyEn;
 
@@ -41,10 +36,17 @@ export default class BiographyComponent {
       selectedData.group.image
     );
 
+    this.interviewView = new Biography(
+      selectedData.interview.name,
+      selectedData.interview.text,
+      selectedData.interview.image
+    );
+
     this.biographyController = new BiographyController(
       this.bioView,
       this.personalView,
-      this.groupView
+      this.groupView,
+      this.interviewView
     );
   }
 

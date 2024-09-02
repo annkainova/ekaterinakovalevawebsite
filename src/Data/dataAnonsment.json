@@ -8,6 +8,7 @@
       "imageAlt": "Картина Катерины Ковалевой",
       "eventType": "Групповая выставка",
       "eventName": "«ПЕРСОНАЛЬНЫЕ СТРУКТУРЫ»",
+      "eventNameLink": "",
       "eventDate": "20 апреля — 21 ноября 2024",
       "eventLocation": {
         "link": "https://personalstructures.com/participants/katerina-kovaleva/",
@@ -23,6 +24,7 @@
       "imageAlt": "Картина Катерины Ковалевой из выставки «LIMBO»",
       "eventType": "Персональная выставка",
       "eventName": "«LIMBO»",
+      "eventNameLink": "",
       "eventDate": "4 сентября — 31 октября 2024",
       "eventLocation": {
         "link": "",
@@ -38,6 +40,7 @@
       "imageAlt": "Фото интервью 'Европа страдает Парашют, который нас спасёт'",
       "eventType": "Интервью",
       "eventName": "Европа страдает <br> Парашют, который нас спасёт",
+      "eventNameLink": "interview.html",
       "eventDate": "11 августа 2024",
       "eventLocation": {
         "link": "",
@@ -52,6 +55,7 @@
       "imageAlt": "Картина Катерины Ковалевой из выставки 'Три главы из жизни женщины'",
       "eventType": "Персональная выставка",
       "eventName": "«LIMBO. ЗОНА ОЖИДАНИЯ»",
+      "eventNameLink": "",
       "eventDate": "4 сентября — 31 октября 2024",
       "eventLocation": {
         "link": "",

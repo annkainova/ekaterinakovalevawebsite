@@ -34,9 +34,10 @@
       "class": "interview",
       "active": "active",
       "imageSrc": "00_main-page/announcement/00_PREVIEW_05.jpg",
-      "imageAlt": "Photo of the interview 'Europe Suffers Parachute That Will Save Us'",
+      "imageAlt": "Photo interview “Europe is suffering A parachute to save us”",
       "eventType": "Interview",
-      "eventName": "Europe Suffers <br> Parachute That Will Save Us",
+      "eventName": "Europe is suffering <br> A parachute to save us",
+      "eventNameLink": "interview.html",
       "eventDate": "August 11, 2024",
       "eventLocation": {
         "link": "",

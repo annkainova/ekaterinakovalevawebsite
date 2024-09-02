@@ -33,9 +33,16 @@ export default class EventBlock {
     eventType.className = 'event__type';
     eventType.textContent = this.data.eventType;
 
-    const eventName = document.createElement('p');
-    eventName.className = 'event__name';
+    const eventName = this.data.eventNameLink
+      ? document.createElement('a')
+      : document.createElement('p');
+
+    eventName.classList.add('event__name');
     eventName.innerHTML = this.data.eventName;
+
+    if (this.data.eventNameLink) {
+      eventName.setAttribute('href', this.data.eventNameLink);
+    }
 
     const eventInfo = document.createElement('div');
     eventInfo.className = 'event__info';

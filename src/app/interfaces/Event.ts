@@ -11,6 +11,7 @@ export interface EventProps {
   imageAlt: string;
   eventType: string;
   eventName: string;
+  eventNameLink?: string;
   eventDate: string;
   eventLink?: string;
   eventLocation: EventLocation;

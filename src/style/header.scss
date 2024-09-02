@@ -116,6 +116,13 @@
     margin-right: -6px;
   }
 
+  &__container--en {
+
+    gap: 47px;
+
+  }
+
+
   &__element {
     padding: 1px 6px;
     @include font($normal, $font-16, $dark);

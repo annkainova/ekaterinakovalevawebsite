@@ -78,6 +78,9 @@ export default class Header {
 
     const navContainer = document.createElement('ul');
     navContainer.className = 'navigation__container';
+    if (this.localization.language === 'en') {
+      navContainer.classList.add('navigation__container--en');
+    }
     navigation.appendChild(navContainer);
 
     const navItems = [
