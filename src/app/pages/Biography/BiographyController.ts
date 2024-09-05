@@ -5,30 +5,37 @@ export default class BiographyController {
   bio: HTMLElement | null;
   personal: HTMLElement | null;
   group: HTMLElement | null;
+  interview: HTMLElement | null;
 
   bioView: Biography;
   personalView: Biography;
   groupView: Biography;
+  interviewView: Biography;
 
-  constructor(bioView: Biography, personalView: Biography, groupView: Biography) {
+  constructor(
+    bioView: Biography,
+    personalView: Biography,
+    groupView: Biography,
+    interviewView: Biography
+  ) {
     this.bioView = bioView;
     this.personalView = personalView;
     this.groupView = groupView;
+    this.interviewView = interviewView;
 
     this.bio = document.querySelector('.biography__link--bio ');
     this.personal = document.querySelector('.biography__link--personal');
     this.group = document.querySelector('.biography__link--group');
+    this.interview = document.querySelector('.biography__link--interview');
 
     this.bio?.classList.add('active');
-
-    // const bioText = document.querySelector('.biography__bio-text') as HTMLElement;
-    // bioText.setAttribute('data-localize', 'personal-text');
 
     if (this.bio) {
       this.bio.addEventListener('click', () => {
         this.bio?.classList.add('active');
         this.personal?.classList.remove('active');
         this.group?.classList.remove('active');
+        this.interview?.classList.remove('active');
 
         this.chooseSection(this.bioView);
       });
@@ -39,10 +46,9 @@ export default class BiographyController {
         this.personal?.classList.add('active');
         this.bio?.classList.remove('active');
         this.group?.classList.remove('active');
+        this.interview?.classList.remove('active');
 
         this.chooseSection(this.personalView);
-        // const bioText = document.querySelector('.biography__personal-text') as HTMLElement;
-        // bioText.setAttribute('data-localize', 'personal-text');
       });
     }
 
@@ -51,18 +57,29 @@ export default class BiographyController {
         this.group?.classList.add('active');
         this.bio?.classList.remove('active');
         this.personal?.classList.remove('active');
+        this.interview?.classList.remove('active');
 
         this.chooseSection(this.groupView);
-        // const bioText = document.querySelector('.biography__group-text') as HTMLElement;
-        // bioText.setAttribute('data-localize', 'group-text');
+      });
+    }
+
+    if (this.interview) {
+      this.interview?.addEventListener('click', () => {
+        this.interview?.classList.add('active');
+        this.group?.classList.remove('active');
+        this.bio?.classList.remove('active');
+        this.personal?.classList.remove('active');
+
+        this.chooseSection(this.interviewView);
       });
     }
   }
 
-  // eslint-disable-next-line class-methods-use-this
   chooseSection(nameSection: Biography) {
     const biographySection = document.querySelector('.biography__info');
-    if (biographySection) biographySection.innerHTML = ''; // Очистка содержимого перед добавлением нового
+    if (biographySection) {
+      biographySection.innerHTML = '';
+    }
     const bioElement = nameSection.render();
 
     biographySection?.appendChild(bioElement);

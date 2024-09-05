@@ -3,43 +3,47 @@ import data from '../Data/data.json';
 import dataEn from '../Data/dataEn.json';
 import dataProject from '../Data/projectData.json';
 
-import Main from './pages/Main';
 import Page from './pages/Gallery/Page.ts';
-import Header from './pages/MainPage/Header.ts';
+import Header from './components/Header/Header.ts';
 import Localization from './pages/Localization/Localization.ts';
-import FirstPage from './pages/MainPage/FirstPage.ts';
-import Footer from './pages/MainPage/Footer.ts';
-import NavPanel from './pages/MainPage/NavPanel.ts';
+import Footer from './components/Footer/Footer.ts';
+import NavPanel from './components/NavPanel/NavPanel.ts';
 import ActiveLink from './pages/ActivePages/activePages.ts';
-import Anonsement from './pages/MainPage/Anonsement.ts';
+import NewsPage from './pages/Events/Events.ts';
+import BiographyComponent from './pages/Biography/BiographyComponent.ts';
+import HomePage from './pages/HomePage/HomePage.ts';
+import Interview from './pages/Events/DetailNews/Interview.ts';
 
 export default class App {
   header: Header;
   footer: Footer;
-  firstPage: FirstPage;
-  mainPage: Main;
+  homePage: HomePage;
   page: Page;
   localization: Localization;
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   selectedData: any;
   navPanel: NavPanel;
   activeLink: ActiveLink;
-  announcement: Anonsement;
+  biography: BiographyComponent;
+  news: NewsPage;
+  interview: Interview;
 
   constructor() {
     this.header = new Header(document.body);
     this.page = new Page();
-    this.mainPage = new Main();
-    this.firstPage = new FirstPage();
+    this.homePage = new HomePage();
     this.footer = new Footer(document.body);
 
     this.header.render();
-    this.firstPage.changeLanguageFirstPage();
     this.page.renderProject(dataProject);
-
     this.footer.render();
-    const announcementSection = document.querySelector('.slider-box') as HTMLElement;
-    this.announcement = new Anonsement(announcementSection);
+    this.biography = new BiographyComponent();
+
+    this.interview = new Interview();
+
+    const newsSection = document.querySelector('.news-section') as HTMLElement;
+    const paginationContainer = document.querySelector('.pagination-container') as HTMLElement;
+    this.news = new NewsPage(newsSection, paginationContainer);
 
     this.localization = new Localization();
     this.navPanel = new NavPanel('main');
@@ -67,9 +71,20 @@ export default class App {
     return galleryPages.some(id => window.location.pathname.endsWith(`${id}.html`));
   }
 
-  render() {
-    const selectData = this.selectedData;
+  isNewsPage(): boolean {
+    return window.location.pathname.endsWith('events.html');
+  }
 
+  isBioPage(): boolean {
+    return window.location.pathname.endsWith('biography.html');
+  }
+
+  isInterviewPage() {
+    return window.location.pathname.endsWith('interview.html');
+  }
+
+  renderGalleryPage() {
+    const selectData = this.selectedData;
     this.page.renderGallery('maps', selectData);
     this.page.renderGallery('mosaics', selectData);
     this.page.renderGallery('waiting-zone', selectData);
@@ -85,7 +100,30 @@ export default class App {
     if (this.isGalleryPage()) {
       this.navPanel.render();
     }
+  }
 
-    this.announcement.render();
+  renderNewsPage() {
+    this.news.render();
+  }
+
+  renderBiography() {
+    this.biography.render();
+  }
+
+  renderDetailPage() {
+    this.interview.render();
+  }
+
+  render() {
+    if (this.isNewsPage()) {
+      this.renderNewsPage();
+    } else if (this.isGalleryPage()) {
+      this.renderGalleryPage();
+    } else if (this.isBioPage()) {
+      this.renderBiography();
+    } else if (this.isInterviewPage()) {
+      this.renderDetailPage();
+    }
+    this.homePage.render();
   }
 }
