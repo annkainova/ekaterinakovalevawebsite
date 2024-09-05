@@ -16,7 +16,7 @@
   },
   "interview": {
     "name": "interview",
-    "text": "<div class='group-data'>  <p class='year'>2021</p>  <p class='group-text'> <span class='bold'></span> Воспоминания членов группы «Чемпионы мира» и их друзей, ММОМА</p></div><div class='group-data'>  <p class='year'>2021</p>  <p class='group-text'> О выставке «История болезни. Право на отдых», РОСФОТО </p></div><div class='group-data'>  <p class='year'>2024</p>  <p class='group-text'> <a href='interview'><span class='bold'>«Европа страдает. Парашют, который нас спасёт»,</span></a>    итальянская газета «Corriere della Sera»</p></div>",
+    "text": "<div class='group-data'>  <p class='year'>2021</p>  <p class='group-text'> <span class='bold'></span> Воспоминания членов группы «Чемпионы мира» и их друзей, ММОМА</p></div><div class='group-data'>  <p class='year'>2021</p>  <p class='group-text'> О выставке «История болезни. Право на отдых», РОСФОТО </p></div><div class='group-data'>  <p class='year'>2024</p>  <p class='group-text'> <a href='interview.html'><span class='bold'>«Европа страдает. Парашют, который нас спасёт»,</span></a>    итальянская газета «Corriere della Sera»</p></div>",
     "image": ["/01_biography/01_IMG_04.jpeg"]
   }
 }
