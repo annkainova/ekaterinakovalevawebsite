@@ -3,6 +3,21 @@
     {
       "class": "limbo",
       "active": "active",
+      "imageSrc": "00_main-page/announcement/00_PREVIEW_06.jpg",
+      "imageAlt": "Картина Катерины Ковалевой из выставки «LIMBO»",
+      "eventType": "Финисаж",
+      "eventName": "«LIMBO»",
+      "eventDate": "31 октября 2024",
+      "eventLink": "",
+      "eventLocation": {
+        "link": "https://www.creavenice.com/dettagli-e-registrazioni/finissage-limbo-by-katerina-kovaleva",
+        "linkText": "CREA, Венеция, Италия",
+        "locationText": ""
+      }
+    },
+    {
+      "class": "limbo",
+      "active": "active",
       "imageSrc": "00_main-page/announcement/00_PREVIEW_04.jpg",
       "imageAlt": "Картина Катерины Ковалевой из выставки «LIMBO»",
       "eventType": "Персональная выставка",

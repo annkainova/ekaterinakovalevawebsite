@@ -1,6 +1,54 @@
 {
   "events": [
     {
+      "class": "finisaj",
+      "active": "active",
+
+      "imageSrc": "00_main-page/announcement/00_PREVIEW_06.jpg",
+      "imageAlt": "Картина Катерины Ковалевой",
+      "eventType": "Finissage",
+      "eventName": "«LIMBO»",
+      "eventNameLink": "",
+      "eventDate": "October 31, 2024",
+      "eventLocation": {
+        "link": "https://www.creavenice.com/dettagli-e-registrazioni/finissage-limbo-by-katerina-kovaleva",
+        "linkText": "CREA, Venice, Italy",
+        "locationText": " "
+      }
+    },
+    {
+      "class": "event",
+      "active": "active",
+
+      "imageSrc": "00_main-page/announcement/00_PREVIEW_07.jpg",
+      "imageAlt": "Картина Катерины Ковалевой",
+      "eventType": "Contemporary Art Fair",
+      "eventName": "«COSMOSCOW»",
+      "eventNameLink": "",
+      "eventDate": "October 24 - October 27, 2024",
+      "eventLocation": {
+        "link": "",
+        "linkText": "Timiryazev Center, Moscow",
+        "locationText": " "
+      }
+    },
+    {
+      "class": "event",
+      "active": "active",
+
+      "imageSrc": "00_main-page/announcement/00_PREVIEW_08.jpg",
+      "imageAlt": "Картина Катерины Ковалевой",
+      "eventType": "Exhibition of Russian contemporary art",
+      "eventName": "“To Create Miracles”",
+      "eventNameLink": "",
+      "eventDate": "October 1 - October 31, 2024",
+      "eventLocation": {
+        "link": "",
+        "linkText": "The Museum of Black Civilisations,",
+        "locationText": "Dakar, Senegal"
+      }
+    },
+    {
       "class": "personal-structur",
       "active": "active",
 

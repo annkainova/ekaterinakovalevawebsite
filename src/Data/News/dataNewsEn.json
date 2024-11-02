@@ -3,6 +3,21 @@
     {
       "class": "limbo",
       "active": "active",
+      "imageSrc": "00_main-page/announcement/00_PREVIEW_06.jpg",
+      "imageAlt": "Painting by Katerina Kovaleva from the «LIMBO» exhibition",
+      "eventType": "Finissage",
+      "eventName": "«LIMBO»",
+      "eventDate": "31 October 2024",
+      "eventLink": "",
+      "eventLocation": {
+        "link": "https://www.creavenice.com/dettagli-e-registrazioni/finissage-limbo-by-katerina-kovaleva",
+        "linkText": "CREA, Venice, Italy",
+        "locationText": ""
+      }
+    },
+    {
+      "class": "limbo",
+      "active": "active",
       "imageSrc": "00_main-page/announcement/00_PREVIEW_04.jpg",
       "imageAlt": "Painting by Katerina Kovaleva from the «LIMBO» exhibition",
       "eventType": "Personal exhibition",

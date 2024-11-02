@@ -1,6 +1,54 @@
 {
   "events": [
     {
+      "class": "event",
+      "active": "active",
+
+      "imageSrc": "00_main-page/announcement/00_PREVIEW_06.jpg",
+      "imageAlt": "Картина Катерины Ковалевой",
+      "eventType": "Финисаж",
+      "eventName": "«LIMBO»",
+      "eventNameLink": "",
+      "eventDate": "31 октября 2024",
+      "eventLocation": {
+        "link": "https://www.creavenice.com/dettagli-e-registrazioni/finissage-limbo-by-katerina-kovaleva",
+        "linkText": "CREA, Венеция, Италия",
+        "locationText": " "
+      }
+    },
+    {
+      "class": "event",
+      "active": "active",
+
+      "imageSrc": "00_main-page/announcement/00_PREVIEW_07.jpg",
+      "imageAlt": "Экспонат Катерины Ковалевой",
+      "eventType": "Ярмарка современного искусства",
+      "eventName": "«COSMOSCOW»",
+      "eventNameLink": "",
+      "eventDate": "24 октября — 27 октября 2024",
+      "eventLocation": {
+        "link": "",
+        "linkText": "Тимирязев Центр, Москва",
+        "locationText": " "
+      }
+    },
+    {
+      "class": "event",
+      "active": "active",
+
+      "imageSrc": "00_main-page/announcement/00_PREVIEW_08.jpg",
+      "imageAlt": "Картина Катерины Ковалевой",
+      "eventType": "Выставка российского современного искусства",
+      "eventName": "«Творить чудеса»",
+      "eventNameLink": "",
+      "eventDate": "1 октября — 31 октября 2024",
+      "eventLocation": {
+        "link": "",
+        "linkText": "Музей африканских цивилизаций,",
+        "locationText": "Дакар, Сенегал"
+      }
+    },
+    {
       "class": "personal-structur",
       "active": "active",
 
@@ -16,7 +64,6 @@
         "locationText": " Венеция, Италия"
       }
     },
-
     {
       "class": "limbo",
       "active": "active",
