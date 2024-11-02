@@ -12,6 +12,7 @@
     @include font ($extra-bold, 24px, $white);
     font-family: "Anonymous Pro";
     letter-spacing: 7.2px;
+    text-transform: uppercase;
 
     @media (max-width: 1024px) {
       font-size: 18px;
@@ -50,15 +51,7 @@ div {
 
 
 .event {
-
-
-  // box-sizing: border-box;
   display: block !important;
-  // flex-direction: column;
-  // justify-content: center;
-  // align-items: center;
-
-  // gap: 20px;
 
   padding: 12px 12px 12px 12px;
   max-width: 384px;
@@ -96,28 +89,39 @@ div {
 
   &__type {
     margin-bottom: 15px;
+    // letter-spacing: initial;
+    text-align: left;
+    letter-spacing: initial;
+
+    @media (max-width: 1024px) {}
+
   }
 
   &__name {
+    display: block;
     height: 44px;
     margin-bottom: 15px;
-
+    font-weight: 700;
     font-size: 18px;
-    // text-transform: uppercase;
     text-align: left;
+    letter-spacing: initial;
+
+    @media (max-width: 1024px) {}
   }
 
   &__info {
     height: 60px;
     padding-bottom: 12px;
 
-    .date {}
+    .data {
+      letter-spacing: initial;
+    }
 
     .location {
       display: block;
       color: $dark;
       text-align: left;
-
+      letter-spacing: initial;
 
       &__link {
         color: $dark;

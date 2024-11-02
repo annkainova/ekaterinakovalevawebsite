@@ -1,0 +1,258 @@
+{
+  "events": [
+    {
+      "class": "limbo",
+      "active": "active",
+      "imageSrc": "00_main-page/announcement/00_PREVIEW_04.jpg",
+      "imageAlt": "Painting by Katerina Kovaleva from the «LIMBO» exhibition",
+      "eventType": "Personal exhibition",
+      "eventName": "«LIMBO»",
+      "eventDate": "4 September - 31 October 2024",
+      "eventLink": "",
+      "eventLocation": {
+        "link": "",
+        "linkText": "",
+        "locationText": "CREA, Venice, Italy"
+      }
+    },
+    {
+      "class": "interview",
+      "active": "active",
+      "imageSrc": "00_main-page/announcement/00_PREVIEW_05.jpg",
+      "imageAlt": "Photo interview “Europe is suffering. A parachute to save us”",
+      "eventType": "Interview",
+      "eventName": "Europe is suffering. <br> A parachute to save us",
+      "eventDate": "11 August 2024",
+      "eventLink": "interview.html",
+      "eventLocation": {
+        "link": "",
+        "linkText": "",
+        "locationText": "Italian newspaper «Corriere della Sera»"
+      }
+    },
+    {
+      "class": "event",
+      "active": "active",
+      "imageSrc": "00_main-page/announcement/00_PREVIEW_02_1.jpg",
+      "imageAlt": "Painting by Katerina Kovaleva",
+      "eventType": "Group exhibition",
+      "eventName": "«PERSONAL STRUCTURES»",
+      "eventDate": "20 April - 21 November 2024",
+      "eventLocation": {
+        "link": "https://personalstructures.com/participants/katerina-kovaleva/",
+        "linkText": "Palazzo Bembo,",
+        "locationText": " Venice, Italy"
+      }
+    },
+    {
+      "class": "event",
+      "active": "active",
+
+      "imageSrc": "00_main-page/announcement/00_PREVIEW_03.jpg",
+      "imageAlt": "Painting by Katerina Kovaleva",
+      "eventType": "Group exhibition",
+      "eventName": "«SELF-PORTRAIT 1900-2024»",
+      "eventDate": "2 April - 2 June 2024",
+      "eventLocation": {
+        "link": "",
+        "linkText": "",
+        "locationText": "In artibus Foundation, Moscow, Russia"
+      }
+    },
+    {
+      "class": "event",
+      "active": "active",
+
+      "imageSrc": "00_main-page/announcement/00_PREVIEW_01.jpg",
+      "imageAlt": "Painting by Katerina Kovaleva",
+      "eventType": "Group exhibition",
+      "eventName": "«THREE CHAPTERS IN THE LIFE OF A WOMAN»",
+      "eventDate": "4 April - 19 May 2024",
+      "eventLocation": {
+        "link": "",
+        "linkText": "",
+        "locationText": "Artstory Gallery, Moscow, Russia"
+      }
+    },
+    {
+      "class": "event",
+      "active": "active",
+
+      "imageSrc": "00_news/00_PREVIEW_OLD_01.jpg",
+      "imageAlt": "Painting by Katerina Kovaleva",
+      "eventType": "Group exhibition",
+      "eventName": "«PLANS FOR THE SUMMER»",
+      "eventDate": "27 March - 14 April 2024",
+      "eventLocation": {
+        "link": "",
+        "linkText": "",
+        "locationText": "Kovcheg Gallery, Moscow"
+      }
+    },
+    {
+      "class": "event",
+      "active": "active",
+
+      "imageSrc": "00_news/00_PREVIEW_OLD_02.jpg",
+      "imageAlt": "Painting by Katerina Kovaleva",
+      "eventType": "Group exhibition",
+      "eventName": "«POSTCARDS FROM ARTISTS»",
+      "eventDate": "24 November - 30 November 2023",
+      "eventLocation": {
+        "link": "",
+        "linkText": "",
+        "locationText": "Pogodina Gallery, GII, Moscow"
+      }
+    },
+    {
+      "class": "event",
+      "active": "active",
+
+      "imageSrc": "00_news/00_PREVIEW_OLD_03.jpg",
+      "imageAlt": "Painting by Katerina Kovaleva",
+      "eventType": "Contemporary Art Fair",
+      "eventName": "«COSMOSCOW»",
+      "eventDate": "29 September 2023 - 1 October 2023",
+      "eventLocation": {
+        "link": "",
+        "linkText": "",
+        "locationText": "Gallery InGallery, Expocentre, Moscow"
+      }
+    },
+    {
+      "class": "event",
+      "active": "active",
+      "imageSrc": "00_news/00_PREVIEW_OLD_04.jpg",
+      "imageAlt": "Painting by Katerina Kovaleva",
+      "eventType": "Group exhibition",
+      "eventName": "«HUNT FOR SOLUBLE FISH IV»",
+      "eventDate": "13 September - 22 September 2023",
+      "eventLocation": {
+        "link": "",
+        "linkText": "",
+        "locationText": "Zverev Centre for Contemporary Art, Moscow"
+      }
+    },
+    {
+      "class": "event",
+      "active": "active",
+
+      "imageSrc": "00_news/00_PREVIEW_OLD_05.jpg",
+      "imageAlt": "Painting by Katerina Kovaleva",
+      "eventType": "Group exhibition",
+      "eventName": "«ONCE UPON A TIME, SOMETIME LATER»",
+      "eventDate": "5 August - 20 August 2023",
+      "eventLocation": {
+        "link": "",
+        "linkText": "",
+        "locationText": "CTI Fabrika, Moscow"
+      }
+    },
+    {
+      "class": "event",
+      "active": "active",
+
+      "imageSrc": "00_news/00_PREVIEW_OLD_06.jpg",
+      "imageAlt": "Painting by Katerina Kovaleva",
+      "eventType": "Personal exhibition",
+      "eventName": "«WAITING ZONE»",
+      "eventDate": "16 May - 16 July 2023",
+      "eventLink": "waiting-zone.html",
+      "eventLocation": {
+        "link": "",
+        "linkText": "",
+        "locationText": "Gulag History Museum, Moscow"
+      }
+    },
+    {
+      "class": "event",
+      "active": "active",
+
+      "imageSrc": "00_news/00_PREVIEW_OLD_07.jpg",
+      "imageAlt": "Painting by Katerina Kovaleva",
+      "eventType": "Graphics fair",
+      "eventName": "«KONTUR»",
+      "eventDate": "25 May 2023 - 28 May 2023",
+      "eventLocation": {
+        "link": "",
+        "linkText": "",
+        "locationText": "InGallery, Nizhny Novgorod"
+      }
+    },
+    {
+      "class": "event",
+      "active": "active",
+
+      "imageSrc": "00_news/00_PREVIEW_OLD_08.jpg",
+      "imageAlt": "Painting by Katerina Kovaleva",
+      "eventType": "Contemporary Art Fair",
+      "eventName": "«ART WORLD»",
+      "eventDate": "4 February 2023 - 12 February 2023",
+      "eventLocation": {
+        "link": "",
+        "linkText": "",
+        "locationText": "Gridchinhall Gallery, Nizhny Novgorod"
+      }
+    },
+    {
+      "class": "event",
+      "active": "active",
+
+      "imageSrc": "00_news/00_PREVIEW_OLD_09.jpg",
+      "imageAlt": "Painting by Katerina Kovaleva",
+      "eventType": "Group exhibition",
+      "eventName": "«Passengers. A dialogue about the landscape.»",
+      "eventDate": "4 October 2022 - 31 December 2023",
+      "eventLocation": {
+        "link": "",
+        "linkText": "",
+        "locationText": "Triumph Gallery, Kazan Station, Moscow"
+      }
+    },
+    {
+      "class": "event",
+      "active": "active",
+
+      "imageSrc": "00_news/00_PREVIEW_OLD_10.jpg",
+      "imageAlt": "Painting by Katerina Kovaleva",
+      "eventType": "Personal exhibition",
+      "eventName": "«WAITING ZONE»",
+      "eventLink": "waiting-zone.html",
+      "eventDate": "6 August - 28 August 2022",
+      "eventLocation": {
+        "link": "",
+        "linkText": "",
+        "locationText": "Salt granary of the XVIII c., Tarusa"
+      }
+    },
+    {
+      "class": "event",
+      "active": "active",
+
+      "imageSrc": "00_news/00_PREVIEW_OLD_11.jpg",
+      "imageAlt": "Painting by Katerina Kovaleva",
+      "eventType": "Festival",
+      "eventName": "«RESORT»",
+      "eventDate": "16 July - 17 July 2022",
+      "eventLocation": {
+        "link": "",
+        "linkText": "",
+        "locationText": "Komarovo, St. Petersburg"
+      }
+    },
+    {
+      "class": "event",
+      "active": "active",
+      "imageSrc": "00_news/00_PREVIEW_OLD_12.jpg",
+      "imageAlt": "Painting by Katerina Kovaleva",
+      "eventType": "Exhibition Fair",
+      "eventName": "«THE RETURN OF DON QUIXOTE»",
+      "eventDate": "15 April - 18 April 2022",
+      "eventLocation": {
+        "link": "",
+        "linkText": "",
+        "locationText": "Voznesensky Centre, Moscow"
+      }
+    }
+  ]
+}
