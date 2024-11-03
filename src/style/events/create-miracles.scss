@@ -1,0 +1,23 @@
+.create-miracles {
+  line-height: 0;
+  margin-bottom: 160px;
+
+  .element {
+    &:nth-child(1) {
+      .element__info {
+        grid-template-rows: max-content max-content auto;
+      }
+
+      .element__paint {
+        &:nth-child(3) {
+          align-self: end;
+          margin-bottom: 48px;
+        }
+      }
+
+      .image-wrapper {
+        gap: 20px;
+      }
+    }
+  }
+}

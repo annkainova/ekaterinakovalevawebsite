@@ -1,0 +1,88 @@
+{
+  "cosmocow": [
+    {
+      "name": "<span class='bold'>Ярмарка современного искусства «COSMOSCOW 2024» </span>",
+      "description": "\n 24 октября — 27 октября 2024 \n Тимирязев Центр, Москва \n\n «Эти объекты по стилистике и более условной «сглаженной» обработке камня напоминают известные образцы архаики. Гомер использовал наименование «курос» для обозначения молодых солдат. Так что потерявшиеся части тела, их замещение, может рассматриваться как признак геройства.",
+      "paintDescription": [""],
+      "imagePaths": [
+        {
+          "small": "/16_cosmocow/16_IMG_01.jpg",
+          "full": "/16_cosmocow/source/16_IMG_01L.jpg",
+          "descrip": " "
+        },
+        {
+          "small": "/16_cosmocow/16_IMG_02.jpg",
+          "full": "/16_cosmocow/source/16_IMG_02L.jpg",
+          "descrip": "Курос 2 • Мрамор, гранит, бронза, металл • 158х60х40см"
+        },
+        {
+          "small": "/16_cosmocow/16_IMG_03.jpg",
+          "full": "/16_cosmocow/source/16_IMG_03L.jpg",
+          "descrip": "Курос 1 • Мрамор, гранит, металл • 158х60х40см"
+        },
+        {
+          "small": "/16_cosmocow/16_IMG_04.jpg",
+          "full": "/16_cosmocow/source/16_IMG_04L.jpg",
+          "descrip": "Курос 1 • Мрамор, гранит, металл • 158х60х40см"
+        }
+      ]
+    },
+    {
+      "name": "",
+      "description": "",
+      "paintDescription": [
+        "Мне интересна иллюзия подмены/замены высокого и низкого, с дуализмом противопоставления сакрального (души) и профанного (тела).\n\n Я попыталась соединить в образе <span class='bold'>идею вечности камня и эфемерности снега</span>, форму идеального тела и «случайной» чужой болванки/головы, когда под сомнение ставятся всем известные клише про здоровое тело и здоровый дух.» ",
+        "— Катерина Ковалёва"
+      ],
+      "imagePaths": [
+        {
+          "small": "/16_cosmocow/16_IMG_05.jpg",
+          "full": "/16_cosmocow/source/16_IMG_05L.jpg",
+          "descrip": "Курос 1 • Мрамор, гранит, металл • 158х60х40см"
+        },
+        {
+          "small": "/16_cosmocow/16_IMG_06.jpg",
+          "full": "/16_cosmocow/source/16_IMG_01L.jpg",
+          "descrip": "Курос 2 • Мрамор, гранит, бронза, металл • 158х60х40см"
+        }
+      ]
+    }
+  ],
+  "create-miracles": [
+    {
+      "name": "<span class='bold'>Выставка российского современного искусства «Творить чудеса»</span>",
+      "description": "\n 1 октября — 31 октября 2024",
+      "paintDescription": [
+        "Музей африканских цивилизаций, Дакар, Сенегал",
+        "Инсталляция \n <span class='bold'>«Если пойдет дождь. Триумф Авроры»</span> \nПарашют, акрил, старые пожарные ведра, зеркало"
+      ],
+      "imagePaths": [
+        {
+          "small": "/17_createMiracles/17_IMG_01.jpg",
+          "full": "/17_createMiracles/source/17_IMG_01L.jpg",
+          "descrip": " "
+        },
+        {
+          "small": "/17_createMiracles/17_IMG_02.jpg",
+          "full": "/17_createMiracles/source/17_IMG_02L.jpg",
+          "descrip": " "
+        },
+        {
+          "small": "/17_createMiracles/17_IMG_03.jpg",
+          "full": "/17_createMiracles/source/17_IMG_03L.jpg",
+          "descrip": " "
+        },
+        {
+          "small": "/17_createMiracles/17_IMG_04.jpg",
+          "full": "/17_createMiracles/source/17_IMG_04L.jpg",
+          "descrip": " "
+        },
+        {
+          "small": "/17_createMiracles/17_IMG_05.jpg",
+          "full": "/17_createMiracles/source/17_IMG_05L.jpg",
+          "descrip": " "
+        }
+      ]
+    }
+  ]
+}

@@ -4,8 +4,8 @@ import EventBlock from '../../components/EventBlock/EventBlock';
 import Localization from '../Localization/Localization';
 import { EventsData } from '../../interfaces/Event';
 
-import dataNews from '../../../Data/News/dataNews.json';
-import dataNewsEn from '../../../Data/News/dataNewsEn.json';
+import dataNews from '../../../Data/dataAnonsment.json';
+import dataNewsEn from '../../../Data/dataAnonsmentEn.json';
 
 export default class NewsPage {
   private container: HTMLElement;

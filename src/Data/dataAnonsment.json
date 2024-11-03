@@ -19,17 +19,16 @@
     {
       "class": "event",
       "active": "active",
-
       "imageSrc": "00_main-page/announcement/00_PREVIEW_07.jpg",
       "imageAlt": "Экспонат Катерины Ковалевой",
       "eventType": "Ярмарка современного искусства",
       "eventName": "«COSMOSCOW»",
-      "eventNameLink": "",
+      "eventNameLink": "cosmocow.html",
       "eventDate": "24 октября — 27 октября 2024",
       "eventLocation": {
         "link": "",
-        "linkText": "Тимирязев Центр, Москва",
-        "locationText": " "
+        "linkText": "",
+        "locationText": "Тимирязев Центр, Москва"
       }
     },
     {
@@ -40,12 +39,12 @@
       "imageAlt": "Картина Катерины Ковалевой",
       "eventType": "Выставка российского современного искусства",
       "eventName": "«Творить чудеса»",
-      "eventNameLink": "",
+      "eventNameLink": "create-miracles.html",
       "eventDate": "1 октября — 31 октября 2024",
       "eventLocation": {
         "link": "",
-        "linkText": "Музей африканских цивилизаций,",
-        "locationText": "Дакар, Сенегал"
+        "linkText": "",
+        "locationText": "Музей африканских цивилизаций, Дакар, Сенегал"
       }
     },
     {
