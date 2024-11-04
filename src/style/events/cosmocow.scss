@@ -41,6 +41,13 @@
         grid-template-rows: 0px max-content auto;
       }
 
+      .element__paint {
+        &:nth-child(3) {
+          align-self: end;
+          text-align: right;
+        }
+      }
+
       // Если есть подпись у картинки
       @media (max-width: 1024px) {
         .image-wrapper {
