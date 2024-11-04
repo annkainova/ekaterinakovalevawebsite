@@ -95,6 +95,12 @@ button {
     margin-top: 90px;
     gap: 40px;
   }
+
+  .slick-slide {
+    @media (max-width: 1024px) {
+      height: 380px !important;
+    }
+  }
 }
 
 .biography {
