@@ -5,7 +5,7 @@
       "active": "active",
 
       "imageSrc": "00_main-page/announcement/00_PREVIEW_06.jpg",
-      "imageAlt": "Картина Катерины Ковалевой",
+      "imageAlt": "Finissage «LIMBO»",
       "eventType": "Finissage",
       "eventName": "«LIMBO»",
       "eventNameLink": "",
@@ -21,10 +21,11 @@
       "active": "active",
 
       "imageSrc": "00_main-page/announcement/00_PREVIEW_07.jpg",
-      "imageAlt": "Картина Катерины Ковалевой",
+      "imageAlt": "Kouroi at the “COSMOSCOW 2024” Art Fair",
       "eventType": "Contemporary Art Fair",
       "eventName": "«COSMOSCOW»",
-      "eventNameLink": "",
+      "eventNameLink": "cosmocow.html",
+      "eventLink": "cosmocow.html",
       "eventDate": "October 24 - October 27, 2024",
       "eventLocation": {
         "link": "",
@@ -37,10 +38,11 @@
       "active": "active",
 
       "imageSrc": "00_main-page/announcement/00_PREVIEW_08.jpg",
-      "imageAlt": "Картина Катерины Ковалевой",
+      "imageAlt": "Exhibition of Russian contemporary art “To Create Miracles”",
       "eventType": "Exhibition of Russian contemporary art",
       "eventName": "“To Create Miracles”",
-      "eventNameLink": "",
+      "eventNameLink": "create-miracles.html",
+      "eventLink": "create-miracles.html",
       "eventDate": "October 1 - October 31, 2024",
       "eventLocation": {
         "link": "",

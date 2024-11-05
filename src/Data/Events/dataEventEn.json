@@ -1,8 +1,8 @@
 {
   "cosmocow": [
     {
-      "name": "<span class='bold'>Ярмарка современного искусства «COSMOSCOW 2024» </span>",
-      "description": "\n 24 октября — 27 октября 2024 \n Тимирязев Центр, Москва \n\n «Эти объекты по стилистике и более условной «сглаженной» обработке камня напоминают известные образцы архаики. Гомер использовал наименование «курос» для обозначения молодых солдат. Так что потерявшиеся части тела, их замещение, может рассматриваться как признак геройства.",
+      "name": "<span class='bold'>Contemporary Art Fair “COSMOSCOW 2024”</span>",
+      "description": "\n October 24 - October 27, 2024 \n Timiryazev Center, Moscow \n\n “These objects are reminiscent of known Archaic examples in their stylistics and more conventional “smoothed” stonework. Homer used the appellation “kouros” for young soldiers. So lost body parts, their replacement, can be seen as a sign of heroism.",
       "paintDescription": [""],
       "imagePaths": [
         {
@@ -13,17 +13,17 @@
         {
           "small": "/16_cosmocow/16_IMG_02.jpg",
           "full": "/16_cosmocow/source/16_IMG_02L.jpg",
-          "descrip": "Курос 2 • Мрамор, гранит, бронза, металл • 158х60х40см"
+          "descrip": "Kouros 2 • Marble, granite, bronze, metal • 158x60x40cm"
         },
         {
           "small": "/16_cosmocow/16_IMG_03.jpg",
           "full": "/16_cosmocow/source/16_IMG_03L.jpg",
-          "descrip": "Курос 1 • Мрамор, гранит, металл • 158х60х40см"
+          "descrip": "Kouros 1 • Marble, granite, metal • 158x60x40cm"
         },
         {
           "small": "/16_cosmocow/16_IMG_04.jpg",
           "full": "/16_cosmocow/source/16_IMG_04L.jpg",
-          "descrip": "Курос 1 • Мрамор, гранит, металл • 158х60х40см"
+          "descrip": "Kouros 1 • Marble, granite, metal • 158x60x40cm"
         }
       ]
     },
@@ -31,30 +31,32 @@
       "name": "",
       "description": "",
       "paintDescription": [
-        "Мне интересна иллюзия подмены/замены высокого и низкого, с дуализмом противопоставления сакрального (души) и профанного (тела).\n\n Я попыталась соединить в образе <span class='bold'>идею вечности камня и эфемерности снега</span>, форму идеального тела и «случайной» чужой болванки/головы, когда под сомнение ставятся всем известные клише про здоровое тело и здоровый дух.» ",
-        "— Катерина Ковалёва"
+        "I am interested in the illusion of the substitution/replacement of the sublime and the earthy, with the dualism of the opposition between the sacred (soul) and the profane (body).\n\n I tried to combine the idea of eternity of a stone and ephemerality of snow, the form of an ideal body and “accidental” someone else's dummy/head, when all the well-known clichés about a healthy body and a healthy spirit are questioned.”",
+        "— Katerina Kovaleva"
       ],
       "imagePaths": [
         {
+          "small": "/16_cosmocow/16_IMG_01.jpg",
           "small": "/16_cosmocow/16_IMG_05.jpg",
           "full": "/16_cosmocow/source/16_IMG_05L.jpg",
-          "descrip": "Курос 1 • Мрамор, гранит, металл • 158х60х40см"
+          "descrip": "Kouros 1 • Marble, granite, metal • 158x60x40cm"
         },
         {
           "small": "/16_cosmocow/16_IMG_06.jpg",
           "full": "/16_cosmocow/source/16_IMG_01L.jpg",
-          "descrip": "Курос 2 • Мрамор, гранит, бронза, металл • 158х60х40см"
+          "descrip": "Kouros 2 • Marble, granite, bronze, metal • 158x60x40cm"
         }
       ]
     }
   ],
+
   "create-miracles": [
     {
-      "name": "<span class='bold'>Выставка российского современного искусства «Творить чудеса»</span>",
-      "description": "\n 1 октября — 31 октября 2024",
+      "name": "<span class='bold'>Exhibition of Russian contemporary art “To Create Miracles”</span>",
+      "description": "\n October 1 - October 31, 2024",
       "paintDescription": [
-        "Музей африканских цивилизаций, Дакар, Сенегал",
-        "Инсталляция \n <span class='bold'>«Если пойдет дождь. Триумф Авроры»</span> \nПарашют, акрил, старые пожарные ведра, зеркало"
+        "The Museum of Black Civilisations, Dakar, Senegal",
+        "Installation \n <span class='bold'>“If It Rains. Triumph of the Aurora.”</span> \nParachute, acrylic, old fire buckets, mirror"
       ],
       "imagePaths": [
         {

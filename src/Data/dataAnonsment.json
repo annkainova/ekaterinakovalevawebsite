@@ -5,7 +5,7 @@
       "active": "active",
 
       "imageSrc": "00_main-page/announcement/00_PREVIEW_06.jpg",
-      "imageAlt": "Картина Катерины Ковалевой",
+      "imageAlt": "Финисаж «LIMBO»",
       "eventType": "Финисаж",
       "eventName": "«LIMBO»",
       "eventNameLink": "",
@@ -20,10 +20,11 @@
       "class": "event",
       "active": "active",
       "imageSrc": "00_main-page/announcement/00_PREVIEW_07.jpg",
-      "imageAlt": "Экспонат Катерины Ковалевой",
+      "imageAlt": "Куросы на ярмарке современного искусства «COSMOSCOW 2024»",
       "eventType": "Ярмарка современного искусства",
       "eventName": "«COSMOSCOW»",
       "eventNameLink": "cosmocow.html",
+      "eventLink": "cosmocow.html",
       "eventDate": "24 октября — 27 октября 2024",
       "eventLocation": {
         "link": "",
@@ -37,9 +38,10 @@
 
       "imageSrc": "00_main-page/announcement/00_PREVIEW_08.jpg",
       "imageAlt": "Картина Катерины Ковалевой",
-      "eventType": "Выставка российского современного искусства",
+      "eventType": "Выставка российского современного искусства «Творить чудеса»",
       "eventName": "«Творить чудеса»",
       "eventNameLink": "create-miracles.html",
+      "eventLink": "create-miracles.html",
       "eventDate": "1 октября — 31 октября 2024",
       "eventLocation": {
         "link": "",
@@ -88,6 +90,7 @@
       "eventName": "Европа страдает <br> Парашют, который нас спасёт",
       "eventNameLink": "interview.html",
       "eventDate": "11 августа 2024",
+      "eventLink": "interview.html",
       "eventLocation": {
         "link": "",
         "linkText": "",
