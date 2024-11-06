@@ -82,7 +82,9 @@ button {
 .work-projects,
 .biography,
 .memorial-objects,
-.right-to-rest {
+.right-to-rest,
+.cosmocow,
+.create-miracles {
   display: flex;
   flex-direction: column;
   gap: 80px;
@@ -92,6 +94,12 @@ button {
   @media (max-width: 768px) {
     margin-top: 90px;
     gap: 40px;
+  }
+
+  .slick-slide {
+    @media (max-width: 1024px) {
+      height: 380px !important;
+    }
   }
 }
 

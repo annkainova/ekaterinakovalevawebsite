@@ -1,0 +1,75 @@
+.cosmocow {
+  line-height: 0;
+  gap: 40px;
+  margin-bottom: 160px;
+
+  @media (max-width: 1024px) {
+    margin-bottom: 40px;
+  }
+
+
+
+
+  .element {
+    &:nth-child(1) {
+
+
+      .image-wrapper {
+        gap: 45px;
+      }
+
+      @media (max-width: 1024px) {
+        .image-wrapper {
+          height: 340px;
+
+          &::after {
+            content: '';
+            bottom: 60px;
+          }
+        }
+      }
+
+
+    }
+
+    &:nth-child(2) {
+      .element__img {
+        gap: 40px;
+      }
+
+      .element__info {
+        grid-template-rows: 0px max-content auto;
+      }
+
+      .element__paint {
+        &:nth-child(3) {
+          align-self: end;
+          text-align: right;
+        }
+
+        @media (max-width: 1024px) {
+          &:nth-child(4) {
+            align-self: end;
+            text-align: right;
+          }
+        }
+      }
+
+      // Если есть подпись у картинки
+      @media (max-width: 1024px) {
+        .image-wrapper {
+          height: 340px;
+
+          &::after {
+            content: '';
+            bottom: 60px;
+          }
+        }
+      }
+    }
+  }
+
+  .image-wrapper {
+    gap: 40px;
+  }
+}

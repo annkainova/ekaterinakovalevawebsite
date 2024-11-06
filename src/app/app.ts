@@ -1,6 +1,8 @@
 import '../style/main.scss';
 import data from '../Data/data.json';
 import dataEn from '../Data/dataEn.json';
+import dataEvent from '../Data/Events/dataEvent.json';
+import dataEventEn from '../Data/Events/dataEventEn.json';
 import dataProject from '../Data/projectData.json';
 
 import Page from './pages/Gallery/Page.ts';
@@ -22,6 +24,7 @@ export default class App {
   localization: Localization;
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   selectedData: any;
+  eventData: any;
   navPanel: NavPanel;
   activeLink: ActiveLink;
   biography: BiographyComponent;
@@ -48,6 +51,7 @@ export default class App {
     this.localization = new Localization();
     this.navPanel = new NavPanel('main');
     this.selectedData = this.localization.language === 'ru' ? data : dataEn;
+    this.eventData = this.localization.language === 'ru' ? dataEvent : dataEventEn;
 
     this.activeLink = new ActiveLink();
   }
@@ -69,6 +73,12 @@ export default class App {
     ];
 
     return galleryPages.some(id => window.location.pathname.endsWith(`${id}.html`));
+  }
+
+  isEventPage(): boolean {
+    const eventPages = ['cosmocow', 'create-miracles'];
+
+    return eventPages.some(id => window.location.pathname.endsWith(`${id}.html`));
   }
 
   isNewsPage(): boolean {
@@ -102,6 +112,12 @@ export default class App {
     }
   }
 
+  renderEventPage() {
+    const selectData = this.eventData;
+    this.page.renderGallery('cosmocow', selectData);
+    this.page.renderGallery('create-miracles', selectData);
+  }
+
   renderNewsPage() {
     this.news.render();
   }
@@ -123,6 +139,8 @@ export default class App {
       this.renderBiography();
     } else if (this.isInterviewPage()) {
       this.renderDetailPage();
+    } else if (this.isEventPage()) {
+      this.renderEventPage();
     }
     this.homePage.render();
   }
