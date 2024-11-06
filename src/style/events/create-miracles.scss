@@ -5,15 +5,17 @@
   .element {
     &:nth-child(1) {
       .element__info {
-        grid-template-rows: max-content max-content auto;
+        grid-template-rows: max-content auto 128px;
       }
 
-      .element__paint {
-        &:nth-child(3) {
-          align-self: end;
-          margin-bottom: 48px;
+      @media (max-width: 1024px) {
+        .element__paint {
+          &:nth-child(4) {
+            margin-top: 16px;
+          }
         }
       }
+
 
       .image-wrapper {
         gap: 20px;

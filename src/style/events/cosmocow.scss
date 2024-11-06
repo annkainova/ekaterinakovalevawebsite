@@ -46,6 +46,13 @@
           align-self: end;
           text-align: right;
         }
+
+        @media (max-width: 1024px) {
+          &:nth-child(4) {
+            align-self: end;
+            text-align: right;
+          }
+        }
       }
 
       // Если есть подпись у картинки
