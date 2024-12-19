@@ -1,0 +1,106 @@
+.catch-fishing {
+  line-height: 0;
+  gap: 80px;
+  margin-bottom: 160px;
+
+  @media (max-width: 1024px) {
+    margin-bottom: 40px;
+  }
+
+  .element {
+
+    &:nth-child(1) {
+      .image-wrapper {
+        gap: 20px;
+      }
+
+      // Если есть подпись у картинки
+      @media (max-width: 1024px) {
+        .image-wrapper {
+          height: 340px;
+
+          &::after {
+            content: '';
+            bottom: 60px;
+          }
+        }
+      }
+
+      &:nth-child(1) {
+        .element__owerview {
+          margin-bottom: 23px;
+        }
+      }
+
+      .element__paint {
+        margin-bottom: 23px;
+      }
+    }
+
+    &:nth-child(2) {
+      .element__img {
+        gap: 40px;
+      }
+
+      .element__info {
+        grid-template-rows: 0px max-content auto;
+      }
+
+      .element__paint {
+        margin-bottom: 23px;
+      }
+    }
+
+    &:nth-child(3) {
+      .element__img {
+        gap: 40px;
+      }
+
+      .element__info {
+        grid-template-rows: 0px max-content auto;
+      }
+
+      .element__paint {
+        margin-bottom: 23px;
+      }
+    }
+
+    &:nth-child(4) {
+      .element__img {
+        gap: 40px;
+      }
+
+      .image-wrapper {
+        gap: 20px;
+      }
+
+      .element__paint {
+        margin-bottom: 23px;
+
+        @media (max-width: 1024px) {}
+
+        &:nth-child(4) {
+          align-self: end;
+          text-align: right;
+        }
+
+        @media (max-width: 1024px) {
+          &:nth-child(4) {
+            text-align: left;
+          }
+
+          &:nth-child(6) {
+            align-self: end;
+            text-align: right;
+          }
+        }
+      }
+    }
+  }
+
+
+
+  .image-wrapper {
+    gap: 40px;
+  }
+}

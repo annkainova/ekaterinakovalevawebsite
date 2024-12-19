@@ -1,4 +1,117 @@
 {
+  "catch-fishing": [
+    {
+      "name": "<span class='bold'>“Catching Fish by the Light” Project, “Alanika 2024” Contemporary Art Festival</span>",
+      "description": "\n <span class='bold'>October 4, 2024 - ∞</span> \n Museum of History of Fishing Industry, Makhachkala, Dagestan \n\n <span class='bold'>ХХ ххххх - ххх month 2024</span> \n North Caucasus branch of Pushkin State Museum of Fine Arts, Vladikavkaz",
+      "paintDescription": [
+        "The installation in the Museum of the History of the Fishing Industry is dedicated to one of the ways of catching fish - using <span class='bold'>artificial light.</span>",
+        "Like the movement of a fish attracted by a bright light, the visitor of the museum reacts to the achievements of thought and labor of a man who is faithfully serving his cause. The history of the earth is formed from the humble stories of each worker, the success of a large industry depends on a single, sometimes unknown person. The light of <span class='bold'>selfless daily work</span> of generations of ordinary fishermen, workers of the fishing industry of Dagestan, still reaches us and testifies to the scale of the invested labor, attracts attention, causes admiration and respect."
+      ],
+      "imagePaths": [
+        {
+          "small": "/18_catch-fishing/18_IMG_01.jpg",
+          "full": "/18_catch-fishing/source/18_IMG_01L.jpg",
+          "descrip": " "
+        },
+        {
+          "small": "/18_catch-fishing/18_IMG_02.jpg",
+          "full": "/18_catch-fishing/source/18_IMG_02L.jpg",
+          "descrip": "Installation «Catching Fish by the Light» in Vladikavkaz"
+        },
+        {
+          "small": "/18_catch-fishing/18_IMG_03.jpg",
+          "full": "/18_catch-fishing/source/18_IMG_03L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/18_catch-fishing/18_IMG_04.jpg",
+          "full": "/18_catch-fishing/source/18_IMG_04L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/18_catch-fishing/18_IMG_05.jpg",
+          "full": "/18_catch-fishing/source/18_IMG_05L.jpg",
+          "descrip": " "
+        }
+      ]
+    },
+    {
+      "name": "",
+      "description": "",
+      "paintDescription": [
+        "Oblivion seems unfair to each of these people, whose portraits are everywhere on the walls of the museum. That is why the idea to make a symbolic curtain, a <span class='bold'>“pantheon of heroes”</span> or a symbolic board of honor was born.",
+        "A light translucent fabric with portraits of fishery workers printed on it, paired with a curtain depicting tons of fish, is placed at the entrance to the museum and precedes the first exposition hall, the “memorial office of the head of the plant”."
+      ],
+      "imagePaths": [
+        {
+          "small": "/18_catch-fishing/18_IMG_06.jpg",
+          "full": "/18_catch-fishing/source/18_IMG_06L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/18_catch-fishing/18_IMG_07.jpg",
+          "full": "/18_catch-fishing/source/18_IMG_07L.jpg",
+          "descrip": ""
+        }
+      ]
+    },
+    {
+      "name": "",
+      "description": "",
+      "paintDescription": [
+        "The installation “Catching Fish by the Light,” which opens the museum's general exhibition, is a composition that consists of a <span class='bold'>vintage fishing cage</span> attached to the ceiling and turned into a lamp, and old barrels with metal-cut sprat. Some of the barrels contain mirrors that create the illusion of being filled with water and reflect the parachute cloth-covered ceiling that imitates the water surface.",
+        "Also, on the walls in this hall are applied <span class='bold'>graphic schemes</span> - drawings depicting the fish catching by the light. Old showcases have been turned into lightboxes representing pages from old atlases and books with images of fish living in the Caspian Sea."
+      ],
+      "imagePaths": [
+        {
+          "small": "/18_catch-fishing/18_IMG_08.jpg",
+          "full": "/18_catch-fishing/source/18_IMG_08L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/18_catch-fishing/18_IMG_09.jpg",
+          "full": "/18_catch-fishing/source/18_IMG_09L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/18_catch-fishing/18_IMG_10.jpg",
+          "full": "/18_catch-fishing/source/18_IMG_10L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/18_catch-fishing/18_IMG_11.jpg",
+          "full": "/18_catch-fishing/source/18_IMG_11L.jpg",
+          "descrip": ""
+        }
+      ]
+    },
+    {
+      "name": "",
+      "description": "",
+      "paintDescription": [
+        "Aquariums that have long been out of use have become backlit mirror exposition modules, where the museum's exhibits are placed in a new combination and connection.",
+        "The bright entrance area becomes a kind of a bridge between <span class='bold'>the present and the past</span>, which is represented in the authentic exhibition of the fishing industry museum.",
+        "— Katerina Kovaleva"
+      ],
+      "imagePaths": [
+        {
+          "small": "/18_catch-fishing/18_IMG_12.jpg",
+          "full": "/18_catch-fishing/source/18_IMG_12L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/18_catch-fishing/18_IMG_13.jpg",
+          "full": "/18_catch-fishing/source/18_IMG_13L.jpg",
+          "descrip": ""
+        },
+        {
+          "small": "/18_catch-fishing/18_IMG_14.jpg",
+          "full": "/18_catch-fishing/source/18_IMG_14L.jpg",
+          "descrip": " "
+        }
+      ]
+    }
+  ],
   "cosmocow": [
     {
       "name": "<span class='bold'>Contemporary Art Fair “COSMOSCOW 2024”</span>",
