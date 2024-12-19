@@ -27,7 +27,6 @@ export default class Localization {
   changeLanguage(lang: string) {
     localStorage.setItem('language', lang);
     this.language = localStorage.getItem('language') as string;
-    // eslint-disable-next-line no-restricted-globals
     location.reload();
   }
 
@@ -35,7 +34,6 @@ export default class Localization {
     document.querySelectorAll('[data-localize]').forEach(element => {
       const key = element.getAttribute('data-localize');
       if (key) {
-        // eslint-disable-next-line no-param-reassign
         element.innerHTML = this.selectedData[key];
       }
     });

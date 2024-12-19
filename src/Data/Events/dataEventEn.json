@@ -1,0 +1,90 @@
+{
+  "cosmocow": [
+    {
+      "name": "<span class='bold'>Contemporary Art Fair “COSMOSCOW 2024”</span>",
+      "description": "\n October 24 - October 27, 2024 \n Timiryazev Center, Moscow \n\n “These objects are reminiscent of known Archaic examples in their stylistics and more conventional “smoothed” stonework. Homer used the appellation “kouros” for young soldiers. So lost body parts, their replacement, can be seen as a sign of heroism.",
+      "paintDescription": [""],
+      "imagePaths": [
+        {
+          "small": "/16_cosmocow/16_IMG_01.jpg",
+          "full": "/16_cosmocow/source/16_IMG_01L.jpg",
+          "descrip": " "
+        },
+        {
+          "small": "/16_cosmocow/16_IMG_02.jpg",
+          "full": "/16_cosmocow/source/16_IMG_02L.jpg",
+          "descrip": "Kouros 2 • Marble, granite, bronze, metal • 158x60x40cm"
+        },
+        {
+          "small": "/16_cosmocow/16_IMG_03.jpg",
+          "full": "/16_cosmocow/source/16_IMG_03L.jpg",
+          "descrip": "Kouros 1 • Marble, granite, metal • 158x60x40cm"
+        },
+        {
+          "small": "/16_cosmocow/16_IMG_04.jpg",
+          "full": "/16_cosmocow/source/16_IMG_04L.jpg",
+          "descrip": "Kouros 1 • Marble, granite, metal • 158x60x40cm"
+        }
+      ]
+    },
+    {
+      "name": "",
+      "description": "",
+      "paintDescription": [
+        "I am interested in the illusion of the substitution/replacement of the sublime and the earthy, with the dualism of the opposition between the sacred (soul) and the profane (body).\n\n I tried to combine the idea of eternity of a stone and ephemerality of snow, the form of an ideal body and “accidental” someone else's dummy/head, when all the well-known clichés about a healthy body and a healthy spirit are questioned.”",
+        "— Katerina Kovaleva"
+      ],
+      "imagePaths": [
+        {
+          "small": "/16_cosmocow/16_IMG_01.jpg",
+          "small": "/16_cosmocow/16_IMG_05.jpg",
+          "full": "/16_cosmocow/source/16_IMG_05L.jpg",
+          "descrip": "Kouros 1 • Marble, granite, metal • 158x60x40cm"
+        },
+        {
+          "small": "/16_cosmocow/16_IMG_06.jpg",
+          "full": "/16_cosmocow/source/16_IMG_01L.jpg",
+          "descrip": "Kouros 2 • Marble, granite, bronze, metal • 158x60x40cm"
+        }
+      ]
+    }
+  ],
+
+  "create-miracles": [
+    {
+      "name": "<span class='bold'>Exhibition of Russian contemporary art “To Create Miracles”</span>",
+      "description": "\n October 1 - October 31, 2024",
+      "paintDescription": [
+        "The Museum of Black Civilisations, Dakar, Senegal \n",
+        "Installation \n <span class='bold'>“If It Rains. Triumph of the Aurora.”</span> \nParachute, acrylic, old fire buckets, mirror"
+      ],
+      "imagePaths": [
+        {
+          "small": "/17_createMiracles/17_IMG_01.jpg",
+          "full": "/17_createMiracles/source/17_IMG_01L.jpg",
+          "descrip": " "
+        },
+        {
+          "small": "/17_createMiracles/17_IMG_02.jpg",
+          "full": "/17_createMiracles/source/17_IMG_02L.jpg",
+          "descrip": " "
+        },
+        {
+          "small": "/17_createMiracles/17_IMG_03.jpg",
+          "full": "/17_createMiracles/source/17_IMG_03L.jpg",
+          "descrip": " "
+        },
+        {
+          "small": "/17_createMiracles/17_IMG_04.jpg",
+          "full": "/17_createMiracles/source/17_IMG_04L.jpg",
+          "descrip": " "
+        },
+        {
+          "small": "/17_createMiracles/17_IMG_05.jpg",
+          "full": "/17_createMiracles/source/17_IMG_05L.jpg",
+          "descrip": " "
+        }
+      ]
+    }
+  ]
+}

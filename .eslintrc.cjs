@@ -25,6 +25,7 @@ module.exports = {
       'error',
       { devDependencies: ['vite.config.js', '**/*.config.js'] },
     ],
+    'class-methods-use-this': off,
   },
   settings: {
     'import/resolver': {

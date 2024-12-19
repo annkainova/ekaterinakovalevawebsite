@@ -1,6 +1,55 @@
 {
   "events": [
     {
+      "class": "event",
+      "active": "active",
+
+      "imageSrc": "00_main-page/announcement/00_PREVIEW_06.jpg",
+      "imageAlt": "Финисаж «LIMBO»",
+      "eventType": "Финисаж",
+      "eventName": "«LIMBO»",
+      "eventNameLink": "",
+      "eventDate": "31 октября 2024",
+      "eventLocation": {
+        "link": "https://www.creavenice.com/dettagli-e-registrazioni/finissage-limbo-by-katerina-kovaleva",
+        "linkText": "CREA, Венеция, Италия",
+        "locationText": " "
+      }
+    },
+    {
+      "class": "event",
+      "active": "active",
+      "imageSrc": "00_main-page/announcement/00_PREVIEW_07.jpg",
+      "imageAlt": "Куросы на ярмарке современного искусства «COSMOSCOW 2024»",
+      "eventType": "Ярмарка современного искусства",
+      "eventName": "«COSMOSCOW»",
+      "eventNameLink": "cosmocow.html",
+      "eventLink": "cosmocow.html",
+      "eventDate": "24 октября — 27 октября 2024",
+      "eventLocation": {
+        "link": "",
+        "linkText": "",
+        "locationText": "Тимирязев Центр, Москва"
+      }
+    },
+    {
+      "class": "event",
+      "active": "active",
+
+      "imageSrc": "00_main-page/announcement/00_PREVIEW_08.jpg",
+      "imageAlt": "Выставка российского современного искусства «Творить чудеса»",
+      "eventType": "Выставка российского современного искусства",
+      "eventName": "«Творить чудеса»",
+      "eventNameLink": "create-miracles.html",
+      "eventLink": "create-miracles.html",
+      "eventDate": "1 октября — 31 октября 2024",
+      "eventLocation": {
+        "link": "",
+        "linkText": "",
+        "locationText": "Музей африканских цивилизаций, Дакар, Сенегал"
+      }
+    },
+    {
       "class": "personal-structur",
       "active": "active",
 
@@ -8,6 +57,7 @@
       "imageAlt": "Картина Катерины Ковалевой",
       "eventType": "Групповая выставка",
       "eventName": "«ПЕРСОНАЛЬНЫЕ СТРУКТУРЫ»",
+      "eventNameLink": "",
       "eventDate": "20 апреля — 21 ноября 2024",
       "eventLocation": {
         "link": "https://personalstructures.com/participants/katerina-kovaleva/",
@@ -15,7 +65,6 @@
         "locationText": " Венеция, Италия"
       }
     },
-
     {
       "class": "limbo",
       "active": "active",
@@ -23,6 +72,7 @@
       "imageAlt": "Картина Катерины Ковалевой из выставки «LIMBO»",
       "eventType": "Персональная выставка",
       "eventName": "«LIMBO»",
+      "eventNameLink": "",
       "eventDate": "4 сентября — 31 октября 2024",
       "eventLocation": {
         "link": "",
@@ -38,7 +88,9 @@
       "imageAlt": "Фото интервью 'Европа страдает Парашют, который нас спасёт'",
       "eventType": "Интервью",
       "eventName": "Европа страдает <br> Парашют, который нас спасёт",
+      "eventNameLink": "interview.html",
       "eventDate": "11 августа 2024",
+      "eventLink": "interview.html",
       "eventLocation": {
         "link": "",
         "linkText": "",
@@ -52,6 +104,7 @@
       "imageAlt": "Картина Катерины Ковалевой из выставки 'Три главы из жизни женщины'",
       "eventType": "Персональная выставка",
       "eventName": "«LIMBO. ЗОНА ОЖИДАНИЯ»",
+      "eventNameLink": "",
       "eventDate": "4 сентября — 31 октября 2024",
       "eventLocation": {
         "link": "",

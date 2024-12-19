@@ -28,6 +28,10 @@ export default defineConfig({
         contact: path.resolve('contact.html'),
         memorialObjects: path.resolve('memorial-objects.html'),
         rightToRest: path.resolve('right-to-rest.html'),
+        events: path.resolve('events.html'),
+        interview: path.resolve('interview.html'),
+        cosmocow: path.resolve('cosmocow.html'),
+        createMiracles: path.resolve('create-miracles.html'),
       },
       output: {
         // Опции выходных данных, позволяющие контролировать структуру имен файлов и др.
@@ -69,6 +73,10 @@ export default defineConfig({
       { from: /\/work-projects/, to: '/work-projects.html' },
       { from: /\/biography/, to: '/biography.html' },
       { from: /\/memorial-objects/, to: '/memorial-objects.html' },
+      { from: /\/events/, to: '/events.html' },
+      { from: /\/interview/, to: '/interview.html' },
+      { from: /\/cosmocow/, to: '/cosmocow.html' },
+      { from: /\/create-miracles/, to: '/create-miracles.html' },
     ],
   },
 });

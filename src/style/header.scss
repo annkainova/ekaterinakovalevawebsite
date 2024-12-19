@@ -30,7 +30,7 @@
     display: flex;
     justify-content: space-between;
     margin: 35px 0 0px;
-    padding: 0 20px;
+    // padding: 0 20px;
     width: 100%;
 
     @media (max-width: 1280px) {
@@ -116,6 +116,13 @@
     margin-right: -6px;
   }
 
+  &__container--en {
+
+    gap: 47px;
+
+  }
+
+
   &__element {
     padding: 1px 6px;
     @include font($normal, $font-16, $dark);
@@ -141,7 +148,7 @@
 
   &__main {
     text-transform: uppercase;
-    margin-right: 38px;
+    margin: 0 38px;
   }
 
   &__link {
