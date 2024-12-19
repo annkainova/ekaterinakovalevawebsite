@@ -20,6 +20,22 @@
       "class": "event",
       "active": "active",
 
+      "imageSrc": "00_main-page/announcement/00_PREVIEW_09.jpg",
+      "imageAlt": "“Catching Fish by the Light”",
+      "eventType": "Project for the festival “Alanika 2024”",
+      "eventName": "“Catching Fish by the Light”",
+      "eventNameLink": "catch-fishing.html",
+      "eventDate": "October 4, 2024 - ∞",
+      "eventLink": "catch-fishing.html",
+      "eventLocation": {
+        "linkText": "",
+        "locationText": "Museum of the history of the fishing industry of Dagestan"
+      }
+    },
+    {
+      "class": "event",
+      "active": "active",
+
       "imageSrc": "00_main-page/announcement/00_PREVIEW_07.jpg",
       "imageAlt": "Kouroi at the “COSMOSCOW 2024” Art Fair",
       "eventType": "Contemporary Art Fair",

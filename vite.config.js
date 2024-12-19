@@ -32,6 +32,7 @@ export default defineConfig({
         interview: path.resolve('interview.html'),
         cosmocow: path.resolve('cosmocow.html'),
         createMiracles: path.resolve('create-miracles.html'),
+        catchFishing: path.resolve('catch-fishing.html'),
       },
       output: {
         // Опции выходных данных, позволяющие контролировать структуру имен файлов и др.
@@ -77,6 +78,7 @@ export default defineConfig({
       { from: /\/interview/, to: '/interview.html' },
       { from: /\/cosmocow/, to: '/cosmocow.html' },
       { from: /\/create-miracles/, to: '/create-miracles.html' },
+      { from: /\/catch-fishing/, to: '/catch-fishing.html' },
     ],
   },
 });

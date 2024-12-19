@@ -19,6 +19,22 @@
     {
       "class": "event",
       "active": "active",
+
+      "imageSrc": "00_main-page/announcement/00_PREVIEW_09.jpg",
+      "imageAlt": "«Лов рыбы на свет»",
+      "eventType": "Проект в рамках фестиваля «Аланика 2024»",
+      "eventName": "«Лов рыбы на свет»",
+      "eventNameLink": "catch-fishing.html",
+      "eventDate": "4 октября 2024 — ∞",
+      "eventLink": "catch-fishing.html",
+      "eventLocation": {
+        "linkText": "",
+        "locationText": "Музей истории рыбной промышленности Дагестана"
+      }
+    },
+    {
+      "class": "event",
+      "active": "active",
       "imageSrc": "00_main-page/announcement/00_PREVIEW_07.jpg",
       "imageAlt": "Экспонат Катерины Ковалевой",
       "eventType": "Ярмарка современного искусства",
