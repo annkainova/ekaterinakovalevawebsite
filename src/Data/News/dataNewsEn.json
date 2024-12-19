@@ -10,6 +10,8 @@
       "eventName": "«LIMBO»",
       "eventNameLink": "",
       "eventDate": "October 31, 2024",
+      "eventLink": "",
+
       "eventLocation": {
         "link": "https://www.creavenice.com/dettagli-e-registrazioni/finissage-limbo-by-katerina-kovaleva",
         "linkText": "CREA, Venice, Italy",
@@ -28,6 +30,7 @@
       "eventDate": "October 4, 2024 - ∞",
       "eventLink": "catch-fishing.html",
       "eventLocation": {
+        "link": "",
         "linkText": "",
         "locationText": "Museum of the history of the fishing industry of Dagestan"
       }
