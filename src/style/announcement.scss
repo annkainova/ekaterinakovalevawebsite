@@ -88,6 +88,7 @@ div {
   }
 
   &__type {
+    height: 30px;
     margin-bottom: 15px;
     // letter-spacing: initial;
     text-align: left;
@@ -246,15 +247,9 @@ div {
 
 
 .slick-slide {
-  // position: relative;
-  // width: 384px !important;
-
-  // margin-right: 25px;
-  // left: -25px;
 
   @media (max-width: 1024px) {
-    // width: 274px !important;
-    // min-width: 100% !important;
+    // height: 380px !important;
   }
 }
 
