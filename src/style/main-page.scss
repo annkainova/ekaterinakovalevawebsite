@@ -9,7 +9,6 @@ body {
   height: 100%;
   /* Устанавливаем минимальную высоту для html и body */
   margin: 0;
-  // overflow-x: hidden;
 }
 
 body {
@@ -54,6 +53,10 @@ p {
   .bold {
     font-weight: 700;
   }
+
+  .thin {
+    font-weight: 400;
+  }
 }
 
 .under {
@@ -84,7 +87,8 @@ button {
 .memorial-objects,
 .right-to-rest,
 .cosmocow,
-.create-miracles {
+.create-miracles,
+.catch-fishing {
   display: flex;
   flex-direction: column;
   gap: 80px;
@@ -109,10 +113,6 @@ button {
 }
 
 
-.contact {
-  // margin-bottom: 60px;
-  // height: calc(100vh - 330px);
-}
 
 /* Переопределение фона модального окна */
 .fancybox-bg {

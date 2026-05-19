@@ -76,7 +76,7 @@ export default class App {
   }
 
   isEventPage(): boolean {
-    const eventPages = ['cosmocow', 'create-miracles'];
+    const eventPages = ['cosmocow', 'create-miracles', 'catch-fishing'];
 
     return eventPages.some(id => window.location.pathname.endsWith(`${id}.html`));
   }
@@ -116,6 +116,7 @@ export default class App {
     const selectData = this.eventData;
     this.page.renderGallery('cosmocow', selectData);
     this.page.renderGallery('create-miracles', selectData);
+    this.page.renderGallery('catch-fishing', selectData);
   }
 
   renderNewsPage() {
