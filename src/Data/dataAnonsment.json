@@ -4,6 +4,23 @@
       "class": "event",
       "active": "active",
 
+      "imageSrc": "00_main-page/announcement/00_PREVIEW_10.jpg",
+      "imageAlt": "Персональная выставка «Масса покоя»",
+      "eventType": "Персональная выставка",
+      "eventName": "«Масса покоя»",
+      "eventNameLink": "",
+      "eventDate": "26 мая — 3 июля 2026",
+      "eventLink": "",
+      "eventLocation": {
+        "link": "",
+        "linkText": "",
+        "locationText": "Галерея «Треугольник», ЦСИ «Винзавод», Москва"
+      }
+    },
+    {
+      "class": "event",
+      "active": "active",
+
       "imageSrc": "00_main-page/announcement/00_PREVIEW_06.jpg",
       "imageAlt": "Финисаж «LIMBO»",
       "eventType": "Финисаж",

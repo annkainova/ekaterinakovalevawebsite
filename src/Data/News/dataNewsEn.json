@@ -1,6 +1,23 @@
 {
   "events": [
     {
+      "class": "event",
+      "active": "active",
+
+      "imageSrc": "00_main-page/announcement/00_PREVIEW_10.jpg",
+      "imageAlt": "Solo exhibition “Rest Mass”",
+      "eventType": "Solo exhibition",
+      "eventName": "“Rest Mass”",
+      "eventNameLink": "",
+      "eventDate": "May 26 - July 3, 2026",
+      "eventLink": "",
+      "eventLocation": {
+        "link": "",
+        "linkText": "",
+        "locationText": "Triangle Gallery, Winzavod, Moscow"
+      }
+    },
+    {
       "class": "finisaj",
       "active": "active",
 
