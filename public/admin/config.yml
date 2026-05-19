@@ -1,0 +1,58 @@
+backend:
+  name: github
+  repo: annkainova/ekaterinakovalevawebsite
+  branch: main
+  base_url: https://CHANGEME-oauth-proxy.vercel.app
+  auth_endpoint: /auth
+
+local_backend: true
+
+media_folder: "public/00_main-page/announcement"
+public_folder: "/00_main-page/announcement"
+
+locale: "ru"
+
+collections:
+  - name: events
+    label: "События"
+    files:
+      - file: "src/Data/cmsEvents.json"
+        label: "Все события"
+        name: events_list
+        format: json
+        fields:
+          - name: events
+            label: "Список"
+            label_singular: "Событие"
+            widget: list
+            summary: "{{fields.ru.eventName}} — {{fields.ru.eventDate}}"
+            fields:
+              - name: imageSrc
+                label: "Картинка превью"
+                widget: image
+                hint: "Загрузи jpg/png. Сохранится в public/00_main-page/announcement/"
+
+              - name: eventLink
+                label: "Ссылка карточки (опц.)"
+                widget: string
+                required: false
+                default: ""
+                hint: "URL или относительный путь к странице (catch-fishing.html). Оставь пустым если карточка некликабельна."
+
+              - name: ru
+                label: "RU"
+                widget: object
+                fields:
+                  - { name: eventType, label: "Тип события", widget: string, hint: "Например: «Персональная выставка»" }
+                  - { name: eventName, label: "Название", widget: string, hint: "Например: «Масса покоя»" }
+                  - { name: eventDate, label: "Дата", widget: string, hint: "Например: «26 мая — 3 июля 2026»" }
+                  - { name: locationText, label: "Место", widget: string, hint: "Галерея «Треугольник», ЦСИ «Винзавод», Москва" }
+
+              - name: en
+                label: "EN"
+                widget: object
+                fields:
+                  - { name: eventType, label: "Event type", widget: string, hint: "e.g. «Solo exhibition»" }
+                  - { name: eventName, label: "Event name", widget: string, hint: "e.g. «“Rest Mass”»" }
+                  - { name: eventDate, label: "Date", widget: string, hint: "e.g. «May 26 - July 3, 2026»" }
+                  - { name: locationText, label: "Location", widget: string, hint: "Triangle Gallery, Winzavod, Moscow" }

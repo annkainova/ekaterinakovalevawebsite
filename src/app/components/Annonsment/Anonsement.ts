@@ -1,9 +1,11 @@
 import Localization from '../../pages/Localization/Localization';
-import { EventsData } from '../../interfaces/Event';
+import { CmsEventsData, EventsData } from '../../interfaces/Event';
 import EventBlock from '../EventBlock/EventBlock';
+import convertCmsEvents from '../../utils/cmsConverter';
 
 import dataAnonsment from '../../../Data/dataAnonsment.json';
 import dataAnonsmentEn from '../../../Data/dataAnonsmentEn.json';
+import cmsEvents from '../../../Data/cmsEvents.json';
 
 export default class Anonsement {
   private container: HTMLElement;
@@ -12,7 +14,10 @@ export default class Anonsement {
 
   constructor(container: HTMLElement) {
     this.localization = new Localization();
-    this.selectedData = this.localization.language === 'ru' ? dataAnonsment : dataAnonsmentEn;
+    const lang = this.localization.language === 'ru' ? 'ru' : 'en';
+    const baseData = lang === 'ru' ? dataAnonsment : dataAnonsmentEn;
+    const cmsConverted = convertCmsEvents((cmsEvents as CmsEventsData).events, lang);
+    this.selectedData = { events: [...cmsConverted, ...baseData.events] };
     this.container = container;
   }
 

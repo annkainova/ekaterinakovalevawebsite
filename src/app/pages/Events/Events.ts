@@ -2,10 +2,12 @@
 
 import EventBlock from '../../components/EventBlock/EventBlock';
 import Localization from '../Localization/Localization';
-import { EventsData } from '../../interfaces/Event';
+import { CmsEventsData, EventsData } from '../../interfaces/Event';
+import convertCmsEvents from '../../utils/cmsConverter';
 
 import dataNews from '../../../Data/News/dataNews.json';
 import dataNewsEn from '../../../Data/News/dataNewsEn.json';
+import cmsEvents from '../../../Data/cmsEvents.json';
 
 export default class NewsPage {
   private container: HTMLElement;
@@ -17,7 +19,10 @@ export default class NewsPage {
 
   constructor(container: HTMLElement, containerPagination: HTMLElement) {
     this.localization = new Localization();
-    this.selectedData = this.localization.language === 'ru' ? dataNews : dataNewsEn;
+    const lang = this.localization.language === 'ru' ? 'ru' : 'en';
+    const baseData = lang === 'ru' ? dataNews : dataNewsEn;
+    const cmsConverted = convertCmsEvents((cmsEvents as CmsEventsData).events, lang);
+    this.selectedData = { events: [...cmsConverted, ...baseData.events] };
 
     this.container = container;
     this.containerPagination = containerPagination;
