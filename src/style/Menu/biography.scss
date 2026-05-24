@@ -90,6 +90,14 @@
       .personal-data {
         display: flex;
         gap: 20px;
+
+        p {
+          line-height: 25px;
+        }
+
+        .year {
+          min-width: 40px;
+        }
       }
 
       .personal-text {
@@ -109,6 +117,19 @@
       .group-data {
         display: flex;
         gap: 20px;
+        break-inside: avoid;
+
+        p {
+          line-height: 20px;
+        }
+
+        .year {
+          min-width: 40px;
+        }
+      }
+
+      .group-data--column-break {
+        break-before: column;
       }
 
       .group-text {
@@ -116,7 +137,6 @@
 
         p {
           line-height: 20px;
-          /* 125% */
         }
       }
     }
