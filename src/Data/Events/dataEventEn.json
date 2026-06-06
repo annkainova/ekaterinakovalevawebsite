@@ -149,7 +149,6 @@
       ],
       "imagePaths": [
         {
-          "small": "/16_cosmocow/16_IMG_01.jpg",
           "small": "/16_cosmocow/16_IMG_05.jpg",
           "full": "/16_cosmocow/source/16_IMG_05L.jpg",
           "descrip": "Kouros 1 • Marble, granite, metal • 158x60x40cm"
@@ -162,7 +161,6 @@
       ]
     }
   ],
-
   "create-miracles": [
     {
       "name": "<span class='bold'>Exhibition of Russian contemporary art “To Create Miracles”</span>",
@@ -198,6 +196,108 @@
           "descrip": " "
         }
       ]
+    }
+  ],
+  "limbo": [
+    {
+      "name": "<span class='bold'>Проект «LIMBO»</span>",
+      "description": "<span class='bold'> Сентябрь — октябрь 2024 года </span>\n Центр современного искусства CREA, Венеция",
+      "paintDescription": [
+        "Главная идея проекта — аккумулировать <span class='bold'>надежду</span> через исследование феномена ожидания, используя парашют как символ переносного неба и упования.",
+        "Кроме работ из серии Зона ожидания, в экспозиции представлена инсталляция «<span class='bold'>Похищение Европы</span>», состоящая из трёх объектов («Rape of Europe», «Триумф континентов», «Свадебное платье Европы»), в которой символически отражено переживание происходящих в мире процессов, в первую очередь в социальной области и области культуры."
+      ],
+      "imagePaths": [
+        {
+          "small": "/19_LIMBO/19_IMG_01.jpg",
+          "full": "/19_LIMBO/source/19_IMG_01L.jpg",
+          "descrip": " "
+        },
+        {
+          "small": "/19_LIMBO/19_IMG_02.jpg",
+          "full": "/19_LIMBO/source/19_IMG_02L.jpg",
+          "descrip": " "
+        },
+        {
+          "small": "/19_LIMBO/19_IMG_03.jpg",
+          "full": "/19_LIMBO/source/19_IMG_03L.jpg",
+          "descrip": " "
+        },
+        {
+          "small": "/19_LIMBO/19_IMG_04.jpg",
+          "full": "/19_LIMBO/source/19_IMG_04L.jpg",
+          "descrip": " "
+        }
+      ]
+    },
+    {
+      "name": "",
+      "description": "",
+      "paintDescription": [
+        "I. На большом полотне из парашютной ткани (3х6м) изображены фрагменты из известных картин венецианских художников Тициана и Тьеполо, а также использованы изображения <span class='bold'>сигнальных флагов</span>:\nF — Foxtrot (нуждаюсь в помощи, свяжитесь со мной);\nU — Uniform (впереди опасность);\nV — Victor (прошу сопровождения)."
+      ],
+      "imagePaths": [
+        {
+          "small": "/19_LIMBO/19_IMG_05.jpg",
+          "full": "/19_LIMBO/source/19_IMG_05L.jpg",
+          "descrip": " "
+        },
+        {
+          "small": "/19_LIMBO/19_IMG_06.jpg",
+          "full": "/19_LIMBO/source/19_IMG_06L.jpg",
+          "descrip": " "
+        },
+        {
+          "small": "/19_LIMBO/19_IMG_07.jpg",
+          "full": "/19_LIMBO/source/19_IMG_07L.jpg",
+          "descrip": " "
+        }
+      ]
+    },
+    {
+      "name": "",
+      "description": "",
+      "paintDescription": [
+        "II. В центре пространства бывших венецианских верфей находится 9-метровый парашют «<span class='bold'>Триумф континентов</span>», на котором аллегорически изображены Европа, Африка, Азия и Америка (по мотивам Тьеполо). Единство в разнообразии. Только сохраняя свою идентичность, культурный год, человечество способно выжить."
+      ],
+      "imagePaths": [
+        {
+          "small": "/19_LIMBO/19_IMG_08.jpg",
+          "full": "/19_LIMBO/source/19_IMG_08L.jpg",
+          "descrip": " "
+        }
+      ]
+    },
+    {
+      "name": "",
+      "description": "",
+      "paintDescription": [
+        "III. Частью инсталляции также является шестиметровое <span class='bold'>Свадебное платье</span> из парашюта, с напечатанной на нем картой Европы. Это образ вечной невесты Европы, у которой есть в запасе карта побега, и это поможет ей вернуться к реальности, домой, к себе...",
+        "Похищенная Европа среди бурного моря взывает о помощи. Она должна перелететь океан, удерживая равновесие на спине быка, больше похожего на кроткого агнца или верного пса.",
+        "Смирится ли Европа с тем, что все дальше и дальше удаляется от родных берегов?.."
+      ],
+      "imagePaths": [
+        {
+          "small": "/19_LIMBO/19_IMG_09.jpg",
+          "full": "/19_LIMBO/source/19_IMG_09L.jpg",
+          "descrip": " "
+        },
+        {
+          "small": "/19_LIMBO/19_IMG_10.jpg",
+          "full": "/19_LIMBO/source/19_IMG_10L.jpg",
+          "descrip": " "
+        },
+        {
+          "small": "/19_LIMBO/19_IMG_11.jpg",
+          "full": "/19_LIMBO/source/19_IMG_11L.jpg",
+          "descrip": " "
+        },
+        {
+          "small": "/19_LIMBO/19_IMG_12.jpg",
+          "full": "/19_LIMBO/source/19_IMG_12L.jpg",
+          "descrip": " "
+        }
+      ],
+      "withoutMainPhoto": true
     }
   ]
 }

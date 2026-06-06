@@ -21,7 +21,6 @@ body {
   @include font($normal, $font-16, $dark);
   letter-spacing: 0.8px;
   font-family: $family;
-
 }
 
 footer {
@@ -88,7 +87,8 @@ button {
 .right-to-rest,
 .cosmocow,
 .create-miracles,
-.catch-fishing {
+.catch-fishing,
+.limbo {
   display: flex;
   flex-direction: column;
   gap: 80px;
@@ -109,10 +109,7 @@ button {
 
 .biography {
   margin-bottom: 100px;
-
 }
-
-
 
 /* Переопределение фона модального окна */
 .fancybox-bg {

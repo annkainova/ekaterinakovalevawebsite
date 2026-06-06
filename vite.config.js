@@ -33,6 +33,7 @@ export default defineConfig({
         cosmocow: path.resolve('cosmocow.html'),
         createMiracles: path.resolve('create-miracles.html'),
         catchFishing: path.resolve('catch-fishing.html'),
+        limbo: path.resolve('limbo.html'),
       },
       output: {
         // Опции выходных данных, позволяющие контролировать структуру имен файлов и др.
@@ -79,6 +80,7 @@ export default defineConfig({
       { from: /\/cosmocow/, to: '/cosmocow.html' },
       { from: /\/create-miracles/, to: '/create-miracles.html' },
       { from: /\/catch-fishing/, to: '/catch-fishing.html' },
+      { from: /\/limbo/, to: '/limbo.html' },
     ],
   },
 });

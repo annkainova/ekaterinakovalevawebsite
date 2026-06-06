@@ -3,7 +3,6 @@
     {
       "class": "event",
       "active": "active",
-
       "imageSrc": "00_main-page/announcement/00_PREVIEW_10.jpg",
       "imageAlt": "Персональная выставка «Масса покоя»",
       "eventType": "Персональная выставка",
@@ -20,7 +19,6 @@
     {
       "class": "event",
       "active": "active",
-
       "imageSrc": "00_main-page/announcement/00_PREVIEW_06.jpg",
       "imageAlt": "Финисаж «LIMBO»",
       "eventType": "Финисаж",
@@ -36,7 +34,6 @@
     {
       "class": "event",
       "active": "active",
-
       "imageSrc": "00_main-page/announcement/00_PREVIEW_09.jpg",
       "imageAlt": "«Лов рыбы на свет»",
       "eventType": "Проект в рамках фестиваля «Аланика 2024»",
@@ -69,7 +66,6 @@
     {
       "class": "event",
       "active": "active",
-
       "imageSrc": "00_main-page/announcement/00_PREVIEW_08.jpg",
       "imageAlt": "Выставка российского современного искусства «Творить чудеса»",
       "eventType": "Выставка российского современного искусства",
@@ -96,7 +92,8 @@
         "link": "",
         "linkText": "",
         "locationText": "CREA, Венеция, Италия"
-      }
+      },
+      "eventNameLink": "limbo.html"
     },
     {
       "class": "interview",
@@ -116,7 +113,6 @@
     {
       "class": "event",
       "active": "active",
-
       "imageSrc": "00_main-page/announcement/00_PREVIEW_02_1.jpg",
       "imageAlt": "Картина Катерины Ковалевой",
       "eventType": "Групповая выставка",
@@ -128,11 +124,9 @@
         "locationText": " Венеция, Италия"
       }
     },
-
     {
       "class": "event",
       "active": "active",
-
       "imageSrc": "00_main-page/announcement/00_PREVIEW_03.jpg",
       "imageAlt": "Картина Катерины Ковалевой",
       "eventType": "Групповая выставка",
@@ -147,7 +141,6 @@
     {
       "class": "event",
       "active": "active",
-
       "imageSrc": "00_main-page/announcement/00_PREVIEW_01.jpg",
       "imageAlt": "Картина Катерины Ковалевой",
       "eventType": "Групповая выставка",
@@ -162,7 +155,6 @@
     {
       "class": "event",
       "active": "active",
-
       "imageSrc": "00_news/00_PREVIEW_OLD_01.jpg",
       "imageAlt": "Картина Катерины Ковалевой",
       "eventType": "Групповая выставка",
@@ -177,7 +169,6 @@
     {
       "class": "event",
       "active": "active",
-
       "imageSrc": "00_news/00_PREVIEW_OLD_02.jpg",
       "imageAlt": "Картина Катерины Ковалевой",
       "eventType": "Групповая выставка",
@@ -192,7 +183,6 @@
     {
       "class": "event",
       "active": "active",
-
       "imageSrc": "00_news/00_PREVIEW_OLD_03.jpg",
       "imageAlt": "Картина Катерины Ковалевой",
       "eventType": "Ярмарка современного искусства",
@@ -207,7 +197,6 @@
     {
       "class": "event",
       "active": "active",
-
       "imageSrc": "00_news/00_PREVIEW_OLD_04.jpg",
       "imageAlt": "Картина Катерины Ковалевой",
       "eventType": "Групповая выставка",
@@ -222,7 +211,6 @@
     {
       "class": "event",
       "active": "active",
-
       "imageSrc": "00_news/00_PREVIEW_OLD_05.jpg",
       "imageAlt": "Картина Катерины Ковалевой",
       "eventType": "Групповая выставка",
@@ -237,7 +225,6 @@
     {
       "class": "event",
       "active": "active",
-
       "imageSrc": "00_news/00_PREVIEW_OLD_06.jpg",
       "imageAlt": "Картина Катерины Ковалевой",
       "eventType": "Персональная выставка",
@@ -253,7 +240,6 @@
     {
       "class": "event",
       "active": "active",
-
       "imageSrc": "00_news/00_PREVIEW_OLD_07.jpg",
       "imageAlt": "Картина Катерины Ковалевой",
       "eventType": "Ярмарка графики",
@@ -268,7 +254,6 @@
     {
       "class": "event",
       "active": "active",
-
       "imageSrc": "00_news/00_PREVIEW_OLD_08.jpg",
       "imageAlt": "Картина Катерины Ковалевой",
       "eventType": "Ярмарка современного искусства",
@@ -280,11 +265,9 @@
         "locationText": "Галерея Gridchinhall, Нижний Новгород"
       }
     },
-
     {
       "class": "event",
       "active": "active",
-
       "imageSrc": "00_news/00_PREVIEW_OLD_09.jpg",
       "imageAlt": "Картина Катерины Ковалевой",
       "eventType": "Групповая выставка",
@@ -296,11 +279,9 @@
         "locationText": "Галерея Триумф, Казанский вокзал, Москва"
       }
     },
-
     {
       "class": "event",
       "active": "active",
-
       "imageSrc": "00_news/00_PREVIEW_OLD_10.jpg",
       "imageAlt": "Картина Катерины Ковалевой",
       "eventType": "Персональная выставка",
@@ -313,11 +294,9 @@
         "locationText": "Соляной амбар XVIII в., Таруса"
       }
     },
-
     {
       "class": "event",
       "active": "active",
-
       "imageSrc": "00_news/00_PREVIEW_OLD_11.jpg",
       "imageAlt": "Картина Катерины Ковалевой",
       "eventType": "Фестиваль",
@@ -332,9 +311,7 @@
     {
       "class": "event",
       "active": "active",
-
       "imageSrc": "00_news/00_PREVIEW_OLD_12.jpg",
-
       "imageAlt": "Картина Катерины Ковалевой",
       "eventType": "Выставка-ярмарка",
       "eventName": "«ВОЗВРАЩЕНИЕ ДОН КИХОТА»",

@@ -3,7 +3,6 @@
     {
       "class": "event",
       "active": "active",
-
       "imageSrc": "00_main-page/announcement/00_PREVIEW_10.jpg",
       "imageAlt": "Персональная выставка «Масса покоя»",
       "eventType": "Персональная выставка",
@@ -20,7 +19,6 @@
     {
       "class": "event",
       "active": "active",
-
       "imageSrc": "00_main-page/announcement/00_PREVIEW_06.jpg",
       "imageAlt": "Финисаж «LIMBO»",
       "eventType": "Финисаж",
@@ -28,7 +26,6 @@
       "eventNameLink": "",
       "eventDate": "31 октября 2024",
       "eventLink": "",
-
       "eventLocation": {
         "link": "https://www.creavenice.com/dettagli-e-registrazioni/finissage-limbo-by-katerina-kovaleva",
         "linkText": "CREA, Венеция, Италия",
@@ -38,7 +35,6 @@
     {
       "class": "event",
       "active": "active",
-
       "imageSrc": "00_main-page/announcement/00_PREVIEW_09.jpg",
       "imageAlt": "«Лов рыбы на свет»",
       "eventType": "Проект в рамках фестиваля «Аланика 2024»",
@@ -71,7 +67,6 @@
     {
       "class": "event",
       "active": "active",
-
       "imageSrc": "00_main-page/announcement/00_PREVIEW_08.jpg",
       "imageAlt": "Выставка российского современного искусства «Творить чудеса»",
       "eventType": "Выставка российского современного искусства",
@@ -88,7 +83,6 @@
     {
       "class": "personal-structur",
       "active": "active",
-
       "imageSrc": "00_main-page/announcement/00_PREVIEW_02_1.jpg",
       "imageAlt": "Картина Катерины Ковалевой",
       "eventType": "Групповая выставка",
@@ -108,7 +102,7 @@
       "imageAlt": "Картина Катерины Ковалевой из выставки «LIMBO»",
       "eventType": "Персональная выставка",
       "eventName": "«LIMBO»",
-      "eventNameLink": "",
+      "eventNameLink": "limbo.html",
       "eventDate": "4 сентября — 31 октября 2024",
       "eventLocation": {
         "link": "",
@@ -116,7 +110,6 @@
         "locationText": "CREA, Венеция, Италия"
       }
     },
-
     {
       "class": "interview",
       "active": "active",

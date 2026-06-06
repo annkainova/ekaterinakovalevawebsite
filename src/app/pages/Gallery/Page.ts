@@ -19,6 +19,8 @@ interface PaintDataItem {
   description: string;
   paintDescription: string[];
   imagePaths: ImagePath[];
+  // Если true — блок рендерится равномерной сеткой без большого первого фото
+  withoutMainPhoto?: boolean;
 }
 
 interface ProjectDataItem {
@@ -40,13 +42,17 @@ export default class Page {
   }
 
   renderGallery(namePage: string, dataPaint: Record<string, PaintDataItem[]>) {
-    this.galleryViews = dataPaint[namePage].map(
+    const items = dataPaint[namePage];
+    this.galleryViews = items.map(
       (item: PaintDataItem) =>
         new Gallery(item.name, item.description, item.paintDescription, item.imagePaths)
     );
     const mapsContainer = document.querySelector(`.${namePage}`);
-    this.galleryViews.forEach(galleryView => {
-      const galleryEl = galleryView.render();
+    this.galleryViews.forEach((galleryView, index) => {
+      // Блок с флагом withoutMainPhoto рендерится сеткой без большого первого фото
+      const galleryEl = items[index].withoutMainPhoto
+        ? galleryView.renderMethodWithoutBigFirstPhoto()
+        : galleryView.render();
       mapsContainer?.appendChild(galleryEl);
     });
     // $('.fancybox').fancybox();
