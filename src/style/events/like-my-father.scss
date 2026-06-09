@@ -29,6 +29,16 @@
       margin-bottom: 23px;
     }
 
+    // Отступ между заголовком/подзаголовком и датой (как в макете)
+    &:nth-child(1) .element__name {
+      margin-bottom: 23px;
+    }
+
+    // Подзаголовок «Проект посвящён…» — курсивом, как в макете
+    &:nth-child(1) .element__name .thin {
+      font-style: italic;
+    }
+
     // Текст всех блоков — обычный вертикальный поток, прижат к верху
     .element__info {
       display: flex;
