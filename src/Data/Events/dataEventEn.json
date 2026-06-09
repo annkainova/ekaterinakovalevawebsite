@@ -200,11 +200,11 @@
   ],
   "limbo": [
     {
-      "name": "<span class='bold'>Проект «LIMBO»</span>",
-      "description": "<span class='bold'> Сентябрь — октябрь 2024 года </span>\n Центр современного искусства CREA, Венеция",
+      "name": "<span class='bold'>«LIMBO»</span>",
+      "description": "<span class='bold'>September 4 – October 31, 2024</span>\nCREA Center for Contemporary Art, Venice",
       "paintDescription": [
-        "Главная идея проекта — аккумулировать <span class='bold'>надежду</span> через исследование феномена ожидания, используя парашют как символ переносного неба и упования.",
-        "Кроме работ из серии Зона ожидания, в экспозиции представлена инсталляция «<span class='bold'>Похищение Европы</span>», состоящая из трёх объектов («Rape of Europe», «Триумф континентов», «Свадебное платье Европы»), в которой символически отражено переживание происходящих в мире процессов, в первую очередь в социальной области и области культуры."
+        "The main idea of the project is to accumulate <span class='bold'>hope</span> through an exploration of the phenomenon of waiting, using a parachute as a symbol of a metaphorical sky and expectation.",
+        "In addition to works from the «Waiting Area» series, the exhibition features the installation «<span class='bold'>Rape of Europe</span>», consisting of three pieces («Rape of Europe», «Triumph of the Continents», «Europe’s Wedding Dress»), which symbolically reflects the experience of the processes unfolding in the world, primarily in the social and cultural spheres."
       ],
       "imagePaths": [
         {
@@ -233,7 +233,7 @@
       "name": "",
       "description": "",
       "paintDescription": [
-        "I. На большом полотне из парашютной ткани (3х6м) изображены фрагменты из известных картин венецианских художников Тициана и Тьеполо, а также использованы изображения <span class='bold'>сигнальных флагов</span>:\nF — Foxtrot (нуждаюсь в помощи, свяжитесь со мной);\nU — Uniform (впереди опасность);\nV — Victor (прошу сопровождения)."
+        "I. A large piece of parachute fabric (3 x 6 m) features fragments from famous paintings by the Venetian artists Titian and Tiepolo, as well as images of <span class='bold'>signal flags</span>:\nF — Foxtrot (I am disabled; communicate with me);\nU — Uniform (you are running into danger);\nV — Victor (I require assistance)."
       ],
       "imagePaths": [
         {
@@ -257,7 +257,7 @@
       "name": "",
       "description": "",
       "paintDescription": [
-        "II. В центре пространства бывших венецианских верфей находится 9-метровый парашют «<span class='bold'>Триумф континентов</span>», на котором аллегорически изображены Европа, Африка, Азия и Америка (по мотивам Тьеполо). Единство в разнообразии. Только сохраняя свою идентичность, культурный год, человечество способно выжить."
+        "II. At the center of the former Venetian shipyards stands a 9-meter-tall parachute titled «<span class='bold'>The Triumph of the Continents</span>», which features allegorical depictions of Europe, Africa, Asia, and America (based on a work by Tiepolo). Unity in diversity. Only by preserving its identity and cultural code can humanity survive."
       ],
       "imagePaths": [
         {
@@ -271,10 +271,11 @@
       "name": "",
       "description": "",
       "paintDescription": [
-        "III. Частью инсталляции также является шестиметровое <span class='bold'>Свадебное платье</span> из парашюта, с напечатанной на нем картой Европы. Это образ вечной невесты Европы, у которой есть в запасе карта побега, и это поможет ей вернуться к реальности, домой, к себе...",
-        "Похищенная Европа среди бурного моря взывает о помощи. Она должна перелететь океан, удерживая равновесие на спине быка, больше похожего на кроткого агнца или верного пса.",
-        "Смирится ли Европа с тем, что все дальше и дальше удаляется от родных берегов?.."
+        "III. Also part of the installation is a six-meter-tall <span class='bold'>wedding dress</span> made of a parachute, with a map of Europe printed on it. This is an image of Europe as the eternal bride, who has a map of escape in reserve, and this will help her return to reality, to her homeland, to herself.",
+        "Abducted Europe, amidst a stormy sea, cries out for help. She must fly across the ocean, balancing on the back of a bull that looks more like a gentle lamb or a faithful dog.",
+        "Will Europe resign herself to the fact that she is drifting farther from her native shores?.."
       ],
+      "withoutMainPhoto": true,
       "imagePaths": [
         {
           "small": "/19_LIMBO/19_IMG_09.jpg",
@@ -296,8 +297,7 @@
           "full": "/19_LIMBO/source/19_IMG_12L.jpg",
           "descrip": " "
         }
-      ],
-      "withoutMainPhoto": true
+      ]
     }
   ],
   "like-my-father": [
