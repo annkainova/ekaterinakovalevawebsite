@@ -299,5 +299,116 @@
       ],
       "withoutMainPhoto": true
     }
+  ],
+  "like-my-father": [
+    {
+      "name": "<span class='bold'>«Вроде отца моего»</span>\n<span class='thin'>Проект посвящён 80-летию Победы в ВОВ</span>",
+      "description": "<span class='bold'>Май 2025 года</span>\nСеверо-Кавказский филиал ГМИИ им А.С. Пушкина, Владикавказ",
+      "paintDescription": [
+        "Инсталляция <span class='bold'>«Поминальный стол»</span> состоит из длинного стола, застеленного белой тканью, на котором стоят 40 стаканов с водой, накрытые небольшими кусками камня (гранит), напоминающими чёрный хлеб, а также 40 солдатских мисок, покрытых зеркалом, имитирующим воду."
+      ],
+      "imagePaths": [
+        {
+          "small": "/20_like-my-father/20_IMG_01.jpg",
+          "full": "/20_like-my-father/source/20_IMG_01L.jpg",
+          "descrip": " "
+        },
+        {
+          "small": "/20_like-my-father/20_IMG_02.jpg",
+          "full": "/20_like-my-father/source/20_IMG_02L.jpg",
+          "descrip": " "
+        },
+        {
+          "small": "/20_like-my-father/20_IMG_03.jpg",
+          "full": "/20_like-my-father/source/20_IMG_03L.jpg",
+          "descrip": " "
+        },
+        {
+          "small": "/20_like-my-father/20_IMG_04.jpg",
+          "full": "/20_like-my-father/source/20_IMG_04L.jpg",
+          "descrip": " "
+        },
+        {
+          "small": "/20_like-my-father/20_IMG_05.jpg",
+          "full": "/20_like-my-father/source/20_IMG_05L.jpg",
+          "descrip": " "
+        }
+      ]
+    },
+    {
+      "name": "",
+      "description": "",
+      "paintDescription": [
+        "В этих зеркалах отражается парашют, растянутый над столом, как купол, на котором изображён ангел Памяти, а также строчки из солдатских писем и похоронок."
+      ],
+      "imagePaths": [
+        {
+          "small": "/20_like-my-father/20_IMG_06.jpg",
+          "full": "/20_like-my-father/source/20_IMG_06L.jpg",
+          "descrip": " "
+        },
+        {
+          "small": "/20_like-my-father/20_IMG_07.jpg",
+          "full": "/20_like-my-father/source/20_IMG_07L.jpg",
+          "descrip": " "
+        },
+        {
+          "small": "/20_like-my-father/20_IMG_08.jpg",
+          "full": "/20_like-my-father/source/20_IMG_08L.jpg",
+          "descrip": " "
+        },
+        {
+          "small": "/20_like-my-father/20_IMG_09.jpg",
+          "full": "/20_like-my-father/source/20_IMG_09L.jpg",
+          "descrip": " "
+        }
+      ]
+    },
+    {
+      "name": "",
+      "description": "",
+      "paintDescription": [
+        "Перформанс <span class='bold'>«Письмо Надежды»</span>.\n1418 конвертов (по числу дней войны) пропечатываются специально изготовленными штампами. Внутрь можно вложить фотографию своего родственника-участника войны, портрет солдата, цитату или фрагмент письма.",
+        "Участники перформанса проштамповывают конверт (1945–2025) и отправляют его в будущее — кладут в символический почтовый ящик или выкладывают полотно из этих конвертов."
+      ],
+      "withoutMainPhoto": true,
+      "imagePaths": [
+        {
+          "small": "/20_like-my-father/20_IMG_10.jpg",
+          "full": "/20_like-my-father/source/20_IMG_10L.jpg",
+          "descrip": " "
+        },
+        {
+          "small": "/20_like-my-father/20_IMG_11.jpg",
+          "full": "/20_like-my-father/source/20_IMG_11L.jpg",
+          "descrip": " "
+        },
+        {
+          "small": "/20_like-my-father/20_IMG_12.jpg",
+          "full": "/20_like-my-father/source/20_IMG_12L.jpg",
+          "descrip": " "
+        },
+        {
+          "small": "/20_like-my-father/20_IMG_13.jpg",
+          "full": "/20_like-my-father/source/20_IMG_13L.jpg",
+          "descrip": " "
+        },
+        {
+          "small": "/20_like-my-father/20_IMG_14.jpg",
+          "full": "/20_like-my-father/source/20_IMG_14L.jpg",
+          "descrip": " "
+        },
+        {
+          "small": "/20_like-my-father/20_IMG_15.jpg",
+          "full": "/20_like-my-father/source/20_IMG_15L.jpg",
+          "descrip": " "
+        },
+        {
+          "small": "/20_like-my-father/20_IMG_16.jpg",
+          "full": "/20_like-my-father/source/20_IMG_16L.jpg",
+          "descrip": " "
+        }
+      ]
+    }
   ]
 }

@@ -299,5 +299,116 @@
       ],
       "withoutMainPhoto": true
     }
+  ],
+  "like-my-father": [
+    {
+      "name": "<span class='bold'>«Like My Father»</span>\n<span class='thin'>A project dedicated to the 80th anniversary of Victory in World War II</span>",
+      "description": "<span class='bold'>May 2025</span>\nNorth Caucasus Branch of the Pushkin State Museum of Fine Arts, Vladikavkaz",
+      "paintDescription": [
+        "The installation <span class='bold'>«Memorial Table»</span> consists of a long table covered with white cloth, on which stand 40 glasses of water, covered with small pieces of stone (granite) resembling black bread, as well as 40 soldiers’ bowls covered with a mirror imitating water."
+      ],
+      "imagePaths": [
+        {
+          "small": "/20_like-my-father/20_IMG_01.jpg",
+          "full": "/20_like-my-father/source/20_IMG_01L.jpg",
+          "descrip": " "
+        },
+        {
+          "small": "/20_like-my-father/20_IMG_02.jpg",
+          "full": "/20_like-my-father/source/20_IMG_02L.jpg",
+          "descrip": " "
+        },
+        {
+          "small": "/20_like-my-father/20_IMG_03.jpg",
+          "full": "/20_like-my-father/source/20_IMG_03L.jpg",
+          "descrip": " "
+        },
+        {
+          "small": "/20_like-my-father/20_IMG_04.jpg",
+          "full": "/20_like-my-father/source/20_IMG_04L.jpg",
+          "descrip": " "
+        },
+        {
+          "small": "/20_like-my-father/20_IMG_05.jpg",
+          "full": "/20_like-my-father/source/20_IMG_05L.jpg",
+          "descrip": " "
+        }
+      ]
+    },
+    {
+      "name": "",
+      "description": "",
+      "paintDescription": [
+        "These mirrors reflect a parachute stretched over the table like a dome, depicting the Angel of Memory, as well as lines from soldiers’ letters and death notices."
+      ],
+      "imagePaths": [
+        {
+          "small": "/20_like-my-father/20_IMG_06.jpg",
+          "full": "/20_like-my-father/source/20_IMG_06L.jpg",
+          "descrip": " "
+        },
+        {
+          "small": "/20_like-my-father/20_IMG_07.jpg",
+          "full": "/20_like-my-father/source/20_IMG_07L.jpg",
+          "descrip": " "
+        },
+        {
+          "small": "/20_like-my-father/20_IMG_08.jpg",
+          "full": "/20_like-my-father/source/20_IMG_08L.jpg",
+          "descrip": " "
+        },
+        {
+          "small": "/20_like-my-father/20_IMG_09.jpg",
+          "full": "/20_like-my-father/source/20_IMG_09L.jpg",
+          "descrip": " "
+        }
+      ]
+    },
+    {
+      "name": "",
+      "description": "",
+      "paintDescription": [
+        "Performance <span class='bold'>«Letter of Hope»</span>.\n1,418 envelopes (representing the number of days of the war) are stamped with specially made stamps. Inside, one can place a photograph of a relative who fought in the war, a portrait of a soldier, a quote, or a fragment of a letter.",
+        "Participants in the performance stamp the envelope (1945–2025) and send it into the future — placing it in a symbolic mailbox or arranging the envelopes into a canvas."
+      ],
+      "withoutMainPhoto": true,
+      "imagePaths": [
+        {
+          "small": "/20_like-my-father/20_IMG_10.jpg",
+          "full": "/20_like-my-father/source/20_IMG_10L.jpg",
+          "descrip": " "
+        },
+        {
+          "small": "/20_like-my-father/20_IMG_11.jpg",
+          "full": "/20_like-my-father/source/20_IMG_11L.jpg",
+          "descrip": " "
+        },
+        {
+          "small": "/20_like-my-father/20_IMG_12.jpg",
+          "full": "/20_like-my-father/source/20_IMG_12L.jpg",
+          "descrip": " "
+        },
+        {
+          "small": "/20_like-my-father/20_IMG_13.jpg",
+          "full": "/20_like-my-father/source/20_IMG_13L.jpg",
+          "descrip": " "
+        },
+        {
+          "small": "/20_like-my-father/20_IMG_14.jpg",
+          "full": "/20_like-my-father/source/20_IMG_14L.jpg",
+          "descrip": " "
+        },
+        {
+          "small": "/20_like-my-father/20_IMG_15.jpg",
+          "full": "/20_like-my-father/source/20_IMG_15L.jpg",
+          "descrip": " "
+        },
+        {
+          "small": "/20_like-my-father/20_IMG_16.jpg",
+          "full": "/20_like-my-father/source/20_IMG_16L.jpg",
+          "descrip": " "
+        }
+      ]
+    }
   ]
 }

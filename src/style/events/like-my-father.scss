@@ -1,0 +1,48 @@
+.like-my-father {
+  line-height: 0;
+  margin-bottom: 160px;
+
+  @media (max-width: 1024px) {
+    margin-bottom: 40px;
+
+    // На мобильном каждый блок — slick-карусель; высота как у других событий
+    .image-wrapper {
+      height: 340px;
+
+      &::after {
+        content: '';
+        bottom: 60px;
+      }
+    }
+  }
+
+  .image-wrapper {
+    gap: 20px;
+  }
+
+  .element {
+    .element__paint {
+      margin-bottom: 23px;
+    }
+
+    &:nth-child(1) .element__owerview {
+      margin-bottom: 23px;
+    }
+
+    // Текст всех блоков — обычный вертикальный поток, прижат к верху
+    .element__info {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+  // Блок 3 (перформанс) — сетка без главного фото на всю ширину колонки:
+  // ряды 2/3/2 распределяются по ширине (space-between), межстрочный зазор 40px
+  @media (min-width: 1025px) {
+    .element:nth-child(3) .image-wrapper {
+      width: 540px;
+      justify-content: space-between;
+      row-gap: 40px;
+    }
+  }
+}
