@@ -76,7 +76,7 @@ export default class App {
   }
 
   isEventPage(): boolean {
-    const eventPages = ['cosmocow', 'create-miracles', 'catch-fishing'];
+    const eventPages = ['cosmocow', 'create-miracles', 'catch-fishing', 'limbo'];
 
     return eventPages.some(id => window.location.pathname.endsWith(`${id}.html`));
   }
@@ -117,6 +117,7 @@ export default class App {
     this.page.renderGallery('cosmocow', selectData);
     this.page.renderGallery('create-miracles', selectData);
     this.page.renderGallery('catch-fishing', selectData);
+    this.page.renderGallery('limbo', selectData);
   }
 
   renderNewsPage() {
@@ -131,7 +132,19 @@ export default class App {
     this.interview.render();
   }
 
+  // Вёрстка галереи (слайдеры на мобильном / сетки на десктопе) выбирается один раз
+  // при загрузке через isMobile(). При пересечении границы 1024px перезагружаем
+  // страницу, чтобы пересобрать вёрстку под новый режим (иначе на ресайзе ломается).
+  // eslint-disable-next-line class-methods-use-this
+  setupResponsiveReload() {
+    window.matchMedia('(max-width: 1024px)').addEventListener('change', () => {
+      window.location.reload();
+    });
+  }
+
   render() {
+    this.setupResponsiveReload();
+
     if (this.isNewsPage()) {
       this.renderNewsPage();
     } else if (this.isGalleryPage()) {

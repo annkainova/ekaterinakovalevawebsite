@@ -8,15 +8,23 @@ export function initSlider() {
     const isMobile = window.matchMedia('(max-width: 1024px)').matches;
 
     if (isMobile) {
-      $('.image-wrapper').slick({
-        dots: false,
-        infinite: true,
-        speed: 500,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        arrows: false,
-        autoplay: true,
-        autoplaySpeed: 4000,
+      // Карусель нужна только при нескольких фото. Для блока с одним фото slick
+      // ломает вёрстку (одиночный слайд рендерится пустым) — оставляем картинку как есть.
+      $('.image-wrapper').each((_, el) => {
+        if ($(el).children().length <= 1) {
+          $(el).addClass('image-wrapper--single');
+          return;
+        }
+        $(el).slick({
+          dots: false,
+          infinite: true,
+          speed: 500,
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          arrows: false,
+          autoplay: true,
+          autoplaySpeed: 4000,
+        });
       });
     }
   });
