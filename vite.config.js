@@ -34,6 +34,7 @@ export default defineConfig({
         createMiracles: path.resolve('create-miracles.html'),
         catchFishing: path.resolve('catch-fishing.html'),
         limbo: path.resolve('limbo.html'),
+        likeMyFather: path.resolve('like-my-father.html'),
       },
       output: {
         // Опции выходных данных, позволяющие контролировать структуру имен файлов и др.
@@ -81,6 +82,7 @@ export default defineConfig({
       { from: /\/create-miracles/, to: '/create-miracles.html' },
       { from: /\/catch-fishing/, to: '/catch-fishing.html' },
       { from: /\/limbo/, to: '/limbo.html' },
+      { from: /\/like-my-father/, to: '/like-my-father.html' },
     ],
   },
 });

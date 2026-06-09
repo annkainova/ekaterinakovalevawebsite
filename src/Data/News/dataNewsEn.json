@@ -3,7 +3,6 @@
     {
       "class": "event",
       "active": "active",
-
       "imageSrc": "00_main-page/announcement/00_PREVIEW_10.jpg",
       "imageAlt": "Solo exhibition “Rest Mass”",
       "eventType": "Solo exhibition",
@@ -18,9 +17,24 @@
       }
     },
     {
+      "class": "event",
+      "active": "active",
+      "imageSrc": "00_main-page/announcement/00_PREVIEW_like-my-father.jpg",
+      "imageAlt": "Project «Like My Father»",
+      "eventType": "A project for the 80th anniversary of Victory in WWII",
+      "eventName": "«Like My Father»",
+      "eventNameLink": "like-my-father.html",
+      "eventDate": "May 2025",
+      "eventLink": "",
+      "eventLocation": {
+        "link": "",
+        "linkText": "",
+        "locationText": "North Caucasus Branch of the Pushkin State Museum, Vladikavkaz"
+      }
+    },
+    {
       "class": "finisaj",
       "active": "active",
-
       "imageSrc": "00_main-page/announcement/00_PREVIEW_06.jpg",
       "imageAlt": "Finissage «LIMBO»",
       "eventType": "Finissage",
@@ -28,7 +42,6 @@
       "eventNameLink": "",
       "eventDate": "October 31, 2024",
       "eventLink": "",
-
       "eventLocation": {
         "link": "https://www.creavenice.com/dettagli-e-registrazioni/finissage-limbo-by-katerina-kovaleva",
         "linkText": "CREA, Venice, Italy",
@@ -38,7 +51,6 @@
     {
       "class": "event",
       "active": "active",
-
       "imageSrc": "00_main-page/announcement/00_PREVIEW_09.jpg",
       "imageAlt": "“Catching Fish by the Light”",
       "eventType": "Project for the festival “Alanika 2024”",
@@ -55,7 +67,6 @@
     {
       "class": "event",
       "active": "active",
-
       "imageSrc": "00_main-page/announcement/00_PREVIEW_07.jpg",
       "imageAlt": "Kouroi at the “COSMOSCOW 2024” Art Fair",
       "eventType": "Contemporary Art Fair",
@@ -72,7 +83,6 @@
     {
       "class": "event",
       "active": "active",
-
       "imageSrc": "00_main-page/announcement/00_PREVIEW_08.jpg",
       "imageAlt": "Exhibition of Russian contemporary art “To Create Miracles”",
       "eventType": "Exhibition of Russian contemporary art",
@@ -89,7 +99,6 @@
     {
       "class": "personal-structur",
       "active": "active",
-
       "imageSrc": "00_main-page/announcement/00_PREVIEW_02_1.jpg",
       "imageAlt": "Painting by Katerina Kovaleva",
       "eventType": "Group exhibition",
@@ -101,7 +110,6 @@
         "locationText": " Venice, Italy"
       }
     },
-
     {
       "class": "limbo",
       "active": "active",
@@ -149,7 +157,6 @@
     {
       "class": "event",
       "active": "active",
-
       "imageSrc": "00_main-page/announcement/00_PREVIEW_03.jpg",
       "imageAlt": "Painting by Katerina Kovaleva",
       "eventType": "Group exhibition",
@@ -164,7 +171,6 @@
     {
       "class": "event",
       "active": "active",
-
       "imageSrc": "00_main-page/announcement/00_PREVIEW_01.jpg",
       "imageAlt": "Painting by Katerina Kovaleva",
       "eventType": "Group exhibition",
@@ -179,7 +185,6 @@
     {
       "class": "event",
       "active": "active",
-
       "imageSrc": "00_news/00_PREVIEW_OLD_01.jpg",
       "imageAlt": "Painting by Katerina Kovaleva",
       "eventType": "Group exhibition",
@@ -194,7 +199,6 @@
     {
       "class": "event",
       "active": "active",
-
       "imageSrc": "00_news/00_PREVIEW_OLD_02.jpg",
       "imageAlt": "Painting by Katerina Kovaleva",
       "eventType": "Group exhibition",
@@ -209,7 +213,6 @@
     {
       "class": "event",
       "active": "active",
-
       "imageSrc": "00_news/00_PREVIEW_OLD_03.jpg",
       "imageAlt": "Painting by Katerina Kovaleva",
       "eventType": "Contemporary Art Fair",
@@ -238,7 +241,6 @@
     {
       "class": "event",
       "active": "active",
-
       "imageSrc": "00_news/00_PREVIEW_OLD_05.jpg",
       "imageAlt": "Painting by Katerina Kovaleva",
       "eventType": "Group exhibition",
@@ -253,7 +255,6 @@
     {
       "class": "event",
       "active": "active",
-
       "imageSrc": "00_news/00_PREVIEW_OLD_06.jpg",
       "imageAlt": "Painting by Katerina Kovaleva",
       "eventType": "Personal exhibition",
@@ -269,7 +270,6 @@
     {
       "class": "event",
       "active": "active",
-
       "imageSrc": "00_news/00_PREVIEW_OLD_07.jpg",
       "imageAlt": "Painting by Katerina Kovaleva",
       "eventType": "Graphics fair",
@@ -284,7 +284,6 @@
     {
       "class": "event",
       "active": "active",
-
       "imageSrc": "00_news/00_PREVIEW_OLD_08.jpg",
       "imageAlt": "Painting by Katerina Kovaleva",
       "eventType": "Contemporary Art Fair",
@@ -299,7 +298,6 @@
     {
       "class": "event",
       "active": "active",
-
       "imageSrc": "00_news/00_PREVIEW_OLD_09.jpg",
       "imageAlt": "Painting by Katerina Kovaleva",
       "eventType": "Group exhibition",
@@ -314,7 +312,6 @@
     {
       "class": "event",
       "active": "active",
-
       "imageSrc": "00_news/00_PREVIEW_OLD_10.jpg",
       "imageAlt": "Painting by Katerina Kovaleva",
       "eventType": "Personal exhibition",
@@ -330,7 +327,6 @@
     {
       "class": "event",
       "active": "active",
-
       "imageSrc": "00_news/00_PREVIEW_OLD_11.jpg",
       "imageAlt": "Painting by Katerina Kovaleva",
       "eventType": "Festival",

@@ -19,6 +19,22 @@
     {
       "class": "event",
       "active": "active",
+      "imageSrc": "00_main-page/announcement/00_PREVIEW_like-my-father.jpg",
+      "imageAlt": "Проект «Вроде отца моего»",
+      "eventType": "Проект к 80-летию Победы в ВОВ",
+      "eventName": "«Вроде отца моего»",
+      "eventNameLink": "like-my-father.html",
+      "eventDate": "Май 2025 года",
+      "eventLink": "",
+      "eventLocation": {
+        "link": "",
+        "linkText": "",
+        "locationText": "Северо-Кавказский филиал ГМИИ им. А.С. Пушкина, Владикавказ"
+      }
+    },
+    {
+      "class": "event",
+      "active": "active",
       "imageSrc": "00_main-page/announcement/00_PREVIEW_06.jpg",
       "imageAlt": "Финисаж «LIMBO»",
       "eventType": "Финисаж",
