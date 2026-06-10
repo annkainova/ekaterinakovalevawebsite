@@ -78,6 +78,22 @@
         "linkText": "",
         "locationText": "The Museum of Black Civilisations, Dakar, Senegal"
       }
+    },
+    {
+      "class": "empty",
+      "active": "no-active",
+      "imageSrc": "00_main-page/announcement/00_FUTURE.png",
+      "imageAlt": "",
+      "eventType": "",
+      "eventName": "",
+      "eventNameLink": "",
+      "eventDate": "",
+      "eventLink": "",
+      "eventLocation": {
+        "link": "",
+        "linkText": "",
+        "locationText": ""
+      }
     }
   ]
 }

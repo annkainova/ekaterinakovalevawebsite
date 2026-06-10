@@ -78,6 +78,22 @@
         "linkText": "",
         "locationText": "Музей африканских цивилизаций, Дакар, Сенегал"
       }
+    },
+    {
+      "class": "empty",
+      "active": "no-active",
+      "imageSrc": "00_main-page/announcement/00_FUTURE.png",
+      "imageAlt": "",
+      "eventType": "",
+      "eventName": "",
+      "eventNameLink": "",
+      "eventDate": "",
+      "eventLink": "",
+      "eventLocation": {
+        "link": "",
+        "linkText": "",
+        "locationText": ""
+      }
     }
   ]
 }

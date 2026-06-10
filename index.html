@@ -1,145 +1,198 @@
 <!doctype html>
 <html lang="ru">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title data-localize="index">Катерина Ковалева</title>
+    <meta name="description" content="Официальный сайт художницы Катерины Ковалёвой." />
 
-<head>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Carlito:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
 
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="/favicon.png" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title data-localize="index">Катерина Ковалева</title>
-  <meta name="description" content="Официальный сайт художницы Катерины Ковалёвой.">
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"
+    />
 
-  <link href="https://fonts.googleapis.com/css2?family=Carlito:ital,wght@0,400;0,700;1,400;1,700&display=swap"
-    rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap"
-    rel="stylesheet">
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  </head>
 
-
-  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
-
-  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-
-</head>
-
-<body>
-  <main class="main__main-screen">
-    <section class="container main-screen">
-      <div class="main-screen__image">
-        <div class="title">
-          <h1 class="title__text" data-localize="title">КАТЕРИНА КОВАЛЁВА</h1>
-        </div>
-      </div>
-    </section>
-
-    <section class="container about">
-      <div class="citate">
-        <p class="citate__text" data-localize="citate">
-          Тема памяти, тема прикосновения к ушедшей жизни для меня очень важна с юности. И поэтому
-          все, что я делаю в искусстве, так или иначе связано c памятью.
-        </p>
-        <p class="citate__author" data-localize="citateAuthor">— Катерина Ковалёва</p>
-      </div>
-    </section>
-
-    <section class="announcement container">
-      <div class="header-container">
-        <h2 class="announcement__header" data-localize="events">СОБЫТИЯ</h2>
-        <img class="announcement__bear" src="/bear_static.png" alt="" aria-hidden="true" />
-      </div>
-      <div class="slider-box">
-        <div class="slider-nav">
-          <div class="slider-nav__line"></div>
-          <button class="custom-prev" aria-label="prev"> </button>
-          <div class="nav-info">
-            <div id="slideIndicator"></div>
+  <body>
+    <main class="main__main-screen">
+      <section class="container main-screen">
+        <div class="main-screen__image">
+          <div class="title">
+            <h1 class="title__text" data-localize="title">КАТЕРИНА КОВАЛЁВА</h1>
           </div>
-          <button class="custom-next" aria-label="next"></button>
-          <div class="slider-nav__line"></div>
+        </div>
+      </section>
+
+      <section class="container about">
+        <div class="citate">
+          <p class="citate__text" data-localize="citate">
+            Тема памяти, тема прикосновения к ушедшей жизни для меня очень важна с юности. И поэтому
+            все, что я делаю в искусстве, так или иначе связано c памятью.
+          </p>
+          <p class="citate__author" data-localize="citateAuthor">— Катерина Ковалёва</p>
+        </div>
+      </section>
+
+      <section class="announcement container">
+        <div class="header-container">
+          <h2 class="announcement__header" data-localize="events">СОБЫТИЯ</h2>
+        </div>
+        <div class="slider-box">
+          <div class="slider-nav">
+            <div class="slider-nav__line"></div>
+            <button class="custom-prev" aria-label="prev"></button>
+            <div class="nav-info">
+              <div id="slideIndicator"></div>
+            </div>
+            <button class="custom-next" aria-label="next"></button>
+            <div class="slider-nav__line"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="container collage">
+        <div class="collage__img">
+          <div class="collage__item collage__item--1" id="collage-item--1">
+            <a class="collage__link" href="waiting-zone.html"></a>
+
+            <a
+              class="collage__item collage__item--1-1"
+              id="collage-item--1-1"
+              href="waiting-zone.html"
+            ></a>
+            <a
+              class="collage__item collage__item--1-2"
+              id="collage-item--1-2"
+              href="waiting-zone.html"
+            ></a>
+            <a
+              class="collage__text collage__text--1"
+              href="waiting-zone.html"
+              data-localize="waiting-zone"
+              >Выставочный проект “Зона ожидания”</a
+            >
+          </div>
         </div>
 
-
-      </div>
-
-    </section>
-
-    <section class="container collage">
-      <div class="collage__img">
-        <div class="collage__item collage__item--1" id="collage-item--1">
-          <a class="collage__link" href="waiting-zone.html"></a>
-
-          <a class="collage__item collage__item--1-1" id="collage-item--1-1" href="waiting-zone.html"></a>
-          <a class="collage__item collage__item--1-2" id="collage-item--1-2" href="waiting-zone.html"></a>
-          <a class="collage__text collage__text--1" href="waiting-zone.html" data-localize="waiting-zone">Выставочный
-            проект “Зона ожидания”</a>
+        <div
+          class="collage__img collage__item collage__item--2"
+          id="collage-item--2"
+          href="maps.html"
+        >
+          <a class="collage__link" href="maps.html"></a>
+          <a class="collage__text collage__text--bottom" href="maps.html" data-localize="maps"
+            >Карты • “Розы мира”</a
+          >
         </div>
-      </div>
 
-      <div class="collage__img collage__item collage__item--2" id="collage-item--2" href="maps.html">
-        <a class="collage__link" href="maps.html"></a>
-        <a class="collage__text collage__text--bottom" href="maps.html" data-localize="maps">Карты • “Розы мира”</a>
-      </div>
+        <div class="collage__img collage__item collage__item--3" id="collage-item--3">
+          <a class="collage__link" href="horizon-colonization.html"></a>
+          <a
+            class="collage__text collage__text--bottom"
+            href="horizon-colonization.html"
+            data-localize="horizon-colonization"
+            >“Колонизация горизонта”</a
+          >
+        </div>
 
-      <div class="collage__img collage__item collage__item--3" id="collage-item--3">
-        <a class="collage__link" href="horizon-colonization.html"></a>
-        <a class="collage__text collage__text--bottom" href="horizon-colonization.html"
-          data-localize="horizon-colonization">“Колонизация горизонта”</a>
-      </div>
+        <div class="collage__img collage__item collage__item--4" id="collage-item--4">
+          <a class="collage__link" href="soup-of-the-day.html"></a>
+          <a
+            class="collage__text collage__text--bottom"
+            href="soup-of-the-day.html"
+            data-localize="soup-of-the-day"
+            >“Суп дня”</a
+          >
+        </div>
 
-      <div class="collage__img collage__item collage__item--4" id="collage-item--4">
-        <a class="collage__link" href="soup-of-the-day.html"></a>
-        <a class="collage__text collage__text--bottom" href="soup-of-the-day.html" data-localize="soup-of-the-day">“Суп
-          дня”</a>
-      </div>
+        <div
+          class="collage__img collage__item collage__item--5"
+          id="collage-item--5"
+          href="early-works.html"
+        >
+          <a class="collage__link" href="early-works.html"></a>
+          <a
+            class="collage__text collage__text--left"
+            href="early-works.html"
+            data-localize="early-works"
+            >Ранние работы</a
+          >
+        </div>
+        <div class="collage__img collage__item collage__item--6" id="collage-item--6">
+          <a class="collage__link" href="antarctic-diary.html"></a>
+          <a
+            class="collage__text collage__text--bottom"
+            href="antarctic-diary.html"
+            data-localize="antarctic-diary"
+            >“Антарктический дневник”</a
+          >
+        </div>
+        <div class="collage__img collage__item collage__item--7" id="collage-item--7">
+          <a class="collage__link" href="memorial-objects.html"></a>
+          <a
+            class="collage__text collage__text--bottom"
+            href="memorial-objects.html"
+            data-localize="memorial-objects"
+            >Объекты-памятники</a
+          >
+        </div>
+        <div class="collage__img collage__item collage__item--8" id="collage-item--8">
+          <a class="collage__link" href="right-to-rest.html"></a>
+          <a
+            class="collage__text collage__text--left"
+            href="right-to-rest.html"
+            data-localize="right-to-rest"
+          >
+            Выставочный проект “История болезни. Право на отдых”
+          </a>
+        </div>
+        <div class="collage__img collage__item collage__item--9" id="collage-item--9">
+          <a class="collage__link" href="notebooks.html"></a>
+          <a
+            class="collage__text collage__text--left"
+            href="notebooks.html"
+            data-localize="notebooks"
+            >Записные книжки</a
+          >
+        </div>
+        <div class="collage__img collage__item collage__item--10" id="collage-item--10">
+          <a class="collage__link" href="mosaics.html"></a>
+          <a class="collage__text collage__text--left" href="mosaics.html" data-localize="mosaics"
+            >Мозаики</a
+          >
+        </div>
+        <div class="collage__img collage__item collage__item--11" id="collage-item--11">
+          <a class="collage__link" href="artworks.html"></a>
+          <a class="collage__text collage__text--left" href="artworks.html" data-localize="artworks"
+            >Рисунки</a
+          >
+        </div>
+      </section>
 
-      <div class="collage__img collage__item collage__item--5" id="collage-item--5" href="early-works.html">
-        <a class="collage__link" href="early-works.html"></a>
-        <a class="collage__text collage__text--left" href="early-works.html" data-localize="early-works">Ранние
-          работы</a>
-      </div>
-      <div class="collage__img collage__item collage__item--6" id="collage-item--6">
-        <a class="collage__link" href="antarctic-diary.html"></a>
-        <a class="collage__text collage__text--bottom" href="antarctic-diary.html"
-          data-localize="antarctic-diary">“Антарктический дневник”</a>
-      </div>
-      <div class="collage__img collage__item collage__item--7" id="collage-item--7">
-        <a class="collage__link" href="memorial-objects.html"></a>
-        <a class="collage__text collage__text--bottom" href="memorial-objects.html"
-          data-localize="memorial-objects">Объекты-памятники</a>
-      </div>
-      <div class="collage__img collage__item collage__item--8" id="collage-item--8">
-        <a class="collage__link" href="right-to-rest.html"></a>
-        <a class="collage__text collage__text--left" href="right-to-rest.html" data-localize="right-to-rest">
-          Выставочный проект “История болезни. Право на отдых”
-        </a>
-      </div>
-      <div class="collage__img collage__item collage__item--9" id="collage-item--9">
-        <a class="collage__link" href="notebooks.html"></a>
-        <a class="collage__text collage__text--left" href="notebooks.html" data-localize="notebooks">Записные книжки</a>
-      </div>
-      <div class="collage__img collage__item collage__item--10" id="collage-item--10">
-        <a class="collage__link" href="mosaics.html"></a>
-        <a class="collage__text collage__text--left" href="mosaics.html" data-localize="mosaics">Мозаики</a>
-      </div>
-      <div class="collage__img collage__item collage__item--11" id="collage-item--11">
-        <a class="collage__link" href="artworks.html"></a>
-        <a class="collage__text collage__text--left" href="artworks.html" data-localize="artworks">Рисунки</a>
-      </div>
-    </section>
-
-    <section class="container additional">
-      <p class="additional__text" data-localize="citateAdditional">
-        Карты покрываются розами, из старых квитанций и бланков вырастают города. “То, что ни для
-        чего не годится, всегда может пригодиться нам”, — писал Жан Бодрийяр. И в сегодняшнем дне,
-        в современном искусстве меня интересует именно это — “ненужные” вещи, явления, слова,
-        люди.
-      </p>
-      <div class="additional__img"></div>
-    </section>
-  </main>
-  <script type="module" src="/src/index.ts"></script>
-</body>
-
+      <section class="container additional">
+        <p class="additional__text" data-localize="citateAdditional">
+          Карты покрываются розами, из старых квитанций и бланков вырастают города. “То, что ни для
+          чего не годится, всегда может пригодиться нам”, — писал Жан Бодрийяр. И в сегодняшнем дне,
+          в современном искусстве меня интересует именно это — “ненужные” вещи, явления, слова,
+          люди.
+        </p>
+        <div class="additional__img"></div>
+      </section>
+    </main>
+    <script type="module" src="/src/index.ts"></script>
+  </body>
 </html>
