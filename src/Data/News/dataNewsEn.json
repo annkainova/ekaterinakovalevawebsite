@@ -39,7 +39,7 @@
       "imageAlt": "Finissage «LIMBO»",
       "eventType": "Finissage",
       "eventName": "«LIMBO»",
-      "eventNameLink": "",
+      "eventNameLink": "limbo.html",
       "eventDate": "October 31, 2024",
       "eventLink": "",
       "eventLocation": {
@@ -97,21 +97,7 @@
       }
     },
     {
-      "class": "personal-structur",
-      "active": "active",
-      "imageSrc": "00_main-page/announcement/00_PREVIEW_02_1.jpg",
-      "imageAlt": "Painting by Katerina Kovaleva",
-      "eventType": "Group exhibition",
-      "eventName": "“PERSONAL STRUCTURES”",
-      "eventDate": "April 20 - November 21, 2024",
-      "eventLocation": {
-        "link": "https://personalstructures.com/participants/katerina-kovaleva/",
-        "linkText": "Palazzo Bembo,",
-        "locationText": " Venice, Italy"
-      }
-    },
-    {
-      "class": "limbo",
+      "class": "event",
       "active": "active",
       "imageSrc": "00_main-page/announcement/00_PREVIEW_04.jpg",
       "imageAlt": "Painting by Katerina Kovaleva from the «LIMBO» exhibition",
@@ -123,7 +109,8 @@
         "link": "",
         "linkText": "",
         "locationText": "CREA, Venice, Italy"
-      }
+      },
+      "eventNameLink": "limbo.html"
     },
     {
       "class": "interview",

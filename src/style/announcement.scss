@@ -9,8 +9,8 @@
   &__header {
     margin-left: 24px;
     margin-bottom: 38px;
-    @include font ($extra-bold, 24px, $white);
-    font-family: "Anonymous Pro";
+    @include font($extra-bold, 24px, $white);
+    font-family: 'Anonymous Pro';
     letter-spacing: 7.2px;
     text-transform: uppercase;
 
@@ -32,11 +32,8 @@
     .header-container {
       display: flex;
       justify-content: center;
-
-
     }
   }
-
 }
 
 .slider {
@@ -48,19 +45,16 @@ div {
   display: block;
 }
 
-
-
 .event {
   display: block !important;
 
   padding: 12px 12px 12px 12px;
   max-width: 384px;
   background: $white;
-  @include font ($normal, $font-16, $dark);
+  @include font($normal, $font-16, $dark);
   text-align: left;
 
   margin: 0 auto;
-
 
   @media (max-width: 1200px) {
     margin: 0 auto;
@@ -94,8 +88,8 @@ div {
     text-align: left;
     letter-spacing: initial;
 
-    @media (max-width: 1024px) {}
-
+    @media (max-width: 1024px) {
+    }
   }
 
   &__name {
@@ -107,7 +101,8 @@ div {
     text-align: left;
     letter-spacing: initial;
 
-    @media (max-width: 1024px) {}
+    @media (max-width: 1024px) {
+    }
   }
 
   &__info {
@@ -142,7 +137,6 @@ div {
 .no-active {
   background: $dark-grey;
   color: $white;
-
 }
 
 .no-active .location {
@@ -153,14 +147,13 @@ div {
   content: url('/00_main-page/announcement/00_PREVIEW_02_2.jpg');
 }
 
-.slick-arrow {}
-
+.slick-arrow {
+}
 
 .slider-box {
   display: flex;
   flex-direction: column-reverse;
 }
-
 
 .slider-nav {
   display: flex;
@@ -168,13 +161,11 @@ div {
   align-items: center;
   margin-top: 67px;
 
-
   @media (max-width: 1024px) {
     margin-top: 20px;
     justify-content: center;
     gap: 23px;
   }
-
 
   &__line {
     display: block;
@@ -231,9 +222,7 @@ div {
       background-position: right;
     }
   }
-
 }
-
 
 div {
   display: block;
@@ -241,13 +230,11 @@ div {
 
 .empty {
   p {
-    filter: blur(4px)
+    filter: blur(4px);
   }
 }
 
-
 .slick-slide {
-
   @media (max-width: 1024px) {
     // height: 380px !important;
   }
@@ -262,7 +249,6 @@ div {
   margin-right: auto;
   // display: flex;
   // gap: 26px;
-
 
   @media (max-width: 1024px) {
     // gap: 0;
