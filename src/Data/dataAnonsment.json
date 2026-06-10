@@ -83,16 +83,15 @@
       "class": "empty",
       "active": "no-active",
       "imageSrc": "00_main-page/announcement/00_FUTURE.png",
-      "imageAlt": "",
-      "eventType": "",
-      "eventName": "",
+      "imageAlt": "Картина Катерины Ковалевой из выставки 'Три главы из жизни женщины'",
+      "eventType": "Персональная выставка",
+      "eventName": "«LIMBO. ЗОНА ОЖИДАНИЯ»",
       "eventNameLink": "",
-      "eventDate": "",
-      "eventLink": "",
+      "eventDate": "4 сентября — 31 октября 2024",
       "eventLocation": {
         "link": "",
         "linkText": "",
-        "locationText": ""
+        "locationText": "CREA Cantieri Del Contemporaneo"
       }
     }
   ]
